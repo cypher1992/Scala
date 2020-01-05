@@ -1,0 +1,38 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\Basics.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\StringInterpolation.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\ScalaTypeInference.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\IfElseStatementAndExpression.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\HelloWorld.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\ForComprehension.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\LoggerTest.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\FunctionsAreObjects.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\HWWorld.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\Basics.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\StringInterpolation.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\ScalaTypeInference.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\IfElseStatementAndExpression.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\HelloWorld.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\ForComprehension.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\LoggerTest.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\FunctionsAreObjects.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\HWWorld.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\Basics.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\StringInterpolation.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\ScalaTypeInference.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\IfElseStatementAndExpression.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\HelloWorld.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\ForComprehension.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\LoggerTest.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\FunctionsAreObjects.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\HWWorld.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\Basics.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\StringInterpolation.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\ScalaTypeInference.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\IfElseStatementAndExpression.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\HelloWorld.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\ForComprehension.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\LoggerTest.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\FunctionsAreObjects.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\HWWorld.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 9 sources: invalidated sources (9) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 9 Scala sources to C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.18:component from component compiler for Scala 2.10.7[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.18:component from component compiler for Scala 2.10.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 3f8da96f, interfacing (CompilerInterface) with Scala compiler version 2.10.7[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes;C:\Users\Zero\.sbt\boot\scala-2.10.7\lib\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\target\scala-2.10\classes[0m
+[0m[[31merror[0m] [0mC:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\LoggerTest.scala:3: object typesafe is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.typesafe.scalalogging.LazyLogging[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\LoggerTest.scala:6: not found: type LazyLogging[0m
+[0m[[31merror[0m] [0mobject LoggerTest extends App with LazyLogging {[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0mC:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\LoggerTest.scala:9: not found: value logger[0m
+[0m[[31merror[0m] [0m  logger.warn("Hello Logger")[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mthree errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

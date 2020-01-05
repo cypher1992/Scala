@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="scala_2.13"
+		revision="0.1"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20191216014159"/>
+	<dependencies>
+		<module organisation="io.github.mainstringargs" name="alpha-vantage-scraper">
+			<revision name="1.1" status="release" pubdate="20191108132050" resolver="public" artresolver="public" homepage="https://github.com/mainstringargs/alpha-vantage-scraper" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="MIT License" url="https://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="2078" time="744" location="C:\Users\Zero\.ivy2\cache\io.github.mainstringargs\alpha-vantage-scraper\ivy-1.1.xml" searched="true" original-local-location="C:\Users\Zero\.ivy2\cache\io.github.mainstringargs\alpha-vantage-scraper\ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/github/mainstringargs/alpha-vantage-scraper/1.1/alpha-vantage-scraper-1.1.pom"/>
+				<caller organisation="default" name="scala_2.13" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="alpha-vantage-scraper" type="jar" ext="jar" status="successful" details="" size="274078" time="388" location="C:\Users\Zero\.ivy2\cache\io.github.mainstringargs\alpha-vantage-scraper\jars\alpha-vantage-scraper-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/github/mainstringargs/alpha-vantage-scraper/1.1/alpha-vantage-scraper-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="3.0.2" status="release" pubdate="20170331005548" resolver="public" artresolver="public" homepage="http://findbugs.sourceforge.net/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="4286" time="105" location="C:\Users\Zero\.ivy2\cache\com.google.code.findbugs\jsr305\ivy-3.0.2.xml" searched="true" original-local-location="C:\Users\Zero\.ivy2\cache\com.google.code.findbugs\jsr305\ivy-3.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom"/>
+				<caller organisation="io.github.mainstringargs" name="alpha-vantage-scraper" conf="default, compile, runtime, master" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="jsr305" type="jar" ext="jar" status="successful" details="" size="19936" time="331" location="C:\Users\Zero\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.gson" name="gson">
+			<revision name="2.8.2" status="release" pubdate="20170919214242" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1893" time="111" location="C:\Users\Zero\.ivy2\cache\com.google.code.gson\gson\ivy-2.8.2.xml" searched="true" original-local-location="C:\Users\Zero\.ivy2\cache\com.google.code.gson\gson\ivy-2.8.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.pom"/>
+				<caller organisation="io.github.mainstringargs" name="alpha-vantage-scraper" conf="default, compile, runtime, master" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="gson" type="jar" ext="jar" status="successful" details="" size="232932" time="543" location="C:\Users\Zero\.ivy2\cache\com.google.code.gson\gson\jars\gson-2.8.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.github.mainstringargs" name="stock-data-spi">
+			<revision name="1.1" status="release" pubdate="20181128161535" resolver="public" artresolver="public" homepage="https://github.com/mainstringargs/stock-data-spi" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="MIT License" url="https://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="1811" time="141" location="C:\Users\Zero\.ivy2\cache\io.github.mainstringargs\stock-data-spi\ivy-1.1.xml" searched="true" original-local-location="C:\Users\Zero\.ivy2\cache\io.github.mainstringargs\stock-data-spi\ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/github/mainstringargs/stock-data-spi/1.1/stock-data-spi-1.1.pom"/>
+				<caller organisation="io.github.mainstringargs" name="alpha-vantage-scraper" conf="default, compile, runtime, master" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="stock-data-spi" type="jar" ext="jar" status="successful" details="" size="2629" time="373" location="C:\Users\Zero\.ivy2\cache\io.github.mainstringargs\stock-data-spi\jars\stock-data-spi-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/github/mainstringargs/stock-data-spi/1.1/stock-data-spi-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-log4j12">
+			<revision name="1.7.25" status="release" pubdate="20170316123700" resolver="public" artresolver="public" homepage="http://www.slf4j.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="1131" time="123" location="C:\Users\Zero\.ivy2\cache\org.slf4j\slf4j-log4j12\ivy-1.7.25.xml" searched="true" original-local-location="C:\Users\Zero\.ivy2\cache\org.slf4j\slf4j-log4j12\ivy-1.7.25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.pom"/>
+				<caller organisation="io.github.mainstringargs" name="stock-data-spi" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="slf4j-log4j12" type="jar" ext="jar" status="successful" details="" size="12244" time="244" location="C:\Users\Zero\.ivy2\cache\org.slf4j\slf4j-log4j12\jars\slf4j-log4j12-1.7.25.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="2.2.1" status="release" pubdate="20190429095046" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.joda.org/${joda.artifactId}/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="Apache 2" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8093" time="0" location="C:\Users\Zero\.ivy2\cache\org.joda\joda-convert\ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/joda/joda-convert/2.2.1/joda-convert-2.2.1.pom"/>
+				<caller organisation="default" name="scala_2.13" conf="test, compile, provided, test-internal, runtime, optional" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="145631" time="0" location="C:\Users\Zero\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-2.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/2.2.1/joda-convert-2.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.10.4" status="release" pubdate="20190920075122" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6975" time="0" location="C:\Users\Zero\.ivy2\cache\joda-time\joda-time\ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.10.4/joda-time-2.10.4.pom"/>
+				<caller organisation="default" name="scala_2.13" conf="test, compile, provided, test-internal, runtime, optional" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="643037" time="0" location="C:\Users\Zero\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.10.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.10.4/joda-time-2.10.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.1.7" status="release" pubdate="20160329162502" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="10386" time="0" location="C:\Users\Zero\.ivy2\cache\ch.qos.logback\logback-classic\ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom"/>
+				<caller organisation="default" name="scala_2.13" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="304075" time="0" location="C:\Users\Zero\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20120526054339" resolver="public" artresolver="public" homepage="http://logging.apache.org/log4j/1.2/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="21745" time="122" location="C:\Users\Zero\.ivy2\cache\log4j\log4j\ivy-1.2.17.xml" searched="true" original-local-location="C:\Users\Zero\.ivy2\cache\log4j\log4j\ivy-1.2.17.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="1.7.25"/>
+				<artifacts>
+					<artifact name="log4j" type="bundle" ext="jar" status="successful" details="" size="489884" time="460" location="C:\Users\Zero\.ivy2\cache\log4j\log4j\bundles\log4j-1.2.17.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.1.7" status="release" pubdate="20160329162356" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="8089" time="0" location="C:\Users\Zero\.ivy2\cache\ch.qos.logback\logback-core\ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.pom"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.1.7"/>
+				<artifacts>
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="470782" time="0" location="C:\Users\Zero\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging_2.13">
+			<revision name="3.9.2" status="release" pubdate="20190612052457" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/scala-logging" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3395" time="0" location="C:\Users\Zero\.ivy2\cache\com.typesafe.scala-logging\scala-logging_2.13\ivy-3.9.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.13/3.9.2/scala-logging_2.13-3.9.2.pom"/>
+				<caller organisation="default" name="scala_2.13" conf="test, compile, provided, test-internal, runtime, optional" rev="3.9.2" rev-constraint-default="3.9.2" rev-constraint-dynamic="3.9.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-logging_2.13" type="bundle" ext="jar" status="no" details="" size="57449" time="0" location="C:\Users\Zero\.ivy2\cache\com.typesafe.scala-logging\scala-logging_2.13\bundles\scala-logging_2.13-3.9.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.13/3.9.2/scala-logging_2.13-3.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.26" status="release" pubdate="20190218181602" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5346" time="0" location="C:\Users\Zero\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.pom"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.13" conf="default, compile, runtime, master" rev="1.7.26" rev-constraint-default="1.7.26" rev-constraint-dynamic="1.7.26" callerrev="3.9.2"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.7.25"/>
+				<caller organisation="io.github.mainstringargs" name="stock-data-spi" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.1"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.7.20" rev-constraint-default="1.7.20" rev-constraint-dynamic="1.7.20" callerrev="1.1.7"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41139" time="0" location="C:\Users\Zero\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.26.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.7.25" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.26"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.7.25"/>
+				<caller organisation="io.github.mainstringargs" name="stock-data-spi" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.20" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.26"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.7.20" rev-constraint-default="1.7.20" rev-constraint-dynamic="1.7.20" callerrev="1.1.7"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.13.0" status="release" pubdate="20190607070157" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.0/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2866" time="0" location="C:\Users\Zero\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.13.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0.pom"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.13" conf="default, compile, runtime, master" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.9.2"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3584783" time="0" location="C:\Users\Zero\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.13.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.13.0" status="release" pubdate="20190607070246" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.0/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2691" time="0" location="C:\Users\Zero\.ivy2\cache\org.scala-lang\scala-library\ivy-2.13.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.pom"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.13" conf="default, compile, runtime, master" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="3.9.2"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="2.13.0"/>
+				<caller organisation="default" name="scala_2.13" conf="test, compile, provided, test-internal, runtime, optional" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5693401" time="0" location="C:\Users\Zero\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.13.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,18 @@
+[debug] Acquiring lock on file C:\Users\Zero\IdeaProjects\Scala\project\target\.sbt-compilation-infos\scala-compile\.sbt-idea-lock ...
+[warn] C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\method\FunctionWithOptionParameters.scala:16:12: patterns after a variable pattern cannot match (SLS 8.1.1)
+[warn]       case ticker => ticker
+[warn]            ^
+[warn] C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\method\FunctionWithOptionParameters.scala:17:17: unreachable code due to variable pattern 'ticker' on line 16
+[warn]       case _ => None
+[warn]                 ^
+[warn] C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\method\FunctionWithReturnOptionType.scala:24:10: patterns after a variable pattern cannot match (SLS 8.1.1)
+[warn] If you intended to match against method getStockPriceChangeYTD in object FunctionWithReturnOptionType, you must use backticks, like: case `getStockPriceChangeYTD` =>
+[warn]     case getStockPriceChangeYTD  => getStockPriceChangeYTD
+[warn]          ^
+[warn] C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\method\FunctionWithReturnOptionType.scala:25:15: unreachable code due to variable pattern 'getStockPriceChangeYTD' on line 24
+[warn]     case _ => None
+[warn]               ^
+[warn] there were 8 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+[warn] there was one feature warning; re-run with -feature for details
+[warn] 6 warnings found
+[debug] Releasing lock on file C:\Users\Zero\IdeaProjects\Scala\project\target\.sbt-compilation-infos\scala-compile\.sbt-idea-lock.

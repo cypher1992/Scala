@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: io.github.mainstringargs:stock-data-spi:1.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.github.mainstringargs/stock-data-spi/jars/stock-data-spi-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.github.mainstringargs/stock-data-spi/srcs/stock-data-spi-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

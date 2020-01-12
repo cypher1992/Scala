@@ -4,7 +4,7 @@
 		module="scala_2.13"
 		revision="0.1"
 		status="integration"
-		publication="20191216014159"
+		publication="20200111185926"
 	>
 		<description>
 		Scala
@@ -37,5 +37,6 @@
 		<dependency org="joda-time" name="joda-time" rev="2.10.4" conf="compile->default(compile)"/>
 		<dependency org="org.joda" name="joda-convert" rev="2.2.1" conf="compile->default(compile)"/>
 		<dependency org="io.github.mainstringargs" name="alpha-vantage-scraper" rev="1.1" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.13" rev="3.1.0" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

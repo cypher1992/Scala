@@ -4,6 +4,10 @@ object Investments extends App{
 
   class Investment(principal:Double,terms:Int,payment:Double,roi:Double){
 
+    def getPrincipal():Double= principal
+    def getPayment():Double = payment
+    def getROI():Double = roi
+    def getTerm():Int = terms
 
     def calcuateReturns(principal:Double,terms:Int,payment:Double,roi:Double):Double={
 

@@ -15,6 +15,13 @@ res0: Int = 8
     }
   }
 
+  def last[T](list:List[T]):T ={
+    list match {
+      case a if(list.size == 1) => list.head
+      case a => last(list.tail)
+      case _ => throw new NoSuchElementException
+    }
+  }
 /*
 P02 (*) Find the last but one element of a list.
 Example:
@@ -53,5 +60,21 @@ res0: Int = 6
 */
 
 def length(list:List[Int]):Int = if(list.size > 0) {list.size} else 0
+
+/*
+P05 (*) Reverse a list.
+Example:
+scala> reverse(List(1, 1, 2, 3, 5, 8))
+res0: List[Int] = List(8, 5, 3, 2, 1, 1)
+*/
+
+def reverse[T](list:List[T]):List[T] ={
+
+  list match {
+    case a if (list.size == 0) => Nil
+    case _ => list.reverse
+  }
+
+}
 
 }

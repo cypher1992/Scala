@@ -1,2 +1,9 @@
 [debug] Acquiring lock on file C:\Users\Zero\IdeaProjects\Learning\Scala\project\target\.sbt-compilation-infos\scala-compile\.sbt-idea-lock ...
+[warn] C:\Users\Zero\IdeaProjects\Learning\Scala\src\main\scala\com\local\Projects\Resource\src\Scala99ListChallenge.scala:21:12: patterns after a variable pattern cannot match (SLS 8.1.1)
+[warn]       case a => last(list.tail)
+[warn]            ^
+[warn] C:\Users\Zero\IdeaProjects\Learning\Scala\src\main\scala\com\local\Projects\Resource\src\Scala99ListChallenge.scala:22:17: unreachable code due to variable pattern 'a' on line 21
+[warn]       case _ => throw new NoSuchElementException
+[warn]                 ^
+[warn] two warnings found
 [debug] Releasing lock on file C:\Users\Zero\IdeaProjects\Learning\Scala\project\target\.sbt-compilation-infos\scala-compile\.sbt-idea-lock.

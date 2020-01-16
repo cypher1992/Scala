@@ -22,6 +22,13 @@ class ListTest extends  AnyFlatSpec with Matchers{
         case list.size > 0  => list(list.size-1)
         case _ => Nil
       }
+
+    def last[T](list:List[T]):T ={
+      list match {
+        case a if(list.size == 0) => list.head
+        case _ => last(list.tail)
+      }
+    }
    */
 
   "Scala99ListChallenge Test: Empty List" should "Return Nil" in {
@@ -42,6 +49,24 @@ class ListTest extends  AnyFlatSpec with Matchers{
     assert(actualLastValue === expectedLastValue)
 
   }
+
+  "Scala99ListChallenge Test: Last Func: Empty List" should "Throw Exception" in {
+
+    val emptyList:List[Int] = List.empty[Int]
+
+    assertThrows[java.util.NoSuchElementException]{sl99.last(emptyList)}
+  }
+
+  "Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3)" should "Return Last Position: Value 3" in {
+
+    val list:List[Int] = List.range(1,4)
+    val actualLastValue:Any = sl99.last(list)
+    val expectedLastValue:Any = 3
+
+    assert(actualLastValue === expectedLastValue)
+
+  }
+
 
   /*
 P02 (*) Find the last but one element of a list.

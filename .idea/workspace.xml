@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="" />
+    <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Scala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9adb619d82fd550a5c0f$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9adb619d82fd550a5c0f.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9adb619d82fd550a5c0f.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sbt_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sbt_2.12/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sbt_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sbt_2.12/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sources_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sources_2.12/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sources_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sources_2.12/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructureTo/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructureTo/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -13,19 +52,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="DockManager">
     <window id="1">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/Scala99Problems">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="136">
-                    <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="46" />
+                  <state relative-caret-position="153">
+                    <caret line="39" column="40" selection-start-line="36" selection-end-line="39" selection-end-column="40" />
                   </state>
                 </provider>
               </entry>
@@ -41,12 +79,12 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="47" column="2" lean-forward="true" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+            <state relative-caret-position="442">
+              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -54,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+            <state relative-caret-position="356">
+              <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="2" selection-end-line="67" selection-end-column="3" />
               <folding>
                 <element signature="e#34#75#0" expanded="true" />
               </folding>
@@ -66,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/FutureFlatMap.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+            <state relative-caret-position="476">
+              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
               <folding>
                 <element signature="e#33#61#0" expanded="true" />
               </folding>
@@ -84,8 +122,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/FutureFlatMap.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala" />
       </list>
     </option>
   </component>
@@ -105,29 +143,29 @@
         <subPane>
           <expand>
             <path>
-              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -135,7 +173,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -144,7 +182,7 @@
               <item name="local" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -154,7 +192,7 @@
               <item name="FutureThreads" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -178,8 +216,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ListTest.Scale99List Challenge Test: length() List(1,2,3,4) should returns 4">
-    <configuration name="ListTest.Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scale99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scale99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scale99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scale99List Challenge Test: nth position of an List with Index out of bound index should returns Nil" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+  <component name="RunManager" selected="ScalaTest.ListTest.Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3">
+    <configuration name="ListTest.Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
       <setting name="vmparams" value="" />
@@ -193,12 +231,12 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
-      <setting name="testName" value="Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scale99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scale99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scale99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scale99List Challenge Test: nth position of an List with Index out of bound index should returns Nil" />
+      <setting name="testName" value="Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scale99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scale99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scale99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scale99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scale99List Challenge Test: nth position of 2 should returns 2" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ListTest.Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scale99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scale99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scale99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scale99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scale99List Challenge Test: nth position of 2 should returns 2&#10;Scale99List Challenge Test: length() List is empty should returns 0&#10;Scale99List Challenge Test: length() List(1,2,3,4) should returns 4" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
       <setting name="vmparams" value="" />
@@ -212,7 +250,26 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
-      <setting name="testName" value="Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scale99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scale99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scale99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scale99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scale99List Challenge Test: nth position of 2 should returns 2" />
+      <setting name="testName" value="Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scale99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scale99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scale99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scale99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scale99List Challenge Test: nth position of 2 should returns 2&#10;Scale99List Challenge Test: length() List is empty should returns 0&#10;Scale99List Challenge Test: length() List(1,2,3,4) should returns 4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTest.Scala99ListChallenge Test: Last Func: Empty List should Throw Exception" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
+      <setting name="testName" value="Scala99ListChallenge Test: Last Func: Empty List should Throw Exception" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -255,32 +312,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.Scale99List Challenge Test: nth position of 2 should returns 2" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
-      <setting name="testName" value="Scale99List Challenge Test: nth position of 2 should returns 2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ListTest.Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3" />
+        <item itemvalue="ScalaTest.ListTest.Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scale99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scale99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scale99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scale99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scale99List Challenge Test: nth position of 2 should returns 2&#10;Scale99List Challenge Test: length() List is empty should returns 0&#10;Scale99List Challenge Test: length() List(1,2,3,4) should returns 4" />
+        <item itemvalue="ScalaTest.ListTest.Scala99ListChallenge Test: Last Func: Empty List should Throw Exception" />
         <item itemvalue="ScalaTest.ListTest.Scale99List Challenge Test: length() List(1,2,3,4) should returns 4" />
         <item itemvalue="ScalaTest.ListTest.Scale99List Challenge Test: length is empty should returns 0" />
-        <item itemvalue="ScalaTest.ListTest.Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scale99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scale99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scale99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scale99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scale99List Challenge Test: nth position of 2 should returns 2" />
-        <item itemvalue="ScalaTest.ListTest.Scale99List Challenge Test: nth position of 2 should returns 2" />
-        <item itemvalue="ScalaTest.ListTest.Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scale99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scale99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scale99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scale99List Challenge Test: nth position of an List with Index out of bound index should returns Nil" />
       </list>
     </recent_temporary>
   </component>
@@ -330,21 +368,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ListTest_Scala99List_Challenge_Test__List_with_3_Values_List(1,2,3)_should_Return_Last_Position__Value_3 - 2020.01.13 at 00h 09m 58s.xml">
-      <configuration name="ListTest.Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ListTest_Scala99List_Challenge_Test__List_with_3_Values_List(1,2,3)_should_Return_Last_Position__Value_3 - 2020.01.13 at 00h 11m 49s.xml">
-      <configuration name="ListTest.Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ListTest_Scala99List_Challenge_Test__List_with_3_Values_List(1,2,3)_should_Return_Last_Position__Value_3 - 2020.01.13 at 00h 12m 31s.xml">
-      <configuration name="ListTest.Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ListTest_Scale99List_Challenge_Test__nth_position_of_an_Empty_list_should_returns_Nil - 2020.01.14 at 23h 23m 38s.xml">
-      <configuration name="ListTest.Scale99List Challenge Test: nth position of an Empty list should returns Nil" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ListTest_Scale99List_Challenge_Test__nth_position_of_an_List_with_Index_out_of_bound_index_should_returns_Nil - 2020.01.14 at 23h 33m 12s.xml">
-      <configuration name="ListTest.Scale99List Challenge Test: nth position of an List with Index out of bound index should returns Nil" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ListTest_Scale99List_Challenge_Test__nth_position_of_2_should_returns_2 - 2020.01.14 at 23h 35m 12s.xml">
       <configuration name="ListTest.Scale99List Challenge Test: nth position of 2 should returns 2" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -360,23 +383,33 @@
     <history-entry file="ListTest_Scale99List_Challenge_Test__length()_List(1,2,3,4)_should_returns_4 - 2020.01.15 at 00h 06m 39s.xml">
       <configuration name="ListTest.Scale99List Challenge Test: length() List(1,2,3,4) should returns 4" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="ListTest_Scala99List_Challenge_Test__Last_Func__List_with_3_Values_List(1,2,3)_should_Return_Last_Position__Value_3 - 2020.01.16 at 00h 41m 06s.xml">
+      <configuration name="ListTest.Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ListTest_Scala99ListChallenge_Test__Last_Func__Empty_List_should_Throw_Exception - 2020.01.16 at 00h 56m 01s.xml">
+      <configuration name="ListTest.Scala99ListChallenge Test: Last Func: Empty List should Throw Exception" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ListTest_Scala99ListChallenge_Test__Last_Func__Empty_List_should_Throw_Exception - 2020.01.16 at 00h 57m 16s.xml">
+      <configuration name="ListTest.Scala99ListChallenge Test: Last Func: Empty List should Throw Exception" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ListTest_Scala99List_Challenge_Test__Last_Func__List_with_3_Values_List(1,2,3)_should_Return_Last_Position__Value_3 - 2020.01.16 at 00h 58m 24s.xml">
+      <configuration name="ListTest.Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ListTest_Scala99List_Challenge_Test__Last_Func__List_with_3_Values_List(1,2,3)_should_Return_Last_Position__Value_3 - 2020.01.16 at 00h 59m 49s.xml">
+      <configuration name="ListTest.Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.033333335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" weight="0.3296582" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3296582" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.3296582" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3296582" />
@@ -384,16 +417,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="sbt" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.3296582" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3296582" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.3296582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="sbt" order="9" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -423,8 +461,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/FutureFlatMap.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        <state relative-caret-position="476">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
           <folding>
             <element signature="e#33#61#0" expanded="true" />
           </folding>
@@ -433,15 +471,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/Scala99Problems">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="46" />
+        <state relative-caret-position="153">
+          <caret line="39" column="40" selection-start-line="36" selection-end-line="39" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+        <state relative-caret-position="356">
+          <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="2" selection-end-line="67" selection-end-column="3" />
           <folding>
             <element signature="e#34#75#0" expanded="true" />
           </folding>
@@ -450,8 +488,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="47" column="2" lean-forward="true" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+        <state relative-caret-position="442">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
         </state>
       </provider>
     </entry>

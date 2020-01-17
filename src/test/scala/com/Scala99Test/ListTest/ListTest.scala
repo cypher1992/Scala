@@ -81,6 +81,14 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
       case _ => Nil
     }
   }
+
+   def penultimate[T](list:List[T]):T ={
+    list match {
+      case a if(list.isEmpty) =>  throw new java.util.NoSuchElementException
+      case a if(list.size == 2) => list.head
+      case a => last(list.tail)
+    }
+  }
 */
 
   "Scale99List Challenge Test: lastOfLastElement: Empty List" should "Expect Nil" in {
@@ -98,6 +106,20 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
 
     assert(actualIndex === expectedIndex)
   }
+
+  "Scale99List Challenge Test: penultimate: Empty List" should "Throws NoSuchElement Exception" in {
+    val emptyList:List[Int] = List.empty[Int]
+    assertThrows[java.util.NoSuchElementException]{sl99.penultimate(emptyList)}
+  }
+
+  "Scale99List Challenge Test: penultimate: List(1,2,3,4)" should "Expect Value 3" in {
+    val list:List[Int] = List.range(1,5)
+    val actualIndex:Any = sl99.penultimate(list)
+    val expectedIndex:Any = 3
+
+    assert(actualIndex === expectedIndex)
+  }
+
 
 /*
   P03 (*) Find the Kth element of a list.

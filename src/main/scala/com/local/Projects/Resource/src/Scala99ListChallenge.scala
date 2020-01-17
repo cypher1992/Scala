@@ -17,9 +17,9 @@ res0: Int = 8
 
   def last[T](list:List[T]):T ={
     list match {
+      case a if(list.isEmpty) =>  throw new java.util.NoSuchElementException
       case a if(list.size == 1) => list.head
       case a => last(list.tail)
-      case _ => throw new NoSuchElementException
     }
   }
 /*
@@ -35,6 +35,15 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
       case _ => Nil
     }
   }
+
+  def penultimate[T](list:List[T]):T ={
+    list match {
+      case a if(list.isEmpty) =>  throw new java.util.NoSuchElementException
+      case a if(list.size-1 == 2) => list.head
+      case a => last(list.tail)
+    }
+  }
+
 
 /*
 P03 (*) Find the Kth element of a list.

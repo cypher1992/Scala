@@ -40,8 +40,8 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   def penultimate[T](list:List[T]):T ={
     list match {
       case a if(list.isEmpty) =>  throw new java.util.NoSuchElementException
-      case a if(list.size-1 == 2) => list.head
-      case a => last(list.tail)
+      case a if(list.size == 2) => list.head
+      case a => penultimate(list.tail)
     }
   }
 
@@ -60,6 +60,16 @@ res0: Int = 2
       case pos if(position> -1 & position <= list.size) => list(position-1)
       case _ => Nil
     }
+  }
+
+  def kth[T](position:Int,list:List[T]):T={
+
+    list match {
+      case a if(position == 0) => list.head
+      case a if(position > 0 & position < list.size-1) => kth(position-1,list.tail)
+      case _  => throw new java.util.NoSuchElementException
+    }
+
   }
 
 /*

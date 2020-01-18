@@ -134,6 +134,15 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
       case _ => Nil
     }
   }
+
+  def kth[T](position:Int,list:List[T]):T={
+    list match {
+      case a if(position == 0) => list.head
+      case a if(position > 0 & position < list.size-1) => kth(position-1,list.tail)
+      case _  => throw new java.util.NoSuchElementException
+    }
+
+  }
 */
 
   "Scale99List Challenge Test: nth position of an Empty list" should "returns Nil" in {
@@ -161,6 +170,27 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     val expected:Any = 2
 
     assert(actual===expected)
+  }
+
+
+  "Scala99List Challenge Test: kth position of an Empty List" should "throws NoSuchElement Exception" in {
+    val emptyList:List[Int] = List.empty[Int]
+
+    assertThrows[java.util.NoSuchElementException]{sl99.kth(0,emptyList)}
+  }
+
+  "Scala99List Challenge Test: Position greater than list size" should "throws NosuchElement Exception" in {
+    val list:List[Int] = List.range(1,5)
+    val listSizePlus1:Int = list.size+1
+    assertThrows[java.util.NoSuchElementException]{sl99.kth(listSizePlus1,list)}
+  }
+
+  "Scala99List Challenge Test: kth list of position is 2" should "return 3" in {
+    val list:List[Int] = List.range(1,5)
+    val actual:Int = sl99.kth(2,list)
+    val excepted:Int = 3
+
+    assert(actual == excepted)
   }
 
 /*

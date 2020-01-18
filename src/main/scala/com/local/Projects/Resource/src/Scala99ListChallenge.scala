@@ -81,6 +81,18 @@ res0: Int = 6
 
 def length(list:List[Int]):Int = if(list.size > 0) {list.size} else 0
 
+def len[T](list:List[T]):Int ={
+  val counter:Int = 0
+  def countSize(total:Int =0,list:List[T]):Int ={
+    list match {
+      case a if(list.isEmpty) => total
+      case _ => countSize(total+1,list.tail)
+    }
+  }
+  countSize(counter,list)
+}
+
+
 /*
 P05 (*) Reverse a list.
 Example:
@@ -96,5 +108,25 @@ def reverse[T](list:List[T]):List[T] ={
   }
 
 }
+
+def rev[T](list:List[T]):List[T] ={
+  val reverseList:List[T] = List.empty[T]
+ def revAppend(lst:List[T],emptyList:List[T] = reverseList):List[T] ={
+   lst match {
+     case a if(lst.isEmpty) => emptyList
+     case _ => revAppend(lst.tail,lst.head +: emptyList)
+   }
+ }
+  revAppend(list,reverseList)
+}
+
+/*
+  P06 (*) Find out whether a list is a palindrome.
+  Example:
+  scala> isPalindrome(List(1, 2, 3, 2, 1))
+  res0: Boolean = true
+*/
+
+  
 
 }

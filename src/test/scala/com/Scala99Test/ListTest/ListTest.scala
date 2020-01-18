@@ -91,7 +91,7 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   }
 */
 
-  "Scale99List Challenge Test: lastOfLastElement: Empty List" should "Expect Nil" in {
+  "Scala99List Challenge Test: lastOfLastElement: Empty List" should "Expect Nil" in {
     val emptyList:List[Int] = List.empty[Int]
     val actualNil:Any = sl99.lastOfLastElement(emptyList)
     val expectedNil:Any = Nil
@@ -99,7 +99,7 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actualNil === expectedNil)
   }
 
-  "Scale99List Challenge Test: lastOfLastElement: List(1,2,3,4)" should "Expect Value 3" in {
+  "Scala99List Challenge Test: lastOfLastElement: List(1,2,3,4)" should "Expect Value 3" in {
     val list:List[Int] = List.range(1,5)
     val actualIndex:Any = sl99.lastOfLastElement(list)
     val expectedIndex:Any = 3
@@ -107,12 +107,12 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actualIndex === expectedIndex)
   }
 
-  "Scale99List Challenge Test: penultimate: Empty List" should "Throws NoSuchElement Exception" in {
+  "Scala99List Challenge Test: penultimate: Empty List" should "Throws NoSuchElement Exception" in {
     val emptyList:List[Int] = List.empty[Int]
     assertThrows[java.util.NoSuchElementException]{sl99.penultimate(emptyList)}
   }
 
-  "Scale99List Challenge Test: penultimate: List(1,2,3,4)" should "Expect Value 3" in {
+  "Scala99List Challenge Test: penultimate: List(1,2,3,4)" should "Expect Value 3" in {
     val list:List[Int] = List.range(1,5)
     val actualIndex:Any = sl99.penultimate(list)
     val expectedIndex:Any = 3
@@ -145,7 +145,7 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   }
 */
 
-  "Scale99List Challenge Test: nth position of an Empty list" should "returns Nil" in {
+  "Scala99List Challenge Test: nth position of an Empty list" should "returns Nil" in {
 
     val emptyList:List[Int] = List.empty[Int]
     val actualNil:Any = sl99.nth(0,emptyList)
@@ -153,7 +153,7 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actualNil===expectedNil)
   }
 
-  "Scale99List Challenge Test: nth position of an List with Index out of bound index" should "returns Nil" in {
+  "Scala99List Challenge Test: nth position of an List with Index out of bound index" should "returns Nil" in {
 
     val list:List[Int] = List.range(1,4)
     val actual:Any = sl99.nth(6,list)
@@ -163,7 +163,7 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   }
 
 
-  "Scale99List Challenge Test: nth position of 2" should "returns 2" in {
+  "Scala99List Challenge Test: nth position of 2" should "returns 2" in {
 
     val list:List[Int] = List.range(1,4)
     val actual:Any = sl99.nth(2,list)
@@ -200,8 +200,19 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   res0: Int = 6
 
   def length(list:List[Int]):Int = if(list.size > 0) {list.size} else 0
+
+  def len[T](list:List[T]):Int ={
+  val counter:Int = 0
+  def countSize(total:Int =0,list:List[T]):Int ={
+    list match {
+      case a if(list.isEmpty) => total
+      case _ => countSize(total+1,list.tail)
+    }
+  }
+  countSize(counter,list)
+}
 */
-  "Scale99List Challenge Test: length() List is empty" should "returns 0" in {
+  "Scala99List Challenge Test: length() List is empty" should "returns 0" in {
 
     val list:List[Int] = List.empty[Int]
     val actual:Int = sl99.length(list)
@@ -210,7 +221,7 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual===expected)
   }
 
-  "Scale99List Challenge Test: length() List(1,2,3,4)" should "returns 4" in {
+  "Scala99List Challenge Test: length() List(1,2,3,4)" should "returns 4" in {
 
     val list:List[Int] = List.range(1,5)
     val actual:Int = sl99.length(list)
@@ -219,5 +230,62 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual===expected)
   }
 
+  "Scala99List Challenge: Len() with Empty List" should "returns 0" in {
+    val emptyList:List[Int] = List.empty[Int]
+    val actual:Int = sl99.len(emptyList)
+    val expected:Int = 0
 
-}
+    assert(actual === expected)
+  }
+
+  "Scala99List Challenge: Len() with List(1,2,3,4)" should "returns 4" in {
+    val list:List[Int] = List.range(1,5)
+    val actual:Int = sl99.len(list)
+    val expected:Int = 4
+
+    assert(actual === expected)
+  }
+
+
+  /*
+  P05 (*) Reverse a list.
+  Example:
+  scala> reverse(List(1, 1, 2, 3, 5, 8))
+  res0: List[Int] = List(8, 5, 3, 2, 1, 1)
+
+  def reverse[T](list:List[T]):List[T] ={
+    list match {
+      case a if (list.size == 0) => Nil
+      case _ => list.reverse
+    }
+  }
+
+  def rev[T](list:List[T]):List[T] ={
+   val reverseList:List[T] = List.empty[T]
+     def revAppend(lst:List[T],emptyList:List[T] = reverseList):List[T] ={
+       lst match {
+         case a if(lst.isEmpty) => Nil
+         case _ => revAppend(lst.tail,lst.head +: emptyList)
+       }
+     }
+   revAppend(list,reverseList)
+  }
+  */
+
+  "Scala99List Challenge: Rev() Pass Empty List" should "Empty List" in{
+    val emptyList:List[Int] = List.empty[Int]
+    val actual:List[Int] = sl99.rev(emptyList)
+    val expected:List[Int] = emptyList
+
+    assert(actual === expected)
+  }
+
+  "Scala99List Challenge: Rev() Pass List of Char" should "Reverse List" in {
+    val list:List[Char] = List('A','B','C','D')
+    val expected:List[Char] = sl99.rev(list)
+    val actual = List('D','C','B','A')
+
+    assert(expected === actual)
+  }
+
+  }

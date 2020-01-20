@@ -125,8 +125,52 @@ def rev[T](list:List[T]):List[T] ={
   Example:
   scala> isPalindrome(List(1, 2, 3, 2, 1))
   res0: Boolean = true
+
+  Case: If Empty
+  Case: Odd Size
+  Case: Even Size
 */
 
-  
+  def isPalindrome[T](list:List[T]):Boolean = list == list.reverse
+
+  def palindrome[T](list:List[T]):Boolean ={
+    val halfSize:Int = list.size/2
+    val (halfListA,halfListB) = list.splitAt(halfSize)
+
+    if(list.isEmpty){
+     false
+    }
+    else if(list.size%2 == 0){
+      if(halfListA == halfListB.reverse){
+        true
+      }else {
+        false
+      }
+    }
+    else{
+      if(halfListA == halfListB.tail.reverse){
+        true
+      }else {
+        false
+      }
+    }
+
+  }
+
+/*
+  P07 (**) Flatten a nested list structure.
+  Example:
+  scala> flatten(List(List(1, 1), 2, List(3, List(5, 8))))
+  res0: List[Any] = List(1, 1, 2, 3, 5, 8)
+
+  case: What if there is a empty list of empty list
+  case: List with empty and list of values
+  case: What if it is already flatten
+*/
+
+  def flatten(ls: List[Any]): List[Any] = ls flatMap {
+    case ms: List[_] => flatten(ms)
+    case e => List(e)
+  }
 
 }

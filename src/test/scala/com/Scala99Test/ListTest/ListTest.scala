@@ -288,4 +288,44 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(expected === actual)
   }
 
+  "Scala99List Challenge: Palindrome Func: Empty List" should "Return False" in{
+    val emptyList:List[Int] = List.empty[Int]
+    val actual:Boolean = sl99.palindrome(emptyList)
+    val expected:Boolean = false
+
+    assert(actual === expected)
   }
+
+  "Scala99List Challenge: Palindrome Func: Even Palindrome List" should "Return True" in {
+    val evenList:List[Int] = List(1,2,2,1)
+    val actual:Boolean = sl99.palindrome(evenList)
+    val excepted:Boolean = true
+
+    assert(actual === excepted)
+  }
+
+  "Scala99List Challenge: Palindrome Func: Even Regular List" should "Return False" in {
+    val evenList:List[Int] = List(1,2,1,2)
+    val actual:Boolean = sl99.palindrome(evenList)
+    val excepted:Boolean = false
+
+    assert(actual === excepted)
+  }
+
+  "Scala99List Challenge: Palindrome Func: Odd List" should "Return True" in {
+    val oddList:List[Int] = List(1,2,3,2,1)
+    val actual:Boolean = sl99.palindrome(oddList)
+    val excepted:Boolean = true
+
+    assert(actual === excepted)
+  }
+
+  "Scala99List Challenge: Palindrome Func: Odd Regular List" should "Return False" in {
+    val oddList:List[Int] = List(1,2,3,1,2)
+    val actual:Boolean = sl99.palindrome(oddList)
+    val excepted:Boolean = false
+
+    assert(actual === excepted)
+  }
+
+}

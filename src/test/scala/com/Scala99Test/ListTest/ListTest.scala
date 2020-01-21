@@ -5,9 +5,9 @@ import org.scalatest.matchers.must.Matchers
 import org.scalatest.Assertions._
 import com.local.Projects.Resource.src.Scala99ListChallenge
 
-class ListTest extends  AnyFlatSpec with Matchers{
+class ListTest extends  AnyFlatSpec with Matchers {
 
-  val sl99:Scala99ListChallenge = new Scala99ListChallenge()
+  val sl99: Scala99ListChallenge = new Scala99ListChallenge()
 
   behavior of "Scala99ListChallenge"
 
@@ -33,18 +33,18 @@ class ListTest extends  AnyFlatSpec with Matchers{
 
   "Scala99ListChallenge Test: Empty List" should "Return Nil" in {
 
-    val emptyList:List[Int] = List.empty[Int]
-    val actualNil:Any = sl99.lastElement(emptyList)
-    val expectedNil:Any = Nil
+    val emptyList: List[Int] = List.empty[Int]
+    val actualNil: Any = sl99.lastElement(emptyList)
+    val expectedNil: Any = Nil
 
     assert(actualNil === expectedNil)
   }
 
   "Scala99List Challenge Test: List with 3 Values List(1,2,3)" should "Return Last Position: Value 3" in {
 
-    val list:List[Int] = List.range(1,4)
-    val actualLastValue:Any = sl99.lastElement(list)
-    val expectedLastValue:Any = 3
+    val list: List[Int] = List.range(1, 4)
+    val actualLastValue: Any = sl99.lastElement(list)
+    val expectedLastValue: Any = 3
 
     assert(actualLastValue === expectedLastValue)
 
@@ -52,16 +52,18 @@ class ListTest extends  AnyFlatSpec with Matchers{
 
   "Scala99ListChallenge Test: Last Func: Empty List" should "Throw Exception" in {
 
-    val emptyList:List[Int] = List.empty[Int]
+    val emptyList: List[Int] = List.empty[Int]
 
-    assertThrows[java.util.NoSuchElementException]{sl99.last(emptyList)}
+    assertThrows[java.util.NoSuchElementException] {
+      sl99.last(emptyList)
+    }
   }
 
   "Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3)" should "Return Last Position: Value 3" in {
 
-    val list:List[Int] = List.range(1,4)
-    val actualLastValue:Any = sl99.last(list)
-    val expectedLastValue:Any = 3
+    val list: List[Int] = List.range(1, 4)
+    val actualLastValue: Any = sl99.last(list)
+    val expectedLastValue: Any = 3
 
     assert(actualLastValue === expectedLastValue)
 
@@ -92,36 +94,38 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
 */
 
   "Scala99List Challenge Test: lastOfLastElement: Empty List" should "Expect Nil" in {
-    val emptyList:List[Int] = List.empty[Int]
-    val actualNil:Any = sl99.lastOfLastElement(emptyList)
-    val expectedNil:Any = Nil
+    val emptyList: List[Int] = List.empty[Int]
+    val actualNil: Any = sl99.lastOfLastElement(emptyList)
+    val expectedNil: Any = Nil
 
     assert(actualNil === expectedNil)
   }
 
   "Scala99List Challenge Test: lastOfLastElement: List(1,2,3,4)" should "Expect Value 3" in {
-    val list:List[Int] = List.range(1,5)
-    val actualIndex:Any = sl99.lastOfLastElement(list)
-    val expectedIndex:Any = 3
+    val list: List[Int] = List.range(1, 5)
+    val actualIndex: Any = sl99.lastOfLastElement(list)
+    val expectedIndex: Any = 3
 
     assert(actualIndex === expectedIndex)
   }
 
   "Scala99List Challenge Test: penultimate: Empty List" should "Throws NoSuchElement Exception" in {
-    val emptyList:List[Int] = List.empty[Int]
-    assertThrows[java.util.NoSuchElementException]{sl99.penultimate(emptyList)}
+    val emptyList: List[Int] = List.empty[Int]
+    assertThrows[java.util.NoSuchElementException] {
+      sl99.penultimate(emptyList)
+    }
   }
 
   "Scala99List Challenge Test: penultimate: List(1,2,3,4)" should "Expect Value 3" in {
-    val list:List[Int] = List.range(1,5)
-    val actualIndex:Any = sl99.penultimate(list)
-    val expectedIndex:Any = 3
+    val list: List[Int] = List.range(1, 5)
+    val actualIndex: Any = sl99.penultimate(list)
+    val expectedIndex: Any = 3
 
     assert(actualIndex === expectedIndex)
   }
 
 
-/*
+  /*
   P03 (*) Find the Kth element of a list.
   By convention, the first element in the list is element 0.
   Example:
@@ -147,53 +151,57 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
 
   "Scala99List Challenge Test: nth position of an Empty list" should "returns Nil" in {
 
-    val emptyList:List[Int] = List.empty[Int]
-    val actualNil:Any = sl99.nth(0,emptyList)
-    val expectedNil:Any = Nil
-    assert(actualNil===expectedNil)
+    val emptyList: List[Int] = List.empty[Int]
+    val actualNil: Any = sl99.nth(0, emptyList)
+    val expectedNil: Any = Nil
+    assert(actualNil === expectedNil)
   }
 
   "Scala99List Challenge Test: nth position of an List with Index out of bound index" should "returns Nil" in {
 
-    val list:List[Int] = List.range(1,4)
-    val actual:Any = sl99.nth(6,list)
-    val expected:Any = Nil
+    val list: List[Int] = List.range(1, 4)
+    val actual: Any = sl99.nth(6, list)
+    val expected: Any = Nil
 
-    assert(actual===expected)
+    assert(actual === expected)
   }
 
 
   "Scala99List Challenge Test: nth position of 2" should "returns 2" in {
 
-    val list:List[Int] = List.range(1,4)
-    val actual:Any = sl99.nth(2,list)
-    val expected:Any = 2
+    val list: List[Int] = List.range(1, 4)
+    val actual: Any = sl99.nth(2, list)
+    val expected: Any = 2
 
-    assert(actual===expected)
+    assert(actual === expected)
   }
 
 
   "Scala99List Challenge Test: kth position of an Empty List" should "throws NoSuchElement Exception" in {
-    val emptyList:List[Int] = List.empty[Int]
+    val emptyList: List[Int] = List.empty[Int]
 
-    assertThrows[java.util.NoSuchElementException]{sl99.kth(0,emptyList)}
+    assertThrows[java.util.NoSuchElementException] {
+      sl99.kth(0, emptyList)
+    }
   }
 
   "Scala99List Challenge Test: Position greater than list size" should "throws NosuchElement Exception" in {
-    val list:List[Int] = List.range(1,5)
-    val listSizePlus1:Int = list.size+1
-    assertThrows[java.util.NoSuchElementException]{sl99.kth(listSizePlus1,list)}
+    val list: List[Int] = List.range(1, 5)
+    val listSizePlus1: Int = list.size + 1
+    assertThrows[java.util.NoSuchElementException] {
+      sl99.kth(listSizePlus1, list)
+    }
   }
 
   "Scala99List Challenge Test: kth list of position is 2" should "return 3" in {
-    val list:List[Int] = List.range(1,5)
-    val actual:Int = sl99.kth(2,list)
-    val excepted:Int = 3
+    val list: List[Int] = List.range(1, 5)
+    val actual: Int = sl99.kth(2, list)
+    val excepted: Int = 3
 
     assert(actual == excepted)
   }
 
-/*
+  /*
   P04 (*) Find the number of elements of a list.
   Example:
   scala> length(List(1, 1, 2, 3, 5, 8))
@@ -214,34 +222,34 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
 */
   "Scala99List Challenge Test: length() List is empty" should "returns 0" in {
 
-    val list:List[Int] = List.empty[Int]
-    val actual:Int = sl99.length(list)
-    val expected:Int = 0
+    val list: List[Int] = List.empty[Int]
+    val actual: Int = sl99.length(list)
+    val expected: Int = 0
 
-    assert(actual===expected)
+    assert(actual === expected)
   }
 
   "Scala99List Challenge Test: length() List(1,2,3,4)" should "returns 4" in {
 
-    val list:List[Int] = List.range(1,5)
-    val actual:Int = sl99.length(list)
-    val expected:Int = 4
+    val list: List[Int] = List.range(1, 5)
+    val actual: Int = sl99.length(list)
+    val expected: Int = 4
 
-    assert(actual===expected)
+    assert(actual === expected)
   }
 
   "Scala99List Challenge: Len() with Empty List" should "returns 0" in {
-    val emptyList:List[Int] = List.empty[Int]
-    val actual:Int = sl99.len(emptyList)
-    val expected:Int = 0
+    val emptyList: List[Int] = List.empty[Int]
+    val actual: Int = sl99.len(emptyList)
+    val expected: Int = 0
 
     assert(actual === expected)
   }
 
   "Scala99List Challenge: Len() with List(1,2,3,4)" should "returns 4" in {
-    val list:List[Int] = List.range(1,5)
-    val actual:Int = sl99.len(list)
-    val expected:Int = 4
+    val list: List[Int] = List.range(1, 5)
+    val actual: Int = sl99.len(list)
+    val expected: Int = 4
 
     assert(actual === expected)
   }
@@ -272,60 +280,99 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   }
   */
 
-  "Scala99List Challenge: Rev() Pass Empty List" should "Empty List" in{
-    val emptyList:List[Int] = List.empty[Int]
-    val actual:List[Int] = sl99.rev(emptyList)
-    val expected:List[Int] = emptyList
+  "Scala99List Challenge: Rev() Pass Empty List" should "Empty List" in {
+    val emptyList: List[Int] = List.empty[Int]
+    val actual: List[Int] = sl99.rev(emptyList)
+    val expected: List[Int] = emptyList
 
     assert(actual === expected)
   }
 
   "Scala99List Challenge: Rev() Pass List of Char" should "Reverse List" in {
-    val list:List[Char] = List('A','B','C','D')
-    val expected:List[Char] = sl99.rev(list)
-    val actual = List('D','C','B','A')
+    val list: List[Char] = List('A', 'B', 'C', 'D')
+    val expected: List[Char] = sl99.rev(list)
+    val actual = List('D', 'C', 'B', 'A')
 
     assert(expected === actual)
   }
 
-  "Scala99List Challenge: Palindrome Func: Empty List" should "Return False" in{
-    val emptyList:List[Int] = List.empty[Int]
-    val actual:Boolean = sl99.palindrome(emptyList)
-    val expected:Boolean = false
+  "Scala99List Challenge: Palindrome Func: Empty List" should "Return False" in {
+    val emptyList: List[Int] = List.empty[Int]
+    val actual: Boolean = sl99.palindrome(emptyList)
+    val expected: Boolean = false
 
     assert(actual === expected)
   }
 
   "Scala99List Challenge: Palindrome Func: Even Palindrome List" should "Return True" in {
-    val evenList:List[Int] = List(1,2,2,1)
-    val actual:Boolean = sl99.palindrome(evenList)
-    val excepted:Boolean = true
+    val evenList: List[Int] = List(1, 2, 2, 1)
+    val actual: Boolean = sl99.palindrome(evenList)
+    val excepted: Boolean = true
 
     assert(actual === excepted)
   }
 
   "Scala99List Challenge: Palindrome Func: Even Regular List" should "Return False" in {
-    val evenList:List[Int] = List(1,2,1,2)
-    val actual:Boolean = sl99.palindrome(evenList)
-    val excepted:Boolean = false
+    val evenList: List[Int] = List(1, 2, 1, 2)
+    val actual: Boolean = sl99.palindrome(evenList)
+    val excepted: Boolean = false
 
     assert(actual === excepted)
   }
 
   "Scala99List Challenge: Palindrome Func: Odd List" should "Return True" in {
-    val oddList:List[Int] = List(1,2,3,2,1)
-    val actual:Boolean = sl99.palindrome(oddList)
-    val excepted:Boolean = true
+    val oddList: List[Int] = List(1, 2, 3, 2, 1)
+    val actual: Boolean = sl99.palindrome(oddList)
+    val excepted: Boolean = true
 
     assert(actual === excepted)
   }
 
   "Scala99List Challenge: Palindrome Func: Odd Regular List" should "Return False" in {
-    val oddList:List[Int] = List(1,2,3,1,2)
-    val actual:Boolean = sl99.palindrome(oddList)
-    val excepted:Boolean = false
+    val oddList: List[Int] = List(1, 2, 3, 1, 2)
+    val actual: Boolean = sl99.palindrome(oddList)
+    val excepted: Boolean = false
 
     assert(actual === excepted)
   }
+
+  /*
+  P07 (**) Flatten a nested list structure.
+  Example:
+  scala> flatten(List(List(1, 1), 2, List(3, List(5, 8))))
+  res0: List[Any] = List(1, 1, 2, 3, 5, 8)
+
+  case: What if there is a empty list of empty list
+  case: List with empty and list of values
+  case: What if it is already flatten
+
+  //NS - ANS
+  def flatten(ls: List[Any]): List[Any] = ls flatMap {
+    case ms: List[_] => flatten(ms)
+    case e => List(e)
+  }
+*/
+
+  "Scala99List Challenge: Flatten -> Empty List of Empty List" should "=> Empty List" in {
+
+    val emptyNestedEmptyList: List[Any] = List(List.empty[Any], List.empty[Any])
+    val actual: List[Any] = sl99.flatten(emptyNestedEmptyList)
+    val expected: List[Any] = List.empty[Any]
+
+    assert(actual == expected)
+  }
+
+
+  "Scala99List Challenge: Flatten ->  List of List with Empty List" should "=> List" in {
+
+
+  val list:List[Any] = List(List(1,2),3,List(9,8,4,List(11,7),5))
+  val actual:List[Any] = sl99.flatten(list)
+  val expected:List[Any] = List(1,2,3,9,8,4,11,7,5)
+
+  assert(actual == expected)
+}
+
+
 
 }

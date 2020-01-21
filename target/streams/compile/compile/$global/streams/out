@@ -1,6 +1,2 @@
 [debug] Acquiring lock on file C:\Users\Zero\IdeaProjects\Learning\Scala\project\target\.sbt-compilation-infos\scala-compile\.sbt-idea-lock ...
-[error] C:\Users\Zero\IdeaProjects\Learning\Scala\src\main\scala\com\local\Projects\Resource\src\NestedList.scala:8:40: missing parameter type for expanded function ((<x$1: error>) => nestedList.flatMap(x$1).flatten)
-[error]   val flattenList = nestedList.flatMap(_).flatten
-[error]                                        ^
-[error] one error found
 [debug] Releasing lock on file C:\Users\Zero\IdeaProjects\Learning\Scala\project\target\.sbt-compilation-infos\scala-compile\.sbt-idea-lock.

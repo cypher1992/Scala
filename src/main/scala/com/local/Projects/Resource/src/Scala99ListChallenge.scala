@@ -173,4 +173,18 @@ def rev[T](list:List[T]):List[T] ={
     case e => List(e)
   }
 
+/*
+  Eliminate  duplicates of list elements.
+  Example:
+  scala> dedup(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+  res0: List[Symbol] = List('a, 'b, 'c, 'd, 'e)
+  P09 (**) Pack duplicates of list elements into sublists.
+  If a list contains repeated elements they should be placed in separate sublists.
+  Example:
+
+  scala> pack(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+*/
+
+  def dedup[T](list:List[T]):List[T]= list.distinct
+
 }

@@ -373,6 +373,37 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   assert(actual == expected)
 }
 
+/*
+  Eliminate  duplicates of list elements.
+  Example:
+  scala> compress(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+  res0: List[Symbol] = List('a, 'b, 'c, 'd, 'e)
+  P09 (**) Pack consecutive duplicates of list elements into sublists.
+  If a list contains repeated elements they should be placed in separate sublists.
+  Example:
 
+  scala> pack(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+
+  def compress[T](list:List[T]):List[T]= list.distinct
+*/
+
+  "Scala99List Challenge: compress Func empty list of empty list" should "List of empty list" in {
+
+    val emptyList:List[Any] = List(List.empty[Int],List.empty[Int],List(List.empty[Int]))
+    val actual:List[Any] = sl99.dedup(emptyList)
+    val expected:List[Any] = List(List(), List(List()))
+
+    assert(actual == expected)
+  }
+
+
+  "Scala99List Challenge: compress func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)" should "Return List('a, 'b, 'c, 'a, 'd, 'e)" in {
+
+    val list:List[Char] = List('a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e', 'e')
+    val actual:List[Char] = sl99.dedup(list)
+    val expected:List[Char] = List('a', 'b', 'c', 'd', 'e')
+
+    assert(actual == expected)
+  }
 
 }

@@ -4,7 +4,26 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala" line="179" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="" />
+    <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/local/Projects/Resource/src/NestedList$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/local/Projects/Resource/src/NestedList$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/local/Projects/Resource/src/NestedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/local/Projects/Resource/src/Scala99ListChallenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/local/Projects/Resource/src/Scala99ListChallenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/com/Scala99Test/ListTest/ListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -26,8 +45,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/Scala99Problems">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="102">
-                    <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+                  <state relative-caret-position="204">
+                    <caret line="51" selection-start-line="51" selection-end-line="51" />
                   </state>
                 </provider>
               </entry>
@@ -47,17 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="163" column="6" selection-start-line="163" selection-start-column="6" selection-end-line="163" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.13.0-sources.jar!/scala/collection/IterableOnce.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="135" column="6" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
+            <state relative-caret-position="373">
+              <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
             </state>
           </provider>
         </entry>
@@ -65,22 +75,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="373" column="1" lean-forward="true" selection-start-line="373" selection-start-column="1" selection-end-line="373" selection-end-column="1" />
+            <state relative-caret-position="36">
+              <caret line="376" column="1" lean-forward="true" selection-start-line="376" selection-start-column="1" selection-end-line="384" selection-end-column="75" />
               <folding>
                 <element signature="e#34#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/FutureFlatMap.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#33#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,13 +99,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/FutureFlatMap.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/ListTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/NestedList.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -168,6 +166,16 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="Interest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
               <item name="Resource" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -180,6 +188,25 @@
               <item name="local" type="462c0819:PsiDirectoryNode" />
               <item name="Resource" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectionRev" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
@@ -238,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NestedList">
+  <component name="RunManager" selected="ScalaTest.ListTest.Scala99List Challenge: compress func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'a, 'd, 'e)">
     <configuration name="NestedList" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.local.Projects.Resource.src.NestedList" />
       <module name="Scala" />
@@ -252,7 +279,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.Scala99List Challenge: Flatten -&gt; Empty List of Empty List should =&gt; Empty List" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ListTest.Scala99List Challenge: compress Func empty list of empty list should Returns empty list" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
       <setting name="vmparams" value="" />
@@ -266,12 +293,12 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
-      <setting name="testName" value="Scala99List Challenge: Flatten -&gt; Empty List of Empty List should =&gt; Empty List" />
+      <setting name="testName" value="Scala99List Challenge: compress Func empty list of empty list should Returns empty list" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scala99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: penultimate: Empty List should Throws NoSuchElement Exception&#10;Scala99List Challenge Test: penultimate: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scala99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scala99List Challenge Test: nth position of 2 should returns 2&#10;Scala99List Challenge Test: kth position of an Empty List should throws NoSuchElement Exception&#10;Scala99List Challenge Test: Position greater than list size should throws NosuchElement Exception&#10;Scala99List Challenge Test: kth list of position is 2 should return 3&#10;Scala99List Challenge Test: length() List is empty should returns 0&#10;Scala99List Challenge Test: length() List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Len() with Empty List should returns 0&#10;Scala99List Challenge: Len() with List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Rev() Pass Empty List should Empty List&#10;Scala99List Challenge: Rev() Pass List of Char should Reverse List&#10;Scala99List Challenge: Palindrome Func: Empty List should Return False&#10;Scala99List Challenge: Palindrome Func: Even Palindrome List should Return True&#10;Scala99List Challenge: Palindrome Func: Even Regular List should Return False&#10;Scala99List Challenge: Palindrome Func: Odd List should Return True&#10;Scala99List Challenge: Palindrome Func: Odd Regular List should Return False" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ListTest.Scala99List Challenge: compress func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'a, 'd, 'e)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
       <setting name="vmparams" value="" />
@@ -285,7 +312,7 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
-      <setting name="testName" value="Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scala99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: penultimate: Empty List should Throws NoSuchElement Exception&#10;Scala99List Challenge Test: penultimate: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scala99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scala99List Challenge Test: nth position of 2 should returns 2&#10;Scala99List Challenge Test: kth position of an Empty List should throws NoSuchElement Exception&#10;Scala99List Challenge Test: Position greater than list size should throws NosuchElement Exception&#10;Scala99List Challenge Test: kth list of position is 2 should return 3&#10;Scala99List Challenge Test: length() List is empty should returns 0&#10;Scala99List Challenge Test: length() List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Len() with Empty List should returns 0&#10;Scala99List Challenge: Len() with List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Rev() Pass Empty List should Empty List&#10;Scala99List Challenge: Rev() Pass List of Char should Reverse List&#10;Scala99List Challenge: Palindrome Func: Empty List should Return False&#10;Scala99List Challenge: Palindrome Func: Even Palindrome List should Return True&#10;Scala99List Challenge: Palindrome Func: Even Regular List should Return False&#10;Scala99List Challenge: Palindrome Func: Odd List should Return True&#10;Scala99List Challenge: Palindrome Func: Odd Regular List should Return False" />
+      <setting name="testName" value="Scala99List Challenge: compress func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'a, 'd, 'e)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -309,7 +336,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scala99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: penultimate: Empty List should Throws NoSuchElement Exception&#10;Scala99List Challenge Test: penultimate: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scala99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scala99List Challenge Test: nth position of 2 should returns 2&#10;Scala99List Challenge Test: kth position of an Empty List should throws NoSuchElement Exception&#10;Scala99List Challenge Test: Position greater than list size should throws NosuchElement Exception&#10;Scala99List Challenge Test: kth list of position is 2 should return 3&#10;Scala99List Challenge Test: length() List is empty should returns 0&#10;Scala99List Challenge Test: length() List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Len() with Empty List should returns 0&#10;Scala99List Challenge: Len() with List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Rev() Pass Empty List should Empty List&#10;Scala99List Challenge: Rev() Pass List of Char should Reverse List&#10;Scala99List Challenge: Palindrome Func: Empty List should Return False&#10;Scala99List Challenge: Palindrome Func: Even Palindrome List should Return True&#10;Scala99List Challenge: Palindrome Func: Even Regular List should Return True" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ListTest.Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scala99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: penultimate: Empty List should Throws NoSuchElement Exception&#10;Scala99List Challenge Test: penultimate: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scala99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scala99List Challenge Test: nth position of 2 should returns 2&#10;Scala99List Challenge Test: kth position of an Empty List should throws NoSuchElement Exception&#10;Scala99List Challenge Test: Position greater than list size should throws NosuchElement Exception&#10;Scala99List Challenge Test: kth list of position is 2 should return 3&#10;Scala99List Challenge Test: length() List is empty should returns 0&#10;Scala99List Challenge Test: length() List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Len() with Empty List should returns 0&#10;Scala99List Challenge: Len() with List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Rev() Pass Empty List should Empty List&#10;Scala99List Challenge: Rev() Pass List of Char should Reverse List&#10;Scala99List Challenge: Palindrome Func: Empty List should Return False&#10;Scala99List Challenge: Palindrome Func: Even Palindrome List should Return True&#10;Scala99List Challenge: Palindrome Func: Even Regular List should Return False&#10;Scala99List Challenge: Palindrome Func: Odd List should Return True&#10;Scala99List Challenge: Palindrome Func: Odd Regular List should Return False&#10;Scala99List Challenge: Flatten -&gt; Empty List of Empty List should =&gt; Empty List&#10;Scala99List Challenge: Flatten -&gt;  List of List with Empty List should =&gt; List&#10;Scala99List Challenge: compress Func empty list of empty list should List of empty list" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
       <setting name="vmparams" value="" />
@@ -323,18 +350,18 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
-      <setting name="testName" value="Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scala99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: penultimate: Empty List should Throws NoSuchElement Exception&#10;Scala99List Challenge Test: penultimate: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scala99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scala99List Challenge Test: nth position of 2 should returns 2&#10;Scala99List Challenge Test: kth position of an Empty List should throws NoSuchElement Exception&#10;Scala99List Challenge Test: Position greater than list size should throws NosuchElement Exception&#10;Scala99List Challenge Test: kth list of position is 2 should return 3&#10;Scala99List Challenge Test: length() List is empty should returns 0&#10;Scala99List Challenge Test: length() List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Len() with Empty List should returns 0&#10;Scala99List Challenge: Len() with List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Rev() Pass Empty List should Empty List&#10;Scala99List Challenge: Rev() Pass List of Char should Reverse List&#10;Scala99List Challenge: Palindrome Func: Empty List should Return False&#10;Scala99List Challenge: Palindrome Func: Even Palindrome List should Return True&#10;Scala99List Challenge: Palindrome Func: Even Regular List should Return True" />
+      <setting name="testName" value="Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scala99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: penultimate: Empty List should Throws NoSuchElement Exception&#10;Scala99List Challenge Test: penultimate: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scala99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scala99List Challenge Test: nth position of 2 should returns 2&#10;Scala99List Challenge Test: kth position of an Empty List should throws NoSuchElement Exception&#10;Scala99List Challenge Test: Position greater than list size should throws NosuchElement Exception&#10;Scala99List Challenge Test: kth list of position is 2 should return 3&#10;Scala99List Challenge Test: length() List is empty should returns 0&#10;Scala99List Challenge Test: length() List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Len() with Empty List should returns 0&#10;Scala99List Challenge: Len() with List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Rev() Pass Empty List should Empty List&#10;Scala99List Challenge: Rev() Pass List of Char should Reverse List&#10;Scala99List Challenge: Palindrome Func: Empty List should Return False&#10;Scala99List Challenge: Palindrome Func: Even Palindrome List should Return True&#10;Scala99List Challenge: Palindrome Func: Even Regular List should Return False&#10;Scala99List Challenge: Palindrome Func: Odd List should Return True&#10;Scala99List Challenge: Palindrome Func: Odd Regular List should Return False&#10;Scala99List Challenge: Flatten -&gt; Empty List of Empty List should =&gt; Empty List&#10;Scala99List Challenge: Flatten -&gt;  List of List with Empty List should =&gt; List&#10;Scala99List Challenge: compress Func empty list of empty list should List of empty list" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ListTest.Scala99List Challenge: compress func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'a, 'd, 'e)" />
+        <item itemvalue="ScalaTest.ListTest.Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scala99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: penultimate: Empty List should Throws NoSuchElement Exception&#10;Scala99List Challenge Test: penultimate: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scala99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scala99List Challenge Test: nth position of 2 should returns 2&#10;Scala99List Challenge Test: kth position of an Empty List should throws NoSuchElement Exception&#10;Scala99List Challenge Test: Position greater than list size should throws NosuchElement Exception&#10;Scala99List Challenge Test: kth list of position is 2 should return 3&#10;Scala99List Challenge Test: length() List is empty should returns 0&#10;Scala99List Challenge Test: length() List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Len() with Empty List should returns 0&#10;Scala99List Challenge: Len() with List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Rev() Pass Empty List should Empty List&#10;Scala99List Challenge: Rev() Pass List of Char should Reverse List&#10;Scala99List Challenge: Palindrome Func: Empty List should Return False&#10;Scala99List Challenge: Palindrome Func: Even Palindrome List should Return True&#10;Scala99List Challenge: Palindrome Func: Even Regular List should Return False&#10;Scala99List Challenge: Palindrome Func: Odd List should Return True&#10;Scala99List Challenge: Palindrome Func: Odd Regular List should Return False&#10;Scala99List Challenge: Flatten -&gt; Empty List of Empty List should =&gt; Empty List&#10;Scala99List Challenge: Flatten -&gt;  List of List with Empty List should =&gt; List&#10;Scala99List Challenge: compress Func empty list of empty list should List of empty list" />
+        <item itemvalue="ScalaTest.ListTest.Scala99List Challenge: compress Func empty list of empty list should Returns empty list" />
         <item itemvalue="Application.NestedList" />
         <item itemvalue="ScalaTest.ListTest.Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scala99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: penultimate: Empty List should Throws NoSuchElement Exception&#10;Scala99List Challenge Test: penultimate: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scala99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scala99List Challenge Test: nth position of 2 should returns 2&#10;Scala99List Challenge Test: kth position of an Empty List should throws NoSuchElement Exception&#10;Scala99List Challenge Test: Position greater than list size should throws NosuchElement Exception&#10;Scala99List Challenge Test: kth list of position is 2 should return 3&#10;Scala99List Challenge Test: length() List is empty should returns 0&#10;Scala99List Challenge Test: length() List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Len() with Empty List should returns 0&#10;Scala99List Challenge: Len() with List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Rev() Pass Empty List should Empty List&#10;Scala99List Challenge: Rev() Pass List of Char should Reverse List&#10;Scala99List Challenge: Palindrome Func: Empty List should Return False&#10;Scala99List Challenge: Palindrome Func: Even Palindrome List should Return True&#10;Scala99List Challenge: Palindrome Func: Even Regular List should Return False&#10;Scala99List Challenge: Palindrome Func: Odd List should Return True&#10;Scala99List Challenge: Palindrome Func: Odd Regular List should Return False&#10;Scala99List Challenge: Flatten -&gt; Empty List of Empty List should =&gt; Empty List&#10;Scala99List Challenge: Flatten -&gt;  List of List with Empty List should =&gt; List" />
-        <item itemvalue="ScalaTest.ListTest.Scala99List Challenge: Flatten -&gt; Empty List of Empty List should =&gt; Empty List" />
-        <item itemvalue="ScalaTest.ListTest.Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scala99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: penultimate: Empty List should Throws NoSuchElement Exception&#10;Scala99List Challenge Test: penultimate: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scala99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scala99List Challenge Test: nth position of 2 should returns 2&#10;Scala99List Challenge Test: kth position of an Empty List should throws NoSuchElement Exception&#10;Scala99List Challenge Test: Position greater than list size should throws NosuchElement Exception&#10;Scala99List Challenge Test: kth list of position is 2 should return 3&#10;Scala99List Challenge Test: length() List is empty should returns 0&#10;Scala99List Challenge Test: length() List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Len() with Empty List should returns 0&#10;Scala99List Challenge: Len() with List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Rev() Pass Empty List should Empty List&#10;Scala99List Challenge: Rev() Pass List of Char should Reverse List&#10;Scala99List Challenge: Palindrome Func: Empty List should Return False&#10;Scala99List Challenge: Palindrome Func: Even Palindrome List should Return True&#10;Scala99List Challenge: Palindrome Func: Even Regular List should Return False&#10;Scala99List Challenge: Palindrome Func: Odd List should Return True&#10;Scala99List Challenge: Palindrome Func: Odd Regular List should Return False" />
-        <item itemvalue="ScalaTest.ListTest.Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scala99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: penultimate: Empty List should Throws NoSuchElement Exception&#10;Scala99List Challenge Test: penultimate: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scala99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scala99List Challenge Test: nth position of 2 should returns 2&#10;Scala99List Challenge Test: kth position of an Empty List should throws NoSuchElement Exception&#10;Scala99List Challenge Test: Position greater than list size should throws NosuchElement Exception&#10;Scala99List Challenge Test: kth list of position is 2 should return 3&#10;Scala99List Challenge Test: length() List is empty should returns 0&#10;Scala99List Challenge Test: length() List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Len() with Empty List should returns 0&#10;Scala99List Challenge: Len() with List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Rev() Pass Empty List should Empty List&#10;Scala99List Challenge: Rev() Pass List of Char should Reverse List&#10;Scala99List Challenge: Palindrome Func: Empty List should Return False&#10;Scala99List Challenge: Palindrome Func: Even Palindrome List should Return True&#10;Scala99List Challenge: Palindrome Func: Even Regular List should Return False&#10;Scala99List Challenge: Palindrome Func: Odd List should Return True&#10;Scala99List Challenge: Palindrome Func: Odd Regular List should Return False" />
       </list>
     </recent_temporary>
   </component>
@@ -384,18 +411,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ListTest_Scala99List_Challenge__Len_Function_with_Empty_List_should_returns_0 - 2020.01.18 at 14h 27m 03s.xml">
-      <configuration name="ListTest.Scala99List Challenge: Len Function with Empty List should returns 0" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ListTest_Scala99List_Challenge__Len()_with_List(1,2,3,4)_should_returns_4 - 2020.01.18 at 14h 32m 33s.xml">
-      <configuration name="ListTest.Scala99List Challenge: Len() with List(1,2,3,4) should returns 4" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ListTest_AddPlusOne_Function_(1,2)_should_2 - 2020.01.18 at 15h 34m 33s.xml">
-      <configuration name="ListTest.AddPlusOne Function (1,2) should 2" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ListTest_Scala99List_Challenge__Rev()_Pass_Empty_List_should_Empty_List - 2020.01.18 at 16h 24m 13s.xml">
-      <configuration name="ListTest.Scala99List Challenge: Rev() Pass Empty List should Empty List" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ListTest_Scala99List_Challenge__Rev()_Pass_List_of_Char_should_Empty_List - 2020.01.18 at 16h 53m 50s.xml">
       <configuration name="ListTest.Scala99List Challenge: Rev() Pass List of Char should Empty List" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -414,12 +429,24 @@
     <history-entry file="ListTest_Scala99List_Challenge__Flatten_-__Empty_List_of_Empty_List_should_=__Empty_List - 2020.01.20 at 16h 14m 36s.xml">
       <configuration name="ListTest.Scala99List Challenge: Flatten -&gt; Empty List of Empty List should =&gt; Empty List" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="ListTest_Scala99List_Challenge__compress_Func_empty_list_of_empty_list_should_Returns_empty_list - 2020.01.21 at 23h 41m 44s.xml">
+      <configuration name="ListTest.Scala99List Challenge: compress Func empty list of empty list should Returns empty list" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ListTest_Scala99List_Challenge__compress_Func_empty_list_of_empty_list_should_Returns_empty_list - 2020.01.21 at 23h 42m 54s.xml">
+      <configuration name="ListTest.Scala99List Challenge: compress Func empty list of empty list should Returns empty list" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ListTest_Scala99List_Challenge__compress_func_List('a,_'a,_'a,_'a,_'b,_'c,_'c,_'a,_'a,_'d,_'e,_'e,_'e,_'e)_should_Return_List('a,_'b,_'c,_'a,_'d,_'e) - 2020.01.21 at 23h 48m 23s.xml">
+      <configuration name="ListTest.Scala99List Challenge: compress func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'a, 'd, 'e)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ListTest_Scala99List_Challenge__compress_func_List('a,_'a,_'a,_'a,_'b,_'c,_'c,_'a,_'a,_'d,_'e,_'e,_'e,_'e)_should_Return_List('a,_'b,_'c,_'a,_'d,_'e) - 2020.01.21 at 23h 49m 38s.xml">
+      <configuration name="ListTest.Scala99List Challenge: compress func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'a, 'd, 'e)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.56222224" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20444444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -428,7 +455,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3296582" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3296582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -476,37 +503,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/ListTest.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/Scala99Problems">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.13.0-sources.jar!/scala/collection/StrictOptimizedIterableOps.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="156" column="15" selection-start-line="156" selection-start-column="15" selection-end-line="156" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/FutureFlatMap.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#33#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="373" column="1" lean-forward="true" selection-start-line="373" selection-start-column="1" selection-end-line="373" selection-end-column="1" />
-          <folding>
-            <element signature="e#34#75#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -531,10 +531,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/review/CollectionRev/ArrayRev.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="97" column="16" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/review/CollectionRev/MapReview.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/FutureFlatMap.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#33#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/Scala99Problems">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="376" column="1" lean-forward="true" selection-start-line="376" selection-start-column="1" selection-end-line="384" selection-end-column="75" />
+          <folding>
+            <element signature="e#34#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="163" column="6" selection-start-line="163" selection-start-column="6" selection-end-line="163" selection-end-column="6" />
+        <state relative-caret-position="373">
+          <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
         </state>
       </provider>
     </entry>

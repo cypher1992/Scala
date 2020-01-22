@@ -187,4 +187,32 @@ def rev[T](list:List[T]):List[T] ={
 
   def dedup[T](list:List[T]):List[T]= list.distinct
 
+/*
+  P08 (**) Eliminate consecutive duplicates of list elements.
+  If a list contains repeated elements they should be replaced with a single copy of the element. The order of the elements should not be changed.
+  Example:
+
+  scala> compress(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+*/
+
+
+  def compress[T](list:List[T]):List[T] ={
+
+    val emptyList:List[T] = List.empty[T]
+
+
+    def appendRepeat(lst:List[T],append:List[T]):List[T]={
+
+      lst match {
+        case a if(emptyList.isEmpty) => appendRepeat(lst.tail, lst.head +: append)
+        case a if(list.head != list.tail.head ) => appendRepeat(lst.tail,lst.head +: append)
+        case a if(list.head == list.tail.head ) => appendRepeat(lst.tail,append)
+        case _ => append
+      }
+
+    }
+
+    appendRepeat(list,emptyList)
+  }
+
 }

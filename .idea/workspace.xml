@@ -4,26 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala" line="179" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/local/Projects/Resource/src/NestedList$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/local/Projects/Resource/src/NestedList$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/local/Projects/Resource/src/NestedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/local/Projects/Resource/src/Scala99ListChallenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/local/Projects/Resource/src/Scala99ListChallenge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/com/Scala99Test/ListTest/ListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
-    </list>
+    <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -45,8 +26,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/Scala99Problems">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="204">
-                    <caret line="51" selection-start-line="51" selection-end-line="51" />
+                  <state relative-caret-position="544">
+                    <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
                   </state>
                 </provider>
               </entry>
@@ -63,20 +44,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
+            <state relative-caret-position="444">
+              <caret line="214" column="31" selection-start-line="214" selection-start-column="31" selection-end-line="214" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="376" column="1" lean-forward="true" selection-start-line="376" selection-start-column="1" selection-end-line="384" selection-end-column="75" />
+            <state relative-caret-position="223">
+              <caret line="377" column="10" lean-forward="true" selection-start-line="377" selection-start-column="10" selection-end-line="377" selection-end-column="10" />
               <folding>
                 <element signature="e#34#75#0" expanded="true" />
               </folding>
@@ -100,8 +81,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/FutureFlatMap.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/ListTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/NestedList.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala" />
       </list>
     </option>
   </component>
@@ -557,25 +538,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/Scala99Problems">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="376" column="1" lean-forward="true" selection-start-line="376" selection-start-column="1" selection-end-line="384" selection-end-column="75" />
-          <folding>
-            <element signature="e#34#75#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="544">
+          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
+        <state relative-caret-position="444">
+          <caret line="214" column="31" selection-start-line="214" selection-start-column="31" selection-end-line="214" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="377" column="10" lean-forward="true" selection-start-line="377" selection-start-column="10" selection-end-line="377" selection-end-column="10" />
+          <folding>
+            <element signature="e#34#75#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

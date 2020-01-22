@@ -202,14 +202,11 @@ def rev[T](list:List[T]):List[T] ={
 
 
     def appendRepeat(lst:List[T],append:List[T]):List[T]={
-
-      lst match {
-        case a if(emptyList.isEmpty) => appendRepeat(lst.tail, lst.head +: append)
-        case a if(list.head != list.tail.head ) => appendRepeat(lst.tail,lst.head +: append)
-        case a if(list.head == list.tail.head ) => appendRepeat(lst.tail,append)
-        case _ => append
+      lst match{
+        case a if(lst.isEmpty) => emptyList
+        case a if(append.isEmpty || lst.head != append(append.size-1)) => appendRepeat(list.tail, lst.head +: append)
+        case _ => appendRepeat(list.tail, append)
       }
-
     }
 
     appendRepeat(list,emptyList)

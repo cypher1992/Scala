@@ -397,7 +397,7 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   }
 
 
-  "Scala99List Challenge: dedup func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)" should "Return List('a, 'b, 'c, 'a, 'd, 'e)" in {
+  "Scala99List Challenge: dedup func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)" should "Return List('a, 'b, 'c, 'd, 'e)" in {
 
     val list:List[Char] = List('a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e', 'e')
     val actual:List[Char] = sl99.dedup(list)
@@ -405,5 +405,51 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
 
     assert(actual == expected)
   }
+
+
+  /*
+  P08 (**) Eliminate consecutive duplicates of list elements.
+    If a list contains repeated elements they should be replaced with a single copy of the element. The order of the elements should not be changed.
+    Example:
+
+    scala> compress(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+
+  def compress[T](list:List[T]):List[T] ={
+
+    val emptyList:List[T] = List.empty[T]
+
+
+    def appendRepeat(lst:List[T],append:List[T]):List[T]={
+      lst match{
+        case a if(lst.isEmpty) => emptyList
+        case a if(append.isEmpty || lst.head != append(append.size-1)) => appendRepeat(list.tail, lst.head +: append)
+        case _ => appendRepeat(list.tail, append)
+      }
+    }
+
+    appendRepeat(list,emptyList)
+  }
+  */
+
+  "Scala99List Challenge: compress func Empty List" should "Return Empty List" in {
+
+    val list:List[Char] = List.empty[Char]
+    val actual:List[Char] = sl99.compress(list)
+    val expected:List[Char] = Nil
+
+    assert(actual == expected)
+  }
+
+
+
+  "Scala99List Challenge: compress func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)" should "Return List('a, 'b, 'c, 'a, 'd, 'e)" in {
+
+    val list:List[Char] = List('a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e', 'e')
+    val actual:List[Char] = sl99.compress(list)
+    val expected:List[Char] = List('a', 'b', 'c','a', 'd', 'e')
+
+    assert(actual == expected)
+  }
+
 
 }

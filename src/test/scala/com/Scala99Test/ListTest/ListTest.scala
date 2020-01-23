@@ -385,6 +385,24 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   scala> pack(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
 
   def dedup[T](list:List[T]):List[T]= list.distinct
+
+  def rmDuplicates[T](list:List[T]):List[T]={
+
+    val emptyList:List[T] = List.empty[T]
+
+    def appendDistinct(lst:List[T],append:List[T]):List[T]={
+
+      list match {
+        case a if(lst.isEmpty) => append
+        case a if(append.isEmpty) => appendDistinct(list.tail,append :+ lst.head)
+        case a if(append.exists(index => index == lst.head)) => appendDistinct(list.tail,append)
+        case _ => appendDistinct(list.tail,append :+ lst.head)
+      }
+    }
+
+    appendDistinct(list,emptyList)
+  }
+
 */
 
   "Scala99List Challenge: dedup Func empty list of empty list" should "List of empty list" in {
@@ -407,6 +425,25 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   }
 
 
+  "Scala99List Challenge: rmDuplicates Func empty list of empty list" should "Empty list" in {
+
+    val emptyList:List[Any] = List.empty[Any]
+    val actual:List[Any] = sl99.rmDuplicates(emptyList)
+    val expected:List[Any] = List.empty[Any]
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge: rmDuplicates func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)" should "Return List('a, 'b, 'c, 'd, 'e)" in {
+
+    val list:List[Char] = List('a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e', 'e')
+    val actual:List[Char] = sl99.rmDuplicates(list)
+    val expected:List[Char] = List('a', 'b', 'c', 'd', 'e')
+
+    assert(actual == expected)
+  }
+
+
+
   /*
   P08 (**) Eliminate consecutive duplicates of list elements.
     If a list contains repeated elements they should be replaced with a single copy of the element. The order of the elements should not be changed.
@@ -417,18 +454,17 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   def compress[T](list:List[T]):List[T] ={
 
     val emptyList:List[T] = List.empty[T]
-
-
     def appendRepeat(lst:List[T],append:List[T]):List[T]={
       lst match{
-        case a if(lst.isEmpty) => emptyList
-        case a if(append.isEmpty || lst.head != append(append.size-1)) => appendRepeat(list.tail, lst.head +: append)
-        case _ => appendRepeat(list.tail, append)
+        case a if(lst.isEmpty) => append
+        case a if(append.isEmpty) => appendRepeat(lst.tail, lst.head +: append)
+        case a if(lst.head != append(append.size-1)) => appendRepeat(lst.tail, append :+ lst.head  )
+        case _ => appendRepeat(lst.tail, append)
       }
     }
-
     appendRepeat(list,emptyList)
   }
+
   */
 
   "Scala99List Challenge: compress func Empty List" should "Return Empty List" in {

@@ -187,6 +187,26 @@ def rev[T](list:List[T]):List[T] ={
 
   def dedup[T](list:List[T]):List[T]= list.distinct
 
+
+  def rmDuplicates[T](list:List[T]):List[T]={
+
+    val emptyList:List[T] = List.empty[T]
+
+    def appendDistinct(lst:List[T],append:List[T]):List[T]={
+
+      list match {
+        case a if(lst.isEmpty) => append
+        case a if(append.isEmpty) => appendDistinct(lst.tail,append :+ lst.head)
+        case a if(append.exists(index => index == lst.head)) => appendDistinct(lst.tail,append)
+        case _ => appendDistinct(lst.tail,append :+ lst.head)
+      }
+    }
+
+    appendDistinct(list,emptyList)
+  }
+
+
+
 /*
   P08 (**) Eliminate consecutive duplicates of list elements.
   If a list contains repeated elements they should be replaced with a single copy of the element. The order of the elements should not be changed.
@@ -199,16 +219,14 @@ def rev[T](list:List[T]):List[T] ={
   def compress[T](list:List[T]):List[T] ={
 
     val emptyList:List[T] = List.empty[T]
-
-
     def appendRepeat(lst:List[T],append:List[T]):List[T]={
       lst match{
-        case a if(lst.isEmpty) => emptyList
-        case a if(append.isEmpty || lst.head != append(append.size-1)) => appendRepeat(list.tail, lst.head +: append)
-        case _ => appendRepeat(list.tail, append)
+        case a if(lst.isEmpty) => append
+        case a if(append.isEmpty) => appendRepeat(lst.tail, lst.head +: append)
+        case a if(lst.head != append(append.size-1)) => appendRepeat(lst.tail, append :+ lst.head  )
+        case _ => appendRepeat(lst.tail, append)
       }
     }
-
     appendRepeat(list,emptyList)
   }
 

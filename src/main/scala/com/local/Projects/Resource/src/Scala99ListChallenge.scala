@@ -230,4 +230,36 @@ def rev[T](list:List[T]):List[T] ={
     appendRepeat(list,emptyList)
   }
 
+/*
+  P09 (**) Pack consecutive duplicates of list elements into sublists.
+If a list contains repeated elements they should be placed in separate sublists.
+Example:
+
+scala> pack(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+res0: List[List[Symbol]] = List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e))
+*/
+
+
+  def pack[T](list:List[T]): List[List[T]] ={
+
+    val emptyList:List[List[T]] = List.empty
+    val tempList:List[T] = List.empty[T]
+
+    def combineList(lst:List[T],append:List[List[T]],temp:List[T]): List[List[T]]={
+
+      lst match {
+        case a if(lst.isEmpty) => append :+ temp
+        case b if(temp.isEmpty) => combineList(lst.tail,append,temp:+ lst.head)
+        case c if(lst.head == temp(temp.size-1)) =>  combineList(lst.tail,append,temp:+ lst.head)
+        case _   => combineList(lst.tail,append :+ temp,temp.empty :+ lst.head)
+      }
+
+    }
+    list match {
+      case a if(list.isEmpty) => emptyList
+      case _ => combineList(list,emptyList,tempList)
+    }
+  }
+
+
 }

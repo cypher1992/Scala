@@ -296,6 +296,38 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(expected === actual)
   }
 
+  /*
+    P06 (*) Find out whether a list is a palindrome.
+    Example:
+    scala> isPalindrome(List(1, 2, 3, 2, 1))
+    res0: Boolean = true
+
+     def isPalindrome[T](list:List[T]):Boolean = list == list.reverse
+
+  def palindrome[T](list:List[T]):Boolean ={
+    val halfSize:Int = list.size/2
+    val (halfListA,halfListB) = list.splitAt(halfSize)
+
+    if(list.isEmpty){
+     false
+    }
+    else if(list.size%2 == 0){
+      if(halfListA == halfListB.reverse){
+        true
+      }else {
+        false
+      }
+    }
+    else{
+      if(halfListA == halfListB.tail.reverse){
+        true
+      }else {
+        false
+      }
+    }
+
+  }
+  */
   "Scala99List Challenge: Palindrome Func: Empty List" should "Return False" in {
     val emptyList: List[Int] = List.empty[Int]
     val actual: Boolean = sl99.palindrome(emptyList)
@@ -442,8 +474,6 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual == expected)
   }
 
-
-
   /*
   P08 (**) Eliminate consecutive duplicates of list elements.
     If a list contains repeated elements they should be replaced with a single copy of the element. The order of the elements should not be changed.
@@ -476,8 +506,6 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual == expected)
   }
 
-
-
   "Scala99List Challenge: compress func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)" should "Return List('a, 'b, 'c, 'a, 'd, 'e)" in {
 
     val list:List[Char] = List('a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e', 'e')
@@ -487,5 +515,32 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual == expected)
   }
 
+  /*
+  P09 (**) Pack consecutive duplicates of list elements into sublists.
+  If a list contains repeated elements they should be placed in separate sublists.
+  Example:
+
+  scala> pack(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+  res0: List[List[Symbol]] = List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e))
+*/
+
+  "Scala99List Challenge: pack Func with Empty List" should "Return empty" in{
+
+    val emptyList:List[Char] = List.empty[Char]
+    val actual:List[List[Any]] = sl99.pack(emptyList)
+    val expected:List[Char] = List.empty[Char]
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge: pack Func with List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)" should "return List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e))" in{
+
+    val list:List[Char] = List('a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e', 'e')
+    val actual:List[List[Char]] = sl99.pack(list)
+    val expected:List[List[Char]] = List(List('a', 'a', 'a', 'a'), List('b'), List('c', 'c'), List('a', 'a'), List('d'), List('e', 'e', 'e', 'e'))
+
+    assert(actual == expected)
+
+  }
 
 }

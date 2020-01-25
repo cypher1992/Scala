@@ -261,5 +261,38 @@ res0: List[List[Symbol]] = List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), Li
     }
   }
 
+/*
+  P10 (*) Run-length encoding of a list.
+Use the result of problem P09 to implement the so-called run-length encoding data compression method. Consecutive duplicates of elements are encoded as tuples (N, E) where N is the number of duplicates of the element E.
+Example:
+
+scala> encode(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
+
+    - empty list is a case
+    - List of chars
+*/
+
+  def encode[T](list:List[T]):List[Tuple2[Int,T]] ={
+      val emptyList:List[Tuple2[Int,T]] = List.empty[Tuple2[Int,T]]
+
+      def getTupleIntChar(listChar:List[T]):Tuple2[Int,T] ={
+        Tuple2(listChar.size,listChar(0))
+      }
+
+      def encodeTuple(lst:List[List[T]],append:List[Tuple2[Int,T]]):List[Tuple2[Int,T]] = {
+        lst match {
+          case a if(lst.isEmpty) => append
+          case _ => encodeTuple(lst.tail,append :+ getTupleIntChar(lst.head))
+        }
+      }
+
+    list match{
+
+      case a if(list.isEmpty) => emptyList
+      case _ => encodeTuple(pack(list),emptyList)
+    }
+
+  }
 
 }

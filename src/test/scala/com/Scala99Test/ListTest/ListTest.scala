@@ -543,4 +543,38 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
 
   }
 
+  /*
+  P10 (*) Run-length encoding of a list.
+Use the result of problem P09 to implement the so-called run-length encoding data compression method. Consecutive duplicates of elements are encoded as tuples (N, E) where N is the number of duplicates of the element E.
+Example:
+
+scala> encode(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
+
+    - empty list is a case
+    - List of chars
+*/
+
+
+  "Scala99List Challenge: encode Func with Empty List" should "return empty list" in {
+
+    val emptyList:List[Char] = List.empty[Char]
+    val actual:List[Tuple2[Int,Char]] = sl99.encode(emptyList)
+    val expected:List[Tuple2[Int,Char]] = List.empty[Tuple2[Int,Char]]
+
+    assert(actual == expected)
+
+  }
+
+
+  "Scala99List Challenge: encode Func with Char list" should "return encoded list with chars and int" in {
+
+    val charList:List[Char] = List('a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e', 'e')
+    val actual:List[Tuple2[Int,Char]] = sl99.encode(charList)
+    val expected:List[Tuple2[Int,Char]] = List((4,'a'), (1,'b'), (2,'c'), (2,'a'), (1,'d'), (4,'e'))
+
+    assert(actual == expected)
+  }
+
+  
 }

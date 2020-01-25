@@ -24,10 +24,19 @@ object Sl99 extends App{
   }
 
 
+
+  val listNest:List[List[Char]] = List(List('a', 'a', 'a', 'a'), List('b'), List('c', 'c'), List('a', 'a'), List('d'), List('e', 'e', 'e', 'e'))
+
+  val head:List[Char] = listNest.head
+  val index:Char = head.head
+  val appendList:List[Tuple2[Int,Char]] = List.empty[Tuple2[Int,Char]] :+ Tuple2(2,'C') :+ Tuple2(2,'C')
+
+
   println(
     s"""
-      |${add(list,somethingList)}
-      |
+      |${head}
+      |${index}
+      |${appendList}
     """.stripMargin)
 
 }

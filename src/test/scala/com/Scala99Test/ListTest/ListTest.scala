@@ -641,7 +641,7 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual == expected)
 
   }
-  "Scala99List Challenge: encodeModifed Func: List[Chars]" should "Returns List[Any]" in {
+  "Scala99List Challenge: encodeModifed Func: List[Tuple2[Int,T]" should "Returns List[Any]" in {
 
     val charList:List[Char] = List('a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e', 'e')
     val actual:List[Any] = sl99.encodeModified(charList)
@@ -649,5 +649,34 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
 
     assert(actual == expected)
   }
+
+
+  /*
+   P12 (**) Decode a run-length encoded list.
+   Given a run-length code list generated as specified in problem P10, construct its uncompressed version.
+   Example:
+
+   scala> decode(List((4, 'a), (1, 'b), (2, 'c), (2, 'a), (1, 'd), (4, 'e)))
+   res0: List[Symbol] = List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)
+ */
+
+    "Scala99List Challenge decode Func: Empty List[Char]" should "Returns Empty List" in {
+
+      val emptyList:List[Tuple2[Int,Char]] = List.empty[Tuple2[Int,Char]]
+      val actual:List[Char] = sl99.decode(emptyList)
+      val expected:List[Tuple2[Int,Char]] = List.empty[Tuple2[Int,Char]]
+
+      assert(actual == expected)
+    }
+
+
+    "Scala99List Challenge decode Func: List[Tuple2[Int,Char]]" should "Returns List[Char]" in{
+
+      val list:List[Tuple2[Int,Char]] = List((4,'a'), (1,'b'), (2,'c'), (2,'a'), (1,'d'), (4,'e'))
+      val actual:List[Char] = sl99.decode(list)
+      val expected:List[Char] = List('a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e', 'e')
+
+      assert(actual == expected)
+    }
 
   }

@@ -178,7 +178,7 @@ def rev[T](list:List[T]):List[T] ={
   Example:
   scala> dedup(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
   res0: List[Symbol] = List('a, 'b, 'c, 'd, 'e)
-  P09 (**) Pack duplicates of list elements into sublists.
+  (*) Pack duplicates of list elements into sublists.
   If a list contains repeated elements they should be placed in separate sublists.
   Example:
 
@@ -328,8 +328,33 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
       case a if(list.isEmpty) => emptyList
       case _ => encodeTuple(pack(list),emptyList)
     }
-
-
   }
+
+  /*
+    P12 (**) Decode a run-length encoded list.
+    Given a run-length code list generated as specified in problem P10, construct its uncompressed version.
+    Example:
+
+    scala> decode(List((4, 'a), (1, 'b), (2, 'c), (2, 'a), (1, 'd), (4, 'e)))
+    res0: List[Symbol] = List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)
+  */
+
+    def decode[T](list:List[Tuple2[Int,T]]):List[T]={
+
+      def decodeAppender(lst:List[Tuple2[Int,T]],append:List[T],tup:Tuple2[Int,T]):List[T] ={
+
+        lst match {
+          case a if(lst.isEmpty && tup._1 == 0) => append
+          case b if(tup._1 > 0) => decodeAppender(lst, append :+ tup._2,(tup._1-1,tup._2))
+          case _ => decodeAppender(lst.tail,append,lst.head)
+        }
+      }
+
+      list match{
+        case a if(list.isEmpty) => Nil
+        case _ => decodeAppender(list.tail,Nil,list.head)
+      }
+
+    }
 
 }

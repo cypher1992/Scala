@@ -295,4 +295,41 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
 
   }
 
+ /*
+    P11 (*) Modified run-length encoding.
+    Modify the result of problem P10 in such a way that if an element has no duplicates it is simply copied into the result list. Only elements with duplicates are transferred as (N, E) terms.
+    Example:
+
+    scala> encodeModified(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+    res0: List[Any] = List((4,'a), 'b, (2,'c), (2,'a), 'd, (4,'e))
+ */
+
+
+  def encodeModified[T](list:List[T]):List[Any]={
+
+    val emptyList:List[Tuple2[Int,T]] = List.empty[Tuple2[Int,T]]
+
+    def getTupleIntChar(listChar:List[T]):Any ={
+      listChar match{
+        case a if(listChar.size<2) => listChar(0)
+        case _ => Tuple2(listChar.size,listChar(0))
+      }
+    }
+
+    def encodeTuple(lst:List[List[T]],append:List[Any]):List[Any] = {
+      lst match {
+        case a if(lst.isEmpty) => append
+        case _ => encodeTuple(lst.tail,append :+ getTupleIntChar(lst.head))
+      }
+    }
+
+    list match{
+
+      case a if(list.isEmpty) => emptyList
+      case _ => encodeTuple(pack(list),emptyList)
+    }
+
+
+  }
+
 }

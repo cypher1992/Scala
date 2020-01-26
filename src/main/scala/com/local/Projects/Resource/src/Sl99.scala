@@ -6,37 +6,17 @@ object Sl99 extends App{
 
   val sl99:Scala99ListChallenge = new Scala99ListChallenge
 
-  val list:List[Any] =  List('B','C')
-  val somethingList:List[Any] = List('A')
+  val list:List[Any] =  List('B','C','C','C','A','A','B')
 
+   val encodeList:List[Any]= sl99.encodeModified(list)
 
-  def add(lst:List[Any],anotherList:List[Any]):List[Any] ={
+  val listTuple:List[Tuple2[Int,Char]] = List((4,'a'), (1,'b'), (2,'c'), (2,'a'), (1,'d'), (4,'e'))
 
-    println(
-      s"""
-        |${lst}
-      """.stripMargin)
-    list match {
-      case a if(lst.size>0) => add(lst.empty,anotherList)
-      case _ => lst :+ anotherList.head
-    }
-
-  }
-
-
-
-  val listNest:List[List[Char]] = List(List('a', 'a', 'a', 'a'), List('b'), List('c', 'c'), List('a', 'a'), List('d'), List('e', 'e', 'e', 'e'))
-
-  val head:List[Char] = listNest.head
-  val index:Char = head.head
-  val appendList:List[Tuple2[Int,Char]] = List.empty[Tuple2[Int,Char]] :+ Tuple2(2,'C') :+ Tuple2(2,'C')
-
+  val headtuple1:Int = listTuple.head._1
 
   println(
     s"""
-      |${head}
-      |${index}
-      |${appendList}
-    """.stripMargin)
+      |${encodeList}
+       """.stripMargin)
 
 }

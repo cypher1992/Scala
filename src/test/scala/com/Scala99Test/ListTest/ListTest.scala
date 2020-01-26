@@ -545,14 +545,37 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
 
   /*
   P10 (*) Run-length encoding of a list.
-Use the result of problem P09 to implement the so-called run-length encoding data compression method. Consecutive duplicates of elements are encoded as tuples (N, E) where N is the number of duplicates of the element E.
-Example:
+  Use the result of problem P09 to implement the so-called run-length encoding data compression method. Consecutive duplicates of elements are encoded as tuples (N, E) where N is the number of duplicates of the element E.
+  Example:
 
-scala> encode(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
-res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
+  scala> encode(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+  res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
 
     - empty list is a case
     - List of chars
+
+  def encode[T](list:List[T]):List[Tuple2[Int,T]] ={
+      val emptyList:List[Tuple2[Int,T]] = List.empty[Tuple2[Int,T]]
+
+      def getTupleIntChar(listChar:List[T]):Tuple2[Int,T] ={
+        Tuple2(listChar.size,listChar(0))
+      }
+
+      def encodeTuple(lst:List[List[T]],append:List[Tuple2[Int,T]]):List[Tuple2[Int,T]] = {
+        lst match {
+          case a if(lst.isEmpty) => append
+          case _ => encodeTuple(lst.tail,append :+ getTupleIntChar(lst.head))
+        }
+      }
+
+    list match{
+
+      case a if(list.isEmpty) => emptyList
+      case _ => encodeTuple(pack(list),emptyList)
+    }
+
+  }
+
 */
 
 
@@ -576,5 +599,55 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
     assert(actual == expected)
   }
 
-  
-}
+  /*
+    P11 (*) Modified run-length encoding.
+    Modify the result of problem P10 in such a way that if an element has no duplicates it is simply copied into the result list. Only elements with duplicates are transferred as (N, E) terms.
+    Example:
+
+    scala> encodeModified(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+    res0: List[Any] = List((4,'a), 'b, (2,'c), (2,'a), 'd, (4,'e))
+
+     def encodeModified[T](list:List[T]):List[Any]={
+
+    val emptyList:List[Tuple2[Int,T]] = List.empty[Tuple2[Int,T]]
+
+    def getTupleIntChar(listChar:List[T]):Any ={
+      listChar match{
+        case a if(listChar.size<2) => listChar(0)
+        case _ => Tuple2(listChar.size,listChar(0))
+      }
+    }
+
+    def encodeTuple(lst:List[List[T]],append:List[Any]):List[Any] = {
+      lst match {
+        case a if(lst.isEmpty) => append
+        case _ => encodeTuple(lst.tail,append :+ getTupleIntChar(lst.head))
+      }
+    }
+
+    list match{
+
+      case a if(list.isEmpty) => emptyList
+      case _ => encodeTuple(pack(list),emptyList)
+    }
+ */
+
+  "Scala99List Challenge: encodeModified Func: Empty" should "Returns Empty List" in{
+
+    val emptyList:List[Char] = List.empty[Char]
+    val actual:List[Any] = sl99.encodeModified(emptyList)
+    val expected:List[Char] = List.empty[Char]
+
+    assert(actual == expected)
+
+  }
+  "Scala99List Challenge: encodeModifed Func: List[Chars]" should "Returns List[Any]" in {
+
+    val charList:List[Char] = List('a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e', 'e')
+    val actual:List[Any] = sl99.encodeModified(charList)
+    val expected:List[Any] = List((4,'a'), 'b', (2,'c'), (2,'a'), 'd', (4,'e'))
+
+    assert(actual == expected)
+  }
+
+  }

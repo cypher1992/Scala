@@ -658,6 +658,25 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
 
    scala> decode(List((4, 'a), (1, 'b), (2, 'c), (2, 'a), (1, 'd), (4, 'e)))
    res0: List[Symbol] = List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)
+
+   def decode[T](list:List[Tuple2[Int,T]]):List[T]={
+
+      def decodeAppender(lst:List[Tuple2[Int,T]],append:List[T],tup:Tuple2[Int,T]):List[T] ={
+
+        lst match {
+          case a if(lst.isEmpty && tup._1 == 0) => append
+          case b if(tup._1 > 0) => decodeAppender(lst, append :+ tup._2,(tup._1-1,tup._2))
+          case _ => decodeAppender(lst.tail,append,lst.head)
+        }
+      }
+
+      list match{
+        case a if(list.isEmpty) => Nil
+        case _ => decodeAppender(list.tail,Nil,list.head)
+      }
+
+  }
+
  */
 
     "Scala99List Challenge decode Func: Empty List[Char]" should "Returns Empty List" in {
@@ -678,5 +697,49 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
 
       assert(actual == expected)
     }
+
+
+  /*
+    P13 (**) Run-length encoding of a list (direct solution).
+    Implement the so-called run-length encoding data compression method directly. I.e. don't use other methods you've written (like P09's pack); do all the work directly.
+    Example:
+
+    scala> encodeDirect(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+    res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
+
+    def encodeDirect[T](list:List[T]):List[Tuple2[Int,T]]={
+
+    def encDirAppend(lst:List[T],append:List[Tuple2[Int,T]],tup:Tuple2[Int,T]):List[Tuple2[Int,T]]={
+
+        lst match{
+          case a if(lst.isEmpty) => append :+ tup
+          case b if(tup._2 == lst.head) => encDirAppend(lst.tail,append,Tuple2(tup._1+1,tup._2))
+          case _ =>  encDirAppend(lst.tail,append :+ tup,Tuple2(1,lst.head))
+        }
+      }
+
+    list match{
+      case a if(list.isEmpty) => Nil
+      case _ =>  encDirAppend(list.tail,Nil,(1,list.head))
+    }
+  }
+
+  */
+
+  "Scala99List Challenge EncodeDirect Func: Empty List" should "Returns Empty List" in {
+    val emptyList = List.empty
+    val actual:List[Tuple2[Int,Char]] = sl99.encodeDirect(emptyList)
+    val expected = List.empty
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge EncodeDirect: List[Char]" should "Return List[Tuple2[Int,Char]]" in{
+    val list:List[Char] = List('a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e', 'e')
+    val actual:List[Tuple2[Int,Char]] = sl99.encodeDirect(list)
+    val expected:List[Tuple2[Int,Char]] = List((4,'a'), (1,'b'), (2,'c'), (2,'a'), (1,'d'), (4,'e'))
+
+    assert(actual == expected)
+  }
 
   }

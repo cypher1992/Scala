@@ -357,4 +357,31 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
 
     }
 
+  /*
+    P13 (**) Run-length encoding of a list (direct solution).
+    Implement the so-called run-length encoding data compression method directly. I.e. don't use other methods you've written (like P09's pack); do all the work directly.
+    Example:
+
+    scala> encodeDirect(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+    res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
+  */
+
+  def encodeDirect[T](list:List[T]):List[Tuple2[Int,T]]={
+
+    def encDirAppend(lst:List[T],append:List[Tuple2[Int,T]],tup:Tuple2[Int,T]):List[Tuple2[Int,T]]={
+
+        lst match{
+          case a if(lst.isEmpty) => append :+ tup
+          case b if(tup._2 == lst.head) => encDirAppend(lst.tail,append,Tuple2(tup._1+1,tup._2))
+          case _ =>  encDirAppend(lst.tail,append :+ tup,Tuple2(1,lst.head))
+        }
+      }
+
+    list match{
+      case a if(list.isEmpty) => Nil
+      case _ =>  encDirAppend(list.tail,Nil,(1,list.head))
+    }
+  }
+
+
 }

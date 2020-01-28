@@ -413,4 +413,36 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
     dups(list)
   }
 
+  /*
+    P15 (**) Duplicate the elements of a list a given number of times.
+    Example:
+    scala> duplicateN(3, List('a, 'b, 'c, 'c, 'd))
+    res0: List[Symbol] = List('a, 'a, 'a, 'b, 'b, 'b, 'c, 'c, 'c, 'c, 'c, 'c, 'd, 'd, 'd)
+  */
+
+
+  def duplicateN[T](list:List[T],multiplier:Int=1):List[T]={
+
+    def appendDup(index:T,count:Int,append:List[T]):List[T]={
+
+      count match{
+        case a if(count != 0) => appendDup(index,count-1,append :+ index)
+        case _ => append
+      }
+    }
+
+    def dups(lst:List[T],emptyList:List[T] =Nil,counter:Int = 1):List[T]={
+
+      lst match {
+        case a if(lst.isEmpty) => emptyList
+        case b if(lst.size == 1) => appendDup(lst.head,counter*multiplier,emptyList)
+        case c if(lst.head == lst.tail.head) => dups(lst.tail,emptyList,counter+1)
+        case _ => dups(lst.tail,appendDup(lst.head,counter*multiplier,emptyList),1)
+      }
+    }
+
+    dups(list)
+  }
+
+
 }

@@ -801,5 +801,40 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual == expected)
   }
 
+  /*
+    P15 (**) Duplicate the elements of a list a given number of times.
+    Example:
+    scala> duplicateN(3, List('a, 'b, 'c, 'c, 'd))
+    res0: List[Symbol] = List('a, 'a, 'a, 'b, 'b, 'b, 'c, 'c, 'c, 'c, 'c, 'c, 'd, 'd, 'd)
+  */
+
+  "Scala99List Challenge duplicateN Func: Empty List" should "Empty List" in {
+
+    val emptyList:List[Char] = List.empty[Char]
+    val actual:List[Char] = sl99.duplicateN(emptyList)
+    val expected:List[Char] = List.empty[Char]
+
+    assert(actual == expected)
+
+  }
+
+  "Scala99List Challenge duplicateN Func: List[Char](2X)" should "ListChar Duplicte" in{
+
+    val list:List[Char] = List('A','B','C','D')
+    val actual:List[Char] = sl99.duplicateN(list,2)
+    val expected:List[Char] = List('A','A','B','B','C','C','D','D')
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge duplicateN Func: Variation List[Char]" should "ListChar Duplicates" in{
+
+    val list:List[Char] = List('a', 'b', 'c', 'c', 'd')
+    val actual:List[Char] = sl99.duplicateN(list,3)
+    val expected:List[Char] = List('a', 'a', 'a', 'b', 'b', 'b', 'c', 'c', 'c', 'c', 'c', 'c', 'd', 'd', 'd')
+
+    assert(actual == expected)
+  }
+
 
   }

@@ -742,4 +742,30 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual == expected)
   }
 
+  /*
+    P14 (*) Duplicate the elements of a list.
+    Example:
+    scala> duplicate(List('a, 'b, 'c, 'c, 'd))
+    res0: List[Symbol] = List('a, 'a, 'b, 'b, 'c, 'c, 'c, 'c, 'd, 'd)
+  */
+
+  "Scala99List Challenge Duplicate Func: Empty List" should "Empty List" in {
+
+    val emptyList:List[Char] = List.empty[Char]
+    val actual:List[Char] = sl99.duplicate(emptyList)
+    val expected:List[Char] = List.empty[Char]
+
+    assert(actual == expected)
+
+  }
+
+  "Scala99List Challenge Duplicate Func: List[Char]" should "ListChar Duplicte" in{
+
+    val list:List[Char] = List('A','B','C','D')
+    val actual:List[Char] = sl99.duplicate(list)
+    val expected:List[Char] = List('A','A','B','B','C','C','D','D')
+
+    assert(actual == expected)
+  }
+
   }

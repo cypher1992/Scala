@@ -837,4 +837,13 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   }
 
 
+  "Scala99List Challenge duplicateN Func: Variation List[Chars]" should "ListChar Duplicates" in{
+
+    val list:List[Char] = List('a', 'b', 'c', 'c', 'd','e')
+    val actual:List[Char] = sl99.duplicateN(list,3)
+    val expected:List[Char] = List('a', 'a', 'a', 'b', 'b', 'b', 'c', 'c', 'c', 'c', 'c', 'c', 'd', 'd', 'd','e','e','e')
+
+    assert(actual == expected)
+  }
+
   }

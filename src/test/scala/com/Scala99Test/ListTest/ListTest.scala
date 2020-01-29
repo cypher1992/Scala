@@ -903,7 +903,9 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     val actual:List[Char] = sl99.drop(3,list)
     val expected:List[Char] = List('a', 'b', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')
 
+    assert(actual == expected)
   }
+
 
 
   }

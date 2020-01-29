@@ -445,7 +445,7 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
   }
 
 /*
-  P16 (**) Drop Nth element from a list.
+  P16 (*) Drop Nth element from a list.
   Example:
   scala> drop(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
   res0: List[Symbol] = List('a, 'b, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k)
@@ -456,13 +456,35 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
     def del(pos:Int,lst:List[T],append:List[T]):List[T]={
       lst match{
         case a if(lst.isEmpty) =>append
-        case b if(pos == 0) => append ::: lst.tail
+        case b if(pos == 1) => append ::: lst.tail
         case _ => del(pos-1,lst.tail,append :+ lst.head)
       }
 
     }
     del(position,list,Nil)
   }
+
+
+/*
+  P17 (**) DropAdvance every Nth element from a list.
+  Example:
+  scala> dropAdvance(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+  res0: List[Symbol] = List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)
+*/
+
+  def dropAdvance[T](int:Int,list:List[T]):List[T]={
+
+    def dropXn(pos:Int=int,lst:List[T]=list,append:List[T]=Nil):List[T] ={
+      lst match {
+        case a if(lst.isEmpty) => append
+        case b if(pos == 1) => dropXn(int,lst.tail,append)
+        case _ => dropXn(pos-1,lst.tail,append:+lst.head)
+      }
+    }
+
+    dropXn()
+  }
+
 
 
 }

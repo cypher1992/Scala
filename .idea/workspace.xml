@@ -4,7 +4,17 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala" line="179" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="" />
+    <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/local/Projects/Resource/src/Scala99ListChallenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/local/Projects/Resource/src/Scala99ListChallenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/com/Scala99Test/ListTest/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/com/Scala99Test/ListTest/ListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -26,8 +36,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/Scala99Problems">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="578">
-                    <caret line="94" column="29" selection-start-line="92" selection-end-line="95" selection-end-column="57" />
+                  <state relative-caret-position="561">
+                    <caret line="93" column="8" selection-start-line="92" selection-end-line="95" selection-end-column="57" />
                   </state>
                 </provider>
               </entry>
@@ -47,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="452" selection-start-line="452" selection-end-line="452" />
+            <state relative-caret-position="322">
+              <caret line="475" lean-forward="true" selection-start-line="475" selection-end-line="475" />
             </state>
           </provider>
         </entry>
@@ -65,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="888" column="39" selection-start-line="888" selection-start-column="39" selection-end-line="888" selection-end-column="39" />
+            <state relative-caret-position="376">
+              <caret line="905" column="30" selection-start-line="905" selection-start-column="30" selection-end-line="905" selection-end-column="30" />
               <folding>
                 <element signature="e#34#75#0" expanded="true" />
               </folding>
@@ -276,25 +286,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.Scala99List Challenge duplicateN Func: Variation List[Char] should ListChar Duplicates" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
-      <setting name="testName" value="Scala99List Challenge duplicateN Func: Variation List[Char] should ListChar Duplicates" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ListTest.Scala99List Challenge duplicateN Func: Variation List[Chars] should ListChar Duplicates" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
@@ -333,6 +324,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListTest.Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scala99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: penultimate: Empty List should Throws NoSuchElement Exception&#10;Scala99List Challenge Test: penultimate: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scala99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scala99List Challenge Test: nth position of 2 should returns 2&#10;Scala99List Challenge Test: kth position of an Empty List should throws NoSuchElement Exception&#10;Scala99List Challenge Test: Position greater than list size should throws NosuchElement Exception&#10;Scala99List Challenge Test: kth list of position is 2 should return 3&#10;Scala99List Challenge Test: length() List is empty should returns 0&#10;Scala99List Challenge Test: length() List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Len() with Empty List should returns 0&#10;Scala99List Challenge: Len() with List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Rev() Pass Empty List should Empty List&#10;Scala99List Challenge: Rev() Pass List of Char should Reverse List&#10;Scala99List Challenge: Palindrome Func: Empty List should Return False&#10;Scala99List Challenge: Palindrome Func: Even Palindrome List should Return True&#10;Scala99List Challenge: Palindrome Func: Even Regular List should Return False&#10;Scala99List Challenge: Palindrome Func: Odd List should Return True&#10;Scala99List Challenge: Palindrome Func: Odd Regular List should Return False&#10;Scala99List Challenge: Flatten -&gt; Empty List of Empty List should =&gt; Empty List&#10;Scala99List Challenge: Flatten -&gt;  List of List with Empty List should =&gt; List&#10;Scala99List Challenge: dedup Func empty list of empty list should List of empty list&#10;Scala99List Challenge: dedup func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'd, 'e)&#10;Scala99List Challenge: rmDuplicates Func empty list of empty list should Empty list&#10;Scala99List Challenge: rmDuplicates func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'd, 'e)&#10;Scala99List Challenge: compress func Empty List should Return Empty List&#10;Scala99List Challenge: compress func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'a, 'd, 'e)&#10;Scala99List Challenge: pack Func with Empty List should Return empty&#10;Scala99List Challenge: pack Func with List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should return List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e))&#10;Scala99List Challenge: encode Func with Empty List should return empty list&#10;Scala99List Challenge: encode Func with Char list should return encoded list with chars and int&#10;Scala99List Challenge: encodeModified Func: Empty should Returns Empty List&#10;Scala99List Challenge: encodeModifed Func: List[Tuple2[Int,T] should Returns List[Any]&#10;Scala99List Challenge decode Func: Empty List[Char] should Returns Empty List&#10;Scala99List Challenge decode Func: List[Tuple2[Int,Char]] should Returns List[Char]&#10;Scala99List Challenge EncodeDirect Func: Empty List should Returns Empty List&#10;Scala99List Challenge EncodeDirect: List[Char] should Return List[Tuple2[Int,Char]]&#10;Scala99List Challenge Duplicate Func: Empty List should Empty List&#10;Scala99List Challenge Duplicate Func: List[Char] should ListChar Duplicte&#10;Scala99List Challenge Duplicate Func: Variation List[Char] should ListChar Duplicates&#10;Scala99List Challenge duplicateN Func: Empty List should Empty List&#10;Scala99List Challenge duplicateN Func: List[Char](2X) should ListChar Duplicte&#10;Scala99List Challenge duplicateN Func: Variation List[Char] should ListChar Duplicates&#10;Scala99List Challenge duplicateN Func: Variation List[Chars] should ListChar Duplicates&#10;Scala99list Challenge drop(0,emptyList) should Empty List&#10;Scala99List Challenge drop(3,List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k)) should return List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
+      <setting name="testName" value="Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scala99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: penultimate: Empty List should Throws NoSuchElement Exception&#10;Scala99List Challenge Test: penultimate: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scala99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scala99List Challenge Test: nth position of 2 should returns 2&#10;Scala99List Challenge Test: kth position of an Empty List should throws NoSuchElement Exception&#10;Scala99List Challenge Test: Position greater than list size should throws NosuchElement Exception&#10;Scala99List Challenge Test: kth list of position is 2 should return 3&#10;Scala99List Challenge Test: length() List is empty should returns 0&#10;Scala99List Challenge Test: length() List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Len() with Empty List should returns 0&#10;Scala99List Challenge: Len() with List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Rev() Pass Empty List should Empty List&#10;Scala99List Challenge: Rev() Pass List of Char should Reverse List&#10;Scala99List Challenge: Palindrome Func: Empty List should Return False&#10;Scala99List Challenge: Palindrome Func: Even Palindrome List should Return True&#10;Scala99List Challenge: Palindrome Func: Even Regular List should Return False&#10;Scala99List Challenge: Palindrome Func: Odd List should Return True&#10;Scala99List Challenge: Palindrome Func: Odd Regular List should Return False&#10;Scala99List Challenge: Flatten -&gt; Empty List of Empty List should =&gt; Empty List&#10;Scala99List Challenge: Flatten -&gt;  List of List with Empty List should =&gt; List&#10;Scala99List Challenge: dedup Func empty list of empty list should List of empty list&#10;Scala99List Challenge: dedup func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'd, 'e)&#10;Scala99List Challenge: rmDuplicates Func empty list of empty list should Empty list&#10;Scala99List Challenge: rmDuplicates func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'd, 'e)&#10;Scala99List Challenge: compress func Empty List should Return Empty List&#10;Scala99List Challenge: compress func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'a, 'd, 'e)&#10;Scala99List Challenge: pack Func with Empty List should Return empty&#10;Scala99List Challenge: pack Func with List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should return List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e))&#10;Scala99List Challenge: encode Func with Empty List should return empty list&#10;Scala99List Challenge: encode Func with Char list should return encoded list with chars and int&#10;Scala99List Challenge: encodeModified Func: Empty should Returns Empty List&#10;Scala99List Challenge: encodeModifed Func: List[Tuple2[Int,T] should Returns List[Any]&#10;Scala99List Challenge decode Func: Empty List[Char] should Returns Empty List&#10;Scala99List Challenge decode Func: List[Tuple2[Int,Char]] should Returns List[Char]&#10;Scala99List Challenge EncodeDirect Func: Empty List should Returns Empty List&#10;Scala99List Challenge EncodeDirect: List[Char] should Return List[Tuple2[Int,Char]]&#10;Scala99List Challenge Duplicate Func: Empty List should Empty List&#10;Scala99List Challenge Duplicate Func: List[Char] should ListChar Duplicte&#10;Scala99List Challenge Duplicate Func: Variation List[Char] should ListChar Duplicates&#10;Scala99List Challenge duplicateN Func: Empty List should Empty List&#10;Scala99List Challenge duplicateN Func: List[Char](2X) should ListChar Duplicte&#10;Scala99List Challenge duplicateN Func: Variation List[Char] should ListChar Duplicates&#10;Scala99List Challenge duplicateN Func: Variation List[Chars] should ListChar Duplicates&#10;Scala99list Challenge drop(0,emptyList) should Empty List&#10;Scala99List Challenge drop(3,List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k)) should return List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListTest.Scala99list Challenge Drop(0,emptyList) should Empty List" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.Scala99Test.ListTest.ListTest" />
@@ -355,10 +365,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="ScalaTest.ListTest.Scala99List Challenge drop(3,List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k)) should return List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)" />
+        <item itemvalue="ScalaTest.ListTest.Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scala99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: penultimate: Empty List should Throws NoSuchElement Exception&#10;Scala99List Challenge Test: penultimate: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scala99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scala99List Challenge Test: nth position of 2 should returns 2&#10;Scala99List Challenge Test: kth position of an Empty List should throws NoSuchElement Exception&#10;Scala99List Challenge Test: Position greater than list size should throws NosuchElement Exception&#10;Scala99List Challenge Test: kth list of position is 2 should return 3&#10;Scala99List Challenge Test: length() List is empty should returns 0&#10;Scala99List Challenge Test: length() List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Len() with Empty List should returns 0&#10;Scala99List Challenge: Len() with List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Rev() Pass Empty List should Empty List&#10;Scala99List Challenge: Rev() Pass List of Char should Reverse List&#10;Scala99List Challenge: Palindrome Func: Empty List should Return False&#10;Scala99List Challenge: Palindrome Func: Even Palindrome List should Return True&#10;Scala99List Challenge: Palindrome Func: Even Regular List should Return False&#10;Scala99List Challenge: Palindrome Func: Odd List should Return True&#10;Scala99List Challenge: Palindrome Func: Odd Regular List should Return False&#10;Scala99List Challenge: Flatten -&gt; Empty List of Empty List should =&gt; Empty List&#10;Scala99List Challenge: Flatten -&gt;  List of List with Empty List should =&gt; List&#10;Scala99List Challenge: dedup Func empty list of empty list should List of empty list&#10;Scala99List Challenge: dedup func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'd, 'e)&#10;Scala99List Challenge: rmDuplicates Func empty list of empty list should Empty list&#10;Scala99List Challenge: rmDuplicates func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'd, 'e)&#10;Scala99List Challenge: compress func Empty List should Return Empty List&#10;Scala99List Challenge: compress func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'a, 'd, 'e)&#10;Scala99List Challenge: pack Func with Empty List should Return empty&#10;Scala99List Challenge: pack Func with List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should return List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e))&#10;Scala99List Challenge: encode Func with Empty List should return empty list&#10;Scala99List Challenge: encode Func with Char list should return encoded list with chars and int&#10;Scala99List Challenge: encodeModified Func: Empty should Returns Empty List&#10;Scala99List Challenge: encodeModifed Func: List[Tuple2[Int,T] should Returns List[Any]&#10;Scala99List Challenge decode Func: Empty List[Char] should Returns Empty List&#10;Scala99List Challenge decode Func: List[Tuple2[Int,Char]] should Returns List[Char]&#10;Scala99List Challenge EncodeDirect Func: Empty List should Returns Empty List&#10;Scala99List Challenge EncodeDirect: List[Char] should Return List[Tuple2[Int,Char]]&#10;Scala99List Challenge Duplicate Func: Empty List should Empty List&#10;Scala99List Challenge Duplicate Func: List[Char] should ListChar Duplicte&#10;Scala99List Challenge Duplicate Func: Variation List[Char] should ListChar Duplicates&#10;Scala99List Challenge duplicateN Func: Empty List should Empty List&#10;Scala99List Challenge duplicateN Func: List[Char](2X) should ListChar Duplicte&#10;Scala99List Challenge duplicateN Func: Variation List[Char] should ListChar Duplicates&#10;Scala99List Challenge duplicateN Func: Variation List[Chars] should ListChar Duplicates&#10;Scala99list Challenge drop(0,emptyList) should Empty List&#10;Scala99List Challenge drop(3,List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k)) should return List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)" />
         <item itemvalue="ScalaTest.ListTest.Scala99list Challenge Drop(0,emptyList) should Empty List" />
         <item itemvalue="ScalaTest.ListTest.Scala99ListChallenge Test: Empty List should Return Nil&#10;Scala99List Challenge Test: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99ListChallenge Test: Last Func: Empty List should Throw Exception&#10;Scala99List Challenge Test: Last Func: List with 3 Values List(1,2,3) should Return Last Position: Value 3&#10;Scala99List Challenge Test: lastOfLastElement: Empty List should Expect Nil&#10;Scala99List Challenge Test: lastOfLastElement: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: penultimate: Empty List should Throws NoSuchElement Exception&#10;Scala99List Challenge Test: penultimate: List(1,2,3,4) should Expect Value 3&#10;Scala99List Challenge Test: nth position of an Empty list should returns Nil&#10;Scala99List Challenge Test: nth position of an List with Index out of bound index should returns Nil&#10;Scala99List Challenge Test: nth position of 2 should returns 2&#10;Scala99List Challenge Test: kth position of an Empty List should throws NoSuchElement Exception&#10;Scala99List Challenge Test: Position greater than list size should throws NosuchElement Exception&#10;Scala99List Challenge Test: kth list of position is 2 should return 3&#10;Scala99List Challenge Test: length() List is empty should returns 0&#10;Scala99List Challenge Test: length() List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Len() with Empty List should returns 0&#10;Scala99List Challenge: Len() with List(1,2,3,4) should returns 4&#10;Scala99List Challenge: Rev() Pass Empty List should Empty List&#10;Scala99List Challenge: Rev() Pass List of Char should Reverse List&#10;Scala99List Challenge: Palindrome Func: Empty List should Return False&#10;Scala99List Challenge: Palindrome Func: Even Palindrome List should Return True&#10;Scala99List Challenge: Palindrome Func: Even Regular List should Return False&#10;Scala99List Challenge: Palindrome Func: Odd List should Return True&#10;Scala99List Challenge: Palindrome Func: Odd Regular List should Return False&#10;Scala99List Challenge: Flatten -&gt; Empty List of Empty List should =&gt; Empty List&#10;Scala99List Challenge: Flatten -&gt;  List of List with Empty List should =&gt; List&#10;Scala99List Challenge: dedup Func empty list of empty list should List of empty list&#10;Scala99List Challenge: dedup func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'd, 'e)&#10;Scala99List Challenge: rmDuplicates Func empty list of empty list should Empty list&#10;Scala99List Challenge: rmDuplicates func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'd, 'e)&#10;Scala99List Challenge: compress func Empty List should Return Empty List&#10;Scala99List Challenge: compress func List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should Return List('a, 'b, 'c, 'a, 'd, 'e)&#10;Scala99List Challenge: pack Func with Empty List should Return empty&#10;Scala99List Challenge: pack Func with List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e) should return List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e))&#10;Scala99List Challenge: encode Func with Empty List should return empty list&#10;Scala99List Challenge: encode Func with Char list should return encoded list with chars and int&#10;Scala99List Challenge: encodeModified Func: Empty should Returns Empty List&#10;Scala99List Challenge: encodeModifed Func: List[Tuple2[Int,T] should Returns List[Any]&#10;Scala99List Challenge decode Func: Empty List[Char] should Returns Empty List&#10;Scala99List Challenge decode Func: List[Tuple2[Int,Char]] should Returns List[Char]&#10;Scala99List Challenge EncodeDirect Func: Empty List should Returns Empty List&#10;Scala99List Challenge EncodeDirect: List[Char] should Return List[Tuple2[Int,Char]]&#10;Scala99List Challenge Duplicate Func: Empty List should Empty List&#10;Scala99List Challenge Duplicate Func: List[Char] should ListChar Duplicte&#10;Scala99List Challenge Duplicate Func: Variation List[Char] should ListChar Duplicates&#10;Scala99List Challenge duplicateN Func: Empty List should Empty List&#10;Scala99List Challenge duplicateN Func: List[Char](2X) should ListChar Duplicte&#10;Scala99List Challenge duplicateN Func: Variation List[Char] should ListChar Duplicates&#10;Scala99List Challenge duplicateN Func: Variation List[Chars] should ListChar Duplicates" />
         <item itemvalue="ScalaTest.ListTest.Scala99List Challenge duplicateN Func: Variation List[Chars] should ListChar Duplicates" />
-        <item itemvalue="ScalaTest.ListTest.Scala99List Challenge duplicateN Func: Variation List[Char] should ListChar Duplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -408,12 +418,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ListTest_Scala99List_Challenge_duplicateN_Func__Empty_List_should_Empty_List - 2020.01.27 at 22h 48m 59s.xml">
-      <configuration name="ListTest.Scala99List Challenge duplicateN Func: Empty List should Empty List" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ListTest_Scala99List_Challenge_duplicateN_Func__List[Char](2X)_should_ListChar_Duplicte - 2020.01.27 at 22h 49m 12s.xml">
-      <configuration name="ListTest.Scala99List Challenge duplicateN Func: List[Char](2X) should ListChar Duplicte" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ListTest_Scala99List_Challenge_duplicateN_Func__Variation_List[Char]_should_ListChar_Duplicates - 2020.01.27 at 22h 49m 37s.xml">
       <configuration name="ListTest.Scala99List Challenge duplicateN Func: Variation List[Char] should ListChar Duplicates" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -436,6 +440,12 @@
       <configuration name="ListTest.Scala99list Challenge Drop(0,emptyList) should Empty List" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="ListTest_Scala99List_Challenge_drop(3,List('a,_'b,_'c,_'d,_'e,_'f,_'g,_'h,_'i,_'j,_'k))_should_return_List('a,_'b,_'d,_'e,_'g,_'h,_'j,_'k) - 2020.01.28 at 20h 18m 51s.xml">
+      <configuration name="ListTest.Scala99List Challenge drop(3,List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k)) should return List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ListTest_Scala99List_Challenge_drop(3,List('a,_'b,_'c,_'d,_'e,_'f,_'g,_'h,_'i,_'j,_'k))_should_return_List('a,_'b,_'d,_'e,_'g,_'h,_'j,_'k) - 2020.01.28 at 20h 58m 09s.xml">
+      <configuration name="ListTest.Scala99List Challenge drop(3,List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k)) should return List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ListTest_Scala99List_Challenge_drop(3,List('a,_'b,_'c,_'d,_'e,_'f,_'g,_'h,_'i,_'j,_'k))_should_return_List('a,_'b,_'d,_'e,_'g,_'h,_'j,_'k) - 2020.01.28 at 20h 58m 52s.xml">
       <configuration name="ListTest.Scala99List Challenge drop(3,List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k)) should return List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
@@ -572,8 +582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/Scala99Problems">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="94" column="29" selection-start-line="92" selection-end-line="95" selection-end-column="57" />
+        <state relative-caret-position="561">
+          <caret line="93" column="8" selection-start-line="92" selection-end-line="95" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -586,8 +596,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="888" column="39" selection-start-line="888" selection-start-column="39" selection-end-line="888" selection-end-column="39" />
+        <state relative-caret-position="376">
+          <caret line="905" column="30" selection-start-line="905" selection-start-column="30" selection-end-line="905" selection-end-column="30" />
           <folding>
             <element signature="e#34#75#0" expanded="true" />
           </folding>
@@ -596,8 +606,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="452" selection-start-line="452" selection-end-line="452" />
+        <state relative-caret-position="322">
+          <caret line="475" lean-forward="true" selection-start-line="475" selection-end-line="475" />
         </state>
       </provider>
     </entry>

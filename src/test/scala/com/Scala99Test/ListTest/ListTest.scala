@@ -897,7 +897,7 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual == expected)
   }
 
-  "Scala99List Challenge drop(3,List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))" should "return List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)" in{
+  "Scala99List Challenge drop(3,List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))" should "return List('a', 'b', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')" in{
 
     val list:List[Char] = List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')
     val actual:List[Char] = sl99.drop(3,list)
@@ -906,6 +906,29 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual == expected)
   }
 
+  /*
+  P17 (**) DropAdvance every Nth element from a list.
+  Example:
+  scala> dropAdvance(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+  res0: List[Symbol] = List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)
+*/
 
 
+  "Scala99list Challenge dropAdvance(0,emptyList)" should "Empty List" in {
+    val emptyList:List[Char] = List.empty[Char]
+    val actual:List[Char] = sl99.dropAdvance(0,emptyList)
+    val expected:List[Char] = List.empty[Char]
+
+    assert(actual == expected)
   }
+
+  "Scala99List Challenge dropAdvance(3,List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))" should "return List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)" in{
+
+    val list:List[Char] = List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')
+    val actual:List[Char] = sl99.dropAdvance(3,list)
+    val expected:List[Char] = List('a', 'b', 'd', 'e', 'g', 'h', 'j', 'k')
+
+    assert(actual == expected)
+  }
+
+}

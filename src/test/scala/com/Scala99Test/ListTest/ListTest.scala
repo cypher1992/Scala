@@ -962,6 +962,26 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual == expected)
   }
 
+  "Scala99List Challenge: Split(0,List('A','B','C','D'))" should "Return: (Nil,List)" in{
+
+    val list:List[Char] = List('A','B','C','D')
+    val actual:Any = sl99.split(0,list)
+    val expected:(List[Char],List[Char]) = (List.empty[Char],list)
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge: Split(list.size+1,List('A','B','C','D'))" should "Return: (Nil,List)" in{
+
+    val list:List[Char] = List('A','B','C','D')
+    val sizePlus1:Int = list.size+1
+    val actual:Any = sl99.split(sizePlus1,list)
+    val expected:(List[Char],List[Char]) = (List.empty[Char],list)
+
+    assert(actual == expected)
+  }
+
+
   "Scala99List Challenge: Split(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))" should "Return (List('a, 'b, 'c),List('d, 'e, 'f, 'g, 'h, 'i, 'j, 'k))" in {
 
     val list:List[Char] = List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')

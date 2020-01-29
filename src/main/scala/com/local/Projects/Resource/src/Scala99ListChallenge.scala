@@ -499,7 +499,8 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
     def splitAppend(pos:Int =position,lst:List[T]=list,append:List[T]=Nil):(List[T],List[T]) ={
       list match {
         case a if(lst.isEmpty) => (Nil,Nil)
-        case b if(pos==1) => (append:+lst.head,lst.tail)
+        case b if(pos <1 || pos > lst.size ) => (Nil,lst)
+        case c if(pos==1) => (append:+lst.head,lst.tail)
         case _ => splitAppend(pos-1,lst.tail,append :+ lst.head)
       }
     }

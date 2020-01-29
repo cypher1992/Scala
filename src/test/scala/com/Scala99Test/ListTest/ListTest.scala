@@ -911,8 +911,21 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   Example:
   scala> dropAdvance(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
   res0: List[Symbol] = List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)
-*/
 
+   def dropAdvance[T](int:Int,list:List[T]):List[T]={
+
+    def dropXn(pos:Int=int,lst:List[T]=list,append:List[T]=Nil):List[T] ={
+      lst match {
+        case a if(lst.isEmpty) => append
+        case b if(pos == 1) => dropXn(int,lst.tail,append)
+        case _ => dropXn(pos-1,lst.tail,append:+lst.head)
+      }
+    }
+
+    dropXn()
+  }
+
+*/
 
   "Scala99list Challenge dropAdvance(0,emptyList)" should "Empty List" in {
     val emptyList:List[Char] = List.empty[Char]
@@ -927,6 +940,33 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     val list:List[Char] = List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')
     val actual:List[Char] = sl99.dropAdvance(3,list)
     val expected:List[Char] = List('a', 'b', 'd', 'e', 'g', 'h', 'j', 'k')
+
+    assert(actual == expected)
+  }
+
+  /*
+    P17 (*) Split a list into two parts.
+    The length of the first part is given. Use a Tuple for your result.
+    Example:
+
+    scala> split(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+    res0: (List[Symbol], List[Symbol]) = (List('a, 'b, 'c),List('d, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+  */
+
+  "Scala99List Challenge: Split(Empty)" should "Return: (Nil,Nil)" in{
+
+    val emptyList:List[Char] = List.empty[Char]
+    val actual:Any = sl99.split(2,emptyList)
+    val expected:(List[Char],List[Char]) = (List.empty[Char],List.empty[Char])
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge: Split(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))" should "Return (List('a, 'b, 'c),List('d, 'e, 'f, 'g, 'h, 'i, 'j, 'k))" in {
+
+    val list:List[Char] = List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')
+    val actual:Any = sl99.split(3,list)
+    val expected:(List[Char],List[Char]) = (List('a', 'b', 'c'),List('d', 'e', 'f', 'g', 'h', 'i', 'j', 'k'))
 
     assert(actual == expected)
   }

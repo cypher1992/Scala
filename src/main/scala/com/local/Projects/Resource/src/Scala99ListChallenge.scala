@@ -485,7 +485,26 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
     dropXn()
   }
 
+/*
+  P17 (*) Split a list into two parts.
+  The length of the first part is given. Use a Tuple for your result.
+  Example:
 
+  scala> split(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+  res0: (List[Symbol], List[Symbol]) = (List('a, 'b, 'c),List('d, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+*/
+
+  def split[T](position:Int,list:List[T]):(List[T],List[T]) = {
+
+    def splitAppend(pos:Int =position,lst:List[T]=list,append:List[T]=Nil):(List[T],List[T]) ={
+      list match {
+        case a if(lst.isEmpty) => (Nil,Nil)
+        case b if(pos==1) => (append:+lst.head,lst.tail)
+        case _ => splitAppend(pos-1,lst.tail,append :+ lst.head)
+      }
+    }
+    splitAppend()
+  }
 
 }
 

@@ -806,6 +806,29 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     Example:
     scala> duplicateN(3, List('a, 'b, 'c, 'c, 'd))
     res0: List[Symbol] = List('a, 'a, 'a, 'b, 'b, 'b, 'c, 'c, 'c, 'c, 'c, 'c, 'd, 'd, 'd)
+
+    def duplicateN[T](list:List[T],multiplier:Int=1):List[T]={
+
+    def appendDup(index:T,count:Int,append:List[T]):List[T]={
+
+      count match{
+        case a if(count != 0) => appendDup(index,count-1,append :+ index)
+        case _ => append
+      }
+    }
+
+    def dups(lst:List[T],emptyList:List[T] =Nil,counter:Int = 1):List[T]={
+
+      lst match {
+        case a if(lst.isEmpty) => emptyList
+        case b if(lst.size == 1) => appendDup(lst.head,counter*multiplier,emptyList)
+        case c if(lst.head == lst.tail.head) => dups(lst.tail,emptyList,counter+1)
+        case _ => dups(lst.tail,appendDup(lst.head,counter*multiplier,emptyList),1)
+      }
+    }
+
+    dups(list)
+  }
   */
 
   "Scala99List Challenge duplicateN Func: Empty List" should "Empty List" in {
@@ -836,7 +859,6 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual == expected)
   }
 
-
   "Scala99List Challenge duplicateN Func: Variation List[Chars]" should "ListChar Duplicates" in{
 
     val list:List[Char] = List('a', 'b', 'c', 'c', 'd','e')
@@ -845,5 +867,43 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
 
     assert(actual == expected)
   }
+
+  /*
+  P16 (**) Drop Nth element from a list.
+  Example:
+  scala> drop(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+  res0: List[Symbol] = List('a, 'b, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k)
+
+  def drop[T](position:Int,list:List[T]):List[T]={
+
+    def del(pos:Int,lst:List[T],append:List[T]):List[T]={
+      lst match{
+        case a if(lst.isEmpty) =>append
+        case b if(pos == 0) => append ::: lst.tail
+        case _ => del(pos-1,lst.tail,append :+ lst.head)
+      }
+
+    }
+    del(position,list,Nil)
+  }
+
+  */
+
+  "Scala99list Challenge drop(0,emptyList)" should "Empty List" in {
+    val emptyList:List[Char] = List.empty[Char]
+    val actual:List[Char] = sl99.drop(0,emptyList)
+    val expected:List[Char] = List.empty[Char]
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge drop(3,List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))" should "return List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)" in{
+
+    val list:List[Char] = List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')
+    val actual:List[Char] = sl99.drop(3,list)
+    val expected:List[Char] = List('a', 'b', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')
+
+  }
+
 
   }

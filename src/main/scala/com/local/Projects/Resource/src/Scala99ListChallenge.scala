@@ -534,7 +534,25 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
     }
   }
 
+/*
+  P19 (**) Rotate a list N places to the left.
+  Examples:
+  scala> rotate(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+  res0: List[Symbol] = List('d, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'a, 'b, 'c)
+*/
 
+  def rotate[T](position:Int,list:List[T]):List[T] = {
+
+    def rotateAppend(pos:Int =position,lst:List[T]=list,append:List[T]=Nil):List[T] ={
+      list match {
+        case a if(lst.isEmpty) => Nil
+        case b if(pos <1 || pos > lst.size ) => lst
+        case c if(pos==1) => lst.tail ::: (append:+lst.head)
+        case _ => rotateAppend(pos-1,lst.tail,append :+ lst.head)
+      }
+    }
+    rotateAppend()
+  }
 
 }
 

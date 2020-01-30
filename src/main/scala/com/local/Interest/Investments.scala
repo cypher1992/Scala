@@ -32,8 +32,8 @@ object Investments extends App{
 
   }
 
-  val investment = new Investment(2500,40,6000,0.07)
-  val returnOnInvestment:Double = investment.calcuateReturns(2500,40,6000,0.07)
+  val investment = new Investment(10000,10,0,0.07)
+  val returnOnInvestment:Double = investment.calcuateReturns(10000,10,0,0.15)
   val totalPayments:Double = investment.calculateTotalPaymentsOverTime(6000,40)
   println(f"\n\nTotal Payment: $$ ${totalPayments}%.2f")
 

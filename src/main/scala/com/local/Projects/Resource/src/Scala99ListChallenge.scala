@@ -486,7 +486,7 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
   }
 
 /*
-  P17 (*) Split a list into two parts.
+  P18 (*) Split a list into two parts.
   The length of the first part is given. Use a Tuple for your result.
   Example:
 
@@ -506,6 +506,35 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
     }
     splitAppend()
   }
+
+/*
+  P18 (**) Extract a slice from a list.
+  Given two indices, I and K, the slice is the list containing the elements from and including the Ith element up to but not including the Kth element of the original list. Start counting the elements with 0.
+  Example:
+
+  scala> slice(3, 7, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+  res0: List[Symbol] = List('d, 'e, 'f, 'g)
+*/
+
+  def slice[T](start:Int,end:Int,list:List[T]):List[T]={
+
+    def sliceAppend(s:Int=start,e:Int=end,lst: List[T]=list,append:List[T]=Nil):List[T]={
+
+      lst match{
+        case a if(lst.isEmpty) => Nil
+        case c if(e == 0) => append
+        case d if(s == 0 ) => sliceAppend(s,e-1,lst.tail,append :+ lst.head)
+        case _ => sliceAppend(s-1,e-1,lst.tail,append)
+      }
+    }
+
+    list match{
+      case a if(start < end) => sliceAppend()
+      case _ => list
+    }
+  }
+
+
 
 }
 

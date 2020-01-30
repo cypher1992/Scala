@@ -945,12 +945,26 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   }
 
   /*
-    P17 (*) Split a list into two parts.
+    P18 (*) Split a list into two parts.
     The length of the first part is given. Use a Tuple for your result.
     Example:
 
     scala> split(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
     res0: (List[Symbol], List[Symbol]) = (List('a, 'b, 'c),List('d, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+
+    def split[T](position:Int,list:List[T]):(List[T],List[T]) = {
+
+    def splitAppend(pos:Int =position,lst:List[T]=list,append:List[T]=Nil):(List[T],List[T]) ={
+      list match {
+        case a if(lst.isEmpty) => (Nil,Nil)
+        case b if(pos <1 || pos > lst.size ) => (Nil,lst)
+        case c if(pos==1) => (append:+lst.head,lst.tail)
+        case _ => splitAppend(pos-1,lst.tail,append :+ lst.head)
+      }
+    }
+    splitAppend()
+  }
+
   */
 
   "Scala99List Challenge: Split(Empty)" should "Return: (Nil,Nil)" in{
@@ -987,6 +1001,39 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     val list:List[Char] = List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')
     val actual:Any = sl99.split(3,list)
     val expected:(List[Char],List[Char]) = (List('a', 'b', 'c'),List('d', 'e', 'f', 'g', 'h', 'i', 'j', 'k'))
+
+    assert(actual == expected)
+  }
+
+  /*
+  P18 (**) Extract a slice from a list.
+  Given two indices, I and K, the slice is the list containing the elements from and including the Ith element up to but not including the Kth element of the original list. Start counting the elements with 0.
+  Example:
+
+  scala> slice(3, 7, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+  res0: List[Symbol] = List('d, 'e, 'f, 'g)
+  */
+
+  "Scala99List Challenge: Slice(0,2,EmptyList)" should "Return EmptyList" in{
+    val emptyList:List[Char] = List.empty[Char]
+    val actual:List[Char] = sl99.slice(0,2,emptyList)
+    val expected:List[Char] = List.empty[Char]
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge: Slice(0,0,List)" should "Return List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')" in{
+    val list:List[Char] = List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')
+    val actual:List[Char] = sl99.slice(0,0,list)
+    val expected:List[Char] = List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge: Slice(3,7,List)" should "Return List('d, 'e, 'f, 'g)" in{
+    val list:List[Char] = List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')
+    val actual:List[Char] = sl99.slice(3,7,list)
+    val expected:List[Char] = List('d', 'e', 'f', 'g')
 
     assert(actual == expected)
   }

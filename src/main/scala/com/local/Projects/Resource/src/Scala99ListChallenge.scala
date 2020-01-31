@@ -541,6 +541,7 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
   res0: List[Symbol] = List('d, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'a, 'b, 'c)
 */
 
+  // Needs to be Redone!  Doesnt work!
   def rotate[T](position:Int,list:List[T]):List[T] = {
 
     def rotateAppend(pos:Int =position,lst:List[T]=list,append:List[T]=Nil):List[T] ={
@@ -552,6 +553,18 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
       }
     }
     rotateAppend()
+  }
+
+  def rotateRefact[T](position:Int,list:List[T]):List[T]={
+
+
+    list match{
+      case a if(list.isEmpty) => list
+      case b if(position<0) => rotateRefact(list.size-(position* -1),list)
+      case c if(position>0) =>rotateRefact(position-1,list.tail:+list.head)
+      case _ => list
+
+    }
   }
 
 }

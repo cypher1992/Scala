@@ -1038,12 +1038,27 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual == expected)
   }
 
+
+
   /*
     P19 (**) Rotate a list N places to the left.
     Examples:
     scala> rotate(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
     res0: List[Symbol] = List('d, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'a, 'b, 'c)
-  */
+
+    def rotate[T](position:Int,list:List[T]):List[T] = {
+
+      def rotateAppend(pos:Int =position,lst:List[T]=list,append:List[T]=Nil):List[T] ={
+        list match {
+          case a if(lst.isEmpty) => Nil
+          case b if(pos <1 || pos > lst.size ) => lst
+          case c if(pos==1) => lst.tail ::: (append:+lst.head)
+          case _ => rotateAppend(pos-1,lst.tail,append :+ lst.head)
+        }
+      }
+    rotateAppend()
+  }
+ */
 
   "Scala99List Challenge rotate(List.empty)" should "Return empty list" in {
     val emptyList:List[Char] = List.empty[Char]
@@ -1053,7 +1068,6 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual == expected)
   }
 
-
   "Scala99List Challenge Rotate(-1,List)" should "Return List[Char]" in {
     val list:List[Char] = List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')
     val actual:List[Char] = sl99.rotate(-1,list)
@@ -1062,13 +1076,28 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual == expected)
   }
 
-  "Scala99List Challenge Rotate(3,List)" should "Return List[Char]" in {
+  "Scala99List Challenge rotateRefact(List.empty)" should "Return empty list" in {
+    val emptyList:List[Char] = List.empty[Char]
+    val actual:List[Char] = sl99.rotateRefact(4,emptyList)
+    val expected:List[Char] = List.empty[Char]
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge rotateRefact(3,List)" should "Return List[Char]" in {
     val list:List[Char] = List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')
-    val actual:List[Char] = sl99.rotate(3,list)
+    val actual:List[Char] = sl99.rotateRefact(3,list)
     val expected:List[Char] = List('d', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'a', 'b', 'c')
 
     assert(actual == expected)
   }
 
+  "Scala99List Challenge rotateRefact(-1,List)" should "Return List[Char]" in {
+    val list:List[Char] = List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')
+    val actual:List[Char] = sl99.rotateRefact(-1,list)
+    val expected:List[Char] = List('k','a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j')
+
+    assert(actual == expected)
+  }
 
 }

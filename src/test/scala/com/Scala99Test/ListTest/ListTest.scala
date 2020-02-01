@@ -1159,14 +1159,15 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
       def insertAppend(ins:T=insert,pos:Int=position,lst:List[T]=list,append:List[T]=Nil):List[Any] ={
 
         lst match{
-            case a if(lst.isEmpty)=> lst :+ ins
-            case b if(pos == 0) => (append :+ins ) ::: lst
+            case a if(lst.isEmpty || pos == lst.size )=> lst :+ ins
+            case b if(pos < 0 || pos > lst.size) => Nil
+            case d if(pos == 0) => (append :+ins ) ::: lst
             case _ => insertAppend(ins,pos-1,lst.tail,append:+lst.head)
         }
       }
 
-    insertAppend()
-  }
+      insertAppend()
+    }
   */
 
 
@@ -1206,5 +1207,31 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
 
     assert(actual == expected)
   }
+
+  /*
+    P22 (*) Create a list containing all integers within a given range.
+    Example:
+    scala> range(4, 9)
+    res0: List[Int] = List(4, 5, 6, 7, 8, 9)
+  */
+
+  "Scala99List Challenge: range(4,9)" should "Return: List(4, 5, 6, 7, 8, 9)" in {
+
+    val actual:List[Int] = sl99.range(4,9)
+    val expected:List[Int] = List(4, 5, 6, 7, 8, 9)
+
+    assert(actual == expected)
+
+  }
+
+  "Scala99List Challenge: range(1,-5)" should "Return: List(1,0,-1,-2,-3,-4,-5)" in{
+
+    val actual:List[Int] = sl99.range(1,-5)
+    val expected:List[Int] = List(1,0,-1,-2,-3,-4,-5)
+
+    assert(actual==expected)
+  }
+
+
 
 }

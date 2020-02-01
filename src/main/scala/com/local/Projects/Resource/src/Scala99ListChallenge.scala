@@ -612,5 +612,29 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
     insertAppend()
   }
 
+  /*
+    P22 (*) Create a list containing all integers within a given range.
+    Example:
+    scala> range(4, 9)
+    res0: List[Int] = List(4, 5, 6, 7, 8, 9)
+  */
+
+  def range(start:Int,end:Int):List[Int] ={
+
+    def rangeAppend(s:Int=start,e:Int=end,append:List[Int]=Nil):List[Int] ={
+
+      s match {
+        case a if(s == e ) => append :+ s
+        case b if(s < e) => rangeAppend(s+1,e,append :+ s)
+        case _ if(s > e) => rangeAppend(s-1,e,append :+s)
+      }
+
+    }
+
+    rangeAppend()
+  }
+
+
+
 }
 

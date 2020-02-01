@@ -567,5 +567,29 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
     }
   }
 
+  /*
+    P20 (*) Remove the Kth element from a list.
+    Return the list and the removed element in a Tuple. Elements are numbered from 0.
+    Example:
+
+    scala> removeAt(1, List('a, 'b, 'c, 'd))
+    res0: (List[Symbol], Symbol) = (List('a, 'c, 'd),'b)
+  */
+
+
+  def removeAt[T](position:Int,list:List[T]):Any={
+
+    def rmAppend(pos:Int=position,lst:List[T]=list,append:List[T]=Nil):Any={
+      lst match{
+        case a if(lst.isEmpty) => append
+        case b if(pos == 0) => (append ::: lst.tail,lst.head)
+        case _  => rmAppend(pos-1,lst.tail,append :+ lst.head)
+      }
+    }
+
+    rmAppend()
+  }
+
+
 }
 

@@ -1100,4 +1100,38 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual == expected)
   }
 
+
+  "Scala99List Challenge rotateRefact(-4,List)" should "Return List[Char]" in {
+    val list:List[Char] = List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')
+    val actual:List[Char] = sl99.rotateRefact(-4,list)
+    val expected:List[Char] = List( 'h', 'i', 'j','k','a', 'b', 'c', 'd', 'e', 'f', 'g')
+
+    assert(actual == expected)
+  }
+
+  /*
+    P20 (*) Remove the Kth element from a list.
+    Return the list and the removed element in a Tuple. Elements are numbered from 0.
+    Example:
+
+    scala> removeAt(1, List('a, 'b, 'c, 'd))
+    res0: (List[Symbol], Symbol) = (List('a, 'c, 'd),'b)
+  */
+
+  "Scala99List Challenge: removeAt(EmptyList)" should "Returns Empty List" in {
+    val emptyList:List[Char] = List.empty[Char]
+    val actual:Any = sl99.removeAt(1,emptyList)
+    val expected:Any = Nil
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge: removeAt(List[Char])" should "Return (Char,List[Char])" in {
+    val list:List[Char] = List('A','B','C','D')
+    val actual:Any = sl99.removeAt(1,list)
+    val expected:Any = Tuple2(List('A','C','D'),'B')
+
+    assert(actual === expected)
+  }
+
 }

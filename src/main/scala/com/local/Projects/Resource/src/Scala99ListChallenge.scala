@@ -590,6 +590,27 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
     rmAppend()
   }
 
+  /*
+    P21 (*) Insert an element at a given position into a list.
+    Example:
+    scala> insertAt('new, 1, List('a, 'b, 'c, 'd))
+    res0: List[Symbol] = List('a, 'new, 'b, 'c, 'd)
+  */
+
+  def insertAt[T](insert:T,position:Int,list:List[T]):List[Any] ={
+
+    def insertAppend(ins:T=insert,pos:Int=position,lst:List[T]=list,append:List[T]=Nil):List[Any] ={
+
+      lst match{
+          case a if(lst.isEmpty || pos == lst.size )=> lst :+ ins
+          case b if(pos < 0 || pos > lst.size) => Nil
+          case d if(pos == 0) => (append :+ins ) ::: lst
+          case _ => insertAppend(ins,pos-1,lst.tail,append:+lst.head)
+      }
+    }
+
+    insertAppend()
+  }
 
 }
 

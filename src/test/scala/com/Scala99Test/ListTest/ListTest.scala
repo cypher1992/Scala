@@ -1116,6 +1116,20 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
 
     scala> removeAt(1, List('a, 'b, 'c, 'd))
     res0: (List[Symbol], Symbol) = (List('a, 'c, 'd),'b)
+
+    def removeAt[T](position:Int,list:List[T]):Any={
+
+      def rmAppend(pos:Int=position,lst:List[T]=list,append:List[T]=Nil):Any={
+        lst match{
+          case a if(lst.isEmpty) => append
+          case b if(pos == 0) => (append ::: lst.tail,lst.head)
+          case _  => rmAppend(pos-1,lst.tail,append :+ lst.head)
+        }
+      }
+
+      rmAppend()
+    }
+
   */
 
   "Scala99List Challenge: removeAt(EmptyList)" should "Returns Empty List" in {
@@ -1132,6 +1146,65 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     val expected:Any = Tuple2(List('A','C','D'),'B')
 
     assert(actual === expected)
+  }
+
+  /*
+    P21 (*) Insert an element at a given position into a list.
+    Example:
+    scala> insertAt('new, 1, List('a, 'b, 'c, 'd))
+    res0: List[Symbol] = List('a, 'new, 'b, 'c, 'd)
+
+    def insertAt[T](insert:T,position:Int,list:List[T]):List[Any] ={
+
+      def insertAppend(ins:T=insert,pos:Int=position,lst:List[T]=list,append:List[T]=Nil):List[Any] ={
+
+        lst match{
+            case a if(lst.isEmpty)=> lst :+ ins
+            case b if(pos == 0) => (append :+ins ) ::: lst
+            case _ => insertAppend(ins,pos-1,lst.tail,append:+lst.head)
+        }
+      }
+
+    insertAppend()
+  }
+  */
+
+
+  "Scala99List Challenge: insertAt(EmptyList)" should "Return: Append Char to Empty List" in{
+
+    val emptyList:List[String] = List.empty[String]
+    val actual:List[Any] = sl99.insertAt('C',1,Nil)
+    val expected:List[Any] = List('C')
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge: insertAt('new',1,List('a','b','c','d'))" should "Return List('a','new','b','c','d')" in {
+
+    val list:List[Char] = List('a','b','c','d')
+    val actual:List[Any] = sl99.insertAt("new",1,list)
+    val expected:List[Any] = List('a',"new",'b','c','d')
+
+    assert(actual == expected)
+  }
+
+
+  "Scala99List Challenge: insertAt('new',1,List('a','b','c','d'))" should "Return List('a','b','c','d','new')" in {
+
+    val list:List[Char] = List('a','b','c','d')
+    val actual:List[Any] = sl99.insertAt("new",4,list)
+    val expected:List[Any] = List('a','b','c','d',"new")
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge: insertAt('new',0,List('a','b','c','d'))" should "Return List('new','a','b','c','d')" in {
+
+    val list:List[Char] = List('a','b','c','d')
+    val actual:List[Any] = sl99.insertAt("new",0,list)
+    val expected:List[Any] = List("new",'a','b','c','d')
+
+    assert(actual == expected)
   }
 
 }

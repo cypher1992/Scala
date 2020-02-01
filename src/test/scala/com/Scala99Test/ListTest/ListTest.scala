@@ -1224,6 +1224,14 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
 
   }
 
+  /*
+    P23 (**) Extract a given number of randomly selected elements from a list.
+    Example:
+    scala> randomSelect(3, List('a, 'b, 'c, 'd, 'f, 'g, 'h))
+    res0: List[Symbol] = List('e, 'd, 'a)
+  */
+
+
   "Scala99List Challenge: range(1,-5)" should "Return: List(1,0,-1,-2,-3,-4,-5)" in{
 
     val actual:List[Int] = sl99.range(1,-5)
@@ -1233,5 +1241,50 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   }
 
 
+  /*
+    P23 (**) Extract a given number of randomly selected elements from a list.
+    Example:
+    scala> randomSelect(3, List('a, 'b, 'c, 'd, 'f, 'g, 'h))
+    res0: List[Symbol] = List('e, 'd, 'a)
+
+   def randomSelect[T](numberItems:Int,list:List[T]):List[T]={
+
+     def generator(listGen:List[T]):Int = nextInt(listGen.size-1)
+
+     def random(num:Int=numberItems, lst:List[T]=list,position:Int= generator(list),append:List[T]=Nil):List[T]={
+
+       lst match{
+         case a if(num == 0) => append
+         case b if(position == 0) => random(num-1,lst.tail,generator(lst.tail),append:+lst.head)
+         case _ => random(num,lst.tail :+ lst.head,position-1,append)
+       }
+
+     }
+
+      list match {
+        case a if(numberItems < 1 || list.isEmpty) => list
+        case _ => random()
+      }
+    }
+    
+  */
+
+  "Scala99List Challenge: randomSelect(3,emptyList[Char])" should "return empty list" in{
+
+    val emptyList:List[Char] = List.empty[Char]
+    val actual:List[Char] = sl99.randomSelect(3,emptyList)
+    val expected:List[Char] = List.empty[Char]
+
+    assert(actual == expected)
+
+  }
+
+  "Scala99List Challenge: randomSelect(3,list)" should "Return appendList size is 3" in{
+    val list:List[Char] = List('a','b','c','d','f','g','h')
+    val actual:Int = sl99.randomSelect(3,list).size
+    val expected:Int  = 3
+
+    assert(actual == expected)
+  }
 
 }

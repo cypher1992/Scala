@@ -1,5 +1,8 @@
 package com.local.Projects.Resource.src
 
+import scala.util.Random._
+
+
 class Scala99ListChallenge {
 /*
 P01 (*) Find the last element of a list.
@@ -634,6 +637,34 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
     rangeAppend()
   }
 
+
+  /*
+    P23 (**) Extract a given number of randomly selected elements from a list.
+    Example:
+    scala> randomSelect(3, List('a, 'b, 'c, 'd, 'f, 'g, 'h))
+    res0: List[Symbol] = List('e, 'd, 'a)
+  */
+
+  def randomSelect[T](numberItems:Int,list:List[T]):List[T]={
+
+   def generator(listGen:List[T]):Int = nextInt(listGen.size-1)
+
+   def random(num:Int=numberItems, lst:List[T]=list,position:Int= generator(list),append:List[T]=Nil):List[T]={
+
+     lst match{
+       case a if(num == 0) => append
+       case b if(position == 0) => random(num-1,lst.tail,generator(lst.tail),append:+lst.head)
+       case _ => random(num,lst.tail :+ lst.head,position-1,append)
+     }
+
+   }
+
+    list match {
+      case a if(numberItems < 1 || list.isEmpty) => list
+      case _ => random()
+    }
+
+  }
 
 
 }

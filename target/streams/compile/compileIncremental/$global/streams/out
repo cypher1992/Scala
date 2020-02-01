@@ -1,1 +1,31 @@
-[debug] No changes
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set(C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\basics\Tuple.scala, C:\Users\Zero\IdeaProjects\Scala\src\main\scala\com\local\basics\HelloWorld.scala, C:\Users\Zero\IdeaProjects\Learning\Scala\src\main\scala\com\local\Projects\Resource\src\Client.scala)
+[debug] 	added: Set()
+[debug] 	modified: Set()
+[debug] Invalidated products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(com.local.Projects.Resource.src.Client)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(com.local.Projects.Resource.src.Client)
+[debug] All initially invalidated sources:Set()
+[debug] Invalidating (transitively) by inheritance from com.local.Projects.Resource.src.Client...
+[debug] Initial set of included nodes: Set(com.local.Projects.Resource.src.Client)
+[debug] Invalidated by transitive inheritance dependency: Set(com.local.Projects.Resource.src.Client)
+[debug] Change NamesChange(com.local.Projects.Resource.src.Client,ModifiedNames(changes = UsedName($isInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(eq,[Default]), UsedName(!=,[Default]), UsedName(main,[Default]), UsedName(synchronized,[Default]), UsedName(toString,[Default]), UsedName(Client,[Default]), UsedName(notify,[Default]), UsedName(executionStart,[Default]), UsedName(delayedInit,[Default]), UsedName(notifyAll,[Default]), UsedName(int,[Default]), UsedName(finalize,[Default]), UsedName(asInstanceOf,[Default]), UsedName(==,[Default]), UsedName($init$,[Default]), UsedName(##,[Default]), UsedName(args,[Default]), UsedName(int2,[Default]), UsedName(hashCode,[Default]), UsedName(clone,[Default]), UsedName(ne,[Default]), UsedName($asInstanceOf,[Default]), UsedName(isInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(equals,[Default]))) invalidates 1 classes due to The com.local.Projects.Resource.src.Client has the following regular definitions changed:
+[debug] 	UsedName($isInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(eq,[Default]), UsedName(!=,[Default]), UsedName(main,[Default]), UsedName(synchronized,[Default]), UsedName(toString,[Default]), UsedName(Client,[Default]), UsedName(notify,[Default]), UsedName(executionStart,[Default]), UsedName(delayedInit,[Default]), UsedName(notifyAll,[Default]), UsedName(int,[Default]), UsedName(finalize,[Default]), UsedName(asInstanceOf,[Default]), UsedName(==,[Default]), UsedName($init$,[Default]), UsedName(##,[Default]), UsedName(args,[Default]), UsedName(int2,[Default]), UsedName(hashCode,[Default]), UsedName(clone,[Default]), UsedName(ne,[Default]), UsedName($asInstanceOf,[Default]), UsedName(isInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(equals,[Default]).
+[debug] 	> by transitive inheritance: Set(com.local.Projects.Resource.src.Client)
+[debug] 	> 
+[debug] 	> 
+[debug]         
+[debug] New invalidations:
+[debug] 	Set()
+[debug] Initial set of included nodes: Set()
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()
+[debug] All newly invalidated classes after taking into account (previously) recompiled classes:Set()

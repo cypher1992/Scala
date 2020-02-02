@@ -704,5 +704,33 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
     randomSelect(list.size,list)
   }
 
+  /*
+    P26 (**) Generate the combinations of K distinct objects chosen from the N elements of a list.
+    In how many ways can a committee of 3 be chosen from a group of 12 people? We all know that there are C(12,3) = 220 possibilities (C(N,K) denotes the well-known binomial coefficient). For pure mathematicians, this result may be great. But we want to really generate all the possibilities.
+    12C3 -> 12! / 3!*(12-3)! = 12*11*10*9*8*7*6*5*4*3*2*1/3*2*1(9*8*7*6*5*4*3*2*1) = 12*11*10*9*8*7*6*5*4/9*8*7*6*5*4*3*2*1 = 12*11*10/3*2*1 = 220
+    Example:
+
+    scala> combinations(3, List('a, 'b, 'c, 'd, 'e, 'f))
+    res0: List[List[Symbol]] = List(List('a, 'b, 'c), List('a, 'b, 'd), List('a, 'b, 'e), ...
+    6C3 => 6!/3!(6-3)! = 6!/3!*3! = 6*5*4/3*2*1 = 5*4/1 = 20 possibilities
+  */
+
+  def calutlatefactorial(number:Int,store:Int = 1):Int= {
+
+    number match{
+      case 0 => 0
+      case 1 => store
+      case _ => calutlatefactorial(number-1,number*store)
+    }
+  }
+
+  def calculatePermutation(numberOfObjects:Int,options:Int):Int=(
+    1
+  )
+
+  def combinations[T](int:Int,list:List[T]):List[List[T]] = {
+
+    List(Nil)
+  }
 }
 

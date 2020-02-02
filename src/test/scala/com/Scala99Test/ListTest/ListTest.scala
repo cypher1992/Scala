@@ -1266,7 +1266,7 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
         case _ => random()
       }
     }
-    
+
   */
 
   "Scala99List Challenge: randomSelect(3,emptyList[Char])" should "return empty list" in{
@@ -1283,6 +1283,28 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     val list:List[Char] = List('a','b','c','d','f','g','h')
     val actual:Int = sl99.randomSelect(3,list).size
     val expected:Int  = 3
+
+    assert(actual == expected)
+  }
+
+  /*
+   P24 (*) Lotto: Draw N different random numbers from the set 1..M.
+   Example:
+   scala> lotto(6, 49)
+   res0: List[Int] = List(23, 1, 17, 33, 21, 37)
+ */
+
+  "Scala99List Challenge: Lotto(3,0)" should "return Empty List" in {
+    val actual:List[Int] = sl99.lotto(3,0)
+    val expected:List[Int] = Nil
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge: Lotto(6,49)" should "return size 6" in{
+    val list:List[Int] = sl99.lotto(6,49)
+    val actual:Int = list.size
+    val expected:Int = 6
 
     assert(actual == expected)
   }

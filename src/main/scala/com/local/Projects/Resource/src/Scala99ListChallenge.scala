@@ -666,6 +666,29 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
 
   }
 
+  /*
+    P24 (*) Lotto: Draw N different random numbers from the set 1..M.
+    Example:
+    scala> lotto(6, 49)
+    res0: List[Int] = List(23, 1, 17, 33, 21, 37)
+  */
+
+
+  def lotto(size:Int,max:Int):List[Int] ={
+
+    def rangeList(maxSize:Int = max, lst:List[Int]=Nil):List[Int]={
+      maxSize match {
+        case a if(maxSize ==1) => lst:+1
+        case _ => rangeList(maxSize-1,lst :+ maxSize)
+      }
+    }
+
+    max match{
+      case a if(max<1 || size <1) => Nil
+      case _ => randomSelect(size,rangeList())
+    }
+
+  }
 
 }
 

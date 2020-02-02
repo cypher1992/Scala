@@ -1,0 +1,12 @@
+Notes on Testing
+Rules on TDD
+1. Set up Test first (What are you testing first)
+2. Test must fail
+3. Do the least to pass
+4. Refactor
+------------------------
+
+Advice on testing
+- Test for edge cases(Stress testing)
+- Test UpperBound and LowerBound scenarios
+- Automate as much as possible. If there is a pattern build a method to cover it.

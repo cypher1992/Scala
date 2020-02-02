@@ -647,13 +647,14 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
 
   def randomSelect[T](numberItems:Int,list:List[T]):List[T]={
 
-   def generator(listGen:List[T]):Int = nextInt(listGen.size-1)
+   def generator(listGen:List[T]):Int = nextInt(listGen.size)
 
    def random(num:Int=numberItems, lst:List[T]=list,position:Int= generator(list),append:List[T]=Nil):List[T]={
 
      lst match{
        case a if(num == 0) => append
-       case b if(position == 0) => random(num-1,lst.tail,generator(lst.tail),append:+lst.head)
+       case b if(lst.size == 1) => append ::: lst
+       case c if(position == 0) => random(num-1,lst.tail,generator(lst.tail),append:+lst.head)
        case _ => random(num,lst.tail :+ lst.head,position-1,append)
      }
 
@@ -688,6 +689,19 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
       case _ => randomSelect(size,rangeList())
     }
 
+  }
+
+  /*
+    P25 (*) Generate a random permutation of the elements of a list.
+    Hint: Use the solution of problem P23.
+    Example:
+
+    scala> randomPermute(List('a, 'b, 'c, 'd, 'e, 'f))
+    res0: List[Symbol] = List('b, 'a, 'd, 'c, 'e, 'f)
+  */
+
+  def randomPermute[T](list:List[T]):List[T]={
+    randomSelect(list.size,list)
   }
 
 }

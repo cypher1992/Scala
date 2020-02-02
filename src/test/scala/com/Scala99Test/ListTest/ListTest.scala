@@ -1309,4 +1309,35 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual == expected)
   }
 
+  /*
+    P25 (*) Generate a random permutation of the elements of a list.
+    Hint: Use the solution of problem P23.
+    Example:
+
+    scala> randomPermute(List('a, 'b, 'c, 'd, 'e, 'f))
+    res0: List[Symbol] = List('b, 'a, 'd, 'c, 'e, 'f)
+  */
+
+
+  "Scala99List Challenge: randomPermute(emptyList)" should "Return emptyList" in {
+
+    val emptyList:List[Char] = List.empty[Char]
+    val actual:List[Char] = sl99.randomPermute(emptyList)
+    val expected:List[Char] = List.empty[Char]
+
+    assert(actual == expected)
+
+  }
+
+
+  "Scala99List Challenge: randomPermute(List('a','b','c','d','e','f'))" should "return not equal list" in{
+
+    val list:List[Char] = List('a','b','c','d','e','f')
+    val actual:List[Char] = sl99.randomPermute(list)
+    val expected:List[Char] = List('a','b','c','d','e','f')
+
+    assert(actual != expected)
+
+  }
+
 }

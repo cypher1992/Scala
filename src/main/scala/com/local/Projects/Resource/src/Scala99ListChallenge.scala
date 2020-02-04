@@ -715,18 +715,23 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
     6C3 => 6!/3!(6-3)! = 6!/3!*3! = 6*5*4/3*2*1 = 5*4/1 = 20 possibilities
   */
 
-  def calutlatefactorial(number:Int,store:Int = 1):Int= {
+  def calculateFactorial(number:Int,store:Int = 1):Int= {
 
     number match{
       case 0 => 0
       case 1 => store
-      case _ => calutlatefactorial(number-1,number*store)
+      case _ => calculateFactorial(number-1,number*store)
     }
   }
 
-  def calculatePermutation(numberOfObjects:Int,options:Int):Int=(
-    1
-  )
+  def calculatePermutation(numberOfObjects:Int,options:Int):Int={
+    (numberOfObjects,options) match {
+      case (0,_) => 1
+      case (_,0) => 1
+      case _ => calculateFactorial(numberOfObjects)/(calculateFactorial(options)*calculateFactorial(numberOfObjects-options))
+    }
+
+  }
 
   def combinations[T](int:Int,list:List[T]):List[List[T]] = {
 

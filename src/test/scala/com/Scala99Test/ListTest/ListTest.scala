@@ -1360,7 +1360,7 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
 
   "Scala99ListChallenge: factorial(0)" should "Return 0" in {
     val number:Int = 0
-    val actual:Int = sl99.calutlatefactorial(0)
+    val actual:Int = sl99.calculateFactorial(number)
     val expected:Int = 0
 
     assert(actual == expected)
@@ -1369,8 +1369,25 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   "Scala99ListChallenge: factorial(5)" should "Return 120" in {
 
     val num:Int = 5
-    val actual:Int = sl99.calutlatefactorial(5)
+    val actual:Int = sl99.calculateFactorial(num)
     val expected:Int = 120
+
+    assert(actual == expected)
+  }
+
+  "ScalaList Challenge: calculatePermutation(0,0)" should "Return 1" in{
+
+    val actual:Int = sl99.calculatePermutation(0,0)
+    val expected:Int = 1
+
+    assert(actual == expected)
+  }
+
+  "ScalaList Challenge: calculatePermutation(4,3)" should "Return 4" in{
+
+    // 4C3 -> 4!/3!(4-1)! = 4!/3! = 24/6 = 4
+    val actual:Int = sl99.calculatePermutation(4,3)
+    val expected:Int = 4
 
     assert(actual == expected)
   }

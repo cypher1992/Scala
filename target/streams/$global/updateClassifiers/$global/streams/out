@@ -2350,27 +2350,27 @@
 [debug] == resolving dependencies default#scala$sources;0.1->jline#jline;2.14.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.13.0!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.26!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.13.0!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar(src)
 [debug] 	[NOT REQUIRED] io.github.mainstringargs#alpha-vantage-scraper;1.1!alpha-vantage-scraper.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.7!logback-core.jar(src)
-[debug] 	[NOT REQUIRED] io.github.mainstringargs#stock-data-spi;1.1!stock-data-spi.jar(src)
 [debug] 	[NOT REQUIRED] org.joda#joda-convert;2.2.1!joda-convert.jar(src)
+[debug] 	[NOT REQUIRED] io.github.mainstringargs#stock-data-spi;1.1!stock-data-spi.jar(src)
 [debug] 	[NOT REQUIRED] joda-time#joda-time;2.10.4!joda-time.jar(src)
-[debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.26!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.13;3.9.2!scala-logging_2.13.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.7!logback-classic.jar(src)
-[debug] 	[NOT REQUIRED] com.google.code.gson#gson;2.8.2!gson.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.13;3.9.2!scala-logging_2.13.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.25!slf4j-log4j12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.13.0!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest-compatible;3.1.0!scalatest-compatible.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.13;3.1.0!scalactic_2.13.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.13;3.1.0!scalatest_2.13.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.13;1.2.0!scala-xml_2.13.jar(src)
+[debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
+[debug] 	[NOT REQUIRED] com.google.code.gson#gson;2.8.2!gson.jar(src)
+[debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.13;1.2.0!scala-xml_2.13.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.13;3.1.0!scalatest_2.13.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.13.0!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.25!slf4j-log4j12.jar(src)
-[debug] :: resolution report :: resolve 316ms :: artifacts dl 11ms
+[debug] :: resolution report :: resolve 1996ms :: artifacts dl 62ms
 [debug] 	report for default#scala$sources;0.1 compile produced in C:\Users\Zero\IdeaProjects\Learning\Scala\target\scala-2.13\resolution-cache\reports\default-scala$sources-compile.xml
 [debug] 	report for default#scala$sources;0.1 runtime produced in C:\Users\Zero\IdeaProjects\Learning\Scala\target\scala-2.13\resolution-cache\reports\default-scala$sources-runtime.xml
 [debug] 	report for default#scala$sources;0.1 test produced in C:\Users\Zero\IdeaProjects\Learning\Scala\target\scala-2.13\resolution-cache\reports\default-scala$sources-test.xml
@@ -2382,4 +2382,4 @@
 [debug] 	report for default#scala$sources;0.1 plugin produced in C:\Users\Zero\IdeaProjects\Learning\Scala\target\scala-2.13\resolution-cache\reports\default-scala$sources-plugin.xml
 [debug] 	report for default#scala$sources;0.1 pom produced in C:\Users\Zero\IdeaProjects\Learning\Scala\target\scala-2.13\resolution-cache\reports\default-scala$sources-pom.xml
 [debug] 	report for default#scala$sources;0.1 scala-tool produced in C:\Users\Zero\IdeaProjects\Learning\Scala\target\scala-2.13\resolution-cache\reports\default-scala$sources-scala-tool.xml
-[debug] 	resolve done (316ms resolve - 11ms download)
+[debug] 	resolve done (1996ms resolve - 62ms download)

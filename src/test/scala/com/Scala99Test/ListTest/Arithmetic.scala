@@ -60,4 +60,40 @@ class Arithmetic extends AnyFlatSpec with Matchers{
     assert(actual == expected)
   }
 
+  /*
+  P32 (**) Determine the greatest common divisor of two positive integer numbers.
+  Use Euclid's algorithm.
+  scala> gcd(36, 63)
+  res0: Int = 9
+  */
+
+  "Scala99Arithmetic Challenge: gcd(-1,5)" should "return -1" in {
+
+    val actual:Int = sl99.gcd(-1,5)
+    val expected:Int = -1
+
+    assert(actual == expected)
+
+  }
+
+  "Scala99Arithmetic Challenge: gcd(1,-5)" should "return -1" in {
+
+    val actual:Int = sl99.gcd(1,-5)
+    val expected:Int = -1
+    assert(actual == expected)
+  }
+
+  "Scala99Arithmetic Challenge: gcd(1,5)" should "return 1" in {
+
+    val actual:Int = sl99.gcd(1,5)
+    val expected:Int = 1
+    assert(actual == expected)
+  }
+
+  "Scala99Arithmetic Challenge: gcd(35,10)" should "return 1" in {
+
+    val actual:Int = sl99.gcd(35,10)
+    val expected:Int = 5
+    assert(actual == expected)
+  }
 }

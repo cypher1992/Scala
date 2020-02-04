@@ -705,6 +705,7 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
   }
 
   /*
+    HOLD!!!
     P26 (**) Generate the combinations of K distinct objects chosen from the N elements of a list.
     In how many ways can a committee of 3 be chosen from a group of 12 people? We all know that there are C(12,3) = 220 possibilities (C(N,K) denotes the well-known binomial coefficient). For pure mathematicians, this result may be great. But we want to really generate all the possibilities.
     12C3 -> 12! / 3!*(12-3)! = 12*11*10*9*8*7*6*5*4*3*2*1/3*2*1(9*8*7*6*5*4*3*2*1) = 12*11*10*9*8*7*6*5*4/9*8*7*6*5*4*3*2*1 = 12*11*10/3*2*1 = 220
@@ -732,10 +733,21 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
     }
 
   }
+  // HOLD
+ /* def combinations[T](combo:Int,list:List[T]):List[List[T]] = {
 
-  def combinations[T](int:Int,list:List[T]):List[List[T]] = {
+    def comboAppend(c:Int=combo,lst:List[T]=Nil,head:T=list.head,tail:List[T]=list.tail,listOfList:List[List[T]]=List(Nil)):List[List[T]]={
 
-    List(Nil)
-  }
+      (c,lst) match {
+        case (0,Nil) => listOfList
+        case (1,_) => listOfList.appended(lst)
+        case a if() => Nil // Filler Remove Nil
+      }
+    }
+        comboAppend ()
+
+  }*/
+
+
 }
 

@@ -96,4 +96,29 @@ class Arithmetic extends AnyFlatSpec with Matchers{
     val expected:Int = 5
     assert(actual == expected)
   }
+
+
+  /*
+   P33 (*) Determine whether two positive integer numbers are coprime.
+   Two numbers are coprime if their greatest common divisor equals 1.
+   scala> 35.isCoprimeTo(64)
+   res0: Boolean = true
+ */
+
+  "Scala99Arithmetic Challenge: 34.isCoprimeTo(64)" should "return true" in{
+    val num = sl99.num(34)
+    val actual:Boolean = num.isCoprimeTo(64)
+    val expected:Boolean = false
+
+    assert(actual == expected)
+  }
+
+  "Scala99Arithmetic Challenge: 35.isCoprimeTo(64)" should "return true" in{
+    val num = sl99.num(35)
+    val actual:Boolean = num.isCoprimeTo(64)
+    val expected:Boolean = true
+
+    assert(actual == expected)
+  }
+
 }

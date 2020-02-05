@@ -29,8 +29,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/Scala99Problems">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="411">
-                    <caret line="198" column="20" lean-forward="true" selection-start-line="195" selection-end-line="198" selection-end-column="20" />
+                  <state relative-caret-position="479">
+                    <caret line="202" column="13" lean-forward="true" selection-start-line="199" selection-end-line="202" selection-end-column="13" />
                   </state>
                 </provider>
               </entry>
@@ -50,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99Arithmetic.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="49" column="19" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="19" />
+            <state relative-caret-position="374">
+              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -59,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/Arithmetic.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="118" column="31" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+            <state relative-caret-position="-204">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
               <folding>
                 <element signature="e#34#75#0" expanded="true" />
               </folding>
@@ -100,7 +100,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -251,83 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: isPrime(-1) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(1) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(4) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(7) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(9) should Return: false&#10;Scala99Arithmetic Challenge: gcd(-1,5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,-5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,5) should return 1&#10;Scala99Arithmetic Challenge: gcd(35,10) should return 1&#10;Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true&#10;Scala99Arithmetic Challenge: 35.isCoprimeTo(64) should return true">
-    <configuration name="Arithmetic.Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
-      <setting name="testName" value="Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Arithmetic.Scala99Arithmetic Challenge: 35.isCoprimeTo(64) should return true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
-      <setting name="testName" value="Scala99Arithmetic Challenge: 35.isCoprimeTo(64) should return true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Arithmetic.Scala99Arithmetic Challenge: gcd(1,5) should return 1" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
-      <setting name="testName" value="Scala99Arithmetic Challenge: gcd(1,5) should return 1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Arithmetic.Scala99Arithmetic Challenge: isPrime(-1) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(1) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(4) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(7) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(9) should Return: false&#10;Scala99Arithmetic Challenge: gcd(-1,5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,-5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,5) should return 1&#10;Scala99Arithmetic Challenge: gcd(35,10) should return 1" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
-      <setting name="testName" value="Scala99Arithmetic Challenge: isPrime(-1) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(1) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(4) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(7) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(9) should Return: false&#10;Scala99Arithmetic Challenge: gcd(-1,5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,-5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,5) should return 1&#10;Scala99Arithmetic Challenge: gcd(35,10) should return 1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: isPrime(7) should Return: true">
     <configuration name="Arithmetic.Scala99Arithmetic Challenge: isPrime(-1) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(1) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(4) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(7) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(9) should Return: false&#10;Scala99Arithmetic Challenge: gcd(-1,5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,-5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,5) should return 1&#10;Scala99Arithmetic Challenge: gcd(35,10) should return 1&#10;Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true&#10;Scala99Arithmetic Challenge: 35.isCoprimeTo(64) should return true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
@@ -347,13 +271,89 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Arithmetic.Scala99Arithmetic Challenge: isPrime(-1) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(1) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(4) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(7) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(9) should Return: false&#10;Scala99Arithmetic Challenge: gcd(-1,5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,-5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,5) should return 1&#10;Scala99Arithmetic Challenge: gcd(35,10) should return 1&#10;Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true&#10;Scala99Arithmetic Challenge: 35.isCoprimeTo(64) should return true&#10;ScalaArithmetic Challenge: phi(7) should return 6&#10;ScalaArithmetic Challenge: phi(10) should return 4" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
+      <setting name="testName" value="Scala99Arithmetic Challenge: isPrime(-1) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(1) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(4) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(7) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(9) should Return: false&#10;Scala99Arithmetic Challenge: gcd(-1,5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,-5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,5) should return 1&#10;Scala99Arithmetic Challenge: gcd(35,10) should return 1&#10;Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true&#10;Scala99Arithmetic Challenge: 35.isCoprimeTo(64) should return true&#10;ScalaArithmetic Challenge: phi(7) should return 6&#10;ScalaArithmetic Challenge: phi(10) should return 4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arithmetic.Scala99Arithmetic Challenge: isPrime(7) should Return: true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
+      <setting name="testName" value="Scala99Arithmetic Challenge: isPrime(7) should Return: true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arithmetic.ScalaArithmetic Challenge: phi(10) should return 4" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
+      <setting name="testName" value="ScalaArithmetic Challenge: phi(10) should return 4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arithmetic.ScalaArithmetic Challenge: phi(7) should return 6" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
+      <setting name="testName" value="ScalaArithmetic Challenge: phi(7) should return 6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: isPrime(7) should Return: true" />
+        <item itemvalue="ScalaTest.Arithmetic.ScalaArithmetic Challenge: phi(10) should return 4" />
+        <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: isPrime(-1) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(1) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(4) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(7) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(9) should Return: false&#10;Scala99Arithmetic Challenge: gcd(-1,5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,-5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,5) should return 1&#10;Scala99Arithmetic Challenge: gcd(35,10) should return 1&#10;Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true&#10;Scala99Arithmetic Challenge: 35.isCoprimeTo(64) should return true&#10;ScalaArithmetic Challenge: phi(7) should return 6&#10;ScalaArithmetic Challenge: phi(10) should return 4" />
+        <item itemvalue="ScalaTest.Arithmetic.ScalaArithmetic Challenge: phi(7) should return 6" />
         <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: isPrime(-1) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(1) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(4) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(7) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(9) should Return: false&#10;Scala99Arithmetic Challenge: gcd(-1,5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,-5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,5) should return 1&#10;Scala99Arithmetic Challenge: gcd(35,10) should return 1&#10;Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true&#10;Scala99Arithmetic Challenge: 35.isCoprimeTo(64) should return true" />
-        <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: 35.isCoprimeTo(64) should return true" />
-        <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true" />
-        <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: isPrime(-1) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(1) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(4) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(7) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(9) should Return: false&#10;Scala99Arithmetic Challenge: gcd(-1,5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,-5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,5) should return 1&#10;Scala99Arithmetic Challenge: gcd(35,10) should return 1" />
-        <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: gcd(1,5) should return 1" />
       </list>
     </recent_temporary>
   </component>
@@ -403,42 +403,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__isPrime(9)_should_Return__false - 2020.02.03 at 21h 42m 34s.xml">
-      <configuration name="Arithmetic.Scala99Arithmetic Challenge: isPrime(9) should Return: false" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_ScalaArithmetic_Challenge__phi(10)_should_return_4 - 2020.02.04 at 20h 09m 59s.xml">
+      <configuration name="Arithmetic.ScalaArithmetic Challenge: phi(10) should return 4" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__gcd(-1,5)_should_return_-1 - 2020.02.03 at 22h 12m 38s.xml">
-      <configuration name="Arithmetic.Scala99Arithmetic Challenge: gcd(-1,5) should return -1" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_ScalaArithmetic_Challenge__phi(10)_should_return_4 - 2020.02.04 at 20h 11m 44s.xml">
+      <configuration name="Arithmetic.ScalaArithmetic Challenge: phi(10) should return 4" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__gcd(1,-5)_should_return_-1 - 2020.02.03 at 22h 13m 25s.xml">
-      <configuration name="Arithmetic.Scala99Arithmetic Challenge: gcd(1,-5) should return -1" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_ScalaArithmetic_Challenge__phi(10)_should_return_4 - 2020.02.04 at 20h 12m 34s.xml">
+      <configuration name="Arithmetic.ScalaArithmetic Challenge: phi(10) should return 4" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__gcd(1,5)_should_return_1 - 2020.02.03 at 22h 15m 30s.xml">
-      <configuration name="Arithmetic.Scala99Arithmetic Challenge: gcd(1,5) should return 1" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_ScalaArithmetic_Challenge__phi(10)_should_return_4 - 2020.02.04 at 20h 13m 35s.xml">
+      <configuration name="Arithmetic.ScalaArithmetic Challenge: phi(10) should return 4" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__gcd(1,5)_should_return_1 - 2020.02.03 at 22h 15m 44s.xml">
-      <configuration name="Arithmetic.Scala99Arithmetic Challenge: gcd(1,5) should return 1" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_ScalaArithmetic_Challenge__phi(10)_should_return_4 - 2020.02.04 at 20h 14m 05s.xml">
+      <configuration name="Arithmetic.ScalaArithmetic Challenge: phi(10) should return 4" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__gcd(-1,5)_should_return_-1 - 2020.02.03 at 22h 16m 20s.xml">
-      <configuration name="Arithmetic.Scala99Arithmetic Challenge: gcd(-1,5) should return -1" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_ScalaArithmetic_Challenge__phi(10)_should_return_4 - 2020.02.04 at 20h 15m 11s.xml">
+      <configuration name="Arithmetic.ScalaArithmetic Challenge: phi(10) should return 4" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__gcd(1,-5)_should_return_-1 - 2020.02.03 at 22h 16m 30s.xml">
-      <configuration name="Arithmetic.Scala99Arithmetic Challenge: gcd(1,-5) should return -1" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_ScalaArithmetic_Challenge__phi(10)_should_return_4 - 2020.02.04 at 20h 17m 25s.xml">
+      <configuration name="Arithmetic.ScalaArithmetic Challenge: phi(10) should return 4" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__gcd(1,5)_should_return_1 - 2020.02.03 at 22h 16m 38s.xml">
-      <configuration name="Arithmetic.Scala99Arithmetic Challenge: gcd(1,5) should return 1" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_ScalaArithmetic_Challenge__phi(10)_should_return_4 - 2020.02.04 at 21h 11m 58s.xml">
+      <configuration name="Arithmetic.ScalaArithmetic Challenge: phi(10) should return 4" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__gcd(1,5)_should_return_1 - 2020.02.03 at 22h 16m 49s.xml">
-      <configuration name="Arithmetic.Scala99Arithmetic Challenge: gcd(1,5) should return 1" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__isPrime(7)_should_Return__true - 2020.02.04 at 21h 12m 41s.xml">
+      <configuration name="Arithmetic.Scala99Arithmetic Challenge: isPrime(7) should Return: true" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__34_isCoprimeTo(64)_should_return_true - 2020.02.04 at 19h 14m 20s.xml">
-      <configuration name="Arithmetic.Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__isPrime(7)_should_Return__true - 2020.02.04 at 21h 13m 04s.xml">
+      <configuration name="Arithmetic.Scala99Arithmetic Challenge: isPrime(7) should Return: true" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="0" y="0" width="960" height="1041" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3288889" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.12111111" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -447,13 +447,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33186328" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3314978" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3296582" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.3296582" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32929516" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3296582" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3296582" />
@@ -609,22 +609,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/Scala99Problems">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="198" column="20" lean-forward="true" selection-start-line="195" selection-end-line="198" selection-end-column="20" />
+        <state relative-caret-position="479">
+          <caret line="202" column="13" lean-forward="true" selection-start-line="199" selection-end-line="202" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99Arithmetic.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="19" />
+        <state relative-caret-position="374">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/Arithmetic.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="118" column="31" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+        <state relative-caret-position="-204">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
           <folding>
             <element signature="e#34#75#0" expanded="true" />
           </folding>

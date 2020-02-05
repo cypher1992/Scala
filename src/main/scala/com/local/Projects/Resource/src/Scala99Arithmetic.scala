@@ -10,12 +10,17 @@ class Scala99Arithmetic {
 
   def isPrime(num: Int): Boolean = {
 
-    num match {
-      case 1 | 2 | 3 => true
-      case a if (num < 1) => false
-      case b if (((num / 2) % 2) != 0) => true
-      case _ => false
+    def isPrimeRecur(n:Int = num,start:Int=2,state:Boolean = true):Boolean ={
+      n match {
+        case 1 | 2 | 3 => true
+        case a if (n < 1) => false
+        case b if (start == n | state == false) => state
+        case c if(n%start == 0) => isPrimeRecur(n,start+1,false)
+        case _ => isPrimeRecur(n,start+1,true)
+      }
     }
+    isPrimeRecur()
+    //(((num % (num / 2)) != 0) & ((num % (num / 3) != 0)))
   }
 
   /*
@@ -48,6 +53,30 @@ class Scala99Arithmetic {
 
   case class num(n: Int) {
     def isCoprimeTo(int: Int): Boolean = (gcd(n, int) == 1)
+  }
+
+  /*
+    P34 (**) Calculate Euler's totient function phi(m).
+    Euler's so-called totient function phi(m) is defined as the number of positive integers r (1 <= r <= m) that are coprime to m.
+    scala> 10.totient
+    res0: Int = 4
+  */
+
+  def phi(m:Int):Int = {
+
+    def totalPhi(num:Int = m-1, total:Int=0):Int ={
+      num match {
+        case 1  => total
+        case a  if(isPrime(num)) => totalPhi(num-1,total+1)
+        case _ =>   totalPhi(num-1,total)
+      }
+    }
+
+    m match{
+      case 1 => 1
+      case a if(isPrime(m)) => m-1
+      case _ => totalPhi()
+    }
   }
 
 }

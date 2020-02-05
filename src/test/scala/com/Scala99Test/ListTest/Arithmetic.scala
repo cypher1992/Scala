@@ -19,12 +19,14 @@ class Arithmetic extends AnyFlatSpec with Matchers{
       num match {
         case 1 | 2 | 3 => true
         case a if(num < 1) => false
-        case b if(((num/2)%2) != 0) => true
+        case b if((num%(num/2)) != 0) => true
         case _ => false
       }
     }
 
   */
+
+
   "Scala99Arithmetic Challenge: isPrime(-1)" should "Return: false" in{
     val actual:Boolean = sl99.isPrime(-1)
     val expected:Boolean = false
@@ -117,6 +119,28 @@ class Arithmetic extends AnyFlatSpec with Matchers{
     val num = sl99.num(35)
     val actual:Boolean = num.isCoprimeTo(64)
     val expected:Boolean = true
+
+    assert(actual == expected)
+  }
+
+  /*
+    P34 (**) Calculate Euler's totient function phi(m).
+    Euler's so-called totient function phi(m) is defined as the number of positive integers r (1 <= r <= m) that are coprime to m.
+    scala> 10.totient
+    res0: Int = 4
+  */
+
+  "ScalaArithmetic Challenge: phi(7)" should "return 6" in {
+    val actual:Int = sl99.phi(7)
+    val expected:Int = 6
+
+    assert(actual == expected)
+  }
+
+
+  "ScalaArithmetic Challenge: phi(10)" should "return 4" in {
+    val actual:Int = sl99.phi(10)
+    val expected:Int = 4
 
     assert(actual == expected)
   }

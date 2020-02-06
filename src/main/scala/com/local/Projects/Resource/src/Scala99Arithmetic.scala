@@ -94,6 +94,7 @@ class Scala99Arithmetic {
 
         def pfrecur(n:Int =num,divisor:Int=3,list:List[Int]=Nil):List[Int] ={
            n%2 match {
+             case z if(n <1) => list
              case 0 => pfrecur(n/2,3,list.appended(2))
              case a if(isPrime(n)) => list :+ n
              case b if(n%divisor == 0) => pfrecur(n/divisor,3,list.appended(divisor))

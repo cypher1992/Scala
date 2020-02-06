@@ -201,7 +201,31 @@ class Arithmetic extends AnyFlatSpec with Matchers{
     Construct a flat list containing the prime factors in ascending order.
     scala> 315.primeFactors
     res0: List[Int] = List(3, 3, 5, 7)
+
+      case class numPrimeFactor(num:Int){
+      def primeFactors():List[Int]={
+
+          def pfrecur(n:Int =num,divisor:Int=3,list:List[Int]=Nil):List[Int] ={
+             n%2 match {
+               case 0 => pfrecur(n/2,3,list.appended(2))
+               case a if(isPrime(n)) => list :+ n
+               case b if(n%divisor == 0) => pfrecur(n/divisor,3,list.appended(divisor))
+               case c if(n%divisor != 0) => pfrecur(n,divisor+1,list)
+               case _ => list
+             }
+          }
+        pfrecur()
+      }
+    }
   */
+
+  "ScalaArithmetic Challenge: -1.primeFactors()" should "return  Nil" in {
+    val pfClass = sl99.numPrimeFactor(-1)
+    val actual:List[Int] = pfClass.primeFactors()
+    val expected:List[Int] = Nil
+
+    assert(actual == expected)
+  }
 
   "ScalaArithmetic Challenge: 8.primeFactors()" should "return  List(2,2,2,1)" in {
     val pfClass = sl99.numPrimeFactor(8)

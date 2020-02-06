@@ -252,5 +252,12 @@ class Arithmetic extends AnyFlatSpec with Matchers{
     assert(actual == expected)
   }
 
+  "ScalaArithmetic Challenge: 74652354.primeFactors()" should "return List(2,3,3,3,3,7,65831)" in {
+    val pfClass = sl99.numPrimeFactor(74652354)
+    val actual:List[Int] = pfClass.primeFactors()
+    val expected:List[Int] = List(2,3,3,3,3,7,65831)
+
+    assert(actual == expected)
+  }
 
 }

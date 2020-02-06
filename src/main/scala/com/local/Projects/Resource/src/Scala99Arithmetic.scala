@@ -92,12 +92,12 @@ class Scala99Arithmetic {
   case class numPrimeFactor(num:Int){
     def primeFactors():List[Int]={
 
-        def pfrecur(n:Int =num,list:List[Int]=Nil):List[Int] ={
+        def pfrecur(n:Int =num,divisor:Int=3,list:List[Int]=Nil):List[Int] ={
            n%2 match {
-             case 0 => pfrecur(n/2,list.appended(2))
-             case a if(n%3 == 0) => pfrecur(n/3, list.appended(3))
-             case b if(n%5 == 0) => pfrecur(n/5,list.appended(5))
-             case c if(isPrime(n)) => list :+ n
+             case 0 => pfrecur(n/2,3,list.appended(2))
+             case a if(isPrime(n)) => list :+ n
+             case b if(n%divisor == 0) => pfrecur(n/divisor,3,list.appended(divisor))
+             case c if(n%divisor != 0) => pfrecur(n,divisor+1,list)
              case _ => list
            }
         }

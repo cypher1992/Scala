@@ -82,4 +82,26 @@ class Scala99Arithmetic {
     }
   }
 
+  /*
+    P35 (**) Determine the prime factors of a given positive integer.
+    Construct a flat list containing the prime factors in ascending order.
+    scala> 315.primeFactors
+    res0: List[Int] = List(3, 3, 5, 7)
+  */
+
+  case class numPrimeFactor(num:Int){
+    def primeFactors():List[Int]={
+
+        def pfrecur(n:Int =num,list:List[Int]=Nil):List[Int] ={
+           n%2 match {
+             case 0 => pfrecur(n/2,list.appended(2))
+             case a if(n%3 == 0) => pfrecur(n/3, list.appended(3))
+             case b if(n%5 == 0) => pfrecur(n/5,list.appended(5))
+             case c if(isPrime(n)) => list :+ n
+             case _ => list
+           }
+        }
+      pfrecur()
+    }
+  }
 }

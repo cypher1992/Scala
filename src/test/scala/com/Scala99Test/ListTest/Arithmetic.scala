@@ -143,6 +143,26 @@ class Arithmetic extends AnyFlatSpec with Matchers{
     Euler's so-called totient function phi(m) is defined as the number of positive integers r (1 <= r <= m) that are coprime to m.
     scala> 10.totient
     res0: Int = 4
+
+     def phi(m:Int):Int = {
+
+    def totalPhi(number:Int = m, number2:Int=1,store:Int = 0):Int = {
+        val numberClass = num(number)
+
+        number match {
+          case a  if (number == number2) => store
+          case b  if (numberClass.isCoprimeTo(number2)) => totalPhi (m, number2 + 1, store + 1)
+          case _  => totalPhi(m, number2 + 1, store)
+        }
+
+      }
+      m match{
+        case a if(m<1) => -1
+        case 1 => 1
+        case b if(isPrime(m)) => m-1
+        case _ => totalPhi()
+      }
+    }
   */
 
   "ScalaArithmetic Challenge: phi(7)" should "return 6" in {
@@ -175,5 +195,62 @@ class Arithmetic extends AnyFlatSpec with Matchers{
 
     assert(actual == expected)
   }
+
+  /*
+    P35 (**) Determine the prime factors of a given positive integer.
+    Construct a flat list containing the prime factors in ascending order.
+    scala> 315.primeFactors
+    res0: List[Int] = List(3, 3, 5, 7)
+  */
+
+  "ScalaArithmetic Challenge: 8.primeFactors()" should "return  List(2,2,2,1)" in {
+    val pfClass = sl99.numPrimeFactor(8)
+    val actual:List[Int] = pfClass.primeFactors()
+    val expected:List[Int] = List(2,2,2,1)
+
+    assert(actual == expected)
+  }
+
+
+  "ScalaArithmetic Challenge: 22.primeFactors()" should "return List(2,11)" in {
+    val pfClass = sl99.numPrimeFactor(2)
+    val actual:List[Int] = pfClass.primeFactors()
+    val expected:List[Int] = List(2,1)
+
+    assert(actual == expected)
+  }
+
+  "ScalaArithmetic Challenge: 315.primeFactors()" should "return List(3, 3, 5, 7)" in {
+    val pfClass = sl99.numPrimeFactor(315)
+    val actual:List[Int] = pfClass.primeFactors()
+    val expected:List[Int] = List(3, 3, 5, 7)
+
+    assert(actual == expected)
+  }
+
+  "ScalaArithmetic Challenge: 630.primeFactors()" should "return List(3, 3, 5, 7)" in {
+    val pfClass = sl99.numPrimeFactor(630)
+    val actual:List[Int] = pfClass.primeFactors()
+    val expected:List[Int] = List(2,3, 3, 5, 7)
+
+    assert(actual == expected)
+  }
+
+  "ScalaArithmetic Challenge: 975.primeFactors()" should "return List(3, 5, 5, 13)" in {
+    val pfClass = sl99.numPrimeFactor(975)
+    val actual:List[Int] = pfClass.primeFactors()
+    val expected:List[Int] = List(3, 5, 5, 13)
+
+    assert(actual == expected)
+  }
+
+  "ScalaArithmetic Challenge: 5154518.primeFactors()" should "return List(2, 29, 181, 491)" in {
+    val pfClass = sl99.numPrimeFactor(5154518)
+    val actual:List[Int] = pfClass.primeFactors()
+    val expected:List[Int] = List(2, 29, 181, 491)
+
+    assert(actual == expected)
+  }
+
 
 }

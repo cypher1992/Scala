@@ -64,14 +64,16 @@ class Scala99Arithmetic {
 
   def phi(m:Int):Int = {
 
-    def totalPhi(num:Int = m-1, total:Int=0):Int ={
-      num match {
-        case 1  => total
-        case a  if(isPrime(num)) => totalPhi(num-1,total+1)
-        case _ =>   totalPhi(num-1,total)
-      }
-    }
+    def totalPhi(number:Int = m, number2:Int=1,store:Int = 0):Int = {
+      val numberClass = num(number)
 
+      number match {
+        case a  if (number == number2) => store
+        case b  if (numberClass.isCoprimeTo(number2)) => totalPhi (m, number2 + 1, store + 1)
+        case _  => totalPhi(m, number2 + 1, store)
+      }
+
+    }
     m match{
       case 1 => 1
       case a if(isPrime(m)) => m-1

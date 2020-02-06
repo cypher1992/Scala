@@ -62,6 +62,20 @@ class Arithmetic extends AnyFlatSpec with Matchers{
     assert(actual == expected)
   }
 
+  "Scala99Arithmetic Challenge: range of prime between 2 to 1000 isPrime()" should "Return: 168 true" in{
+    var list:List[Boolean] = List.empty[Boolean]
+
+    for(n <- 2 to 1000){
+      if(sl99.isPrime(n) == true){
+        list = list.appended(sl99.isPrime(n))
+      }
+    }
+    val actual:Int = list.size
+    val expected:Int = 168
+
+    assert(actual == expected)
+  }
+
   /*
   P32 (**) Determine the greatest common divisor of two positive integer numbers.
   Use Euclid's algorithm.
@@ -117,6 +131,7 @@ class Arithmetic extends AnyFlatSpec with Matchers{
 
   "Scala99Arithmetic Challenge: 35.isCoprimeTo(64)" should "return true" in{
     val num = sl99.num(35)
+
     val actual:Boolean = num.isCoprimeTo(64)
     val expected:Boolean = true
 
@@ -131,6 +146,7 @@ class Arithmetic extends AnyFlatSpec with Matchers{
   */
 
   "ScalaArithmetic Challenge: phi(7)" should "return 6" in {
+
     val actual:Int = sl99.phi(7)
     val expected:Int = 6
 
@@ -141,6 +157,14 @@ class Arithmetic extends AnyFlatSpec with Matchers{
   "ScalaArithmetic Challenge: phi(10)" should "return 4" in {
     val actual:Int = sl99.phi(10)
     val expected:Int = 4
+
+    assert(actual == expected)
+  }
+
+
+  "ScalaArithmetic Challenge: phi(100)" should "return 40" in {
+    val actual:Int = sl99.phi(100)
+    val expected:Int = 40
 
     assert(actual == expected)
   }

@@ -75,8 +75,9 @@ class Scala99Arithmetic {
 
     }
     m match{
+      case a if(m<1) => -1
       case 1 => 1
-      case a if(isPrime(m)) => m-1
+      case b if(isPrime(m)) => m-1
       case _ => totalPhi()
     }
   }

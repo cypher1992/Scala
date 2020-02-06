@@ -169,4 +169,11 @@ class Arithmetic extends AnyFlatSpec with Matchers{
     assert(actual == expected)
   }
 
+  "ScalaArithmetic Challenge: phi(0)" should "return -1 " in {
+    val actual:Int = sl99.phi(0)
+    val expected:Int = -1
+
+    assert(actual == expected)
+  }
+
 }

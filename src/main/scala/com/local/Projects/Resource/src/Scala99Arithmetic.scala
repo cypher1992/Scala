@@ -90,6 +90,7 @@ class Scala99Arithmetic {
   */
 
   case class numPrimeFactor(num:Int){
+
     def primeFactors():List[Int]={
 
         def pfrecur(n:Int =num,divisor:Int=3,list:List[Int]=Nil):List[Int] ={
@@ -104,5 +105,37 @@ class Scala99Arithmetic {
         }
       pfrecur()
     }
+
+    /*
+     P36 (**) Determine the prime factors of a given positive integer (2).
+     Construct a list containing the prime factors and their multiplicity.
+     scala> 315.primeFactorMultiplicity
+     res0: List[(Int, Int)] = List((3,2), (5,1), (7,1))
+     Alternately, use a Map for the result.
+    */
+
+    def primeFactorMultiplicity(): List[Tuple2[Int,Int]] ={
+
+       val list:List[Int] = this.primeFactors()
+
+      def pfmAppend(lst:List[Int]=list, appendList:List[Tuple2[Int,Int]] = Nil,counter:Int = 1):List[Tuple2[Int,Int]] ={
+
+        lst match {
+          case Nil => appendList
+          case a if(lst.size == 1) => appendList :+ (lst.head,1)
+          case a if(lst.head == lst.tail.head) =>  pfmAppend(lst.tail,appendList,counter+1)
+          case _  => pfmAppend(lst.tail,appendList :+ (lst.head,counter),1 )
+        }
+      }
+
+      pfmAppend()
+    }
+
+
+
   }
+
+
+
+
 }

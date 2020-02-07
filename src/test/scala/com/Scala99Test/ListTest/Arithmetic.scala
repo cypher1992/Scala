@@ -284,4 +284,63 @@ class Arithmetic extends AnyFlatSpec with Matchers{
     assert(actual == expected)
   }
 
+
+    /*
+     P36 (**) Determine the prime factors of a given positive integer (2).
+     Construct a list containing the prime factors and their multiplicity.
+     scala> 315.primeFactorMultiplicity
+     res0: List[(Int, Int)] = List((3,2), (5,1), (7,1))
+     Alternately, use a Map for the result.
+
+     def primeFactorMultiplicity(): List[Tuple2[Int,Int]] ={
+
+         val list:List[Int] = this.primeFactors()
+
+        def pfmAppend(lst:List[Int]=list, appendList:List[Tuple2[Int,Int]] = Nil,counter:Int = 1):List[Tuple2[Int,Int]] ={
+
+          lst match {
+            case Nil => appendList
+            case a if(lst.size == 1) => appendList :+ (lst.head,1)
+            case a if(lst.head == lst.tail.head) =>  pfmAppend(lst.tail,appendList,counter+1)
+            case _  => pfmAppend(lst.tail,appendList :+ (lst.head,counter),1 )
+          }
+        }
+
+        pfmAppend()
+      }
+
+    */
+
+  "ScalaArtithmetic Challenge: 0.primeFactorMultiplicity()" should "return Nil" in{
+    val numClass = sl99.numPrimeFactor(0)
+    val actual:List[Tuple2[Int,Int]] = numClass.primeFactorMultiplicity()
+    val expected:List[Tuple2[Int,Int]] = Nil
+
+    assert(actual == expected)
+  }
+
+  "ScalaArtithmetic Challenge: 315.primeFactorMultiplicity()" should "return List((3,2), (5,1), (7,1))" in{
+    val numClass = sl99.numPrimeFactor(315)
+    val actual:List[Tuple2[Int,Int]] = numClass.primeFactorMultiplicity()
+    val expected:List[Tuple2[Int,Int]] = List((3,2), (5,1), (7,1))
+
+    assert(actual == expected)
+  }
+
+  "ScalaArtithmetic Challenge: 8.primeFactorMultiplicity()" should "return List((2,3))" in{
+    val numClass = sl99.numPrimeFactor(8)
+    val actual:List[Tuple2[Int,Int]] = numClass.primeFactorMultiplicity()
+    val expected:List[Tuple2[Int,Int]] = List((2,3),(1,1))
+
+    assert(actual == expected)
+  }
+
+  "ScalaArtithmetic Challenge: 74652354.primeFactorMultiplicity()" should "return List((2,1),(3,4),(7,1)(65831,1))" in{
+    val numClass = sl99.numPrimeFactor(74652354)
+    val actual:List[Tuple2[Int,Int]] = numClass.primeFactorMultiplicity()
+    val expected:List[Tuple2[Int,Int]] = List((2,1),(3,4),(7,1),(65831,1))
+
+    assert(actual == expected)
+  }
+
 }

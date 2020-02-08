@@ -139,10 +139,11 @@ class Scala99Arithmetic {
     Note that ab stands for the bth power of a.
   */
 
-  def totient(m:Int):List[Int] ={
+  def totient(m:Int):Int ={
 
     m match{
-      case a if(m<1) => Nil
+      case a if(m<1) => 0
+      case b if(isPrime(m)) => m-1
     }
   }
 

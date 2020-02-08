@@ -140,7 +140,6 @@ class Scala99Arithmetic {
   */
 
   def totient(m:Int):List[Int] ={
-
     Nil
   }
 

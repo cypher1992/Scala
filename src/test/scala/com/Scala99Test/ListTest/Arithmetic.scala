@@ -196,6 +196,13 @@ class Arithmetic extends AnyFlatSpec with Matchers{
     assert(actual == expected)
   }
 
+  "ScalaArithmetic Challenge: phi(10090)" should "return 4032 " in {
+    val actual:Int = sl99.phi(10090)
+    val expected:Int = 4032
+
+    assert(actual == expected)
+  }
+
   /*
     P35 (**) Determine the prime factors of a given positive integer.
     Construct a flat list containing the prime factors in ascending order.
@@ -389,6 +396,30 @@ class Arithmetic extends AnyFlatSpec with Matchers{
     val expected:Int = 40
 
     assert(actual == expected)
+
+  }
+
+  "Scala99Arithmetic Challenge: totient(10090)" should "return 4032" in{
+    val actual:Int = sl99.totient(10090)
+    val expected:Int = 4032
+
+    assert(actual == expected)
+
+  }
+
+  /*
+    P38 (*) Compare the two methods of calculating Euler's totient function.
+    Use the solutions of problems P34 and P37 to compare the algorithms. Try to calculate phi(10090) as an example.
+  */
+  "Scala99 Arithmetic: Compare two functions phi(10090) and totient(10090)" should "return 4032" in {
+
+
+
+    val actual:Int = sl99.totient(10090)
+    val actual2:Int = sl99.phi(10090)
+    val expected:Int = 4032
+
+    assert(actual == expected && actual2 == expected)
 
   }
 

@@ -147,12 +147,6 @@ class Scala99Arithmetic {
 
     def eulerPhiEquation(num:Int,multiplicity:Int):Int = {
 
-      println(
-        s"""
-          |Num: ${num}
-          |Multiplicity: ${multiplicity}
-        """.stripMargin)
-
       num match {
         case 1 => 1
         case _ => (num-1)*(pow(num,(multiplicity-1))).toInt
@@ -161,12 +155,6 @@ class Scala99Arithmetic {
     }
 
     def phiSum(n:Int = m,lst:List[Tuple2[Int,Int]]=list,store:Int = 1): Int ={
-
-      println(
-        s"""
-          |List: ${lst}
-          |store: ${store}
-        """.stripMargin)
 
       n match{
         case a if(n<1) => 0

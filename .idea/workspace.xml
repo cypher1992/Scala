@@ -4,7 +4,43 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala" line="179" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="" />
+    <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Scala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$68998465ba3ad5a6710d$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$68998465ba3ad5a6710d.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$68998465ba3ad5a6710d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sbt_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sbt_2.12/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sbt_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sbt_2.12/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sources_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sources_2.12/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sources_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scala$sources_2.12/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sbt_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scala$sources_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -29,8 +65,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/Scala99Problems">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="666">
-                    <caret line="216" column="17" selection-start-line="215" selection-end-line="219" selection-end-column="43" />
+                  <state relative-caret-position="119">
+                    <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
                   </state>
                 </provider>
               </entry>
@@ -50,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99Arithmetic.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="147" selection-start-line="147" selection-end-line="148" />
+            <state relative-caret-position="201">
+              <caret line="100" column="32" lean-forward="true" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -59,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/Arithmetic.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="364" column="24" selection-start-line="364" selection-start-column="24" selection-end-line="364" selection-end-column="24" />
+            <state relative-caret-position="-391">
+              <caret line="346" column="48" lean-forward="true" selection-start-line="346" selection-start-column="48" selection-end-line="346" selection-end-column="48" />
               <folding>
                 <element signature="e#34#75#0" expanded="true" />
               </folding>
@@ -125,8 +161,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: totient(7) should return">
-    <configuration name="Arithmetic.Scala99Arithmetic Challenge: totient(-1) should return 0" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+  <component name="RunManager" selected="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: isPrime(-1) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(1) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(4) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(7) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(9) should Return: false&#10;Scala99Arithmetic Challenge: range of prime between 2 to 1000 isPrime() should Return: 168 true&#10;Scala99Arithmetic Challenge: gcd(-1,5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,-5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,5) should return 1&#10;Scala99Arithmetic Challenge: gcd(35,10) should return 1&#10;Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true&#10;Scala99Arithmetic Challenge: 35.isCoprimeTo(64) should return true&#10;ScalaArithmetic Challenge: phi(7) should return 6&#10;ScalaArithmetic Challenge: phi(10) should return 4&#10;ScalaArithmetic Challenge: phi(100) should return 40&#10;ScalaArithmetic Challenge: phi(0) should return -1&#10;ScalaArithmetic Challenge: -1.primeFactors() should return  Nil&#10;ScalaArithmetic Challenge: 8.primeFactors() should return  List(2,2,2,1)&#10;ScalaArithmetic Challenge: 22.primeFactors() should return List(2,11,1)&#10;ScalaArithmetic Challenge: 315.primeFactors() should return List(3, 3, 5, 7,1)&#10;ScalaArithmetic Challenge: 630.primeFactors() should return List(3, 3, 5, 7,1)&#10;ScalaArithmetic Challenge: 975.primeFactors() should return List(3, 5, 5, 13,1)&#10;ScalaArithmetic Challenge: 5154518.primeFactors() should return List(2, 29, 181, 491,1)&#10;ScalaArithmetic Challenge: 74652354.primeFactors() should return List(2,3,3,3,3,7,65831)&#10;ScalaArtithmetic Challenge: 0.primeFactorMultiplicity() should return Nil&#10;ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))&#10;ScalaArtithmetic Challenge: 315.primeFactorMultiplicity() should return List((3,2), (5,1), (7,1))&#10;ScalaArtithmetic Challenge: 8.primeFactorMultiplicity() should return List((2,3))&#10;ScalaArtithmetic Challenge: 74652354.primeFactorMultiplicity() should return List((2,1),(3,4),(7,1)(65831,1))&#10;Scala99Arithmetic Challenge: totient(-1) should return 0&#10;Scala99Arithmetic Challenge: totient(7) should return 6&#10;Scala99Arithmetic Challenge: totient(10) should return 4&#10;Scala99Arithmetic Challenge: totient(1000) should return 400">
+    <configuration name="Arithmetic.Scala99Arithmetic Challenge: isPrime(-1) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(1) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(4) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(7) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(9) should Return: false&#10;Scala99Arithmetic Challenge: range of prime between 2 to 1000 isPrime() should Return: 168 true&#10;Scala99Arithmetic Challenge: gcd(-1,5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,-5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,5) should return 1&#10;Scala99Arithmetic Challenge: gcd(35,10) should return 1&#10;Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true&#10;Scala99Arithmetic Challenge: 35.isCoprimeTo(64) should return true&#10;ScalaArithmetic Challenge: phi(7) should return 6&#10;ScalaArithmetic Challenge: phi(10) should return 4&#10;ScalaArithmetic Challenge: phi(100) should return 40&#10;ScalaArithmetic Challenge: phi(0) should return -1&#10;ScalaArithmetic Challenge: -1.primeFactors() should return  Nil&#10;ScalaArithmetic Challenge: 8.primeFactors() should return  List(2,2,2,1)&#10;ScalaArithmetic Challenge: 22.primeFactors() should return List(2,11,1)&#10;ScalaArithmetic Challenge: 315.primeFactors() should return List(3, 3, 5, 7,1)&#10;ScalaArithmetic Challenge: 630.primeFactors() should return List(3, 3, 5, 7,1)&#10;ScalaArithmetic Challenge: 975.primeFactors() should return List(3, 5, 5, 13,1)&#10;ScalaArithmetic Challenge: 5154518.primeFactors() should return List(2, 29, 181, 491,1)&#10;ScalaArithmetic Challenge: 74652354.primeFactors() should return List(2,3,3,3,3,7,65831)&#10;ScalaArtithmetic Challenge: 0.primeFactorMultiplicity() should return Nil&#10;ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))&#10;ScalaArtithmetic Challenge: 315.primeFactorMultiplicity() should return List((3,2), (5,1), (7,1))&#10;ScalaArtithmetic Challenge: 8.primeFactorMultiplicity() should return List((2,3))&#10;ScalaArtithmetic Challenge: 74652354.primeFactorMultiplicity() should return List((2,1),(3,4),(7,1)(65831,1))&#10;Scala99Arithmetic Challenge: totient(-1) should return 0&#10;Scala99Arithmetic Challenge: totient(7) should return 6&#10;Scala99Arithmetic Challenge: totient(10) should return 4&#10;Scala99Arithmetic Challenge: totient(1000) should return 400" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
       <setting name="vmparams" value="" />
@@ -140,12 +176,12 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
-      <setting name="testName" value="Scala99Arithmetic Challenge: totient(-1) should return 0" />
+      <setting name="testName" value="Scala99Arithmetic Challenge: isPrime(-1) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(1) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(4) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(7) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(9) should Return: false&#10;Scala99Arithmetic Challenge: range of prime between 2 to 1000 isPrime() should Return: 168 true&#10;Scala99Arithmetic Challenge: gcd(-1,5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,-5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,5) should return 1&#10;Scala99Arithmetic Challenge: gcd(35,10) should return 1&#10;Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true&#10;Scala99Arithmetic Challenge: 35.isCoprimeTo(64) should return true&#10;ScalaArithmetic Challenge: phi(7) should return 6&#10;ScalaArithmetic Challenge: phi(10) should return 4&#10;ScalaArithmetic Challenge: phi(100) should return 40&#10;ScalaArithmetic Challenge: phi(0) should return -1&#10;ScalaArithmetic Challenge: -1.primeFactors() should return  Nil&#10;ScalaArithmetic Challenge: 8.primeFactors() should return  List(2,2,2,1)&#10;ScalaArithmetic Challenge: 22.primeFactors() should return List(2,11,1)&#10;ScalaArithmetic Challenge: 315.primeFactors() should return List(3, 3, 5, 7,1)&#10;ScalaArithmetic Challenge: 630.primeFactors() should return List(3, 3, 5, 7,1)&#10;ScalaArithmetic Challenge: 975.primeFactors() should return List(3, 5, 5, 13,1)&#10;ScalaArithmetic Challenge: 5154518.primeFactors() should return List(2, 29, 181, 491,1)&#10;ScalaArithmetic Challenge: 74652354.primeFactors() should return List(2,3,3,3,3,7,65831)&#10;ScalaArtithmetic Challenge: 0.primeFactorMultiplicity() should return Nil&#10;ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))&#10;ScalaArtithmetic Challenge: 315.primeFactorMultiplicity() should return List((3,2), (5,1), (7,1))&#10;ScalaArtithmetic Challenge: 8.primeFactorMultiplicity() should return List((2,3))&#10;ScalaArtithmetic Challenge: 74652354.primeFactorMultiplicity() should return List((2,1),(3,4),(7,1)(65831,1))&#10;Scala99Arithmetic Challenge: totient(-1) should return 0&#10;Scala99Arithmetic Challenge: totient(7) should return 6&#10;Scala99Arithmetic Challenge: totient(10) should return 4&#10;Scala99Arithmetic Challenge: totient(1000) should return 400" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arithmetic.Scala99Arithmetic Challenge: totient(-1) should return nil" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="Arithmetic.Scala99Arithmetic Challenge: isPrime(-1) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(1) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(4) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(7) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(9) should Return: false&#10;Scala99Arithmetic Challenge: range of prime between 2 to 1000 isPrime() should Return: 168 true&#10;Scala99Arithmetic Challenge: gcd(-1,5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,-5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,5) should return 1&#10;Scala99Arithmetic Challenge: gcd(35,10) should return 1&#10;Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true&#10;Scala99Arithmetic Challenge: 35.isCoprimeTo(64) should return true&#10;ScalaArithmetic Challenge: phi(7) should return 6&#10;ScalaArithmetic Challenge: phi(10) should return 4&#10;ScalaArithmetic Challenge: phi(100) should return 40&#10;ScalaArithmetic Challenge: phi(0) should return -1&#10;ScalaArithmetic Challenge: -1.primeFactors() should return  Nil&#10;ScalaArithmetic Challenge: 8.primeFactors() should return  List(2,2,2,1)&#10;ScalaArithmetic Challenge: 22.primeFactors() should return List(2,11)&#10;ScalaArithmetic Challenge: 315.primeFactors() should return List(3, 3, 5, 7)&#10;ScalaArithmetic Challenge: 630.primeFactors() should return List(3, 3, 5, 7)&#10;ScalaArithmetic Challenge: 975.primeFactors() should return List(3, 5, 5, 13)&#10;ScalaArithmetic Challenge: 5154518.primeFactors() should return List(2, 29, 181, 491)&#10;ScalaArithmetic Challenge: 74652354.primeFactors() should return List(2,3,3,3,3,7,65831)&#10;ScalaArtithmetic Challenge: 0.primeFactorMultiplicity() should return Nil&#10;ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))&#10;ScalaArtithmetic Challenge: 315.primeFactorMultiplicity() should return List((3,2), (5,1), (7,1))&#10;ScalaArtithmetic Challenge: 8.primeFactorMultiplicity() should return List((2,3))&#10;ScalaArtithmetic Challenge: 74652354.primeFactorMultiplicity() should return List((2,1),(3,4),(7,1)(65831,1))&#10;Scala99Arithmetic Challenge: totient(-1) should return 0&#10;Scala99Arithmetic Challenge: totient(7) should return 6&#10;Scala99Arithmetic Challenge: totient(10) should return 4&#10;Scala99Arithmetic Challenge: totient(1000) should return 400" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
       <setting name="vmparams" value="" />
@@ -159,12 +195,12 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
-      <setting name="testName" value="Scala99Arithmetic Challenge: totient(-1) should return nil" />
+      <setting name="testName" value="Scala99Arithmetic Challenge: isPrime(-1) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(1) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(4) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(7) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(9) should Return: false&#10;Scala99Arithmetic Challenge: range of prime between 2 to 1000 isPrime() should Return: 168 true&#10;Scala99Arithmetic Challenge: gcd(-1,5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,-5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,5) should return 1&#10;Scala99Arithmetic Challenge: gcd(35,10) should return 1&#10;Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true&#10;Scala99Arithmetic Challenge: 35.isCoprimeTo(64) should return true&#10;ScalaArithmetic Challenge: phi(7) should return 6&#10;ScalaArithmetic Challenge: phi(10) should return 4&#10;ScalaArithmetic Challenge: phi(100) should return 40&#10;ScalaArithmetic Challenge: phi(0) should return -1&#10;ScalaArithmetic Challenge: -1.primeFactors() should return  Nil&#10;ScalaArithmetic Challenge: 8.primeFactors() should return  List(2,2,2,1)&#10;ScalaArithmetic Challenge: 22.primeFactors() should return List(2,11)&#10;ScalaArithmetic Challenge: 315.primeFactors() should return List(3, 3, 5, 7)&#10;ScalaArithmetic Challenge: 630.primeFactors() should return List(3, 3, 5, 7)&#10;ScalaArithmetic Challenge: 975.primeFactors() should return List(3, 5, 5, 13)&#10;ScalaArithmetic Challenge: 5154518.primeFactors() should return List(2, 29, 181, 491)&#10;ScalaArithmetic Challenge: 74652354.primeFactors() should return List(2,3,3,3,3,7,65831)&#10;ScalaArtithmetic Challenge: 0.primeFactorMultiplicity() should return Nil&#10;ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))&#10;ScalaArtithmetic Challenge: 315.primeFactorMultiplicity() should return List((3,2), (5,1), (7,1))&#10;ScalaArtithmetic Challenge: 8.primeFactorMultiplicity() should return List((2,3))&#10;ScalaArtithmetic Challenge: 74652354.primeFactorMultiplicity() should return List((2,1),(3,4),(7,1)(65831,1))&#10;Scala99Arithmetic Challenge: totient(-1) should return 0&#10;Scala99Arithmetic Challenge: totient(7) should return 6&#10;Scala99Arithmetic Challenge: totient(10) should return 4&#10;Scala99Arithmetic Challenge: totient(1000) should return 400" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arithmetic.Scala99Arithmetic Challenge: totient(7) should return" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="Arithmetic.Scala99Arithmetic Challenge: totient(1000) should return 400" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
       <setting name="vmparams" value="" />
@@ -178,12 +214,12 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
-      <setting name="testName" value="Scala99Arithmetic Challenge: totient(7) should return" />
+      <setting name="testName" value="Scala99Arithmetic Challenge: totient(1000) should return 400" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arithmetic.ScalaArtithmetic Challenge: 74652354.primeFactorMultiplicity() should return List((2,1),(3,4),(7,1)(65831,1))" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="Arithmetic.Scala99Arithmetic Challenge: totient(8) should return" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
       <setting name="vmparams" value="" />
@@ -197,12 +233,12 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
-      <setting name="testName" value="ScalaArtithmetic Challenge: 74652354.primeFactorMultiplicity() should return List((2,1),(3,4),(7,1)(65831,1))" />
+      <setting name="testName" value="Scala99Arithmetic Challenge: totient(8) should return" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arithmetic.ScalaArtithmetic Challenge: 8.primeFactorMultiplicity() should return List((2,3))" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="Arithmetic.ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
       <setting name="vmparams" value="" />
@@ -216,18 +252,18 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
-      <setting name="testName" value="ScalaArtithmetic Challenge: 8.primeFactorMultiplicity() should return List((2,3))" />
+      <setting name="testName" value="ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: totient(7) should return" />
-        <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: totient(-1) should return 0" />
-        <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: totient(-1) should return nil" />
-        <item itemvalue="ScalaTest.Arithmetic.ScalaArtithmetic Challenge: 74652354.primeFactorMultiplicity() should return List((2,1),(3,4),(7,1)(65831,1))" />
-        <item itemvalue="ScalaTest.Arithmetic.ScalaArtithmetic Challenge: 8.primeFactorMultiplicity() should return List((2,3))" />
+        <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: isPrime(-1) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(1) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(4) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(7) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(9) should Return: false&#10;Scala99Arithmetic Challenge: range of prime between 2 to 1000 isPrime() should Return: 168 true&#10;Scala99Arithmetic Challenge: gcd(-1,5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,-5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,5) should return 1&#10;Scala99Arithmetic Challenge: gcd(35,10) should return 1&#10;Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true&#10;Scala99Arithmetic Challenge: 35.isCoprimeTo(64) should return true&#10;ScalaArithmetic Challenge: phi(7) should return 6&#10;ScalaArithmetic Challenge: phi(10) should return 4&#10;ScalaArithmetic Challenge: phi(100) should return 40&#10;ScalaArithmetic Challenge: phi(0) should return -1&#10;ScalaArithmetic Challenge: -1.primeFactors() should return  Nil&#10;ScalaArithmetic Challenge: 8.primeFactors() should return  List(2,2,2,1)&#10;ScalaArithmetic Challenge: 22.primeFactors() should return List(2,11,1)&#10;ScalaArithmetic Challenge: 315.primeFactors() should return List(3, 3, 5, 7,1)&#10;ScalaArithmetic Challenge: 630.primeFactors() should return List(3, 3, 5, 7,1)&#10;ScalaArithmetic Challenge: 975.primeFactors() should return List(3, 5, 5, 13,1)&#10;ScalaArithmetic Challenge: 5154518.primeFactors() should return List(2, 29, 181, 491,1)&#10;ScalaArithmetic Challenge: 74652354.primeFactors() should return List(2,3,3,3,3,7,65831)&#10;ScalaArtithmetic Challenge: 0.primeFactorMultiplicity() should return Nil&#10;ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))&#10;ScalaArtithmetic Challenge: 315.primeFactorMultiplicity() should return List((3,2), (5,1), (7,1))&#10;ScalaArtithmetic Challenge: 8.primeFactorMultiplicity() should return List((2,3))&#10;ScalaArtithmetic Challenge: 74652354.primeFactorMultiplicity() should return List((2,1),(3,4),(7,1)(65831,1))&#10;Scala99Arithmetic Challenge: totient(-1) should return 0&#10;Scala99Arithmetic Challenge: totient(7) should return 6&#10;Scala99Arithmetic Challenge: totient(10) should return 4&#10;Scala99Arithmetic Challenge: totient(1000) should return 400" />
+        <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: totient(1000) should return 400" />
+        <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: isPrime(-1) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(1) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(4) should Return: false&#10;Scala99Arithmetic Challenge: isPrime(7) should Return: true&#10;Scala99Arithmetic Challenge: isPrime(9) should Return: false&#10;Scala99Arithmetic Challenge: range of prime between 2 to 1000 isPrime() should Return: 168 true&#10;Scala99Arithmetic Challenge: gcd(-1,5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,-5) should return -1&#10;Scala99Arithmetic Challenge: gcd(1,5) should return 1&#10;Scala99Arithmetic Challenge: gcd(35,10) should return 1&#10;Scala99Arithmetic Challenge: 34.isCoprimeTo(64) should return true&#10;Scala99Arithmetic Challenge: 35.isCoprimeTo(64) should return true&#10;ScalaArithmetic Challenge: phi(7) should return 6&#10;ScalaArithmetic Challenge: phi(10) should return 4&#10;ScalaArithmetic Challenge: phi(100) should return 40&#10;ScalaArithmetic Challenge: phi(0) should return -1&#10;ScalaArithmetic Challenge: -1.primeFactors() should return  Nil&#10;ScalaArithmetic Challenge: 8.primeFactors() should return  List(2,2,2,1)&#10;ScalaArithmetic Challenge: 22.primeFactors() should return List(2,11)&#10;ScalaArithmetic Challenge: 315.primeFactors() should return List(3, 3, 5, 7)&#10;ScalaArithmetic Challenge: 630.primeFactors() should return List(3, 3, 5, 7)&#10;ScalaArithmetic Challenge: 975.primeFactors() should return List(3, 5, 5, 13)&#10;ScalaArithmetic Challenge: 5154518.primeFactors() should return List(2, 29, 181, 491)&#10;ScalaArithmetic Challenge: 74652354.primeFactors() should return List(2,3,3,3,3,7,65831)&#10;ScalaArtithmetic Challenge: 0.primeFactorMultiplicity() should return Nil&#10;ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))&#10;ScalaArtithmetic Challenge: 315.primeFactorMultiplicity() should return List((3,2), (5,1), (7,1))&#10;ScalaArtithmetic Challenge: 8.primeFactorMultiplicity() should return List((2,3))&#10;ScalaArtithmetic Challenge: 74652354.primeFactorMultiplicity() should return List((2,1),(3,4),(7,1)(65831,1))&#10;Scala99Arithmetic Challenge: totient(-1) should return 0&#10;Scala99Arithmetic Challenge: totient(7) should return 6&#10;Scala99Arithmetic Challenge: totient(10) should return 4&#10;Scala99Arithmetic Challenge: totient(1000) should return 400" />
+        <item itemvalue="ScalaTest.Arithmetic.ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))" />
+        <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: totient(8) should return" />
       </list>
     </recent_temporary>
   </component>
@@ -277,35 +313,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Arithmetic_ScalaArtithmetic_Challenge__315_primeFactorMultiplicity()_should_return_Nil - 2020.02.06 at 19h 40m 54s.xml">
-      <configuration name="Arithmetic.ScalaArtithmetic Challenge: 315.primeFactorMultiplicity() should return Nil" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__totient(8)_should_return - 2020.02.09 at 18h 01m 32s.xml">
+      <configuration name="Arithmetic.Scala99Arithmetic Challenge: totient(8) should return" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_ScalaArtithmetic_Challenge__315_primeFactorMultiplicity()_should_return_List((3,2),_(5,1),_(7,1)) - 2020.02.06 at 19h 41m 20s.xml">
-      <configuration name="Arithmetic.ScalaArtithmetic Challenge: 315.primeFactorMultiplicity() should return List((3,2), (5,1), (7,1))" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__totient(8)_should_return - 2020.02.09 at 18h 12m 14s.xml">
+      <configuration name="Arithmetic.Scala99Arithmetic Challenge: totient(8) should return" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_ScalaArtithmetic_Challenge__315_primeFactorMultiplicity()_should_return_List((3,2),_(5,1),_(7,1)) - 2020.02.06 at 19h 42m 39s.xml">
-      <configuration name="Arithmetic.ScalaArtithmetic Challenge: 315.primeFactorMultiplicity() should return List((3,2), (5,1), (7,1))" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__totient(1000)_should_return_400 - 2020.02.09 at 18h 16m 53s.xml">
+      <configuration name="Arithmetic.Scala99Arithmetic Challenge: totient(1000) should return 400" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_ScalaArtithmetic_Challenge__315_primeFactorMultiplicity()_should_return_List((3,2),_(5,1),_(7,1)) - 2020.02.06 at 19h 43m 33s.xml">
-      <configuration name="Arithmetic.ScalaArtithmetic Challenge: 315.primeFactorMultiplicity() should return List((3,2), (5,1), (7,1))" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__totient(1000)_should_return_400 - 2020.02.09 at 18h 18m 17s.xml">
+      <configuration name="Arithmetic.Scala99Arithmetic Challenge: totient(1000) should return 400" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_ScalaArtithmetic_Challenge__315_primeFactorMultiplicity()_should_return_List((3,2),_(5,1),_(7,1)) - 2020.02.06 at 19h 50m 57s.xml">
-      <configuration name="Arithmetic.ScalaArtithmetic Challenge: 315.primeFactorMultiplicity() should return List((3,2), (5,1), (7,1))" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__totient(1000)_should_return_400 - 2020.02.09 at 18h 19m 25s.xml">
+      <configuration name="Arithmetic.Scala99Arithmetic Challenge: totient(1000) should return 400" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_ScalaArtithmetic_Challenge__8_primeFactorMultiplicity()_should_return_List((2,3)) - 2020.02.06 at 19h 51m 59s.xml">
-      <configuration name="Arithmetic.ScalaArtithmetic Challenge: 8.primeFactorMultiplicity() should return List((2,3))" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_ScalaArtithmetic_Challenge__100_primeFactorMultiplicity()_should_return_List((2,2),_(5,2)) - 2020.02.09 at 18h 23m 09s.xml">
+      <configuration name="Arithmetic.ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_ScalaArtithmetic_Challenge__8_primeFactorMultiplicity()_should_return_List((2,3)) - 2020.02.06 at 19h 52m 36s.xml">
-      <configuration name="Arithmetic.ScalaArtithmetic Challenge: 8.primeFactorMultiplicity() should return List((2,3))" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_ScalaArtithmetic_Challenge__100_primeFactorMultiplicity()_should_return_List((2,2),_(5,2)) - 2020.02.09 at 18h 24m 44s.xml">
+      <configuration name="Arithmetic.ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_ScalaArtithmetic_Challenge__74652354_primeFactorMultiplicity()_should_return_List((2,1),(3,4),(7,1)(65831,1)) - 2020.02.06 at 19h 58m 09s.xml">
-      <configuration name="Arithmetic.ScalaArtithmetic Challenge: 74652354.primeFactorMultiplicity() should return List((2,1),(3,4),(7,1)(65831,1))" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_ScalaArtithmetic_Challenge__100_primeFactorMultiplicity()_should_return_List((2,2),_(5,2)) - 2020.02.09 at 18h 32m 47s.xml">
+      <configuration name="Arithmetic.ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__totient(-1)_should_return_nil - 2020.02.07 at 23h 38m 53s.xml">
-      <configuration name="Arithmetic.Scala99Arithmetic Challenge: totient(-1) should return nil" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_ScalaArtithmetic_Challenge__100_primeFactorMultiplicity()_should_return_List((2,2),_(5,2)) - 2020.02.09 at 18h 33m 16s.xml">
+      <configuration name="Arithmetic.ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__totient(-1)_should_return_0 - 2020.02.07 at 23h 49m 59s.xml">
-      <configuration name="Arithmetic.Scala99Arithmetic Challenge: totient(-1) should return 0" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Arithmetic_ScalaArtithmetic_Challenge__100_primeFactorMultiplicity()_should_return_List((2,2),_(5,2)) - 2020.02.09 at 18h 33m 55s.xml">
+      <configuration name="Arithmetic.ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -321,15 +357,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33186328" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4977778" visible="true" weight="0.33186328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3296582" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32855567" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" sideWeight="0.8611111" weight="0.32855567" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3296582" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50222224" side_tool="true" weight="0.33186328" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3296582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -515,22 +551,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/Scala99Problems">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="216" column="17" selection-start-line="215" selection-end-line="219" selection-end-column="43" />
+        <state relative-caret-position="119">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99Arithmetic.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="147" selection-start-line="147" selection-end-line="148" />
+        <state relative-caret-position="201">
+          <caret line="100" column="32" lean-forward="true" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/Arithmetic.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="364" column="24" selection-start-line="364" selection-start-column="24" selection-end-line="364" selection-end-column="24" />
+        <state relative-caret-position="-391">
+          <caret line="346" column="48" lean-forward="true" selection-start-line="346" selection-start-column="48" selection-end-line="346" selection-end-column="48" />
           <folding>
             <element signature="e#34#75#0" expanded="true" />
           </folding>

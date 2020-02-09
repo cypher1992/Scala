@@ -1,4 +1,5 @@
 package com.local.Projects.Resource.src
+import scala.math.pow
 
 class Scala99Arithmetic {
 
@@ -89,7 +90,7 @@ class Scala99Arithmetic {
     res0: List[Int] = List(3, 3, 5, 7)
   */
 
-  case class numPrimeFactor(num:Int){
+  case class NumPrimeFactor(num:Int){
 
     def primeFactors():List[Int]={
 
@@ -97,7 +98,7 @@ class Scala99Arithmetic {
            n%2 match {
              case z if(n <1) => list
              case 0 => pfrecur(n/2,3,list.appended(2))
-             case a if(isPrime(n)) => list :+ n
+             case a if(n == 1 ) => list :+ n
              case b if(n%divisor == 0) => pfrecur(n/divisor,3,list.appended(divisor))
              case c if(n%divisor != 0) => pfrecur(n,divisor+1,list)
              case _ => list
@@ -141,10 +142,42 @@ class Scala99Arithmetic {
 
   def totient(m:Int):Int ={
 
-    m match{
-      case a if(m<1) => 0
-      case b if(isPrime(m)) => m-1
+   lazy val numPhiM = this.NumPrimeFactor(m)
+   lazy val list:List[Tuple2[Int,Int]] = numPhiM.primeFactorMultiplicity()
+
+    def eulerPhiEquation(num:Int,multiplicity:Int):Int = {
+
+      println(
+        s"""
+          |Num: ${num}
+          |Multiplicity: ${multiplicity}
+        """.stripMargin)
+
+      num match {
+        case 1 => 1
+        case _ => (num-1)*(pow(num,(multiplicity-1))).toInt
+      }
+
     }
+
+    def phiSum(n:Int = m,lst:List[Tuple2[Int,Int]]=list,store:Int = 1): Int ={
+
+      println(
+        s"""
+          |List: ${lst}
+          |store: ${store}
+        """.stripMargin)
+
+      n match{
+        case a if(n<1) => 0
+        case b if(isPrime(n)) => n-1
+        case c if(lst.isEmpty) => store
+        case _ => phiSum(n,lst.tail,store * eulerPhiEquation(lst.head._1,lst.head._2))
+      }
+
+    }
+
+    phiSum()
   }
 
 }

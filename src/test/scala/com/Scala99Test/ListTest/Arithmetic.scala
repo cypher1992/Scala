@@ -220,7 +220,7 @@ class Arithmetic extends AnyFlatSpec with Matchers{
   */
 
   "ScalaArithmetic Challenge: -1.primeFactors()" should "return  Nil" in {
-    val pfClass = sl99.numPrimeFactor(-1)
+    val pfClass = sl99.NumPrimeFactor(-1)
     val actual:List[Int] = pfClass.primeFactors()
     val expected:List[Int] = Nil
 
@@ -228,7 +228,7 @@ class Arithmetic extends AnyFlatSpec with Matchers{
   }
 
   "ScalaArithmetic Challenge: 8.primeFactors()" should "return  List(2,2,2,1)" in {
-    val pfClass = sl99.numPrimeFactor(8)
+    val pfClass = sl99.NumPrimeFactor(8)
     val actual:List[Int] = pfClass.primeFactors()
     val expected:List[Int] = List(2,2,2,1)
 
@@ -236,50 +236,50 @@ class Arithmetic extends AnyFlatSpec with Matchers{
   }
 
 
-  "ScalaArithmetic Challenge: 22.primeFactors()" should "return List(2,11)" in {
-    val pfClass = sl99.numPrimeFactor(2)
+  "ScalaArithmetic Challenge: 22.primeFactors()" should "return List(2,11,1)" in {
+    val pfClass = sl99.NumPrimeFactor(22)
     val actual:List[Int] = pfClass.primeFactors()
-    val expected:List[Int] = List(2,1)
+    val expected:List[Int] = List(2,11,1)
 
     assert(actual == expected)
   }
 
-  "ScalaArithmetic Challenge: 315.primeFactors()" should "return List(3, 3, 5, 7)" in {
-    val pfClass = sl99.numPrimeFactor(315)
+  "ScalaArithmetic Challenge: 315.primeFactors()" should "return List(3, 3, 5, 7,1)" in {
+    val pfClass = sl99.NumPrimeFactor(315)
     val actual:List[Int] = pfClass.primeFactors()
-    val expected:List[Int] = List(3, 3, 5, 7)
+    val expected:List[Int] = List(3, 3, 5, 7,1)
 
     assert(actual == expected)
   }
 
-  "ScalaArithmetic Challenge: 630.primeFactors()" should "return List(3, 3, 5, 7)" in {
-    val pfClass = sl99.numPrimeFactor(630)
+  "ScalaArithmetic Challenge: 630.primeFactors()" should "return List(3, 3, 5, 7,1)" in {
+    val pfClass = sl99.NumPrimeFactor(630)
     val actual:List[Int] = pfClass.primeFactors()
-    val expected:List[Int] = List(2,3, 3, 5, 7)
+    val expected:List[Int] = List(2,3, 3, 5, 7,1)
 
     assert(actual == expected)
   }
 
-  "ScalaArithmetic Challenge: 975.primeFactors()" should "return List(3, 5, 5, 13)" in {
-    val pfClass = sl99.numPrimeFactor(975)
+  "ScalaArithmetic Challenge: 975.primeFactors()" should "return List(3, 5, 5, 13,1)" in {
+    val pfClass = sl99.NumPrimeFactor(975)
     val actual:List[Int] = pfClass.primeFactors()
-    val expected:List[Int] = List(3, 5, 5, 13)
+    val expected:List[Int] = List(3, 5, 5, 13,1)
 
     assert(actual == expected)
   }
 
-  "ScalaArithmetic Challenge: 5154518.primeFactors()" should "return List(2, 29, 181, 491)" in {
-    val pfClass = sl99.numPrimeFactor(5154518)
+  "ScalaArithmetic Challenge: 5154518.primeFactors()" should "return List(2, 29, 181, 491,1)" in {
+    val pfClass = sl99.NumPrimeFactor(5154518)
     val actual:List[Int] = pfClass.primeFactors()
-    val expected:List[Int] = List(2, 29, 181, 491)
+    val expected:List[Int] = List(2, 29, 181, 491,1)
 
     assert(actual == expected)
   }
 
   "ScalaArithmetic Challenge: 74652354.primeFactors()" should "return List(2,3,3,3,3,7,65831)" in {
-    val pfClass = sl99.numPrimeFactor(74652354)
+    val pfClass = sl99.NumPrimeFactor(74652354)
     val actual:List[Int] = pfClass.primeFactors()
-    val expected:List[Int] = List(2,3,3,3,3,7,65831)
+    val expected:List[Int] = List(2,3,3,3,3,7,65831,1)
 
     assert(actual == expected)
   }
@@ -312,23 +312,31 @@ class Arithmetic extends AnyFlatSpec with Matchers{
     */
 
   "ScalaArtithmetic Challenge: 0.primeFactorMultiplicity()" should "return Nil" in{
-    val numClass = sl99.numPrimeFactor(0)
+    val numClass = sl99.NumPrimeFactor(0)
     val actual:List[Tuple2[Int,Int]] = numClass.primeFactorMultiplicity()
     val expected:List[Tuple2[Int,Int]] = Nil
 
     assert(actual == expected)
   }
 
-  "ScalaArtithmetic Challenge: 315.primeFactorMultiplicity()" should "return List((3,2), (5,1), (7,1))" in{
-    val numClass = sl99.numPrimeFactor(315)
+  "ScalaArtithmetic Challenge: 100.primeFactorMultiplicity()" should "return List((2,2), (5,2))" in{
+    val numClass = sl99.NumPrimeFactor(100)
     val actual:List[Tuple2[Int,Int]] = numClass.primeFactorMultiplicity()
-    val expected:List[Tuple2[Int,Int]] = List((3,2), (5,1), (7,1))
+    val expected:List[Tuple2[Int,Int]] = List((2,2), (5,2),(1,1))
+
+    assert(actual == expected)
+  }
+
+  "ScalaArtithmetic Challenge: 315.primeFactorMultiplicity()" should "return List((3,2), (5,1), (7,1))" in{
+    val numClass = sl99.NumPrimeFactor(315)
+    val actual:List[Tuple2[Int,Int]] = numClass.primeFactorMultiplicity()
+    val expected:List[Tuple2[Int,Int]] = List((3,2), (5,1), (7,1),(1,1))
 
     assert(actual == expected)
   }
 
   "ScalaArtithmetic Challenge: 8.primeFactorMultiplicity()" should "return List((2,3))" in{
-    val numClass = sl99.numPrimeFactor(8)
+    val numClass = sl99.NumPrimeFactor(8)
     val actual:List[Tuple2[Int,Int]] = numClass.primeFactorMultiplicity()
     val expected:List[Tuple2[Int,Int]] = List((2,3),(1,1))
 
@@ -336,9 +344,9 @@ class Arithmetic extends AnyFlatSpec with Matchers{
   }
 
   "ScalaArtithmetic Challenge: 74652354.primeFactorMultiplicity()" should "return List((2,1),(3,4),(7,1)(65831,1))" in{
-    val numClass = sl99.numPrimeFactor(74652354)
+    val numClass = sl99.NumPrimeFactor(74652354)
     val actual:List[Tuple2[Int,Int]] = numClass.primeFactorMultiplicity()
-    val expected:List[Tuple2[Int,Int]] = List((2,1),(3,4),(7,1),(65831,1))
+    val expected:List[Tuple2[Int,Int]] = List((2,1),(3,4),(7,1),(65831,1),(1,1))
 
     assert(actual == expected)
   }
@@ -360,9 +368,25 @@ class Arithmetic extends AnyFlatSpec with Matchers{
 
   }
 
-  "Scala99Arithmetic Challenge: totient(7)" should "return " in{
+  "Scala99Arithmetic Challenge: totient(7)" should "return 6" in{
     val actual:Int = sl99.totient(7)
     val expected:Int = 6
+
+    assert(actual == expected)
+
+  }
+
+  "Scala99Arithmetic Challenge: totient(10)" should "return 4" in{
+    val actual:Int = sl99.totient(10)
+    val expected:Int = 4
+
+    assert(actual == expected)
+
+  }
+
+  "Scala99Arithmetic Challenge: totient(1000)" should "return 400" in{
+    val actual:Int = sl99.totient(100)
+    val expected:Int = 40
 
     assert(actual == expected)
 

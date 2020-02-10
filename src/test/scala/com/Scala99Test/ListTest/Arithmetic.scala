@@ -413,13 +413,54 @@ class Arithmetic extends AnyFlatSpec with Matchers{
   */
   "Scala99 Arithmetic: Compare two functions phi(10090) and totient(10090)" should "return 4032" in {
 
-
-
     val actual:Int = sl99.totient(10090)
     val actual2:Int = sl99.phi(10090)
     val expected:Int = 4032
 
     assert(actual == expected && actual2 == expected)
+
+  }
+
+  /*
+   A list of prime numbers.
+   Given a range of integers by its lower and upper limit, construct a list of all prime numbers in that range.
+   scala> listPrimesinRange(7 to 31)
+   res0: List[Int] = List(7, 11, 13, 17, 19, 23, 29, 31)
+  */
+
+  "Scala99Arithmetic Challenge: listPrimessInRange(0,4)" should "return Nil" in {
+
+    val actual:List[Int] = sl99.listPrimesInRange(0,4)
+    val expected: List[Int] = Nil
+
+    assert(actual == expected)
+
+  }
+
+  "Scala99Arithmetic Challenge: listPrimessInRange(1,0)" should "return Nil" in {
+
+    val actual:List[Int] = sl99.listPrimesInRange(1,0)
+    val expected: List[Int] = Nil
+
+    assert(actual == expected)
+
+  }
+
+  "Scala99Arithmetic Challenge: listPrimessInRange(5,2)" should "return Nil" in {
+
+    val actual:List[Int] = sl99.listPrimesInRange(5,2)
+    val expected: List[Int] = Nil
+
+    assert(actual == expected)
+
+  }
+
+  "Scala99Arithmetic Challenge: listPrimessInRange(7,31)" should "return List(7, 11, 13, 17, 19, 23, 29, 31)" in {
+
+    val actual:List[Int] = sl99.listPrimesInRange(7,31)
+    val expected: List[Int] = List(7, 11, 13, 17, 19, 23, 29, 31)
+
+    assert(actual == expected)
 
   }
 

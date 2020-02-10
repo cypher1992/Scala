@@ -168,4 +168,28 @@ class Scala99Arithmetic {
     phiSum()
   }
 
+
+  /*
+   A list of prime numbers.
+   Given a range of integers by its lower and upper limit, construct a list of all prime numbers in that range.
+   scala> listPrimesinRange(7 to 31)
+   res0: List[Int] = List(7, 11, 13, 17, 19, 23, 29, 31)
+  */
+
+  def listPrimesInRange(start:Int,end:Int):List[Int] = {
+
+    def primeListAppend(s:Int=start,e:Int=end,list:List[Int]=Nil):List[Int]={
+      s match {
+        case a if(s == e+1)=> list
+        case b if(isPrime(s)) => primeListAppend(s+1,e,list :+ s)
+        case _ =>  primeListAppend(s+1,e,list)
+      }
+    }
+
+    start match {
+      case a if(start > end || start < 1 || end  < 2) => Nil
+      case _ => primeListAppend()
+    }
+
+  }
 }

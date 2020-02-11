@@ -4,8 +4,7 @@ import scala.util.Random._
 
 object Bound extends App{
 
-    val int:Int =nextInt(0)
-
-    println(int)
+   val sl99 = new Scala99Arithmetic
+   sl99.printGoldbachList(9,20)
 
 }

@@ -238,5 +238,40 @@ class Scala99Arithmetic {
     }
   }
 
+  /*
+    P41 (**) A list of Goldbach compositions.
+    Given a range of integers by its lower and upper limit, print a list of all even numbers and their Goldbach composition.
+    scala> printGoldbachList(9 to 20)
+    10 = 3 + 7
+    12 = 5 + 7
+    14 = 3 + 11
+    16 = 3 + 13
+    18 = 5 + 13
+    20 = 3 + 17
+  */
+
+  def printGoldbachList(start:Int, end:Int):Unit ={
+
+   def appendStr(s:Int=start,e:Int = end+1, str:String =""):String ={
+
+     val gold = this.GoldConjecture(s)
+     val goldbachTup2:Tuple2[Int,Int] = gold.goldbach()
+
+     s%2 match {
+       case 0 => appendStr(s+1,e,str.concat(s"${s} = ${goldbachTup2._1} + ${goldbachTup2._2} \n"))
+       case a if(s == e) => str
+       case _ => appendStr(s+1,e,str)
+     }
+   }
+
+
+      if(start < end && start >0 && end >2)
+        println(appendStr())
+      else
+        println("Error")
+
+
+  }
+
 
 }

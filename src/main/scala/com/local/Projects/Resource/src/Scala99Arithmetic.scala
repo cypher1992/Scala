@@ -264,7 +264,6 @@ class Scala99Arithmetic {
      }
    }
 
-
       if(start < end && start >0 && end >2)
         println(appendStr())
       else

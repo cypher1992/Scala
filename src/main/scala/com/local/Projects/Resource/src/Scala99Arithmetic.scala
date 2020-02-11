@@ -192,4 +192,40 @@ class Scala99Arithmetic {
     }
 
   }
+
+  /*
+   P40 (**) Goldbach's conjecture.
+   Goldbach's conjecture says that every positive even number greater than 2 is the sum of two prime numbers. E.g. 28 = 5 + 23. It is one of the most famous facts in number theory that has not been proved to be correct in the general case. It has been numerically confirmed up to very large numbers (much larger than Scala's Int can represent). Write a function to find the two prime numbers that sum up to a given even integer.
+   scala> 28.goldbach
+   res0: (Int, Int) = (5,23)
+  */
+
+  case class GoldConjecture(num:Int){
+
+    val listOfPrimes:List[Int] = listPrimesInRange(2,num)
+
+    def flatMapSublists[A,B](ls: List[A])(f: (List[A]) => List[B]): List[B] =
+      ls match {
+        case Nil => Nil
+        case sublist@(_ :: tail) => f(sublist) ::: flatMapSublists(tail)(f)
+      }
+
+    def combinations[A](n: Int, ls: List[A]): List[List[A]] =
+      if (n == 0) List(Nil)
+      else flatMapSublists(ls) { sl =>
+        combinations(n - 1, sl.tail) map {sl.head :: _}
+    }
+
+    /*def goldbach():Tuple2[Int,Int] ={
+
+      def goldbachTuple2(list:List[Int] = listOfPrimes):Tuple2[Int,Int] ={
+        list match {
+          case if()
+        }
+      }
+
+    }*/
+  }
+
+
 }

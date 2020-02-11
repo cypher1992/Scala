@@ -464,4 +464,25 @@ class Arithmetic extends AnyFlatSpec with Matchers{
 
   }
 
+  /*
+   P40 (**) Combination Of List possible returns of possible outcomes
+   List(5,4,3,2,1,)
+   Combiniation of 5C3 = 5!/3!(5-3)! = 10
+  */
+
+  "Scala99Arithmetic Challenge: Combination(List(5,4,3,2,1,))" should "Return 10" in {
+    val goldbac = sl99.GoldConjecture(5)
+    val list:List[Int] = List(5,4,3,2,1)
+    val combo:List[List[Int]] = goldbac.combinations(3,list)
+    println(
+      s"""
+        |${combo}
+      """.stripMargin)
+    val actual:Int = combo.size
+    val expected:Int = 10
+
+    assert(actual == expected)
+  }
+
+
 }

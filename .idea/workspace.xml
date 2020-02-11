@@ -29,8 +29,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/Scala99Problems">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="265">
-                    <caret line="227" column="53" lean-forward="true" selection-start-line="227" selection-start-column="53" selection-end-line="227" selection-end-column="53" />
+                  <state relative-caret-position="282">
+                    <caret line="228" column="23" selection-start-line="228" selection-end-line="231" selection-end-column="25" />
                   </state>
                 </provider>
               </entry>
@@ -50,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99Arithmetic.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="182" column="26" selection-start-line="182" selection-start-column="26" selection-end-line="182" selection-end-column="26" />
+            <state relative-caret-position="238">
+              <caret line="202" column="24" selection-start-line="202" selection-start-column="24" selection-end-line="202" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -59,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/Arithmetic.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="459" column="53" lean-forward="true" selection-start-line="459" selection-start-column="53" selection-end-line="459" selection-end-column="53" />
+            <state relative-caret-position="490">
+              <caret line="478" column="16" selection-start-line="478" selection-start-column="16" selection-end-line="478" selection-end-column="16" />
               <folding>
                 <element signature="e#34#75#0" expanded="true" />
               </folding>
@@ -125,8 +125,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: listPrimessInRange(7,31) should return List(7, 11, 13, 17, 19, 23, 29, 31)">
-    <configuration name="Arithmetic.Scala99 Arithmetic: Compare two functions phi(10090) and totient(10090) should return 4032" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+  <component name="RunManager" selected="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: Combination(List(5,4,3,2,1,)) should Return 10">
+    <configuration name="Arithmetic.Scala99Arithmetic Challenge: Combination(List(5,4,3,2,1,)) should Return 10" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
       <setting name="vmparams" value="" />
@@ -140,7 +140,7 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.Scala99Test.ListTest.Arithmetic" />
-      <setting name="testName" value="Scala99 Arithmetic: Compare two functions phi(10090) and totient(10090) should return 4032" />
+      <setting name="testName" value="Scala99Arithmetic Challenge: Combination(List(5,4,3,2,1,)) should Return 10" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -223,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: Combination(List(5,4,3,2,1,)) should Return 10" />
         <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: listPrimessInRange(7,31) should return List(7, 11, 13, 17, 19, 23, 29, 31)" />
         <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: listPrimessInRange(5,2) should return Nil" />
         <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: listPrimessInRange(1,0) should return Nil" />
         <item itemvalue="ScalaTest.Arithmetic.Scala99Arithmetic Challenge: listPrimessInRange(0,4) should return Nil" />
-        <item itemvalue="ScalaTest.Arithmetic.Scala99 Arithmetic: Compare two functions phi(10090) and totient(10090) should return 4032" />
       </list>
     </recent_temporary>
   </component>
@@ -277,12 +277,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Arithmetic_ScalaArtithmetic_Challenge__100_primeFactorMultiplicity()_should_return_List((2,2),_(5,2)) - 2020.02.09 at 18h 33m 16s.xml">
-      <configuration name="Arithmetic.ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Arithmetic_ScalaArtithmetic_Challenge__100_primeFactorMultiplicity()_should_return_List((2,2),_(5,2)) - 2020.02.09 at 18h 33m 55s.xml">
-      <configuration name="Arithmetic.ScalaArtithmetic Challenge: 100.primeFactorMultiplicity() should return List((2,2), (5,2))" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__totient(1000)_should_return_400 - 2020.02.09 at 18h 37m 12s.xml">
       <configuration name="Arithmetic.Scala99Arithmetic Challenge: totient(1000) should return 400" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -306,6 +300,12 @@
     </history-entry>
     <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__listPrimessInRange(5,2)_should_return_Nil - 2020.02.10 at 08h 22m 00s.xml">
       <configuration name="Arithmetic.Scala99Arithmetic Challenge: listPrimessInRange(5,2) should return Nil" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__listPrimessInRange(7,31)_should_return_List(7,_11,_13,_17,_19,_23,_29,_31) - 2020.02.10 at 08h 22m 52s.xml">
+      <configuration name="Arithmetic.Scala99Arithmetic Challenge: listPrimessInRange(7,31) should return List(7, 11, 13, 17, 19, 23, 29, 31)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Arithmetic_Scala99Arithmetic_Challenge__Combination(List(5,4,3,2,1,))_should_Return_10 - 2020.02.10 at 19h 20m 25s.xml">
+      <configuration name="Arithmetic.Scala99Arithmetic Challenge: Combination(List(5,4,3,2,1,)) should Return 10" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -515,22 +515,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/Scala99Problems">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="227" column="53" lean-forward="true" selection-start-line="227" selection-start-column="53" selection-end-line="227" selection-end-column="53" />
+        <state relative-caret-position="282">
+          <caret line="228" column="23" selection-start-line="228" selection-end-line="231" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99Arithmetic.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="182" column="26" selection-start-line="182" selection-start-column="26" selection-end-line="182" selection-end-column="26" />
+        <state relative-caret-position="238">
+          <caret line="202" column="24" selection-start-line="202" selection-start-column="24" selection-end-line="202" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/Arithmetic.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="459" column="53" lean-forward="true" selection-start-line="459" selection-start-column="53" selection-end-line="459" selection-end-column="53" />
+        <state relative-caret-position="490">
+          <caret line="478" column="16" selection-start-line="478" selection-start-column="16" selection-end-line="478" selection-end-column="16" />
           <folding>
             <element signature="e#34#75#0" expanded="true" />
           </folding>

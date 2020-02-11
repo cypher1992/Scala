@@ -465,7 +465,7 @@ class Arithmetic extends AnyFlatSpec with Matchers{
   }
 
   /*
-   P40 (**) Combination Of List possible returns of possible outcomes
+   P40_1 (**) Combination Of List possible returns of possible outcomes
    List(5,4,3,2,1,)
    Combiniation of 5C3 = 5!/3!(5-3)! = 10
   */
@@ -484,5 +484,36 @@ class Arithmetic extends AnyFlatSpec with Matchers{
     assert(actual == expected)
   }
 
+  /*
+   P40 (**) Goldbach's conjecture.
+   Goldbach's conjecture says that every positive even number greater than 2 is the sum of two prime numbers. E.g. 28 = 5 + 23. It is one of the most famous facts in number theory that has not been proved to be correct in the general case. It has been numerically confirmed up to very large numbers (much larger than Scala's Int can represent). Write a function to find the two prime numbers that sum up to a given even integer.
+   scala> 28.goldbach
+   res0: (Int, Int) = (5,23)
+  */
+  
+  "Scala99Arithmetic Challenge: 3.goldbach" should "return (0,0)" in{
+    val goldBac =sl99.GoldConjecture(3)
+    val actual:Tuple2[Int,Int] = goldBac.goldbach()
+    val expected:Tuple2[Int,Int] = (0,0)
+
+    assert(actual == expected)
+  }
+
+
+  "Scala99Arithmetic Challenge: 8.goldbach" should "return (3,5)" in{
+    val goldBac =sl99.GoldConjecture(8)
+    val actual:Tuple2[Int,Int] = goldBac.goldbach()
+    val expected:Tuple2[Int,Int] = (3,5)
+
+    assert(actual == expected)
+  }
+
+  "Scala99Arithmetic Challenge: -8.goldbach" should "return (3,5)" in{
+    val goldBac =sl99.GoldConjecture(-8)
+    val actual:Tuple2[Int,Int] = goldBac.goldbach()
+    val expected:Tuple2[Int,Int] = (3,5)
+
+    assert(actual == expected)
+  }
 
 }

@@ -1,5 +1,6 @@
 package com.local.Projects.Resource.src
 import scala.math.pow
+import scala.math.abs
 
 class Scala99Arithmetic {
 
@@ -202,7 +203,7 @@ class Scala99Arithmetic {
 
   case class GoldConjecture(num:Int){
 
-    val listOfPrimes:List[Int] = listPrimesInRange(2,num)
+    val listOfPrimes:List[Int] = listPrimesInRange(2,abs(num))
 
     def flatMapSublists[A,B](ls: List[A])(f: (List[A]) => List[B]): List[B] =
       ls match {
@@ -216,15 +217,25 @@ class Scala99Arithmetic {
         combinations(n - 1, sl.tail) map {sl.head :: _}
     }
 
-    /*def goldbach():Tuple2[Int,Int] ={
+    def goldbach():Tuple2[Int,Int] ={
 
-      def goldbachTuple2(list:List[Int] = listOfPrimes):Tuple2[Int,Int] ={
-        list match {
-          case if()
+       val combos:List[List[Int]] = combinations(2,listOfPrimes)
+
+      def goldbachTuple2(list:List[List[Int]] = combos):Tuple2[Int,Int] ={
+        val temp:List[Int] = list.head
+        val total:Int = temp.head + temp.tail.head
+        temp match {
+          case a if( total == abs(num)) => (temp.head,temp.tail.head)
+          case _ => goldbachTuple2(list.tail)
         }
       }
 
-    }*/
+      num%2 match {
+        case 0 => goldbachTuple2()
+        case _ => (0,0)
+      }
+
+    }
   }
 
 

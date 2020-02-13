@@ -538,4 +538,9 @@ class Arithmetic extends AnyFlatSpec with Matchers{
 
   }
 
+  "Scala99Arithmetic Challenge: printGoldbachList(990 to 2000)" should "Return error" in {
+    sl99.printGoldbachList(990,2000)
+
+  }
+
 }

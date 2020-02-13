@@ -22,7 +22,48 @@ class Logica1 extends AnyFlatSpec with Matchers {
     val expected:Boolean = false
 
     assert(equalityTest(actual,expected))
+  }
 
+  "Scala99Logical Challenge: and(true,true)" should "return true" in {
+    val actual:Boolean = sl99.and(true,true)
+    val expected:Boolean = true
+
+    assert(equalityTest(actual,expected))
+  }
+
+  "Scala99Logical Challenge: or(false,true)" should "return true" in {
+    val actual:Boolean = sl99.or(false,true)
+    val expected:Boolean = true
+
+    assert(equalityTest(actual,expected))
+  }
+
+  "Scala99Logical Challenge: or(false,false)" should "return false" in {
+    val actual:Boolean = sl99.or(false,false)
+    val expected:Boolean = false
+
+    assert(equalityTest(actual,expected))
+  }
+
+  "Scala99Logical Challenge: or(true,false)" should "return true" in {
+    val actual:Boolean = sl99.or(true,false)
+    val expected:Boolean = true
+
+    assert(equalityTest(actual,expected))
+  }
+
+  "Scala99Logical Challenge: nand(true,false)" should "return true" in {
+    val actual:Boolean = sl99.nand(true,false)
+    val expected:Boolean = true
+
+    assert(equalityTest(actual,expected))
+  }
+
+  "Scala99Logical Challenge: nand(true,true)" should "return false" in {
+    val actual:Boolean = sl99.nand(true,true)
+    val expected:Boolean = false
+
+    assert(equalityTest(actual,expected))
   }
 
 }

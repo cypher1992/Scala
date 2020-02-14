@@ -139,4 +139,21 @@ class Logica1 extends AnyFlatSpec with Matchers {
     assert(equalityTest(actual,expected))
   }
 
+  /*P46
+    Now, write a function called table2 which prints the truth table of a given logical expression in two variables.
+
+    scala> table2((a: Boolean, b: Boolean) => and(a, or(a, b)))
+    A     B     result
+    true  true  true
+    true  false true
+    false true  false
+    false false false
+  */
+
+  "Scala99Logical Challenge: table2((a: Boolean, b: Boolean) => sl99.and(a, sl99.or(a, b)))" should "return table" in {
+
+    sl99.table2((a: Boolean, b: Boolean) => sl99.and(a, sl99.or(a, b)))
+  }
+  
+
 }

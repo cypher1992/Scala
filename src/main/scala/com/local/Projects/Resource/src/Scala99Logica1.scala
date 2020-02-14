@@ -41,4 +41,24 @@ class Scala99Logica1 {
   //
   def impl(a:Boolean,b:Boolean):Boolean = or(!a,b)
 
+
+  /*P46
+    Now, write a function called table2 which prints the truth table of a given logical expression in two variables.
+
+    scala> table2((a: Boolean, b: Boolean) => and(a, or(a, b)))
+    A     B     result
+    true  true  true
+    true  false true
+    false true  false
+    false false false
+  */
+
+  def table2(f: (Boolean,Boolean) => Boolean): Unit = {
+    println("A | B | Result")
+    for { a <- List(true,false)
+          b <- List(true,false)}{
+      printf("%-5s %-5s %-5s\n", a, b, f(a,b))
+    }
+  }
+
 }

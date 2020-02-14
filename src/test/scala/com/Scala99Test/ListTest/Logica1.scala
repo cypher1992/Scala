@@ -11,6 +11,16 @@ class Logica1 extends AnyFlatSpec with Matchers {
   val sl99:Scala99Logica1 = new Scala99Logica1
   def equalityTest[T](actual:T,expected:T):Boolean = actual == expected
 
+  /*
+    P46 (**) Truth tables for logical expressions.
+    Define functions and, or, nand, nor, xor, impl, and equ (for logical equivalence) which return true or false according to the result of their respective operations; e.g. and(A, B) is true if and only if both A and B are true.
+    scala> and(true, true)
+    res0: Boolean = true
+
+    scala> xor(true. true)
+    res1: Boolean = false
+  */
+
   "Logical: equalityTestFunc(true,true)" should "reture true" in {
     val booleanStmt:Boolean = equalityTest(true,true)
     val expected:Boolean = true
@@ -62,6 +72,69 @@ class Logica1 extends AnyFlatSpec with Matchers {
   "Scala99Logical Challenge: nand(true,true)" should "return false" in {
     val actual:Boolean = sl99.nand(true,true)
     val expected:Boolean = false
+
+    assert(equalityTest(actual,expected))
+  }
+
+  "Scala99Logical Challenge: equ(true,true)" should "return true" in {
+    val actual:Boolean = sl99.equ(true,true)
+    val expected:Boolean = true
+
+    assert(equalityTest(actual,expected))
+  }
+
+  "Scala99Logical Challenge: equ(false,false)" should "return true" in {
+    val actual:Boolean = sl99.equ(false,false)
+    val expected:Boolean = true
+
+    assert(equalityTest(actual,expected))
+  }
+
+  "Scala99Logical Challenge: xor(true,true)" should "return false" in {
+    val actual:Boolean = sl99.xor(true,true)
+    val expected:Boolean = false
+
+    assert(equalityTest(actual,expected))
+  }
+
+  "Scala99Logical Challenge: xor(false,true)" should "return false" in {
+    val actual:Boolean = sl99.xor(false,true)
+    val expected:Boolean = false
+
+    assert(equalityTest(actual,expected))
+  }
+
+  "Scala99Logical Challenge: xor(false,false)" should "return false" in {
+    val actual:Boolean = sl99.xor(false,false)
+    val expected:Boolean = false
+
+    assert(equalityTest(actual,expected))
+  }
+
+  "Scala99Logical Challenge: impl(true,true)" should "return true" in {
+    val actual:Boolean = sl99.impl(true,true)
+    val expected:Boolean = true
+
+    assert(equalityTest(actual,expected))
+  }
+
+  "Scala99Logical Challenge: impl(false,true)" should "return true" in {
+    val actual:Boolean = sl99.impl(false,true)
+    val expected:Boolean = true
+
+    assert(equalityTest(actual,expected))
+  }
+
+  "Scala99Logical Challenge: impl(false,true)" should "return false" in {
+    val actual:Boolean = sl99.impl(true,false)
+    val expected:Boolean = false
+
+    assert(equalityTest(actual,expected))
+  }
+
+  "Scala99Logical Challenge: impl(false,false)" should "return true" in {
+    val actual:Boolean = sl99.impl(false,false)
+    val expected:Boolean = true
 
     assert(equalityTest(actual,expected))
   }

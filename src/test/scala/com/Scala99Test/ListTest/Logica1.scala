@@ -154,6 +154,22 @@ class Logica1 extends AnyFlatSpec with Matchers {
 
     sl99.table2((a: Boolean, b: Boolean) => sl99.and(a, sl99.or(a, b)))
   }
-  
+
+  /*
+    P47 (*) Truth tables for logical expressions (2).
+    Continue problem P46 by redefining and, or, etc as operators. (i.e. make them methods of a new class with an implicit conversion from Boolean.) not will have to be left as a object method.
+    scala> table2((a: Boolean, b: Boolean) => a and (a or not(b)))
+    A     B     result
+    true  true  true
+    true  false true
+    false true  false
+    false false false
+
+  */
+
+  "Scala99Logical Challenge: table2((a: Boolean, b: Boolean) => a and (a or not(b)))" should "return table" in {
+
+    sl99.table2((a: Boolean, b: Boolean) => sl99.and(a,sl99.or(a,!b)))
+  }
 
 }

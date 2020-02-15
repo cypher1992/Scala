@@ -110,6 +110,7 @@ def len[T](list:List[T]):Int ={
   countSize(counter,list)
 }
 
+def lenX[T](list:List[T]):Int = list.foldLeft(0){(c,_) => c+1}
 
 /*
 P05 (*) Reverse a list.

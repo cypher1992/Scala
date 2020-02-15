@@ -260,6 +260,9 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   }
   countSize(counter,list)
 }
+
+  // using pure functional:
+  def lenX[T](list:List[T]):Int = list.foldLeft(0){(c,_) => c+1}
 */
   "Scala99List Challenge Test: length() List is empty" should "returns 0" in {
 
@@ -295,6 +298,22 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual === expected)
   }
 
+
+  "Scala99List Challenge: lenX(Nil)" should "Return 0" in{
+    val list:List[Int] = List.empty[Int]
+    val actual:Int = sl99.lenX(list)
+    val expected:Int = 0
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge lenX(Range(1,5))" should "Return 4" in {
+    val list:List[Int] = List.range(1,5)
+    val actual:Int = sl99.lenX(list)
+    val expected:Int = 4
+
+    assert(actual == expected)
+  }
 
   /*
   P05 (*) Reverse a list.

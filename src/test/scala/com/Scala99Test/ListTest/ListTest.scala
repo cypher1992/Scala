@@ -29,6 +29,14 @@ class ListTest extends AnyFlatSpec with Matchers {
         case _ => last(list.tail)
       }
     }
+
+   def lastX[T](list:List[T]):T ={
+    list.size match {
+      case 0 => throw new java.util.NoSuchElementException
+      case 1 => list.head
+      case _ => lastX(list.tail)
+   }
+  }
    */
 
   "Scala99ListChallenge Test: Empty List" should "Return Nil" in {
@@ -141,6 +149,20 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     val expectedIndex: Any = 3
 
     assert(actualIndex === expectedIndex)
+  }
+
+  "Scala99List Challenge Test: penultimateX(Nil)" should "return NoSuchElement exception" in{
+    val emptyList:List[Int] = List.empty[Int]
+
+    assertThrows[java.util.NoSuchElementException]{sl99.penultimateX(emptyList)}
+  }
+
+  "Scala99List Challenge: penultimateX(List(1...5))" should "return 4" in {
+    val list:List[Int] = List.range(1,6)
+    val actual:Int = sl99.penultimateX(list)
+    val expected:Int = list(list.size - 2)
+
+    assert(actual == expected)
   }
 
 

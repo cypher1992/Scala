@@ -56,6 +56,13 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     }
   }
 
+  def penultimateX[T](list:List[T]):T ={
+    list.size match {
+      case 0 => throw new java.util.NoSuchElementException
+      case 2 => list.head
+      case _ => penultimateX(list.tail)
+    }
+  }
 
 /*
 P03 (*) Find the Kth element of a list.

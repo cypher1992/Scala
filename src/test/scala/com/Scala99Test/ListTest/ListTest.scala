@@ -5,7 +5,7 @@ import org.scalatest.matchers.must.Matchers
 import org.scalatest.Assertions._
 import com.local.Projects.Resource.src.Scala99ListChallenge
 
-class ListTest extends  AnyFlatSpec with Matchers {
+class ListTest extends AnyFlatSpec with Matchers {
 
   val sl99: Scala99ListChallenge = new Scala99ListChallenge()
 
@@ -67,6 +67,25 @@ class ListTest extends  AnyFlatSpec with Matchers {
 
     assert(actualLastValue === expectedLastValue)
 
+  }
+
+  "Scala99List Challenge: LastX(Nil)" should "throws java.util.NoSuchElementException" in {
+
+    val emptyList:List[Int] = List.empty[Int]
+
+
+    assertThrows[java.util.NoSuchElementException]{
+      sl99.lastX(emptyList)
+    }
+
+  }
+
+  "Scala99List Challenge: LastX(List(How,is,this,working,?))" should "return ?" in {
+    val list:List[String] = List("How","is","this","working","?")
+    val actual:String = sl99.lastX(list)
+    val expected:String = list(4)
+
+    assert(actual == expected)
   }
 
 

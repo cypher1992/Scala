@@ -6,7 +6,7 @@ object IterationBasic extends App{
   {
     println(
       s"""
-         |${i}
+         |${i*2}
            """.stripMargin)
   }
 
@@ -15,7 +15,7 @@ object IterationBasic extends App{
   while(zero <11){
     println(
       s"""
-         |${zero}
+         |${zero*2}
         """.stripMargin)
     zero += 2
   }

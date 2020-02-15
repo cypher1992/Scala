@@ -25,6 +25,14 @@ res0: Int = 8
       case a => last(list.tail)
     }
   }
+
+  def lastX[T](list:List[T]):T ={
+    list.size match {
+      case 0 => throw new java.util.NoSuchElementException
+      case 1 => list.head
+      case _ => lastX(list.tail)
+    }
+  }
 /*
 P02 (*) Find the last but one element of a list.
 Example:

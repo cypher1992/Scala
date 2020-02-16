@@ -81,13 +81,19 @@ res0: Int = 2
   }
 
   def kth[T](position:Int,list:List[T]):T={
-
     list match {
       case a if(position == 0) => list.head
       case a if(position > 0 & position < list.size-1) => kth(position-1,list.tail)
       case _  => throw new java.util.NoSuchElementException
     }
+  }
 
+  def zth[T](position:Int,list:List[T]):T = {
+    (position,list) match{
+      case  a if(position> list.size-1 || position < 0 || list.isEmpty) => throw new java.util.NoSuchElementException
+      case (0,_) => list.head
+      case _ => zth(position-1,list.tail)
+    }
   }
 
 /*

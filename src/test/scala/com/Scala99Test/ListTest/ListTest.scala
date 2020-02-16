@@ -217,7 +217,6 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual === expected)
   }
 
-
   "Scala99List Challenge Test: kth position of an Empty List" should "throws NoSuchElement Exception" in {
     val emptyList: List[Int] = List.empty[Int]
 
@@ -240,6 +239,35 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     val excepted: Int = 3
 
     assert(actual == excepted)
+  }
+
+  "Scala99List Challenge zTH(1,Nil)" should "throw java.util.NoSuchElement Exception" in {
+    val list:List[Int] = List.empty[Int]
+    assertThrows[java.util.NoSuchElementException]{
+      val actual:Int = sl99.zth(1,list)
+    }
+  }
+
+  "Scala99List Challenge zTH(-1,List(1,2,3,4))" should "throw java.util.NoSuchElement Exception" in {
+    val list:List[Int] = List(1,2,3,4)
+    assertThrows[java.util.NoSuchElementException]{
+      val actual:Int = sl99.zth(-1,list)
+    }
+  }
+
+  "Scala99List Challenge zTH(list.size,List(1,2,3,4))" should "throw java.util.NoSuchElement Exception" in {
+    val list:List[Int] = List(1,2,3,4)
+    assertThrows[java.util.NoSuchElementException]{
+      val actual:Int = sl99.zth(list.size,list)
+    }
+  }
+
+  "Scala99List Challenge zTH(2,List(1,2,3,4))" should "throw java.util.NoSuchElement Exception" in {
+    val list:List[Int] = List(1,2,3,4)
+    val actual:Int = sl99.zth(2,list)
+    val expected:Int = 3
+
+    assert(actual == expected)
   }
 
   /*

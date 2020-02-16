@@ -191,7 +191,8 @@ res0: Int = 2
     }
 
   }
-  
+
+  def isPalindromeX[T](list:List[T]):Boolean = list == revX(list)
 /*
   P07 (**) Flatten a nested list structure.
   Example:

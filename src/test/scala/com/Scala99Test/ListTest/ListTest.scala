@@ -490,6 +490,31 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual === excepted)
   }
 
+  "Scala99List Challenge: isPalindromeX(Nil)" should "Returns true" in {
+    val list:List[Int] = List.empty[Int]
+    val actual:Boolean = sl99.isPalindromeX(list)
+    val expected:Boolean = true
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge: isPalindromeX(List(1,2,3,4,5))" should "return false" in {
+    val list:List[Int] = List.range(1,6)
+    val actual:Boolean = sl99.isPalindromeX(list)
+    val expected:Boolean = false
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge isPalindromeX(List('A','B','B','C'))" should "return true" in {
+    val list:List[Char] = List('A','B','B','A')
+    val actual:Boolean = sl99.isPalindromeX(list)
+    val expected:Boolean = true
+
+    assert(actual == expected)
+
+  }
+
   /*
   P07 (**) Flatten a nested list structure.
   Example:

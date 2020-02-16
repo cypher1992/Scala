@@ -96,65 +96,75 @@ res0: Int = 2
     }
   }
 
-/*
-P04 (*) Find the number of elements of a list.
-Example:
-scala> length(List(1, 1, 2, 3, 5, 8))
-res0: Int = 6
-*/
-
-def length(list:List[Int]):Int = if(list.size > 0) {list.size} else 0
-
-def len[T](list:List[T]):Int ={
-  val counter:Int = 0
-  def countSize(total:Int =0,list:List[T]):Int ={
-    list match {
-      case a if(list.isEmpty) => total
-      case _ => countSize(total+1,list.tail)
-    }
-  }
-  countSize(counter,list)
-}
-
-def lenX[T](list:List[T]):Int = list.foldLeft(0){(c,_) => c+1}
-
-/*
-P05 (*) Reverse a list.
-Example:
-scala> reverse(List(1, 1, 2, 3, 5, 8))
-res0: List[Int] = List(8, 5, 3, 2, 1, 1)
-*/
-
-def reverse[T](list:List[T]):List[T] ={
-
-  list match {
-    case a if (list.size == 0) => Nil
-    case _ => list.reverse
-  }
-
-}
-
-def rev[T](list:List[T]):List[T] ={
-  val reverseList:List[T] = List.empty[T]
- def revAppend(lst:List[T],emptyList:List[T] = reverseList):List[T] ={
-   lst match {
-     case a if(lst.isEmpty) => emptyList
-     case _ => revAppend(lst.tail,lst.head +: emptyList)
-   }
- }
-  revAppend(list,reverseList)
-}
-
-/*
-  P06 (*) Find out whether a list is a palindrome.
+  /*
+  P04 (*) Find the number of elements of a list.
   Example:
-  scala> isPalindrome(List(1, 2, 3, 2, 1))
-  res0: Boolean = true
+  scala> length(List(1, 1, 2, 3, 5, 8))
+  res0: Int = 6
+  */
 
-  Case: If Empty
-  Case: Odd Size
-  Case: Even Size
-*/
+  def length(list:List[Int]):Int = if(list.size > 0) {list.size} else 0
+
+  def len[T](list:List[T]):Int ={
+    val counter:Int = 0
+    def countSize(total:Int =0,list:List[T]):Int ={
+      list match {
+        case a if(list.isEmpty) => total
+        case _ => countSize(total+1,list.tail)
+      }
+    }
+    countSize(counter,list)
+  }
+
+  def lenX[T](list:List[T]):Int = list.foldLeft(0){(c,_) => c+1}
+
+  /*
+  P05 (*) Reverse a list.
+  Example:
+  scala> reverse(List(1, 1, 2, 3, 5, 8))
+  res0: List[Int] = List(8, 5, 3, 2, 1, 1)
+  */
+
+  def reverse[T](list:List[T]):List[T] ={
+
+    list match {
+      case a if (list.size == 0) => Nil
+      case _ => list.reverse
+    }
+
+  }
+
+  def rev[T](list:List[T]):List[T] ={
+    val reverseList:List[T] = List.empty[T]
+    def revAppend(lst:List[T],emptyList:List[T] = reverseList):List[T] ={
+     lst match {
+       case a if(lst.isEmpty) => emptyList
+       case _ => revAppend(lst.tail,lst.head +: emptyList)
+     }
+    }
+    revAppend(list,reverseList)
+  }
+
+  def revX[T](list:List[T]):List[T]={
+    def revXAppend(lst:List[T] = list,appended:List[T]=Nil):List[T] ={
+      lst match {
+        case Nil => appended
+        case _ => revXAppend(lst.tail,lst.head +: appended)
+      }
+    }
+    revXAppend()
+  }
+
+  /*
+    P06 (*) Find out whether a list is a palindrome.
+    Example:
+    scala> isPalindrome(List(1, 2, 3, 2, 1))
+    res0: Boolean = true
+
+    Case: If Empty
+    Case: Odd Size
+    Case: Even Size
+  */
 
   def isPalindrome[T](list:List[T]):Boolean = list == list.reverse
 
@@ -181,7 +191,7 @@ def rev[T](list:List[T]):List[T] ={
     }
 
   }
-
+  
 /*
   P07 (**) Flatten a nested list structure.
   Example:

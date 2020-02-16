@@ -188,6 +188,14 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     }
 
   }
+
+  def zth[T](position:Int,list:List[T]):T = {
+    (position,list) match{
+      case  a if(position> list.size-1 || position < 0 || list.isEmpty) => throw new java.util.NoSuchElementException
+      case (0,_) => list.head
+      case _ => zth(position-1,list.tail)
+    }
+  }
 */
 
   "Scala99List Challenge Test: nth position of an Empty list" should "returns Nil" in {
@@ -366,6 +374,16 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
      }
    revAppend(list,reverseList)
   }
+
+  def revX[T](list:List[T]):List[T]={
+    def revXAppend(lst:List[T] = list,appended:List[T]=Nil):List[T] ={
+      lst match {
+        case Nil => appended
+        case _ => revXAppend(lst.tail,lst.head +: appended)
+      }
+    }
+    revXAppend()
+  }
   */
 
   "Scala99List Challenge: Rev() Pass Empty List" should "Empty List" in {
@@ -382,6 +400,22 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     val actual = List('D', 'C', 'B', 'A')
 
     assert(expected === actual)
+  }
+
+  "Scala99List Challenge: RevX(Nil)" should "Return Nil" in {
+    val list:List[Int] = List.empty[Int]
+    val actual:List[Int] = sl99.revX(list)
+    val expected:List[Int] = Nil
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge: RevX(List.Range(0,5))" should "Return List(4,3,2,1,0)" in{
+    val list:List[Int] = List.range(0,5)
+    val actual:List[Int] = sl99.revX(list)
+    val expected:List[Int] = List(4,3,2,1,0)
+
+    assert(actual == expected)
   }
 
   /*

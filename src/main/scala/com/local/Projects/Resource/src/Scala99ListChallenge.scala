@@ -766,6 +766,10 @@ res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
     }
 
   }
+
+  def permutationX[T](list:List[T]):List[List[T]] = list.permutations.toList
+
+
   // HOLD
  /* def combinations[T](combo:Int,list:List[T]):List[List[T]] = {
 

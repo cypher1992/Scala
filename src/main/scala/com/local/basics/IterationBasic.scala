@@ -28,7 +28,6 @@ object IterationBasic extends App{
   val list:List[Char] = List('A','B','C')
   val size:Int = list.foldLeft(0){(c,_)=> c+1}
 
-  print(size)
-
+  println(size)
 
 }

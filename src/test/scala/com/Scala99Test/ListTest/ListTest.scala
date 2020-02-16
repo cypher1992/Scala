@@ -1541,6 +1541,25 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   }
 
 
+  "ScalaList Challenge: permutationX(List(1,2,3))" should "return size of 6" in {
+
+    val list:List[Int] = List(1,2,3)
+    val permutationList:List[List[Int]] = sl99.permutationX(list)
+    val actual:Int = permutationList.size
+    val expected:Int = 6
+
+    assert(actual == expected)
+  }
+
+  "ScalaList Challenge: permutationX(Nil)" should "return size of 1" in {
+
+    val list:List[Int] = List.empty[Int]
+    val permutationList:List[List[Int]] = sl99.permutationX(list)
+    val actual:Int = permutationList.size
+    val expected:Int = 1
+
+    assert(actual == expected)
+  }
 
 
 }

@@ -1492,7 +1492,7 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
   }
 
   /*
-    // Hold!!!!
+    // Semi Fix
     P26 (**) Generate the combinations of K distinct objects chosen from the N elements of a list.
     In how many ways can a committee of 3 be chosen from a group of 12 people? We all know that there are C(12,3) = 220 possibilities (C(N,K) denotes the well-known binomial coefficient). For pure mathematicians, this result may be great. But we want to really generate all the possibilities.
     12C3 -> 12! / 3!*(12-3)! = 12*11*10*9*8*7*6*5*4*3*2*1/3*2*1(9*8*7*6*5*4*3*2*1) = 12*11*10*9*8*7*6*5*4/9*8*7*6*5*4*3*2*1 = 12*11*10/3*2*1 = 220
@@ -1503,6 +1503,10 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     6C3 => 6!/3!(6-3)! = 6!/3!*3! = 6*5*4/3*2*1 = 5*4/1 = 20 possibilities
 
     Dependencies: Subtest factorial, permutation , combination
+
+    def permutationX[T](list:List[T]):List[List[T]] = list.permutations.toList
+
+    def combinationX[T](options:Int,list:List[T]):List[List[T]] = list.combinations(options).toList
   */
 
 

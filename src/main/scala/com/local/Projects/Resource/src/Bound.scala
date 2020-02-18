@@ -4,23 +4,16 @@ import scala.util.Random._
 
 object Bound extends App{
 
+   val list:List[String] = List("Aldo", "Beat", "Carla", "David", "Evi", "Flip", "Gary", "Hugo", "Ida")
+   val list2:List[String] = List("Aldo", "Beat")
+   val list3:List[String] = List("Carla", "David", "Evi")
 
-   for( i <- 0 to 10 by 2)
-      {
-         println(
-           s"""
-             |${i}
-           """.stripMargin)
-      }
+   val diff:List[String] = list diff list2 diff list3
 
-   var zero:Int = 0
+   println(s"${diff}")
 
-   while(zero <11){
-      println(
-        s"""
-          |${zero}
-        """.stripMargin)
-      zero += 2
-   }
+   val tup:List[Char] = List('0','1')
+   val combo:List[List[Char]] = tup.combinations(2).toList
+   println(s"${combo}")
 
 }

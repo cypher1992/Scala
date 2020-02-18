@@ -1561,5 +1561,23 @@ scala> penultimate(List(1, 1, 2, 3, 5, 8))
     assert(actual == expected)
   }
 
+  "Scala99List Challenge: combinationX(5,Nil)" should "return size of 0 " in {
+    val list:List[Int] = List.empty[Int]
+    val listOfCombos:List[List[Int]] = sl99.combinationX(5,list)
+    val actual:Int = listOfCombos.size
+    val expected:Int = 0
+
+    assert(actual == expected)
+  }
+
+  "Scala99List Challenge: combinationX(3,List(1,2,3,4,6))" should "return size of 10" in {
+    val list:List[Int] = List.range(1,6)
+    val listOfCombos:List[List[Int]] = sl99.combinationX(3,list)
+    val actual:Int = listOfCombos.size
+    val expected:Int = 10
+
+    assert(actual == expected)
+  }
+
 
 }

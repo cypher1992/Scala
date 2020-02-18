@@ -12,8 +12,5 @@ object Bound extends App{
 
    println(s"${diff}")
 
-   val tup:List[Char] = List('0','1')
-   val combo:List[List[Char]] = tup.combinations(2).toList
-   println(s"${combo}")
 
 }

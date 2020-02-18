@@ -8,6 +8,7 @@ object FlatMapReview extends App{
   // def flatMap[B](f: (A) ⇒ GenTraversableOnce[B]): TraversableOnce[B]
   val flatMapSeq:Seq[Int] = seqInSeq.flatMap(s => s)
 
+  // takes two list -> transfers each item into list as one unique item
   println(
     s"""
        |${flatMapSeq}

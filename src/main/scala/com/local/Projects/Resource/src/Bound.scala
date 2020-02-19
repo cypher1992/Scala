@@ -12,11 +12,11 @@ object Bound extends App{
 
    println(s"${diff}")
 
-   val tup = Tuple2(("min",0),("Max",0))
+   val tup = Tuple2(0,0)
 
    println(
      s"""
-       |${tup._1}
+       |${tup._1 >1}
        |${tup._2}
      """.stripMargin)
 

@@ -55,6 +55,29 @@ class AllAboutScalaExerciseTDD extends AnyFlatSpec  with Matchers {
     assert(actual == expected)
   }
 
+  "AASE Challenge: minMax(Seq(25,1253))" should "Map(\"Min\"->25,\"Max\" ->1253 )" in {
+    val seq:Seq[Int] = Seq(25,1253)
+    val actual:Map[String,Int] =basic.findMaxMin(seq)
+    val expected:Map[String,Int] = Map("Min"->25,"Max"->1253)
+
+    assert(actual == expected)
+  }
+
+  "AASE Challenge: minMax(Seq(1253,25,-45))" should "Map(\"Min\"-> -45,\"Max\" ->1253 )" in {
+    val seq:Seq[Int] = Seq(1253,25,-45)
+    val actual:Map[String,Int] =basic.findMaxMin(seq)
+    val expected:Map[String,Int] = Map("Min"-> -45,"Max"->1253)
+
+    assert(actual == expected)
+  }
+
+  "AASE Challenge: minMax(Seq(1253,25,-45,12045))" should "Map(\"Min\"-> -45,\"Max\" ->12045 )" in {
+    val seq:Seq[Int] = Seq(1253,25,-45,12045)
+    val actual:Map[String,Int] =basic.findMaxMin(seq)
+    val expected:Map[String,Int] = Map("Min"-> -45,"Max"->12045)
+
+    assert(actual == expected)
+  }
 
 
 

@@ -34,4 +34,11 @@ class AllAboutScalaExerciseTDD extends AnyFlatSpec  with Matchers {
     assert(actual == expected)
   }
 
+  "AASE Challenge: minMax(Seq.empty[Int])" should "throw NoSuchElement" in {
+    val seq:Seq[Int] = Seq.empty[Int]
+    assertThrows[NoSuchElementException]{basic.findMaxMin(seq)}
+  }
+
+  
+
 }

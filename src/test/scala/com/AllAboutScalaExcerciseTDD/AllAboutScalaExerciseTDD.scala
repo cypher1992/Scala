@@ -39,6 +39,14 @@ class AllAboutScalaExerciseTDD extends AnyFlatSpec  with Matchers {
     assertThrows[NoSuchElementException]{basic.findMaxMin(seq)}
   }
 
-  
+  "AASE Challenge: minMax(Seq(1253))" should "Map(\"Min\"->1253,\"Max\" ->1253 )" in {
+    val seq:Seq[Int] = Seq(1253)
+    val actual:Map[String,Int] =basic.findMaxMin(seq)
+    val expected:Map[String,Int] = Map("Min"->1253,"Max"->1253)
+
+    assert(actual == expected)
+  }
+
+
 
 }

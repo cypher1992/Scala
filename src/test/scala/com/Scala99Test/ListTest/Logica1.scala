@@ -172,8 +172,8 @@ class Logica1 extends AnyFlatSpec with Matchers {
     sl99.table2((a: Boolean, b: Boolean) => sl99.and(a,sl99.or(a,!b)))
   }
 
-  "Scala99Logical Challenge: grey(1)" should "return List(0,1)" in {
-    val actual:List[String] = sl99.grey(1)
+  "Scala99Logical Challenge: grey(-1)" should "return List(0,1)" in {
+    val actual:List[String] = sl99.grey(-1)
     val expected:List[String] = List("0","1")
 
     assert(actual == expected)
@@ -181,6 +181,13 @@ class Logica1 extends AnyFlatSpec with Matchers {
 
   "Scala99Logical Challenge: grey(0)" should "return List(0,1)" in {
     val actual:List[String] = sl99.grey(0)
+    val expected:List[String] = List("0","1")
+
+    assert(actual == expected)
+  }
+
+  "Scala99Logical Challenge: grey(1)" should "return List(0,1)" in {
+    val actual:List[String] = sl99.grey(1)
     val expected:List[String] = List("0","1")
 
     assert(actual == expected)

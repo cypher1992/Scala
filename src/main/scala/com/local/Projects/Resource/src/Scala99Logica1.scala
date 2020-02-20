@@ -91,15 +91,15 @@ class Scala99Logica1 {
   */
 
   def grey(num: Int): List[String] = {
-    def createZeroSeries(iteration: Int = pow(2, abs(num)).toInt, append: List[String] = List("0")): List[String] = {
-      iteration match {
-        case 1 => append
+    def createZeroSeries(sceanrio: Int = pow(2, abs(num)).toInt, append: List[String] = List("0")): List[String] = {
+      sceanrio match {
+        case a if(sceanrio == 1 || sceanrio == 2 )=> append
       }
     }
 
-    def createOneSeries(iteration: Int = pow(2, abs(num)).toInt, append: List[String] = List("1")): List[String] = {
-      iteration match {
-        case 1 => append
+    def createOneSeries(sceanrio: Int = pow(2, abs(num)).toInt, append: List[String] = List("1")): List[String] = {
+      sceanrio match {
+        case a if(sceanrio == 1 || sceanrio == 2 )=> append
       }
     }
 

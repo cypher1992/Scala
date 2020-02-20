@@ -1,4 +1,6 @@
 package com.local.Projects.Resource.src
+import scala.math.pow
+import scala.math.abs
 
 class Scala99Logica1 {
 
@@ -12,34 +14,36 @@ class Scala99Logica1 {
     res1: Boolean = false
   */
 
-  def and(a:Boolean,b:Boolean):Boolean = {
-    (a,b) match {
-      case (true,true) => true
+  def and(a: Boolean, b: Boolean): Boolean = {
+    (a, b) match {
+      case (true, true) => true
       case _ => false
     }
   }
 
-  def or (a:Boolean,b:Boolean):Boolean ={
-    (a,b) match {
-      case (true,true) | (true,false) | (false,true) => true
-      case  _ => false
+  def or(a: Boolean, b: Boolean): Boolean = {
+    (a, b) match {
+      case (true, true) | (true, false) | (false, true) => true
+      case _ => false
     }
   }
 
-  def nand (a:Boolean,b:Boolean):Boolean = {
+  def nand(a: Boolean, b: Boolean): Boolean = {
 
-    (a,b) match {
-      case (false,false) | (false,true) | (true,false) => true
+    (a, b) match {
+      case (false, false) | (false, true) | (true, false) => true
       case _ => false
     }
   }
 
   // exculsive
-  def equ(a:Boolean,b:Boolean):Boolean = or(and(a,b),!and(a,b))
+  def equ(a: Boolean, b: Boolean): Boolean = or(and(a, b), !and(a, b))
+
   // exculsive or
-  def xor(a:Boolean,b:Boolean):Boolean = !equ(a,b)
+  def xor(a: Boolean, b: Boolean): Boolean = !equ(a, b)
+
   //
-  def impl(a:Boolean,b:Boolean):Boolean = or(!a,b)
+  def impl(a: Boolean, b: Boolean): Boolean = or(!a, b)
 
 
   /*P46
@@ -65,11 +69,11 @@ class Scala99Logica1 {
 
   */
 
-  def table2(f: (Boolean,Boolean) => Boolean): Unit = {
+  def table2(f: (Boolean, Boolean) => Boolean): Unit = {
     println("A | B | Result")
-    for { a <- List(true,false)
-          b <- List(true,false)}{
-      printf("%-5s %-5s %-5s\n", a, b, f(a,b))
+    for {a <- List(true, false)
+         b <- List(true, false)} {
+      printf("%-5s %-5s %-5s\n", a, b, f(a, b))
     }
   }
 
@@ -86,6 +90,20 @@ class Scala99Logica1 {
     See if you can use memoization to make the function more efficient.
   */
 
+  def grey(num: Int): List[String] = {
+    def createZeroSeries(iteration: Int = pow(2, abs(num)).toInt, append: List[String] = List("0")): List[String] = {
+      iteration match {
+        case 1 => append
+      }
+    }
 
+    def createOneSeries(iteration: Int = pow(2, abs(num)).toInt, append: List[String] = List("1")): List[String] = {
+      iteration match {
+        case 1 => append
+      }
+    }
+
+    List(createZeroSeries(), createOneSeries()).flatMap(str => str)
+  }
 
 }

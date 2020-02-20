@@ -1,4 +1,4 @@
-package com.com.projects.financial.Connection
+package com.projects.financial.Connection
 
 import org.patriques.AlphaVantageConnector
 

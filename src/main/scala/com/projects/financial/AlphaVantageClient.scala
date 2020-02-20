@@ -1,9 +1,10 @@
-package com.com.projects.financial
+package com.projects.financial
 
 import java.util
 import java.util.Map
 
-import com.com.projects.financial.Connection.AlphaVanConnector
+import com.projects.financial.Connection.AlphaVanConnector
+import com.projects.financial.Connection.AlphaVanConnector
 import org.patriques.output.AlphaVantageException
 import org.patriques.output.timeseries.IntraDay
 import org.patriques.input.timeseries._

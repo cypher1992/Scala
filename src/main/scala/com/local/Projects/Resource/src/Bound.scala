@@ -4,20 +4,33 @@ import scala.util.Random._
 
 object Bound extends App{
 
-   val list:List[String] = List("Aldo", "Beat", "Carla", "David", "Evi", "Flip", "Gary", "Hugo", "Ida")
-   val list2:List[String] = List("Aldo", "Beat")
-   val list3:List[String] = List("Carla", "David", "Evi")
+   def nodeCreation(node:String, counter: Int,appended:List[String]= Nil):List[String]={
+      counter match {
+         case 0 => appended
+         case _ => nodeCreation(node,counter-1,appended :+ node)
+      }
+   }
 
-   val diff:List[String] = list diff list2 diff list3
+   def nodeAppend(list:List[String],appended:List[String]=Nil,pair:Tuple2[String,String]=("0","1")):List[String]={
+      list match{
+         case Nil => appended
+         case a if(list.size%2 == 0) => nodeAppend(list.tail,appended :+ list.head + pair._1,pair)
+         case _ => nodeAppend(list.tail,appended :+ list.head + pair._2,pair)
+      }
+   }
 
-   println(s"${diff}")
-
-   val tup = Tuple2(0,0)
+   val nodeList:List[String] = nodeCreation("0",2)
+   val nodeList2:List[String] = nodeCreation("1",2)
+   val append:List[String] = nodeAppend(nodeList)
+   val append2:List[String] = nodeAppend(nodeList2)
+   val flat:List[String] = List(append,append2).flatten
 
    println(
      s"""
-       |${tup._1 >1}
-       |${tup._2}
+       |${nodeList}
+       |${append}
+       |${append2}
+       |${flat}
      """.stripMargin)
 
 }

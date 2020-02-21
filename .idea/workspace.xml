@@ -48,28 +48,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Tree/Tree.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/TreePKG/Tree.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Tree/Node.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Tree/End.scala">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/TreeTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="153">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding>
+                <element signature="e#34#75#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,9 +104,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Bound.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99Logica1.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/Logica1.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Tree/Tree.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Tree/Node.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Tree/End.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Tree/Node.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Tree/Tree.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/Tree.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/TreeTest.scala" />
       </list>
     </option>
   </component>
@@ -167,15 +163,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="financial" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="local" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -209,7 +196,7 @@
               <item name="local" type="462c0819:PsiDirectoryNode" />
               <item name="Resource" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="TreePKG" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
@@ -284,26 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.Logica1.Logical: equalityTestFunc(true,true) should reture true&#10;Scala99Logical Challenge: and(false,true) should return false&#10;Scala99Logical Challenge: and(true,true) should return true&#10;Scala99Logical Challenge: or(false,true) should return true&#10;Scala99Logical Challenge: or(false,false) should return false&#10;Scala99Logical Challenge: or(true,false) should return true&#10;Scala99Logical Challenge: nand(true,false) should return true&#10;Scala99Logical Challenge: nand(true,true) should return false&#10;Scala99Logical Challenge: equ(true,true) should return true&#10;Scala99Logical Challenge: equ(false,false) should return true&#10;Scala99Logical Challenge: xor(true,true) should return false&#10;Scala99Logical Challenge: xor(false,true) should return false&#10;Scala99Logical Challenge: xor(false,false) should return false&#10;Scala99Logical Challenge: impl(true,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return false&#10;Scala99Logical Challenge: impl(false,false) should return true&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; sl99.and(a, sl99.or(a, b))) should return table&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; a and (a or not(b))) should return table&#10;Scala99Logical Challenge: grey(2) should return List(0,1)&#10;Scala99Logical Challenge: grey(1) should return List(0,1)">
-    <configuration name="Logica1.Logical: equalityTestFunc(true,true) should reture true&#10;Scala99Logical Challenge: and(false,true) should return false&#10;Scala99Logical Challenge: and(true,true) should return true&#10;Scala99Logical Challenge: or(false,true) should return true&#10;Scala99Logical Challenge: or(false,false) should return false&#10;Scala99Logical Challenge: or(true,false) should return true&#10;Scala99Logical Challenge: nand(true,false) should return true&#10;Scala99Logical Challenge: nand(true,true) should return false&#10;Scala99Logical Challenge: equ(true,true) should return true&#10;Scala99Logical Challenge: equ(false,false) should return true&#10;Scala99Logical Challenge: xor(true,true) should return false&#10;Scala99Logical Challenge: xor(false,true) should return false&#10;Scala99Logical Challenge: xor(false,false) should return false&#10;Scala99Logical Challenge: impl(true,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return false&#10;Scala99Logical Challenge: impl(false,false) should return true&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; sl99.and(a, sl99.or(a, b))) should return table&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; a and (a or not(b))) should return table&#10;Scala99Logical Challenge: grey(-1) should return List(0,1)&#10;Scala99Logical Challenge: grey(0) should return List(0,1)&#10;Scala99Logical Challenge: grey(1) should return List(0,1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.Scala99Test.ListTest.Logica1" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.Scala99Test.ListTest.Logica1" />
-      <setting name="testName" value="Logical: equalityTestFunc(true,true) should reture true&#10;Scala99Logical Challenge: and(false,true) should return false&#10;Scala99Logical Challenge: and(true,true) should return true&#10;Scala99Logical Challenge: or(false,true) should return true&#10;Scala99Logical Challenge: or(false,false) should return false&#10;Scala99Logical Challenge: or(true,false) should return true&#10;Scala99Logical Challenge: nand(true,false) should return true&#10;Scala99Logical Challenge: nand(true,true) should return false&#10;Scala99Logical Challenge: equ(true,true) should return true&#10;Scala99Logical Challenge: equ(false,false) should return true&#10;Scala99Logical Challenge: xor(true,true) should return false&#10;Scala99Logical Challenge: xor(false,true) should return false&#10;Scala99Logical Challenge: xor(false,false) should return false&#10;Scala99Logical Challenge: impl(true,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return false&#10;Scala99Logical Challenge: impl(false,false) should return true&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; sl99.and(a, sl99.or(a, b))) should return table&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; a and (a or not(b))) should return table&#10;Scala99Logical Challenge: grey(-1) should return List(0,1)&#10;Scala99Logical Challenge: grey(0) should return List(0,1)&#10;Scala99Logical Challenge: grey(1) should return List(0,1)" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.TreeTest.Scala99Tree Challenge: Node(Node...) should return an instance of Node">
     <configuration name="Logica1.Logical: equalityTestFunc(true,true) should reture true&#10;Scala99Logical Challenge: and(false,true) should return false&#10;Scala99Logical Challenge: and(true,true) should return true&#10;Scala99Logical Challenge: or(false,true) should return true&#10;Scala99Logical Challenge: or(false,false) should return false&#10;Scala99Logical Challenge: or(true,false) should return true&#10;Scala99Logical Challenge: nand(true,false) should return true&#10;Scala99Logical Challenge: nand(true,true) should return false&#10;Scala99Logical Challenge: equ(true,true) should return true&#10;Scala99Logical Challenge: equ(false,false) should return true&#10;Scala99Logical Challenge: xor(true,true) should return false&#10;Scala99Logical Challenge: xor(false,true) should return false&#10;Scala99Logical Challenge: xor(false,false) should return false&#10;Scala99Logical Challenge: impl(true,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return false&#10;Scala99Logical Challenge: impl(false,false) should return true&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; sl99.and(a, sl99.or(a, b))) should return table&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; a and (a or not(b))) should return table&#10;Scala99Logical Challenge: grey(0) should return List(0,1)&#10;Scala99Logical Challenge: grey(1) should return List(0,1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.Scala99Test.ListTest.Logica1" />
@@ -342,25 +310,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Logica1.Scala99Logical Challenge: grey(-1) should return List(0,1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.Scala99Test.ListTest.Logica1" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.Scala99Test.ListTest.Logica1" />
-      <setting name="testName" value="Scala99Logical Challenge: grey(-1) should return List(0,1)" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Logica1.Scala99Logical Challenge: grey(2) should return List(0,1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.Scala99Test.ListTest.Logica1" />
@@ -380,13 +329,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeTest.Scala99Tree Challenge: Node(Node...) should return an instance of Node" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.Scala99Test.ListTest.TreeTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.Scala99Test.ListTest.TreeTest" />
+      <setting name="testName" value="Scala99Tree Challenge: Node(Node...) should return an instance of Node" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tree.Scala99Tree Challenge: Node(Node...) should return an instance of Node" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.Scala99Test.ListTest.Tree" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.Scala99Test.ListTest.Tree" />
+      <setting name="testName" value="Scala99Tree Challenge: Node(Node...) should return an instance of Node" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.TreeTest.Scala99Tree Challenge: Node(Node...) should return an instance of Node" />
+        <item itemvalue="ScalaTest.Tree.Scala99Tree Challenge: Node(Node...) should return an instance of Node" />
         <item itemvalue="ScalaTest.Logica1.Logical: equalityTestFunc(true,true) should reture true&#10;Scala99Logical Challenge: and(false,true) should return false&#10;Scala99Logical Challenge: and(true,true) should return true&#10;Scala99Logical Challenge: or(false,true) should return true&#10;Scala99Logical Challenge: or(false,false) should return false&#10;Scala99Logical Challenge: or(true,false) should return true&#10;Scala99Logical Challenge: nand(true,false) should return true&#10;Scala99Logical Challenge: nand(true,true) should return false&#10;Scala99Logical Challenge: equ(true,true) should return true&#10;Scala99Logical Challenge: equ(false,false) should return true&#10;Scala99Logical Challenge: xor(true,true) should return false&#10;Scala99Logical Challenge: xor(false,true) should return false&#10;Scala99Logical Challenge: xor(false,false) should return false&#10;Scala99Logical Challenge: impl(true,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return false&#10;Scala99Logical Challenge: impl(false,false) should return true&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; sl99.and(a, sl99.or(a, b))) should return table&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; a and (a or not(b))) should return table&#10;Scala99Logical Challenge: grey(2) should return List(0,1)&#10;Scala99Logical Challenge: grey(1) should return List(0,1)" />
         <item itemvalue="ScalaTest.Logica1.Scala99Logical Challenge: grey(2) should return List(0,1)" />
         <item itemvalue="ScalaTest.Logica1.Logical: equalityTestFunc(true,true) should reture true&#10;Scala99Logical Challenge: and(false,true) should return false&#10;Scala99Logical Challenge: and(true,true) should return true&#10;Scala99Logical Challenge: or(false,true) should return true&#10;Scala99Logical Challenge: or(false,false) should return false&#10;Scala99Logical Challenge: or(true,false) should return true&#10;Scala99Logical Challenge: nand(true,false) should return true&#10;Scala99Logical Challenge: nand(true,true) should return false&#10;Scala99Logical Challenge: equ(true,true) should return true&#10;Scala99Logical Challenge: equ(false,false) should return true&#10;Scala99Logical Challenge: xor(true,true) should return false&#10;Scala99Logical Challenge: xor(false,true) should return false&#10;Scala99Logical Challenge: xor(false,false) should return false&#10;Scala99Logical Challenge: impl(true,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return false&#10;Scala99Logical Challenge: impl(false,false) should return true&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; sl99.and(a, sl99.or(a, b))) should return table&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; a and (a or not(b))) should return table&#10;Scala99Logical Challenge: grey(0) should return List(0,1)&#10;Scala99Logical Challenge: grey(1) should return List(0,1)" />
-        <item itemvalue="ScalaTest.Logica1.Logical: equalityTestFunc(true,true) should reture true&#10;Scala99Logical Challenge: and(false,true) should return false&#10;Scala99Logical Challenge: and(true,true) should return true&#10;Scala99Logical Challenge: or(false,true) should return true&#10;Scala99Logical Challenge: or(false,false) should return false&#10;Scala99Logical Challenge: or(true,false) should return true&#10;Scala99Logical Challenge: nand(true,false) should return true&#10;Scala99Logical Challenge: nand(true,true) should return false&#10;Scala99Logical Challenge: equ(true,true) should return true&#10;Scala99Logical Challenge: equ(false,false) should return true&#10;Scala99Logical Challenge: xor(true,true) should return false&#10;Scala99Logical Challenge: xor(false,true) should return false&#10;Scala99Logical Challenge: xor(false,false) should return false&#10;Scala99Logical Challenge: impl(true,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return false&#10;Scala99Logical Challenge: impl(false,false) should return true&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; sl99.and(a, sl99.or(a, b))) should return table&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; a and (a or not(b))) should return table&#10;Scala99Logical Challenge: grey(-1) should return List(0,1)&#10;Scala99Logical Challenge: grey(0) should return List(0,1)&#10;Scala99Logical Challenge: grey(1) should return List(0,1)" />
-        <item itemvalue="ScalaTest.Logica1.Scala99Logical Challenge: grey(-1) should return List(0,1)" />
       </list>
     </recent_temporary>
   </component>
@@ -436,9 +423,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllAboutScalaExerciseTDD_AASE_Challenge__minMax(Seq_empty[Int])_should_throw_NoSuchElement - 2020.02.18 at 22h 33m 23s.xml">
-      <configuration name="AllAboutScalaExerciseTDD.AASE Challenge: minMax(Seq.empty[Int]) should throw NoSuchElement" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="AllAboutScalaExerciseTDD_AASE_Challenge__minMax(Seq(1253,25))_should_Map(_Min_-_25,_Max__-_1253_) - 2020.02.18 at 22h 33m 47s.xml">
       <configuration name="AllAboutScalaExerciseTDD.AASE Challenge: minMax(Seq(1253,25)) should Map(&quot;Min&quot;-&gt;25,&quot;Max&quot; -&gt;1253 )" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -465,6 +449,9 @@
     </history-entry>
     <history-entry file="Logica1_Scala99Logical_Challenge__grey(2)_should_return_List(0,1) - 2020.02.20 at 19h 42m 42s.xml">
       <configuration name="Logica1.Scala99Logical Challenge: grey(2) should return List(0,1)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Tree_Scala99Tree_Challenge__Node(Node___)_should_return_an_instance_of_Node - 2020.02.20 at 20h 39m 54s.xml">
+      <configuration name="Tree.Scala99Tree Challenge: Node(Node...) should return an instance of Node" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -766,17 +753,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Tree/Tree.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Tree/End.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/Logica1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="172" column="3" selection-start-line="172" selection-start-column="3" selection-end-line="172" selection-end-column="3" />
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="47" />
           <folding>
             <element signature="e#34#75#0" expanded="true" />
           </folding>
@@ -785,15 +772,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Tree/Node.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Tree/End.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/TreePKG/Tree.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/TreeTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding>
+            <element signature="e#34#75#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

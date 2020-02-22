@@ -1,4 +1,4 @@
-package com.local.method
+package com.local.Method
 
 object HOF_CallBackFunctionParameter extends App{
 

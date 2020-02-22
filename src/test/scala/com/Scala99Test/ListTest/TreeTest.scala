@@ -7,7 +7,7 @@ import com.local.Projects.Resource.src.TreePKG.Node
 import com.local.Projects.Resource.src.TreePKG.End
 
 class TreeTest extends AnyFlatSpec with Matchers{
-  
+
   "Scala99Tree Challenge: Node(Node...)" should "return an instance of Node" in {
   val tree:Node[Char] = Node('A',Node('B',Node('D'),Node('E')),Node('C',End,Node('F',Node('G'),End)))
 

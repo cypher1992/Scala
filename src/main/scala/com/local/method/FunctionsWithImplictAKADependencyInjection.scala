@@ -1,6 +1,6 @@
-package com.local.method
+package com.local.Method
 
-import com.local.method.FunctionsWithImplictAKADependencyInjection.items
+import com.local.Method.FunctionsWithImplictAKADependencyInjection.items
 
 object FunctionsWithImplictAKADependencyInjection extends App{
 

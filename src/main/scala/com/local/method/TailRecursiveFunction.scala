@@ -10,6 +10,8 @@ object TailRecursiveFunction extends App{
     URL: http://allaboutscala.com/tutorials/chapter-3-beginner-tutorial-using-functions-scala/scala-tutorial-learn-create-tail-recursive-function-tailrec-annotation/
     OBJ: we will learn how to create tail recursive function and also make use of the annotation @annotation.tailrec which will instruct the compiler to apply any further optimisation.
     INFO: Tail recursive function will help prevent overflow in your call stack because the evaluation of your looping construct happens at each step.
+
+    NOTES: The @annotation.tailrec instructs the compiler to add any optimisations with regards to stack frame management as this function is recursive.
   */
   val stockArray:Array[String] = Array("BX","C","BAC","JPM","WFC")
 

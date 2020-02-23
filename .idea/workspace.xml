@@ -47,14 +47,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Method/TailRecursiveFunction.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="425">
+              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding>
                 <element signature="e#26#79#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Method/TailCallsRecurFunc.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -102,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/TreeTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/TreePKG/Tree.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Method/TailRecursiveFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/Method/TailCallsRecurFunc.scala" />
       </list>
     </option>
   </component>
@@ -232,7 +242,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TailRecursiveFunction">
+  <component name="RunManager" selected="Application.TailCallsRecurFunc">
+    <configuration name="TailCallsRecurFunc" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.local.Method.TailCallsRecurFunc" />
+      <module name="Scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.local.Method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TailRecursiveFunction" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.local.Method.TailRecursiveFunction" />
       <module name="Scala" />
@@ -261,25 +284,6 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.Scala99Test.ListTest.Logica1" />
       <setting name="testName" value="Logical: equalityTestFunc(true,true) should reture true&#10;Scala99Logical Challenge: and(false,true) should return false&#10;Scala99Logical Challenge: and(true,true) should return true&#10;Scala99Logical Challenge: or(false,true) should return true&#10;Scala99Logical Challenge: or(false,false) should return false&#10;Scala99Logical Challenge: or(true,false) should return true&#10;Scala99Logical Challenge: nand(true,false) should return true&#10;Scala99Logical Challenge: nand(true,true) should return false&#10;Scala99Logical Challenge: equ(true,true) should return true&#10;Scala99Logical Challenge: equ(false,false) should return true&#10;Scala99Logical Challenge: xor(true,true) should return false&#10;Scala99Logical Challenge: xor(false,true) should return false&#10;Scala99Logical Challenge: xor(false,false) should return false&#10;Scala99Logical Challenge: impl(true,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return false&#10;Scala99Logical Challenge: impl(false,false) should return true&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; sl99.and(a, sl99.or(a, b))) should return table&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; a and (a or not(b))) should return table&#10;Scala99Logical Challenge: grey(2) should return List(0,1)&#10;Scala99Logical Challenge: grey(1) should return List(0,1)" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Logica1.Scala99Logical Challenge: grey(2) should return List(0,1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.Scala99Test.ListTest.Logica1" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.Scala99Test.ListTest.Logica1" />
-      <setting name="testName" value="Scala99Logical Challenge: grey(2) should return List(0,1)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -324,11 +328,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TailCallsRecurFunc" />
         <item itemvalue="Application.TailRecursiveFunction" />
         <item itemvalue="ScalaTest.TreeTest.Scala99Tree Challenge: Node(Node...) should return an instance of Node" />
         <item itemvalue="ScalaTest.Tree.Scala99Tree Challenge: Node(Node...) should return an instance of Node" />
         <item itemvalue="ScalaTest.Logica1.Logical: equalityTestFunc(true,true) should reture true&#10;Scala99Logical Challenge: and(false,true) should return false&#10;Scala99Logical Challenge: and(true,true) should return true&#10;Scala99Logical Challenge: or(false,true) should return true&#10;Scala99Logical Challenge: or(false,false) should return false&#10;Scala99Logical Challenge: or(true,false) should return true&#10;Scala99Logical Challenge: nand(true,false) should return true&#10;Scala99Logical Challenge: nand(true,true) should return false&#10;Scala99Logical Challenge: equ(true,true) should return true&#10;Scala99Logical Challenge: equ(false,false) should return true&#10;Scala99Logical Challenge: xor(true,true) should return false&#10;Scala99Logical Challenge: xor(false,true) should return false&#10;Scala99Logical Challenge: xor(false,false) should return false&#10;Scala99Logical Challenge: impl(true,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return true&#10;Scala99Logical Challenge: impl(false,true) should return false&#10;Scala99Logical Challenge: impl(false,false) should return true&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; sl99.and(a, sl99.or(a, b))) should return table&#10;Scala99Logical Challenge: table2((a: Boolean, b: Boolean) =&gt; a and (a or not(b))) should return table&#10;Scala99Logical Challenge: grey(2) should return List(0,1)&#10;Scala99Logical Challenge: grey(1) should return List(0,1)" />
-        <item itemvalue="ScalaTest.Logica1.Scala99Logical Challenge: grey(2) should return List(0,1)" />
       </list>
     </recent_temporary>
   </component>
@@ -413,7 +417,7 @@
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38555557" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3011111" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -751,11 +755,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Method/TailRecursiveFunction.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="425">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
           <folding>
             <element signature="e#26#79#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Method/TailCallsRecurFunc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
         </state>
       </provider>
     </entry>

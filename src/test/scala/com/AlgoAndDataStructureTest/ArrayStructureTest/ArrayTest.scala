@@ -32,12 +32,54 @@ class ArrayTest extends AnyFlatSpec with Matchers {
     assert( actual === expected)
 
   }
-  
+
+  "AlgoAndDataStructureTest: mergeArrays(Array.Empty[Int],Arry(0...5))" should "return ArrayBuffer(0,1,2,3,4,5)" in {
+
+    val array:ArrayBuffer[Int] = ArrayBuffer.empty[Int]
+    val array2:ArrayBuffer[Int] = ArrayBuffer.range(0,6)
+    val actual:ArrayBuffer[Int] = arrayObj.mergeArray(array,array2)
+    val expected:ArrayBuffer[Int] = ArrayBuffer(0,1,2,3,4,5)
+    assert( actual === expected)
+
+  }
+
+
   "AlgoAndDataStructureTest: mergeArrays(Arry(0...5),Array(0..3))" should "return ArrayBuffer(0,1,2,3,4,5,0,1,2,3)" in {
 
     val array:ArrayBuffer[Int] = ArrayBuffer.range(0,6)
     val array2:ArrayBuffer[Int] = ArrayBuffer.range(0,4)
     val actual:ArrayBuffer[Int] = arrayObj.mergeArray(array,array2)
+    val expected:ArrayBuffer[Int] = ArrayBuffer(0,1,2,3,4,5,0,1,2,3)
+    assert( actual === expected)
+
+  }
+
+  "AlgoAndDataStructureTest: mergeArrayLambda(Arry(0...5),Array.Empty[Int]" should "return ArrayBuffer(0,1,2,3,4,5)" in {
+
+    val array:ArrayBuffer[Int] = ArrayBuffer.range(0,6)
+    val array2:ArrayBuffer[Int] = ArrayBuffer.empty[Int]
+    val actual:ArrayBuffer[Int] = arrayObj.mergeArrayLambda(array,array2)
+    val expected:ArrayBuffer[Int] = ArrayBuffer(0,1,2,3,4,5)
+    assert( actual === expected)
+
+  }
+
+  "AlgoAndDataStructureTest: mergeArrayLambda(Array.Empty[Int],Arry(0...5))" should "return ArrayBuffer(0,1,2,3,4,5)" in {
+
+    val array:ArrayBuffer[Int] = ArrayBuffer.empty[Int]
+    val array2:ArrayBuffer[Int] = ArrayBuffer.range(0,6)
+    val actual:ArrayBuffer[Int] = arrayObj.mergeArrayLambda(array,array2)
+    val expected:ArrayBuffer[Int] = ArrayBuffer(0,1,2,3,4,5)
+    assert( actual === expected)
+
+  }
+
+
+  "AlgoAndDataStructureTest: mergeArrayLambda(Arry(0...5),Array(0..3))" should "return ArrayBuffer(0,1,2,3,4,5,0,1,2,3)" in {
+
+    val array:ArrayBuffer[Int] = ArrayBuffer.range(0,6)
+    val array2:ArrayBuffer[Int] = ArrayBuffer.range(0,4)
+    val actual:ArrayBuffer[Int] = arrayObj.mergeArrayLambda(array,array2)
     val expected:ArrayBuffer[Int] = ArrayBuffer(0,1,2,3,4,5,0,1,2,3)
     assert( actual === expected)
 

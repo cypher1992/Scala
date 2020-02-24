@@ -23,4 +23,6 @@ class ArrayStructure{
       case _ => mergeArray(array :+ array2.head,array2.tail)
     }
   }
+
+  def mergeArrayLambda[T](array:ArrayBuffer[T],array2:ArrayBuffer[T]):ArrayBuffer[T] = array ++ array2
 }

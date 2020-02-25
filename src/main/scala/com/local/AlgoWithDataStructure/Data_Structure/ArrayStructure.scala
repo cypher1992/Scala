@@ -34,4 +34,6 @@ class ArrayStructure{
       case _ =>  exist(query,array.tail)
     }
   }
+
+  def existLambda[T](query:T,array:ArrayBuffer[T]):Boolean = array.exists(x => x == query)
 }

@@ -133,4 +133,29 @@ class ArrayTest extends AnyFlatSpec with Matchers {
 
     assert(actual == expected)
   }
+
+  "AlgoAndDataStructureTest: filter(query, emptyArray)" should "return emptyArray" in {
+    val array:ArrayBuffer[Int] = ArrayBuffer.empty[Int]
+    val actual:ArrayBuffer[Int] = arrayObj.filter(1,array)
+    val expected:ArrayBuffer[Int] = ArrayBuffer.empty[Int]
+
+    assert(actual == expected)
+  }
+
+  "AlgoAndDataStructureTest: filter(query,ArrayBuffer)" should "return ArrayBuffer(5,5)" in{
+    val array:ArrayBuffer[Int] = ArrayBuffer(1,2,4,5,6,12,5)
+    val actual:ArrayBuffer[Int] = arrayObj.filter(5,array)
+    val expected:ArrayBuffer[Int] = ArrayBuffer(5,5)
+
+    assert(actual == expected)
+  }
+
+  "AlgoAndDataStructureTest: filter(query,ArrayBuffer)" should "return ArrayBuffer()" in{
+    val array:ArrayBuffer[Int] = ArrayBuffer(1,2,4,5,6,12)
+    val actual:ArrayBuffer[Int] = arrayObj.filter(45,array)
+    val expected:ArrayBuffer[Int] = ArrayBuffer.empty[Int]
+
+    assert(actual == expected)
+  }
+
 }

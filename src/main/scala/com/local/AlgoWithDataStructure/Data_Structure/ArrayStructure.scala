@@ -36,4 +36,18 @@ class ArrayStructure{
   }
 
   def existLambda[T](query:T,array:ArrayBuffer[T]):Boolean = array.exists(x => x == query)
+
+  def filter[T](query:T,array:ArrayBuffer[T]):ArrayBuffer[T]={
+
+    def filterAppend(q:T =query,arry:ArrayBuffer[T]=array,append:ArrayBuffer[T]=ArrayBuffer.empty[T]):ArrayBuffer[T] ={
+      arry match {
+        case a if(arry.isEmpty) => append
+        case b if(arry.head == q) => filterAppend(q,arry.tail,append:+arry.head)
+        case _ => filterAppend(q,arry.tail,append)
+      }
+    }
+    filterAppend()
+  }
+
 }
+

@@ -85,4 +85,27 @@ class ArrayTest extends AnyFlatSpec with Matchers {
 
   }
 
+  "AlgoAndDataStructureTest: exist(query, emptyArray)" should "return false" in {
+    val array:ArrayBuffer[Int] = ArrayBuffer.empty[Int]
+    val actual:Boolean = arrayObj.exist(1,array)
+    val expected:Boolean = false
+
+    assert(actual == expected)
+  }
+
+  "AlgoAndDataStructureTest: exist(query,ArrayBuffer)" should "return true" in{
+    val array:ArrayBuffer[Int] = ArrayBuffer(1,2,4,5,6,12)
+    val actual:Boolean = arrayObj.exist(5,array)
+    val expected:Boolean = true
+
+    assert(actual == expected)
+  }
+
+  "AlgoAndDataStructureTest: exist(query,ArrayBuffer)" should "return false" in{
+    val array:ArrayBuffer[Int] = ArrayBuffer(1,2,4,5,6,12)
+    val actual:Boolean = arrayObj.exist(45,array)
+    val expected:Boolean = false
+
+    assert(actual == expected)
+  }
 }

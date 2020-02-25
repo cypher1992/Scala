@@ -25,4 +25,13 @@ class ArrayStructure{
   }
 
   def mergeArrayLambda[T](array:ArrayBuffer[T],array2:ArrayBuffer[T]):ArrayBuffer[T] = array ++ array2
+
+  def exist[T](query:T,array:ArrayBuffer[T]):Boolean ={
+
+    array match {
+      case a if(array.isEmpty) => false
+      case b if(array.head == query) => true
+      case _ =>  exist(query,array.tail)
+    }
+  }
 }

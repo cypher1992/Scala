@@ -52,14 +52,12 @@ class ArrayStructure{
   def filterLambda[T](query:T,array:ArrayBuffer[T]):ArrayBuffer[T] = array.filter(x => x == query)
 
 
-  def find[T](query:T,array:ArrayBuffer[T]):ArrayBuffer[T] ={
-    var queryArray:ArrayBuffer[T] = ArrayBuffer.empty[T]
-    for(head <- array){
-      if(head == query){
-        queryArray = queryArray :+ head
-      }
+  def find[T](query:T,array:ArrayBuffer[T]):Option[T] ={
+    array match {
+      case a if(array.isEmpty) => None
+      case b if (array.head == query) => Some(array.head)
+      case _ => find(query,array.tail)
     }
-    queryArray
   }
 
   def findLambda[T](query:T,array:ArrayBuffer[T]):Option[T] = array.find(x => x == query)

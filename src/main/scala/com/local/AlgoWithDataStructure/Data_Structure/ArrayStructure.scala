@@ -51,5 +51,16 @@ class ArrayStructure{
 
   def filterLambda[T](query:T,array:ArrayBuffer[T]):ArrayBuffer[T] = array.filter(x => x == query)
 
+
+  def find[T](query:T,array:ArrayBuffer[T]):ArrayBuffer[T] ={
+    var queryArray:ArrayBuffer[T] = ArrayBuffer.empty[T]
+    for(head <- array){
+      if(head == query){
+        queryArray = queryArray :+ head
+      }
+    }
+    queryArray
+  }
+
 }
 

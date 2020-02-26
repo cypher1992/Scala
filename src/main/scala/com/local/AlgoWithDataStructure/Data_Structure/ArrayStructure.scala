@@ -62,5 +62,7 @@ class ArrayStructure{
     queryArray
   }
 
+  def findLambda[T](query:T,array:ArrayBuffer[T]):Option[T] = array.find(x => x == query)
+
 }
 

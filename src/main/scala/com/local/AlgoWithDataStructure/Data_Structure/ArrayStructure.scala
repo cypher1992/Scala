@@ -49,5 +49,7 @@ class ArrayStructure{
     filterAppend()
   }
 
+  def filterLambda[T](query:T,array:ArrayBuffer[T]):ArrayBuffer[T] = array.filter(x => x == query)
+
 }
 

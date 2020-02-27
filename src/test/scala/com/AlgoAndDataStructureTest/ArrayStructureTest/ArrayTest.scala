@@ -214,5 +214,25 @@ class ArrayTest extends AnyFlatSpec with Matchers {
     assert(actual == expected)
   }
 
+  "AlgoAndDataStructureTest: delimit(',', Array[String].empty)" should "return Array()" in {
+
+    val emptyArray:Array[String] = Array.empty[String]
+    val actual:Array[Tuple2[Any,Any]] = arrayObj.delimit(",",emptyArray)
+    val expected:Array[Tuple2[Any,Any]] = Array.empty[Tuple2[Any,Any]]
+
+    assert(actual === expected)
+
+  }
+
+  "AlgoAndDataStructureTest: delimit(',', Array(\"BX,BLACKSTONE\",\"JPM,JP MORGAN\",\"C,CITI\",\"BAC,BANK OF AMERICA\",\"WFC,WELLS FARGO\"))" should "return Array((\"BX\",\"BLACKSTONE\"),(\"JPM\", \"JP MORGAN\"),(\"C\",\"CITI\"),(\"BAC\",\"BANK OF AMERICA\"),(\"WFC\",\"WELLS FARGO\"))" in {
+
+    val emptyArray:Array[String] = Array("BX,BLACKSTONE","JPM,JP MORGAN","C,CITI","BAC,BANK OF AMERICA","WFC,WELLS FARGO")
+    val actual:Array[Tuple2[Any,Any]] = arrayObj.delimit(",",emptyArray)
+    val expected:Array[Tuple2[Any,Any]] = Array(("BX","BLACKSTONE"),("JPM", "JP MORGAN"),("C","CITI"),("BAC","BANK OF AMERICA"),("WFC","WELLS FARGO"))
+
+    assert(actual === expected)
+
+  }
+
 
 }

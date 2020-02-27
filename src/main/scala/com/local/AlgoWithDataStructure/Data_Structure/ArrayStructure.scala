@@ -62,5 +62,10 @@ class ArrayStructure{
 
   def findLambda[T](query:T,array:ArrayBuffer[T]):Option[T] = array.find(x => x == query)
 
+  def delimit(delimiter:String,array:Array[String]):Array[Tuple2[Any,Any]] = {
+    array.map(_.split(delimiter)).map{
+      case Array(s1,s2) => (s1,s2)}
+    }
+
 }
 

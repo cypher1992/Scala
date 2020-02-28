@@ -74,4 +74,14 @@ class ListTest extends AnyFlatSpec  with Matchers {
 
   }
 
+  "AlgoAndDataStructure List: insertAt(100,List(10,25),101)" should "throw error" in {
+
+    val position:Int = 100
+    val list:List[Int] = List(10,25)
+    val insert:Int = 101
+
+    assertThrows[java.lang.IndexOutOfBoundsException]{listClass.insertAt(position,list,insert)}
+
+  }
+
 }

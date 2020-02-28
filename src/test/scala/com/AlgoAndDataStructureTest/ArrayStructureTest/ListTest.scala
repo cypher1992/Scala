@@ -51,5 +51,27 @@ class ListTest extends AnyFlatSpec  with Matchers {
     assert(actual == expected)
 
   }
-  
+
+  "AlgoAndDataStructure List: removeLambda(5,List())" should "return List()" in{
+
+    val index:Int = 5
+    val list:List[Int] = List.empty[Int]
+    val actual:List[Int] = listClass.removeLambda(index,list)
+    val expected:List[Int] = List.empty[Int]
+
+    assert(actual == expected)
+
+  }
+
+  "AlgoAndDataStructure List: removeLambda(5,List(5,5,6,8,9,5))" should "return List(6,8,9)" in{
+
+    val index:Int = 5
+    val list:List[Int] = List(5,5,6,8,9,5)
+    val actual:List[Int] = listClass.removeLambda(index,list)
+    val expected:List[Int] = List(6,8,9)
+
+    assert(actual == expected)
+
+  }
+
 }

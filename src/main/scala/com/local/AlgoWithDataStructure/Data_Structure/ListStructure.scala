@@ -5,6 +5,9 @@ package com.local.AlgoWithDataStructure.Data_Structure
 class ListStructure {
 
   def append[T](index:T,list:List[T]):List[T] = list :+ index
+
+  def removeLambda[T](index:T,list:List[T]):List[T] = list.filterNot(x => x == index)
+
   def remove[T](index:T,list: List[T]):List[T] = {
    def removeAppend(i:T=index,lst:List[T]=list,append:List[T] =Nil): List[T] ={
      lst match {

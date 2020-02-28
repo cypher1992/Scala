@@ -24,15 +24,15 @@ class ListStructure {
     def insertAtAppend(p:Int=position,lst:List[T]=list,i:T=insert,append:List[T]=Nil):List[T]={
 
       lst match {
-        case Nil => append
-        case a if(p == 0) => insertAtAppend(p,Nil,i,append :+ i)
+        case a if(lst.isEmpty) => append
+        case b if(p == 0) => insertAtAppend(p,Nil,i,append ::: (i +: lst))
         case _ => insertAtAppend(p-1,lst.tail,i,append :+ lst.head)
       }
 
     }
 
     position match {
-      case a if(position > -1 && position < list.size) => insertAtAppend()
+      case a if(position > -1 && position < list.size+1) => insertAtAppend()
       case b if(list.isEmpty) => list :+ insert
       case _ => throw new java.lang.StringIndexOutOfBoundsException
     }

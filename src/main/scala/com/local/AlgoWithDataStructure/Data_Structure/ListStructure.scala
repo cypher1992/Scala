@@ -23,9 +23,8 @@ class ListStructure {
 
     def insertAtAppend(p:Int=position,lst:List[T]=list,i:T=insert,append:List[T]=Nil):List[T]={
 
-      lst match {
-        case a if(lst.isEmpty) => append
-        case b if(p == 0) => insertAtAppend(p,Nil,i,append ::: (i +: lst))
+      p match {
+        case 0 => append ::: (i +: lst)
         case _ => insertAtAppend(p-1,lst.tail,i,append :+ lst.head)
       }
 

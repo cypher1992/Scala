@@ -105,6 +105,16 @@ class ListTest extends AnyFlatSpec  with Matchers {
     assert(actual == expected)
 
   }
-  
+
+  "AlgoAndDataStructure List: insertAt(0,List(10,25),325)" should "return List(10,20,325)" in {
+    val position:Int = 2
+    val list:List[Int] = List(10,25)
+    val insert:Int = 325
+    val actual:List[Int] = listClass.insertAt(position,list,insert)
+    val expected: List[Int] = List(10,25,325)
+
+    assert(actual == expected)
+
+  }
 
 }

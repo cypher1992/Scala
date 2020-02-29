@@ -40,7 +40,7 @@ class ListStructure {
   // built in function
   def sortLamdbda(list:List[Int]):List[Int] = list.sorted
 
-  def sort(list:List[Int],ascend:Boolean):List[Int] ={
+  def sort(list:List[Int],ascend:Boolean=true):List[Int] ={
     ascend match {
       case true =>  list.sortWith(_ < _)
       case _  => list.sortWith(_>_)

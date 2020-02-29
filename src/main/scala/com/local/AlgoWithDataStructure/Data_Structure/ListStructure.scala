@@ -38,8 +38,9 @@ class ListStructure {
   }
 
   // built in function
-  def sort(list:List[Int]):List[Int] = list.sorted
+  def sortLamdbda(list:List[Int]):List[Int] = list.sorted
 
+  def sort
 
 
 }

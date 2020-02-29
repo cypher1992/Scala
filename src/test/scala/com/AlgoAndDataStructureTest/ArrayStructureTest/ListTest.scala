@@ -125,4 +125,12 @@ class ListTest extends AnyFlatSpec  with Matchers {
     assert(actual == expected)
   }
 
+  "AlgoAndDataStructure List: sort(List(5,675,2,64,22,-4))" should "return List(-4,2,5,22,64,675)" in {
+    val list:List[Int] = List(5,675,2,64,22,-4)
+    val actual:List[Int] = listClass.sort(list)
+    val expected:List[Int] = List(-4,2,5,22,64,675)
+
+    assert(actual == expected)
+  }
+
 }

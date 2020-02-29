@@ -37,4 +37,8 @@ class ListStructure {
     }
   }
 
+  // built in function
+  def sort(list:List[Int]):List[Int] = list.sorted
+
+
 }

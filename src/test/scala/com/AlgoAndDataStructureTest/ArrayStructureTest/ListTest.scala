@@ -117,4 +117,12 @@ class ListTest extends AnyFlatSpec  with Matchers {
 
   }
 
+  "AlgoAndDataStructure List: sort(Nil)" should "return Nil" in {
+    val emptyList:List[Int] = List.empty[Int]
+    val actual:List[Int] = listClass.sort(emptyList)
+    val expected:List[Int] = List.empty[Int]
+
+    assert(actual == expected)
+  }
+
 }

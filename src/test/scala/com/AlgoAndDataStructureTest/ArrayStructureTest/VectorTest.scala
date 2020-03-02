@@ -24,7 +24,22 @@ class VectorTest extends AnyFlatSpec with Matchers {
     val expected:Vector[Int] = Vector(2,4,6,8)
 
     assert(actual == expected)
+  }
 
+  "AlgoAndDataStructure Vector: appendVector(emptyVector,8)" should "return Vector(8)" in {
+    val emptyVector:Vector[Int] = Vector.empty[Int]
+    val actual:Vector[Int] = vecClass.appendVector(emptyVector,8)
+    val expected:Vector[Int] = Vector(8)
+
+    assert(actual == expected)
+  }
+
+  "AlgoAndDataStructure Vector: appendVector(Vector(2,4,6),8)" should "return Vector(2,4,6,8)" in {
+    val vector:Vector[Int] = Vector(2,4,6)
+    val actual:Vector[Int] = vecClass.appendVector(vector,8)
+    val expected:Vector[Int] = Vector(2,4,6,8)
+
+    assert(actual == expected)
   }
 
 

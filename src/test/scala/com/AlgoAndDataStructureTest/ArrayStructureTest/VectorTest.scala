@@ -42,6 +42,14 @@ class VectorTest extends AnyFlatSpec with Matchers {
     assert(actual == expected)
   }
 
+  "AlgoAndDataStructure Vector: findLambdaVector(5,emptyVector)" should "return None" in {
+    val emptyVector:Vector[Int] = Vector.empty[Int]
+    val actual:Option[Int] = vecClass.findLamdaVector(5,emptyVector)
+    val expected:Option[Int] = None
+
+    assert(actual == expected)
+  }
+
 
 
 }

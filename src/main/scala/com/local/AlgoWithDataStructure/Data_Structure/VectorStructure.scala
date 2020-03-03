@@ -12,7 +12,7 @@ class VectorStructure{
     vector match {
       case a if(vector.isEmpty) => None
       case b if(vector.head == query) => Some(vector.head)
-      case _ => findVector(query,vector.tail)   
+      case _ => findVector(query,vector.tail)
     }
   }
 }

@@ -15,4 +15,18 @@ class VectorStructure{
       case _ => findVector(query,vector.tail)
     }
   }
+
+  def emptyVector[T](vector: Vector[T]):Vector[T] = Vector.empty[T]
+
+  def insertVector[T](position:Int,index:T,vector:Vector[T]):Vector[T] = {
+
+    def appendVector[T](p:Int=position,i:T=index,vec:Vector[T]=vector,append:Vector[T] = Vector.empty[T]):Vector[T] ={
+      vec match {
+        case a if(vec.isEmpty) => append
+        case b if(p == 0) => appendVector(p,i,Vector.empty[T],append ++ (i +:vec))
+        case _ => appendVector(p-1,i,vec.tail,append :+ vec.head)
+      }
+    }
+    appendVector()
+  }
 }

@@ -74,4 +74,20 @@ class VectorTest extends AnyFlatSpec with Matchers {
     assert(actual == expected)
   }
 
+  "AlgoAndDataStructure Vector: insertVector(2,3,emptyvector)" should "throw java.lang.outofbounderror" in {
+
+    val emptyVector:Vector[Int] = Vector.empty[Int]
+
+    assertThrows[java.lang.IndexOutOfBoundsException]{vecClass.insertVector(2,5,emptyVector)}
+  }
+
+  "AlgoAndDataStructure Vector: insertVector(0,1,emptyvector)" should "return Vector(1)" in {
+
+    val emptyVector:Vector[Int] = Vector.empty[Int]
+    val actual:Vector[Int] = vecClass.insertVector(0,1,emptyVector)
+    val expected:Vector[Int] = Vector(1)
+
+    assert(actual === expected)
+  }
+
 }

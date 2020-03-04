@@ -27,6 +27,11 @@ class VectorStructure{
         case _ => appendVector(p-1,i,vec.tail,append :+ vec.head)
       }
     }
-    appendVector()
+
+    position match {
+      case a if( position < 0 || position> vector.size + 1) => throw new java.lang.IndexOutOfBoundsException
+      case b if(vector.isEmpty && position == 0) => vector :+ index
+      case _ => appendVector()
+    }
   }
 }

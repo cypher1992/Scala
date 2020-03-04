@@ -31,7 +31,7 @@ class VectorStructure{
         """.stripMargin)
 
       vec match {
-        case a if(vec.isEmpty) => append ++ (i +: vec)
+        case a if(p == 0) => append ++ (i +: vec)
         case _ => appendVector(p-1,i,vec.tail,append :+ vec.head)
       }
     }

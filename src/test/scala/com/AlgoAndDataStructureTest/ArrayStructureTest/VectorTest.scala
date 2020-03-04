@@ -99,5 +99,22 @@ class VectorTest extends AnyFlatSpec with Matchers {
     assert(actual === expected)
   }
 
+  "AlgoAndDataStructure Vector: insertVector(2,3,vector(1,2))" should "return Vector(1,2,3)" in {
+
+    val vector:Vector[Int] = Vector(1,2)
+    val actual:Vector[Int] = vecClass.insertVector(2,3,vector)
+    val expected:Vector[Int] = Vector(1,2,3)
+
+    assert(actual === expected)
+  }
+
+  "AlgoAndDataStructure Vector: insertVector(1,4,vector(1,2,3))" should "return Vector(1,4,2,3)" in {
+
+    val vector:Vector[Int] = Vector(1,2,3)
+    val actual:Vector[Int] = vecClass.insertVector(1,4,vector)
+    val expected:Vector[Int] = Vector(1,4,2,3)
+
+    assert(actual === expected)
+  }
 
 }

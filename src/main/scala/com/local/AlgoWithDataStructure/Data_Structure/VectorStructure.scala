@@ -21,15 +21,23 @@ class VectorStructure{
   def insertVector[T](position:Int,index:T,vector:Vector[T]):Vector[T] = {
 
     def appendVector[T](p:Int=position,i:T=index,vec:Vector[T]=vector,append:Vector[T] = Vector.empty[T]):Vector[T] ={
+
+      println(
+        s"""
+          |pos: ${p}
+          |index: ${i}
+          |vector: ${vec}
+          |append: ${append}
+        """.stripMargin)
+
       vec match {
-        case a if(vec.isEmpty) => append
-        case b if(p == 0) => appendVector(p,i,Vector.empty[T],append ++ (i +:vec))
+        case a if(vec.isEmpty) => append ++ (i +: vec)
         case _ => appendVector(p-1,i,vec.tail,append :+ vec.head)
       }
     }
 
     position match {
-      case a if( position < 0 || position> vector.size + 1) => throw new java.lang.IndexOutOfBoundsException
+      case a if( position < 0 || position> vector.size) => throw new java.lang.IndexOutOfBoundsException
       case b if(vector.isEmpty && position == 0) => vector :+ index
       case _ => appendVector()
     }

@@ -118,4 +118,16 @@ class VectorTest extends AnyFlatSpec with Matchers {
   }
 
 
+  "AlgoAndDataStructure Vector: insertLambdaVector(1,5,emptyvector)" should "return Vector(5)" in{
+
+    val emptyVector:Vector[Int] = Vector.empty[Int]
+    val actual:Vector[Int] = vecClass.insertLambdaVector(1,5,emptyVector)
+    val expected:Vector[Int] = Vector(5)
+
+    assert(actual == expected)
+
+  }
+
+  
+
 }

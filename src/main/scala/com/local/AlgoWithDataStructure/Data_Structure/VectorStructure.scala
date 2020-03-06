@@ -42,4 +42,8 @@ class VectorStructure{
       case _ => appendVector()
     }
   }
+
+  def insertLambdaVector[T](position:Int,index:T,vector: Vector[T]):Vector[T] = vector.splitAt(position) match {
+    case (prevec,postvec) => prevec ++( index +: postvec)
+  }
 }

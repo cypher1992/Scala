@@ -47,13 +47,13 @@ class VectorStructure{
     case (prevec,postvec) => prevec ++( index +: postvec)
   }
 
-  def updateVector[T](index:T,vector:Vector[T]):Vector[T] = {
+  def updateVector[T](index:T,replacement:T,vector:Vector[T]):Vector[T] = {
 
-    def updateAppend(i:T=index,vec:Vector[T]=vector,append:Vector[T]=Vector.empty[T]):Vector[T]={
+    def updateAppend(i:T=index,r:T=replacement,vec:Vector[T]=vector,append:Vector[T]=Vector.empty[T]):Vector[T]={
       vec match {
         case a if(vec.isEmpty) => append
-        case b if(vec.head == index) =>  updateAppend(i,vec.tail,append :+ index)
-        case _ => updateAppend(i,vec.tail,append :+ vec.head)
+        case b if(vec.head == index) =>  updateAppend(i,r,vec.tail,append :+ r)
+        case _ => updateAppend(i,r,vec.tail,append :+ vec.head)
       }
     }
     updateAppend()

@@ -59,4 +59,19 @@ class VectorStructure{
     updateAppend()
   }
 
+  def updateVectorLambda[T](index:T,replacement:T,vector:Vector[T]):Vector[T] = {
+
+    def ifEquals[T](x:T,y:T=index,r:T=replacement):T ={
+      if(x==y){
+        r
+      }
+      else{
+        x
+      }
+    }
+
+    vector.map(ifEquals(_))
+
+  }
+
 }

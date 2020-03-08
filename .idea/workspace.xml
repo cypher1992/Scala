@@ -52,17 +52,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/VectorStructure.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="54" column="78" selection-start-line="54" selection-start-column="78" selection-end-line="54" selection-end-column="78" />
+            <state relative-caret-position="326">
+              <caret line="61" column="24" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Experiement.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="151" column="46" selection-start-line="151" selection-start-column="46" selection-end-line="151" selection-end-column="46" />
+            <state relative-caret-position="326">
+              <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
               <folding>
                 <element signature="e#57#98#0" expanded="true" />
               </folding>
@@ -116,11 +125,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Method/TailCallsRecurFunc.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/ArrayStructure.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/ArrayTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Experiement.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/ListStructure.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/ListTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/VectorStructure.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/VectorStructure.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Experiement.scala" />
       </list>
     </option>
   </component>
@@ -251,7 +260,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.VectorTest.AlgoAndDataStructure Vector: appendVectorLambda(emptyVector,8) should return Vector(8)&#10;AlgoAndDataStructure Vector: appendVectorLambda(Vector(2,4,6),8) should return Vector(2,4,6,8)&#10;AlgoAndDataStructure Vector: appendVector(emptyVector,8) should return Vector(8)&#10;AlgoAndDataStructure Vector: appendVector(Vector(2,4,6),8) should return Vector(2,4,6,8)&#10;AlgoAndDataStructure Vector: findLambdaVector(5,emptyVector) should return None&#10;AlgoAndDataStructure Vector: findLambdaVector(5,vector) should return Some(5)&#10;AlgoAndDataStructure Vector: findVector(5,emptyVector) should return None&#10;AlgoAndDataStructure Vector: findVector(5,vector) should return Some(5)&#10;AlgoAndDataStructure Vector: insertVector(2,3,emptyvector) should throw java.lang.outofbounderror&#10;AlgoAndDataStructure Vector: insertVector(0,1,emptyvector) should return Vector(1)&#10;AlgoAndDataStructure Vector: insertVector(1,2,vector(1)) should return Vector(1,2)&#10;AlgoAndDataStructure Vector: insertVector(2,3,vector(1,2)) should return Vector(1,2,3)&#10;AlgoAndDataStructure Vector: insertVector(1,4,vector(1,2,3)) should return Vector(1,4,2,3)&#10;AlgoAndDataStructure Vector: insertLambdaVector(1,5,emptyvector) should return Vector(5)&#10;AlgoAndDataStructure Vector: insertLambdaVector(1,5,Vector(5,4)) should return Vector(5,4,5)&#10;AlgoAndDataStructure Vector: updateVector(5,4,emptyVector) should return Vector.empty[Int]&#10;AlgoAndDataStructure Vector: updateVector(5,4,vector(5,2,7,5,1)) should return Vector(4,2,7,4,1)">
+  <component name="RunManager" selected="Application.Experiement">
+    <configuration name="Experiement" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.local.AlgoWithDataStructure.Data_Structure.Experiement" />
+      <module name="Scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.local.AlgoWithDataStructure.Data_Structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VectorTest.AlgoAndDataStructure Vector: appendVectorLambda(emptyVector,8) should return Vector(8)&#10;AlgoAndDataStructure Vector: appendVectorLambda(Vector(2,4,6),8) should return Vector(2,4,6,8)&#10;AlgoAndDataStructure Vector: appendVector(emptyVector,8) should return Vector(8)&#10;AlgoAndDataStructure Vector: appendVector(Vector(2,4,6),8) should return Vector(2,4,6,8)&#10;AlgoAndDataStructure Vector: findLambdaVector(5,emptyVector) should return None&#10;AlgoAndDataStructure Vector: findLambdaVector(5,vector) should return Some(5)&#10;AlgoAndDataStructure Vector: findVector(5,emptyVector) should return None&#10;AlgoAndDataStructure Vector: findVector(5,vector) should return Some(5)&#10;AlgoAndDataStructure Vector: insertVector(2,3,emptyvector) should throw java.lang.outofbounderror&#10;AlgoAndDataStructure Vector: insertVector(0,1,emptyvector) should return Vector(1)&#10;AlgoAndDataStructure Vector: insertVector(1,2,vector(1)) should return Vector(1,2)&#10;AlgoAndDataStructure Vector: insertVector(2,3,vector(1,2)) should return Vector(1,2,3)&#10;AlgoAndDataStructure Vector: insertVector(1,4,vector(1,2,3)) should return Vector(1,4,2,3)&#10;AlgoAndDataStructure Vector: insertLambdaVector(1,5,emptyvector) should return Vector(5)&#10;AlgoAndDataStructure Vector: insertLambdaVector(1,5,Vector(5,4)) should return Vector(5,4,5)&#10;AlgoAndDataStructure Vector: updateVector(5,4,emptyVector) should return Vector.empty[Int]&#10;AlgoAndDataStructure Vector: updateVector(5,4,vector(5,2,7,5,1)) should return Vector(4,2,7,4,1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.VectorTest" />
@@ -286,25 +308,6 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.VectorTest" />
       <setting name="testName" value="AlgoAndDataStructure Vector: appendVectorLambda(emptyVector,8) should return Vector(8)&#10;AlgoAndDataStructure Vector: appendVectorLambda(Vector(2,4,6),8) should return Vector(2,4,6,8)&#10;AlgoAndDataStructure Vector: appendVector(emptyVector,8) should return Vector(8)&#10;AlgoAndDataStructure Vector: appendVector(Vector(2,4,6),8) should return Vector(2,4,6,8)&#10;AlgoAndDataStructure Vector: findLambdaVector(5,emptyVector) should return None&#10;AlgoAndDataStructure Vector: findLambdaVector(5,vector) should return Some(5)&#10;AlgoAndDataStructure Vector: findVector(5,emptyVector) should return None&#10;AlgoAndDataStructure Vector: findVector(5,vector) should return Some(5)&#10;AlgoAndDataStructure Vector: insertVector(2,3,emptyvector) should throw java.lang.outofbounderror&#10;AlgoAndDataStructure Vector: insertVector(0,1,emptyvector) should return Vector(1)&#10;AlgoAndDataStructure Vector: insertVector(1,2,vector(1)) should return Vector(1,2)&#10;AlgoAndDataStructure Vector: insertVector(2,3,vector(1,2)) should return Vector(1,2,3)&#10;AlgoAndDataStructure Vector: insertVector(1,4,vector(1,2,3)) should return Vector(1,4,2,3)&#10;AlgoAndDataStructure Vector: insertLambdaVector(1,5,emptyvector) should return Vector(5)&#10;AlgoAndDataStructure Vector: insertLambdaVector(1,5,vector) should return Vector(5,4,5)" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VectorTest.AlgoAndDataStructure Vector: insertLambdaVector(1,5,vector) should return Vector(5,4,5)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.VectorTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.VectorTest" />
-      <setting name="testName" value="AlgoAndDataStructure Vector: insertLambdaVector(1,5,vector) should return Vector(5,4,5)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -349,11 +352,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Experiement" />
         <item itemvalue="ScalaTest.VectorTest.AlgoAndDataStructure Vector: appendVectorLambda(emptyVector,8) should return Vector(8)&#10;AlgoAndDataStructure Vector: appendVectorLambda(Vector(2,4,6),8) should return Vector(2,4,6,8)&#10;AlgoAndDataStructure Vector: appendVector(emptyVector,8) should return Vector(8)&#10;AlgoAndDataStructure Vector: appendVector(Vector(2,4,6),8) should return Vector(2,4,6,8)&#10;AlgoAndDataStructure Vector: findLambdaVector(5,emptyVector) should return None&#10;AlgoAndDataStructure Vector: findLambdaVector(5,vector) should return Some(5)&#10;AlgoAndDataStructure Vector: findVector(5,emptyVector) should return None&#10;AlgoAndDataStructure Vector: findVector(5,vector) should return Some(5)&#10;AlgoAndDataStructure Vector: insertVector(2,3,emptyvector) should throw java.lang.outofbounderror&#10;AlgoAndDataStructure Vector: insertVector(0,1,emptyvector) should return Vector(1)&#10;AlgoAndDataStructure Vector: insertVector(1,2,vector(1)) should return Vector(1,2)&#10;AlgoAndDataStructure Vector: insertVector(2,3,vector(1,2)) should return Vector(1,2,3)&#10;AlgoAndDataStructure Vector: insertVector(1,4,vector(1,2,3)) should return Vector(1,4,2,3)&#10;AlgoAndDataStructure Vector: insertLambdaVector(1,5,emptyvector) should return Vector(5)&#10;AlgoAndDataStructure Vector: insertLambdaVector(1,5,Vector(5,4)) should return Vector(5,4,5)&#10;AlgoAndDataStructure Vector: updateVector(5,4,emptyVector) should return Vector.empty[Int]&#10;AlgoAndDataStructure Vector: updateVector(5,4,vector(5,2,7,5,1)) should return Vector(4,2,7,4,1)" />
         <item itemvalue="ScalaTest.VectorTest.AlgoAndDataStructure Vector: updateVector(5,4,vector(5,2,7,5,1)) should return Vector(4,2,7,4,1)" />
         <item itemvalue="ScalaTest.VectorTest.AlgoAndDataStructure Vector: updateVector(5,4,emptyVector) should return Vector.empty[Int]" />
         <item itemvalue="ScalaTest.VectorTest.AlgoAndDataStructure Vector: appendVectorLambda(emptyVector,8) should return Vector(8)&#10;AlgoAndDataStructure Vector: appendVectorLambda(Vector(2,4,6),8) should return Vector(2,4,6,8)&#10;AlgoAndDataStructure Vector: appendVector(emptyVector,8) should return Vector(8)&#10;AlgoAndDataStructure Vector: appendVector(Vector(2,4,6),8) should return Vector(2,4,6,8)&#10;AlgoAndDataStructure Vector: findLambdaVector(5,emptyVector) should return None&#10;AlgoAndDataStructure Vector: findLambdaVector(5,vector) should return Some(5)&#10;AlgoAndDataStructure Vector: findVector(5,emptyVector) should return None&#10;AlgoAndDataStructure Vector: findVector(5,vector) should return Some(5)&#10;AlgoAndDataStructure Vector: insertVector(2,3,emptyvector) should throw java.lang.outofbounderror&#10;AlgoAndDataStructure Vector: insertVector(0,1,emptyvector) should return Vector(1)&#10;AlgoAndDataStructure Vector: insertVector(1,2,vector(1)) should return Vector(1,2)&#10;AlgoAndDataStructure Vector: insertVector(2,3,vector(1,2)) should return Vector(1,2,3)&#10;AlgoAndDataStructure Vector: insertVector(1,4,vector(1,2,3)) should return Vector(1,4,2,3)&#10;AlgoAndDataStructure Vector: insertLambdaVector(1,5,emptyvector) should return Vector(5)&#10;AlgoAndDataStructure Vector: insertLambdaVector(1,5,vector) should return Vector(5,4,5)" />
-        <item itemvalue="ScalaTest.VectorTest.AlgoAndDataStructure Vector: insertLambdaVector(1,5,vector) should return Vector(5,4,5)" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +441,7 @@
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.34444445" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34444445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -842,27 +845,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Experiement.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="326">
+          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+          <folding>
+            <element signature="e#57#98#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/VectorStructure.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="54" column="78" selection-start-line="54" selection-start-column="78" selection-end-line="54" selection-end-column="78" />
+        <state relative-caret-position="326">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Experiement.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="151" column="46" selection-start-line="151" selection-start-column="46" selection-end-line="151" selection-end-column="46" />
-          <folding>
-            <element signature="e#57#98#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="476">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
         </state>
       </provider>
     </entry>

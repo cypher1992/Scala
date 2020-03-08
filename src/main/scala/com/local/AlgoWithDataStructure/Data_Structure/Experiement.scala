@@ -1,15 +1,32 @@
 package com.local.AlgoWithDataStructure.Data_Structure
 
+import com.local.AlgoWithDataStructure.Data_Structure.VectorStructure
+
 object Experiement extends App {
 
 
-  val list:List[Int] = List(2,4,56,7,23,14)
-  val listSorted:List[Int] = list.sortWith(_<_)
+  val vecClass:VectorStructure = new VectorStructure
+
+
+  val result:Vector[Int] = vecClass.updateVectorLambda(5,4,Vector(5,4,3,4,7,5,9,6,4))
+  def ifEquals[T](x:T,y:T,r:T):T ={
+    if(x==y){
+      r
+    }
+    else{
+      x
+    }
+  }
+
+  val empty:Vector[Int] = Vector.empty[Int]
+  val vec:Vector[Int] = Vector(5,4,3,4,7,5,9,6,4)
+  val rmap:Vector[Int] = vec.map(ifEquals(_,5,66))
 
   println(
     s"""
-       |List: ${list}
-       |List Sorted: ${listSorted}
-     """.stripMargin)
+      |${result}
+      |${rmap}
+      |${vecClass.updateVectorLambda(99,4,vec)}
+    """.stripMargin)
 
 }

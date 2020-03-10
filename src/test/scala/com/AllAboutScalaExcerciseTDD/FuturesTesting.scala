@@ -5,9 +5,8 @@ import com.local.FutureThreads.MockDAO
 import scala.language.postfixOps
 import scala.concurrent.duration._
 import scala.concurrent.{Await}
-import org.scalatest.concurrent.ScalaFutures._
+import scala.concurrent.Future
 import scala.concurrent.ExecutionContext.Implicits.global
-import scala.util.{Success,Failure}
 
 class FuturesTesting extends AnyFlatSpec with Matchers{
 
@@ -30,6 +29,15 @@ class FuturesTesting extends AnyFlatSpec with Matchers{
 
   "FutureThread MockDao: future waiting() executed" should "func is executed" in{
     mockDao.waiting()
+  }
+
+  "FutureThread MockDao: val waiting() executed" should "val is executed" in{{
+    //Dont do this!!!!!!!!! vals are eager with Future and automatically execute versus using a call function
+    val wait:Future[Unit] = Future{
+        println("Executing from Val")
+    }
+    Thread.sleep(3000)
+  }
   }
 
 }

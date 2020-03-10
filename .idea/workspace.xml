@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/CollectionFunction/MapFuncExperimentation.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,36 +51,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/VectorStructure.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/MockDAO.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="61" column="24" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Experiement.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="238">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#33#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/AllAboutScalaExcerciseTDD/FuturesTesting.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="166" column="56" selection-start-line="166" selection-start-column="56" selection-end-line="166" selection-end-column="56" />
+            <state relative-caret-position="102">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
               <folding>
-                <element signature="e#57#98#0" expanded="true" />
+                <element signature="e#38#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/AllAboutScalaExcerciseTDD/AllAboutScalaExerciseTDD.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="33" />
+              <folding>
+                <element signature="e#38#79#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -130,6 +144,10 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/VectorStructure.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Experiement.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/MapFuncExperimentation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/CollectionFunction/MapFuncExperimentation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/MockDAO.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/AllAboutScalaExcerciseTDD/FuturesTesting.scala" />
       </list>
     </option>
   </component>
@@ -194,7 +212,7 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="local" type="462c0819:PsiDirectoryNode" />
-              <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
+              <item name="FutureThreads" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
@@ -230,7 +248,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayStructureTest" type="462c0819:PsiDirectoryNode" />
+              <item name="AllAboutScalaExcerciseTDD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
@@ -262,11 +280,11 @@
   </component>
   <component name="RunManager" selected="ScalaTest.VectorTest.AlgoAndDataStructure Vector: appendVectorLambda(emptyVector,8) should return Vector(8)&#10;AlgoAndDataStructure Vector: appendVectorLambda(Vector(2,4,6),8) should return Vector(2,4,6,8)&#10;AlgoAndDataStructure Vector: appendVector(emptyVector,8) should return Vector(8)&#10;AlgoAndDataStructure Vector: appendVector(Vector(2,4,6),8) should return Vector(2,4,6,8)&#10;AlgoAndDataStructure Vector: findLambdaVector(5,emptyVector) should return None&#10;AlgoAndDataStructure Vector: findLambdaVector(5,vector) should return Some(5)&#10;AlgoAndDataStructure Vector: findVector(5,emptyVector) should return None&#10;AlgoAndDataStructure Vector: findVector(5,vector) should return Some(5)&#10;AlgoAndDataStructure Vector: insertVector(2,3,emptyvector) should throw java.lang.outofbounderror&#10;AlgoAndDataStructure Vector: insertVector(0,1,emptyvector) should return Vector(1)&#10;AlgoAndDataStructure Vector: insertVector(1,2,vector(1)) should return Vector(1,2)&#10;AlgoAndDataStructure Vector: insertVector(2,3,vector(1,2)) should return Vector(1,2,3)&#10;AlgoAndDataStructure Vector: insertVector(1,4,vector(1,2,3)) should return Vector(1,4,2,3)&#10;AlgoAndDataStructure Vector: insertLambdaVector(1,5,emptyvector) should return Vector(5)&#10;AlgoAndDataStructure Vector: insertLambdaVector(1,5,Vector(5,4)) should return Vector(5,4,5)&#10;AlgoAndDataStructure Vector: updateVector(5,4,emptyVector) should return Vector.empty[Int]&#10;AlgoAndDataStructure Vector: updateVector(5,4,vector(5,2,7,5,1)) should return Vector(4,2,7,4,1)&#10;AlgoAndDataStructure Vector: updateVectorLambda(5,4,emptyVector) should return Vector.empty[Int]&#10;AlgoAndDataStructure Vector: updateVectorLambda(5,4,vector(5,2,7,5,1)) should return Vector(4,2,7,4,1)">
     <configuration name="Experiement" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.local.AlgoWithDataStructure.Data_Structure.Experiement" />
+      <option name="MAIN_CLASS_NAME" value="com.local.CollectionFunction.MapFuncExperimentation" />
       <module name="Scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.local.AlgoWithDataStructure.Data_Structure.*" />
+          <option name="PATTERN" value="com.local.CollectionFunction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -406,9 +424,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VectorTest_AlgoAndDataStructure_Vector__insertVector(1,4,vector(1,2,3))_should_return_Vector(1,4,2,3) - 2020.03.03 at 21h 31m 12s.xml">
-      <configuration name="VectorTest.AlgoAndDataStructure Vector: insertVector(1,4,vector(1,2,3)) should return Vector(1,4,2,3)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="VectorTest_AlgoAndDataStructure_Vector__insertVector(1,4,vector(1,2,3))_should_return_Vector(1,4,2,3) - 2020.03.03 at 21h 31m 43s.xml">
       <configuration name="VectorTest.AlgoAndDataStructure Vector: insertVector(1,4,vector(1,2,3)) should return Vector(1,4,2,3)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -436,12 +451,15 @@
     <history-entry file="VectorTest_AlgoAndDataStructure_Vector__updateVectorLambda(5,4,emptyVector)_should_return_Vector_empty[Int] - 2020.03.07 at 20h 29m 48s.xml">
       <configuration name="VectorTest.AlgoAndDataStructure Vector: updateVectorLambda(5,4,emptyVector) should return Vector.empty[Int]" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="VectorTest_AlgoAndDataStructure_Vector__updateVectorLambda(5,4,vector(5,2,7,5,1))_should_return_Vector(4,2,7,4,1) - 2020.03.07 at 20h 30m 20s.xml">
+      <configuration name="VectorTest.AlgoAndDataStructure Vector: updateVectorLambda(5,4,vector(5,2,7,5,1)) should return Vector(4,2,7,4,1)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34444445" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34444445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -450,7 +468,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49666667" visible="true" weight="0.32524806" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49666667" visible="true" weight="0.32524806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -510,30 +528,6 @@
     <SUITE FILE_PATH="coverage/Scala$ScalaTests_in__ListTest_.ic" NAME="ScalaTests in 'ListTest' Coverage Results" MODIFIED="1580075758775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/FutureReturns.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/TestProject/TDD/InvestmentTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="67" />
-          <folding>
-            <element signature="e#29#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.13.0-sources.jar!/scala/concurrent/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="197" column="14" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/ListTest.scala" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.13.0-sources.jar!/scala/collection/StrictOptimizedIterableOps.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -568,16 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/FutureFlatMap.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#33#61#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,16 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AllAboutScalaExcerciseTDD/AllAboutScalaExerciseTDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="33" />
-          <folding>
-            <element signature="e#38#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.13/srcs/scalatest_2.13-3.1.0-sources.jar!/org/scalatest/tools/Runner.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -845,6 +819,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+          <folding>
+            <element signature="e#57#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/MapFuncExperimentation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/CollectionFunction/MapFuncExperimentation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/VectorStructure.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -852,19 +850,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Experiement.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/FutureFlatMap.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#33#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/FutureReturns.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="166" column="56" selection-start-line="166" selection-start-column="56" selection-end-line="166" selection-end-column="56" />
+        <state relative-caret-position="346">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AllAboutScalaExcerciseTDD/AllAboutScalaExerciseTDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="33" />
           <folding>
-            <element signature="e#57#98#0" expanded="true" />
+            <element signature="e#38#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/MockDAO.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#33#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AllAboutScalaExcerciseTDD/FuturesTesting.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding>
+            <element signature="e#38#79#0" expanded="true" />
           </folding>
         </state>
       </provider>

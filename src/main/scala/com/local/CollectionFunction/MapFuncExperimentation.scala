@@ -1,8 +1,8 @@
-package com.local.AlgoWithDataStructure.Data_Structure
+package com.local.CollectionFunction
 
 import com.local.AlgoWithDataStructure.Data_Structure.VectorStructure
 
-object Experiement extends App {
+object MapFuncExperimentation extends App {
 
 
   val vecClass:VectorStructure = new VectorStructure

@@ -25,4 +25,9 @@ class MockDAO {
     }
 
   }
+
+  def waiting():Future[Unit] = Future{
+    println("Future Function Called")
+    Thread.sleep(3000)
+  }
 }

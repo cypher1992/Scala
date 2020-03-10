@@ -14,6 +14,8 @@ class FuturesTesting extends AnyFlatSpec with Matchers{
   val mockDao:MockDAO= new MockDAO
 
   "FutureThreads MockDao: query()" should "return List[Int]" in {
+    /*DONT USE AWAIT FUNCTION IN FUTURES! In real-world applications, you should not block on Future method calls. By contrast, you should
+     also process the result from a Future operation in a non-blocking fashion.*/
     val actual:List[Int] = Await.result(mockDao.query(),5 seconds)
     val expected:List[Int] = List.range(30,0,-1)
 
@@ -24,6 +26,10 @@ class FuturesTesting extends AnyFlatSpec with Matchers{
     mockDao.futureUnWrap(mockDao.query())
     // validate if future object was a success or not
     succeed
+  }
+
+  "FutureThread MockDao: future waiting() executed" should "func is executed" in{
+    mockDao.waiting()
   }
 
 }

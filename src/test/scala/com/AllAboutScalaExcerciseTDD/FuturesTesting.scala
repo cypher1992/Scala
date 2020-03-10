@@ -31,7 +31,7 @@ class FuturesTesting extends AnyFlatSpec with Matchers{
     mockDao.waiting()
   }
 
-  "FutureThread MockDao: val waiting() executed" should "val is executed" in{{
+  "FutureThread MockDao: val waiting()" should "val is executed" in{{
     //Dont do this!!!!!!!!! vals are eager with Future and automatically execute versus using a call function
     val wait:Future[Unit] = Future{
         println("Executing from Val")

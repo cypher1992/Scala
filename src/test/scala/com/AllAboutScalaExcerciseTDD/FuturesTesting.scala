@@ -30,6 +30,12 @@ class FuturesTesting extends AnyFlatSpec with Matchers{
 
   }
 
+  "FutureThreads MockDao: running custom thread pools" should "return unique thread pool" in {
+    /*DONT USE AWAIT FUNCTION IN FUTURES! In real-world applications, you should not block on Future metho0d calls. By contrast, you should
+     also process the result from a Future operation in a non-blocking fashion.*/
+    (1 to 1)map(i => Await.result(mockDao.query(i),5 seconds))
+  }
+
 
   "FutureThread MockDao: futureUnWrap(query())" should "succeed" in {
     mockDao.futureUnWrap(mockDao.query())

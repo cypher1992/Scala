@@ -21,6 +21,16 @@ class FuturesTesting extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+
+  "FutureThreads MockDao: running 2 query with multiple pools" should "return pools with different threads" in {
+    /*DONT USE AWAIT FUNCTION IN FUTURES! In real-world applications, you should not block on Future metho0d calls. By contrast, you should
+     also process the result from a Future operation in a non-blocking fashion.*/
+    val actual:List[Int] = Await.result(mockDao.query(5),5 seconds)
+    val actual2:List[Int] = Await.result(mockDao.query(5),5 seconds)
+
+  }
+
+
   "FutureThread MockDao: futureUnWrap(query())" should "succeed" in {
     mockDao.futureUnWrap(mockDao.query())
     // validate if future object was a success or not

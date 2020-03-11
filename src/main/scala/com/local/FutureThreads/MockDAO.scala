@@ -9,12 +9,13 @@ import scala.util.{Failure, Success}
 
 class MockDAO {
 
-  val executor =Executors.newSingleThreadExecutor()
+  //val executor =Executors.newSingleThreadExecutor()
+  val executor = Executors.newCachedThreadPool()
   implicit val ec = scala.concurrent.ExecutionContext.fromExecutor(executor)
 
-  def query(query:String =""):Future[List[Int]] = Future {
+  def query(query:Int=30):Future[List[Int]] = Future {
 
-    def queryAppend(counter:Int=30,list:List[Int]=Nil):List[Int]={
+    def queryAppend(counter:Int=query,list:List[Int]=Nil):List[Int]={
       println(Thread.currentThread().getName)
       counter match {
         case 0 => list

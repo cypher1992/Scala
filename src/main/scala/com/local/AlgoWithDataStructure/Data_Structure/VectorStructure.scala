@@ -74,6 +74,6 @@ class VectorStructure{
 
   }
 
-  def groupByVector[T](vector:Vector[T],groupBy:Boolean)=vector.groupBy(x => groupBy)
+  def groupByVector(vector:Vector[Int])=vector.groupBy(x => x%2 == 0)
 
 }

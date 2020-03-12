@@ -169,7 +169,15 @@ class VectorTest extends AnyFlatSpec with Matchers {
 
     assert(actual == expected)
   }
-  
+
+  "AlgoAndDataStrucuture Vector: groupbyVector(emptyList, groupByVector(emptyVector,x%2 == 0)" should "return emptyVector" in {
+
+    val emptyVector:Vector[Int] = Vector.empty[Int]
+    val actual:Map[Boolean,Vector[Int]] = vecClass.groupByVector(emptyVector)
+    val expected:Map[Boolean,Vector[Int]] = Map.empty[Boolean,Vector[Int]]
+
+    assert(actual == expected)
+  }
 
 
 }

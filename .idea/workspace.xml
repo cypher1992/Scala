@@ -7,7 +7,6 @@
     <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/CollectionFunction/MapFuncExperimentation.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/VectorStructure.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="482">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
             </state>
           </provider>
         </entry>
@@ -75,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="171" column="2" selection-start-line="171" selection-start-column="2" selection-end-line="171" selection-end-column="2" />
+            <state relative-caret-position="516">
+              <caret line="178" column="30" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
               <folding>
                 <element signature="e#57#98#0" expanded="true" />
               </folding>
@@ -87,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/AllAboutScalaExcerciseTDD/FuturesTesting.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
+            <state relative-caret-position="105">
               <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
               <folding>
                 <element signature="e#38#79#0" expanded="true" />
@@ -297,26 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.FuturesTesting.FutureThreads MockDao: running custom thread pools should return unique thread pool">
-    <configuration name="FuturesTesting.FutureThread MockDao: futureUnWrap(query()) should succeed" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.AllAboutScalaExcerciseTDD.FuturesTesting" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.AllAboutScalaExcerciseTDD.FuturesTesting" />
-      <setting name="testName" value="FutureThread MockDao: futureUnWrap(query()) should succeed" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.VectorTest.AlgoAndDataStrucuture Vector: groupbyVector(emptyList, groupByVector(emptyVector,x%2 == 0) should return emptyVector">
     <configuration name="FuturesTesting.FutureThreads MockDao: query() should return List[Int]" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.AllAboutScalaExcerciseTDD.FuturesTesting" />
@@ -393,13 +373,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VectorTest.AlgoAndDataStrucuture Vector: groupbyVector(emptyList, groupByVector(emptyVector,x%2 == 0) should return emptyVector" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.VectorTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.VectorTest" />
+      <setting name="testName" value="AlgoAndDataStrucuture Vector: groupbyVector(emptyList, groupByVector(emptyVector,x%2 == 0) should return emptyVector" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.VectorTest.AlgoAndDataStrucuture Vector: groupbyVector(emptyList, groupByVector(emptyVector,x%2 == 0) should return emptyVector" />
         <item itemvalue="ScalaTest.FuturesTesting.FutureThreads MockDao: running custom thread pools should return unique thread pool" />
         <item itemvalue="ScalaTest.FuturesTesting.FutureThreads MockDao: query() should return List[Int]&#10;FutureThreads MockDao: running 2 query with multiple pools should return pools with different threads&#10;FutureThreads MockDao: running custom thread pools should return unique thread pool&#10;FutureThread MockDao: futureUnWrap(query()) should succeed&#10;FutureThread MockDao: future waiting() executed should func is executed&#10;FutureThread MockDao: val waiting() should val is executed" />
         <item itemvalue="ScalaTest.FuturesTesting.FutureThreads MockDao: running 2 query with multiple pools should return pools with different threads" />
         <item itemvalue="ScalaTest.FuturesTesting.FutureThreads MockDao: query() should return List[Int]" />
-        <item itemvalue="ScalaTest.FuturesTesting.FutureThread MockDao: futureUnWrap(query()) should succeed" />
       </list>
     </recent_temporary>
   </component>
@@ -891,16 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AllAboutScalaExcerciseTDD/FuturesTesting.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-          <folding>
-            <element signature="e#38#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/MockDAO.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -913,15 +902,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/VectorStructure.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="482">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AllAboutScalaExcerciseTDD/FuturesTesting.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+          <folding>
+            <element signature="e#38#79#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="171" column="2" selection-start-line="171" selection-start-column="2" selection-end-line="171" selection-end-column="2" />
+        <state relative-caret-position="516">
+          <caret line="178" column="30" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
           <folding>
             <element signature="e#57#98#0" expanded="true" />
           </folding>

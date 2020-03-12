@@ -170,14 +170,21 @@ class VectorTest extends AnyFlatSpec with Matchers {
     assert(actual == expected)
   }
 
-  "AlgoAndDataStrucuture Vector: groupbyVector(emptyList, groupByVector(emptyVector,x%2 == 0)" should "return emptyVector" in {
+  "AlgoAndDataStrucuture Vector: groupbyVectorIsEvens(emptyVector(emptyVector)" should "return emptyVector" in {
 
     val emptyVector:Vector[Int] = Vector.empty[Int]
-    val actual:Map[Boolean,Vector[Int]] = vecClass.groupByVector(emptyVector)
+    val actual:Map[Boolean,Vector[Int]] = vecClass.groupbyVectorIsEvens(emptyVector)
     val expected:Map[Boolean,Vector[Int]] = Map.empty[Boolean,Vector[Int]]
 
     assert(actual == expected)
   }
 
+  "AlgoAndDataStrucuture Vector: groupbyVectorIsEvens(vector, groupByVector(vector)" should "return Vector(0,2,4,6,8), false -> Vector(1,3,5,7,9))" in {
+
+    val vector:Vector[Int] = Vector.range(0,10,1)
+    val actual:Map[Boolean,Vector[Int]] = vecClass.groupbyVectorIsEvens(vector)
+    val expected:Map[Boolean,Vector[Int]] = Map(true -> Vector(0,2,4,6,8), false -> Vector(1,3,5,7,9))
+    assert(actual == expected)
+  }
 
 }

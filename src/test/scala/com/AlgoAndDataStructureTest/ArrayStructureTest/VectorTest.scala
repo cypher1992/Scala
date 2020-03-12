@@ -169,6 +169,7 @@ class VectorTest extends AnyFlatSpec with Matchers {
 
     assert(actual == expected)
   }
+  
 
 
 }

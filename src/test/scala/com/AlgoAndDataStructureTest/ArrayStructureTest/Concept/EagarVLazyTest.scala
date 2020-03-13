@@ -16,6 +16,14 @@ class EagarVLazyTest extends AnyFlatSpec with Matchers {
       """.stripMargin)
 
   }
-  
+
+  "AlgoAndDataStrucutures Concept: EagerVLazy: testing val eager " should "return eager" in{
+
+    println(
+      s"""
+         |${evl.eagerList.getClass}
+      """.stripMargin)
+
+  }
 
 }

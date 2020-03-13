@@ -84,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/EagarVLazyTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            <state relative-caret-position="425">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
               <folding>
                 <element signature="e#65#106#0" expanded="true" />
               </folding>
@@ -259,16 +259,6 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ArrayStructureTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayStructureTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Concept" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
@@ -459,35 +449,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FuturesTesting_FutureThreads_MockDao__running_custom_thread_pools_should_return_unique_thread_pool - 2020.03.10 at 20h 50m 31s.xml">
-      <configuration name="FuturesTesting.FutureThreads MockDao: running custom thread pools should return unique thread pool" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="FuturesTesting_FutureThreads_MockDao__running_custom_thread_pools_should_return_unique_thread_pool - 2020.03.10 at 20h 51m 29s.xml">
-      <configuration name="FuturesTesting.FutureThreads MockDao: running custom thread pools should return unique thread pool" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="FuturesTesting_FutureThreads_MockDao__running_custom_thread_pools_should_return_unique_thread_pool - 2020.03.10 at 20h 52m 21s.xml">
-      <configuration name="FuturesTesting.FutureThreads MockDao: running custom thread pools should return unique thread pool" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="VectorTest_AlgoAndDataStrucuture_Vector__groupbyVector(emptyList,_groupByVector(emptyVector,x%2_==_0)_should_return_emptyVector - 2020.03.11 at 22h 51m 05s.xml">
-      <configuration name="VectorTest.AlgoAndDataStrucuture Vector: groupbyVector(emptyList, groupByVector(emptyVector,x%2 == 0) should return emptyVector" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="VectorTest_AlgoAndDataStrucuture_Vector__groupbyVectorIsEvens(emptyList,_groupByVector(emptyVector,x%2_==_0)_should_return_emptyVector - 2020.03.11 at 22h 54m 37s.xml">
-      <configuration name="VectorTest.AlgoAndDataStrucuture Vector: groupbyVectorIsEvens(emptyList, groupByVector(emptyVector,x%2 == 0) should return emptyVector" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="VectorTest_AlgoAndDataStrucuture_Vector__groupbyVectorIsEvens(vector,_groupByVector(vector)_should_return_emptyVector - 2020.03.11 at 22h 58m 23s.xml">
-      <configuration name="VectorTest.AlgoAndDataStrucuture Vector: groupbyVectorIsEvens(vector, groupByVector(vector) should return emptyVector" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="VectorTest_AlgoAndDataStrucuture_Vector__groupbyVectorIsEvens(vector,_groupByVector(vector)_should_return_Vector(0,2,4,6,8),_false_-__Vector(1,3,5,7,9)) - 2020.03.11 at 22h 58m 51s.xml">
-      <configuration name="VectorTest.AlgoAndDataStrucuture Vector: groupbyVectorIsEvens(vector, groupByVector(vector) should return Vector(0,2,4,6,8), false -&gt; Vector(1,3,5,7,9))" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="EagarVLazyTest_AlgoAndDataStrucutures_Concept__EagerVLazy__testing_val_lazy_should_return_not_instantiated - 2020.03.12 at 22h 09m 34s.xml">
-      <configuration name="EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val lazy should return not instantiated" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="EagarVLazyTest_AlgoAndDataStrucutures_Concept__EagerVLazy__testing_val_lazy_should_return_not_instantiated - 2020.03.12 at 22h 12m 27s.xml">
       <configuration name="EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val lazy should return not instantiated" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="EagarVLazyTest_AlgoAndDataStrucutures_Concept__EagerVLazy__testing_val_eager_should_return_eager - 2020.03.12 at 22h 13m 12s.xml">
       <configuration name="EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val eager should return eager" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="EagarVLazyTest_AlgoAndDataStrucutures_Concept__EagerVLazy__testing_val_lazy_should_return_not_instantiated - 2020.03.12 at 22h 25m 39s.xml">
+      <configuration name="EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val lazy should return not instantiated" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="EagarVLazyTest_AlgoAndDataStrucutures_Concept__EagerVLazy__testing_val_eager_should_return_eager - 2020.03.12 at 22h 26m 16s.xml">
+      <configuration name="EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val eager should return eager" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="EagarVLazyTest_AlgoAndDataStrucutures_Concept__EagerVLazy__testing_val_lazy_should_return_not_instantiated - 2020.03.12 at 22h 26m 46s.xml">
+      <configuration name="EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val lazy should return not instantiated" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="EagarVLazyTest_AlgoAndDataStrucutures_Concept__EagerVLazy__testing_val_lazy_should_return_not_instantiated - 2020.03.12 at 22h 30m 14s.xml">
+      <configuration name="EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val lazy should return not instantiated" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="EagarVLazyTest_AlgoAndDataStrucutures_Concept__EagerVLazy__testing_val_eager_should_return_eager - 2020.03.12 at 22h 31m 35s.xml">
+      <configuration name="EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val eager should return eager" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="EagarVLazyTest_AlgoAndDataStrucutures_Concept__EagerVLazy__testing_val_eager_should_return_eager - 2020.03.12 at 22h 32m 39s.xml">
+      <configuration name="EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val eager should return eager" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="EagarVLazyTest_AlgoAndDataStrucutures_Concept__EagerVLazy__testing_val_lazy_should_return_not_instantiated - 2020.03.12 at 22h 33m 00s.xml">
+      <configuration name="EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val lazy should return not instantiated" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="EagarVLazyTest_AlgoAndDataStrucutures_Concept__EagerVLazy__testing_val_lazy_should_return_not_instantiated - 2020.03.12 at 22h 33m 54s.xml">
+      <configuration name="EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val lazy should return not instantiated" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -933,8 +923,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/EagarVLazyTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="425">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding>
             <element signature="e#65#106#0" expanded="true" />
           </folding>

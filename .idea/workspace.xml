@@ -8,7 +8,6 @@
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/CollectionFunction/MapFuncExperimentation.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concepts/EagerVLazy.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="181" column="68" lean-forward="true" selection-start-line="181" selection-start-column="33" selection-end-line="181" selection-end-column="97" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="54" />
               <folding>
                 <element signature="e#57#98#0" expanded="true" />
               </folding>
@@ -73,11 +72,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concepts/EagerVLazy.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/EagerVLazy.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/EagarVLazyTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+              <folding>
+                <element signature="e#65#106#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,6 +156,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/VectorStructure.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concepts/EagerVLazy.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/EagerVLazy.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/EagarVLazyTest.scala" />
       </list>
     </option>
   </component>
@@ -255,7 +268,7 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ArrayStructureTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Concepts" type="462c0819:PsiDirectoryNode" />
+              <item name="Concept" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
@@ -294,10 +307,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.VectorTest.AlgoAndDataStrucuture Vector: groupbyVectorIsEvens(vector, groupByVector(vector) should return Vector(0,2,4,6,8), false -&gt; Vector(1,3,5,7,9))">
-    <configuration name="FuturesTesting.FutureThreads MockDao: running custom thread pools should return unique thread pool" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+  <component name="RunManager" selected="ScalaTest.EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val eager should return eager">
+    <configuration name="EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val eager should return eager" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
-      <setting name="path" value="com.AllAboutScalaExcerciseTDD.FuturesTesting" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.Concept.EagarVLazyTest" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -308,8 +321,27 @@
       <setting name="jrePath" value="" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.AllAboutScalaExcerciseTDD.FuturesTesting" />
-      <setting name="testName" value="FutureThreads MockDao: running custom thread pools should return unique thread pool" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.Concept.EagarVLazyTest" />
+      <setting name="testName" value="AlgoAndDataStrucutures Concept: EagerVLazy: testing val eager should return eager" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val lazy should return not instantiated" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.Concept.EagarVLazyTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.Concept.EagarVLazyTest" />
+      <setting name="testName" value="AlgoAndDataStrucutures Concept: EagerVLazy: testing val lazy should return not instantiated" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -371,32 +403,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VectorTest.AlgoAndDataStrucuture Vector: groupbyVector(emptyList, groupByVector(emptyVector,x%2 == 0) should return emptyVector" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.VectorTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.VectorTest" />
-      <setting name="testName" value="AlgoAndDataStrucuture Vector: groupbyVector(emptyList, groupByVector(emptyVector,x%2 == 0) should return emptyVector" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val eager should return eager" />
+        <item itemvalue="ScalaTest.EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val lazy should return not instantiated" />
         <item itemvalue="ScalaTest.VectorTest.AlgoAndDataStrucuture Vector: groupbyVectorIsEvens(vector, groupByVector(vector) should return Vector(0,2,4,6,8), false -&gt; Vector(1,3,5,7,9))" />
         <item itemvalue="ScalaTest.VectorTest.AlgoAndDataStrucuture Vector: groupbyVectorIsEvens(vector, groupByVector(vector) should return emptyVector" />
         <item itemvalue="ScalaTest.VectorTest.AlgoAndDataStrucuture Vector: groupbyVectorIsEvens(emptyList, groupByVector(emptyVector,x%2 == 0) should return emptyVector" />
-        <item itemvalue="ScalaTest.VectorTest.AlgoAndDataStrucuture Vector: groupbyVector(emptyList, groupByVector(emptyVector,x%2 == 0) should return emptyVector" />
-        <item itemvalue="ScalaTest.FuturesTesting.FutureThreads MockDao: running custom thread pools should return unique thread pool" />
       </list>
     </recent_temporary>
   </component>
@@ -446,15 +459,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FuturesTesting_FutureThreads_MockDao__running_custom_thread_pools_should_return_unique_thread_pool - 2020.03.10 at 20h 45m 48s.xml">
-      <configuration name="FuturesTesting.FutureThreads MockDao: running custom thread pools should return unique thread pool" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="FuturesTesting_FutureThreads_MockDao__running_custom_thread_pools_should_return_unique_thread_pool - 2020.03.10 at 20h 46m 43s.xml">
-      <configuration name="FuturesTesting.FutureThreads MockDao: running custom thread pools should return unique thread pool" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="FuturesTesting_FutureThreads_MockDao__running_custom_thread_pools_should_return_unique_thread_pool - 2020.03.10 at 20h 48m 28s.xml">
-      <configuration name="FuturesTesting.FutureThreads MockDao: running custom thread pools should return unique thread pool" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="FuturesTesting_FutureThreads_MockDao__running_custom_thread_pools_should_return_unique_thread_pool - 2020.03.10 at 20h 50m 31s.xml">
       <configuration name="FuturesTesting.FutureThreads MockDao: running custom thread pools should return unique thread pool" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -476,12 +480,21 @@
     <history-entry file="VectorTest_AlgoAndDataStrucuture_Vector__groupbyVectorIsEvens(vector,_groupByVector(vector)_should_return_Vector(0,2,4,6,8),_false_-__Vector(1,3,5,7,9)) - 2020.03.11 at 22h 58m 51s.xml">
       <configuration name="VectorTest.AlgoAndDataStrucuture Vector: groupbyVectorIsEvens(vector, groupByVector(vector) should return Vector(0,2,4,6,8), false -&gt; Vector(1,3,5,7,9))" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="EagarVLazyTest_AlgoAndDataStrucutures_Concept__EagerVLazy__testing_val_lazy_should_return_not_instantiated - 2020.03.12 at 22h 09m 34s.xml">
+      <configuration name="EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val lazy should return not instantiated" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="EagarVLazyTest_AlgoAndDataStrucutures_Concept__EagerVLazy__testing_val_lazy_should_return_not_instantiated - 2020.03.12 at 22h 12m 27s.xml">
+      <configuration name="EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val lazy should return not instantiated" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="EagarVLazyTest_AlgoAndDataStrucutures_Concept__EagerVLazy__testing_val_eager_should_return_eager - 2020.03.12 at 22h 13m 12s.xml">
+      <configuration name="EagarVLazyTest.AlgoAndDataStrucutures Concept: EagerVLazy: testing val eager should return eager" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35555556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35555556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -490,7 +503,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49666667" visible="true" weight="0.32524806" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49666667" visible="true" weight="0.32524806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -550,13 +563,6 @@
     <SUITE FILE_PATH="coverage/Scala$ScalaTests_in__ListTest_.ic" NAME="ScalaTests in 'ListTest' Coverage Results" MODIFIED="1580075758775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.13.0-sources.jar!/scala/collection/immutable/List.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="271" column="17" lean-forward="true" selection-start-line="271" selection-start-column="17" selection-end-line="271" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.13.0-sources.jar!/scala/collection/IterableOnce.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -910,18 +916,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="181" column="68" lean-forward="true" selection-start-line="181" selection-start-column="33" selection-end-line="181" selection-end-column="97" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="54" />
           <folding>
             <element signature="e#57#98#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concepts/EagerVLazy.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/EagerVLazy.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/EagarVLazyTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding>
+            <element signature="e#65#106#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

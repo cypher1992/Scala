@@ -179,7 +179,7 @@ class VectorTest extends AnyFlatSpec with Matchers {
     assert(actual == expected)
   }
 
-  "AlgoAndDataStrucuture Vector: groupbyVectorIsEvens(vector, groupByVector(vector)" should "return Vector(0,2,4,6,8), false -> Vector(1,3,5,7,9))" in {
+  "AlgoAndDataStrucuture Vector: groupbyVectorIsEvens(vector, groupByVector(Vector.range(0,10,1))" should "return Vector(0,2,4,6,8), false -> Vector(1,3,5,7,9))" in {
 
     val vector:Vector[Int] = Vector.range(0,10,1)
     val actual:Map[Boolean,Vector[Int]] = vecClass.groupbyVectorIsEvens(vector)

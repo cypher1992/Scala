@@ -3,7 +3,6 @@ package com.AlgoAndDataStructureTest.ArrayStructureTest.Concept
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.must.Matchers
 import com.local.AlgoWithDataStructure.Data_Structure.Concepts.EagerVLazy
-import java.lang.Runtime
 
 class EagarVLazyTest extends AnyFlatSpec with Matchers {
 

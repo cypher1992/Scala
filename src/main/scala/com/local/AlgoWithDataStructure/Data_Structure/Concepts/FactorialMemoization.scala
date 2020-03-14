@@ -10,6 +10,6 @@ class FactorialMemoization {
 
   def appendToMap(map1:Map[Int,Int]= map,i:Int, i2:Int):Map[Int,Int] = map1 + (i -> i2)
 
-
+  def findValue(key:Int, map:Map[Int,Int]):Int = map(key)
 
 }

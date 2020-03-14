@@ -33,4 +33,12 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
 
   }
 
+  "AlgoAndDataStructure Memoization: findValue(5,map)" should "return 1" in {
+    val map:Map[Int,Int] = Map(1 ->2,2->3,4->5,5->1)
+    val actual:Int = fm.findValue(5,map)
+    val expected:Int = 1
+
+    assert(actual == expected)
+  }
+
 }

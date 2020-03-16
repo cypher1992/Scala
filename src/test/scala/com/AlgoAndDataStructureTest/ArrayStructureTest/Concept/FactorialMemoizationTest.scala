@@ -29,4 +29,22 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
     assert(actual2 === expected)
   }
   
+  "AlgoAndDataStructure Memoization: findValue(key,emptyMap)" should "throws NoSuchElementException" in {
+    val emptyMap:Map[Int,Option[Int]] = Map.empty[Int,Option[Int]]
+    val actual= fm.findValue(4,emptyMap)
+    val expected = None
+
+    assert(actual == expected)
+
+  }
+
+  "AlgoAndDataStructure Memoization: findValue(5,map)" should "return 1" in {
+    val map:Map[Int,Option[Int]] = Map(1 ->Some(2),2->Some(3),4->Some(5),5->Some(1))
+    val actual = fm.findValue(5,map)
+    val expected = 1
+
+    assert(actual == expected)
+  }
+
+
 }

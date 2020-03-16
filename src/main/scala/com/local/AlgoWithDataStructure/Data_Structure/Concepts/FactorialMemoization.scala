@@ -12,4 +12,10 @@ class FactorialMemoization {
 
   def findValue(key:Int, map:Map[Int,Int]):Int = map(key)
 
+  def factorial(x:Int):Int ={
+    x match {
+      case 0 | 1 => 1
+    }
+  }
+
 }

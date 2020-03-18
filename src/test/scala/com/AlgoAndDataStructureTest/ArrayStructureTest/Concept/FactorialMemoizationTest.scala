@@ -29,7 +29,6 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
     assert(actual == expected)
   }
 
-  /*
   "AlgoAndDataStructure Memoization: appendMap(0,2)" should "return Map(0,Some(2))" in {
     fm.setMap(fm.appendToMap(0,2))
 
@@ -39,7 +38,8 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
     assert(actual === expected)
   }
 
-
+  
+  /*
   "AlgoAndDataStructure Memoization: appendMap(emptyMap,2,4)" should "return Map(0 ->2,2->4)" in {
     fm.appendToMap(0,2)
     fm.appendToMap(2,4)

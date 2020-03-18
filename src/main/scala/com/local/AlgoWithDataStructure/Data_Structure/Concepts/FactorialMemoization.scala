@@ -1,16 +1,22 @@
 package com.local.AlgoWithDataStructure.Data_Structure.Concepts
 
-class FactorialMemoization {
+case class FactorialMemoization(var map:Map[Int,Option[Int]]){
 
   /*
     Use of cache previous values and to save memory with process time
   */
 
-  val map:Map[Int,Option[Int]] = Map.empty[Int,Option[Int]]
+  //private var map:Map[Int,Option[Int]] = Map.empty[Int,Option[Int]]
 
-  def appendToMap(map1:Map[Int,Option[Int]]= map,i:Int, i2:Int):Map[Int,Option[Int]] = map1 + (i -> Some(i2))
+  def getMap():Map[Int,Option[Int]] = return this.map
 
-  def findValue(key:Int, map:Map[Int,Option[Int]]):Any = {
+  def setMap(mapObj:Map[Int,Option[Int]]):Unit = {
+     this.map = this.map ++ mapObj
+  }
+
+  def appendToMap(i:Int, i2:Int):Map[Int,Option[Int]] = getMap() + (i -> Some(i2))
+
+  def findValue(key:Int):Any = {
     try{
       map(key).getOrElse(key,None)
     }catch{
@@ -19,10 +25,11 @@ class FactorialMemoization {
 
   }
 
-  def factorial(x:Int):Int ={
+  def factorial(x:Int):Any ={
     x match {
       case 0 | 1 => 1
-
+      case a if(this.findValue(x) != None) => this.findValue(x)
+      case _ => 1000000
     }
   }
 

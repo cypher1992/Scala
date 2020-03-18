@@ -10,7 +10,13 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
   val emptyMap:Map[Int,Option[Int]] = Map.empty[Int,Option[Int]]
   val fm:FactorialMemoization = new FactorialMemoization(emptyMap)
 
-  
+  "AlgoAndDataStrucuture Memoization: getMap()" should "return Map(1 -> Some(1))" in {
+    val map:Map[Int,Option[Int]] = Map(1-> Some(1))
+    val fmTest:FactorialMemoization = new FactorialMemoization(map)
+    val actual:Map[Int,Option[Int]] = fmTest.getMap()
+    val expected:Map[Int,Option[Int]] = Map(1 ->Some(1))
+  }
+
 
   /*
   "AlgoAndDataStructure Memoization: appendMap(0,2)" should "return Map(0,Some(2))" in {

@@ -38,7 +38,7 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
     assert(actual === expected)
   }
 
-  "AlgoAndDataStructure Memoization: appendMap(emptyMap,2,4)" should "return Map(0 ->2,2->4)" in {
+  "AlgoAndDataStructure Memoization: appendMap(2,4)" should "return Map(0 ->2,2->4)" in {
     fm.appendToMap(0,2)
     fm.appendToMap(2,4)
     val actual2:Map[Int,Option[Int]] = fm.getMap()
@@ -48,7 +48,7 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
   }
 
 
-  "AlgoAndDataStructure Memoization: findValue(key,emptyMap)" should "throws NoSuchElementException" in {
+  "AlgoAndDataStructure Memoization: findValue(key,)" should "throws NoSuchElementException" in {
     val emptyMap:Map[Int,Option[Int]] = Map.empty[Int,Option[Int]]
     val actual= fm.findValue(4)
     val expected = None
@@ -57,42 +57,44 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
 
   }
 
-  /*
-  "AlgoAndDataStructure Memoization: findValue(5,map)" should "return 1" in {
+
+  "AlgoAndDataStructure Memoization: findValue(5)" should "return 1" in {
     val map:Map[Int,Option[Int]] = Map(1 ->Some(2),2->Some(3),4->Some(5),5->Some(1))
-    val actual = fm.findValue(5,map)
+    fm.setMap(map)
+    val actual = fm.findValue(5)
     val expected = 1
 
     assert(actual == expected)
   }
 
-  "AlgoAndDateStructure Memoization: factorial(0)" should "return 1" in {
-    val value:Int = 0
-    val emptyMap:Map[Int,Option[Int]] = Map.empty[Int,Option[Int]]
-    val actual:Any = fm.factorial(value,emptyMap)
-    val expected:Int = 1
+  /*
+    "AlgoAndDateStructure Memoization: factorial(0)" should "return 1" in {
+      val value:Int = 0
+      val emptyMap:Map[Int,Option[Int]] = Map.empty[Int,Option[Int]]
+      val actual:Any = fm.factorial(value,emptyMap)
+      val expected:Int = 1
 
-    assert(actual == expected)
-  }
+      assert(actual == expected)
+    }
 
-  "AlgoAndDateStructure Memoization: factorial(1)" should "return 1" in {
-    val value:Int = 1
-    val emptyMap:Map[Int,Option[Int]] = Map.empty[Int,Option[Int]]
-    val actual:Any = fm.factorial(value,emptyMap)
-    val expected:Int = 1
+    "AlgoAndDateStructure Memoization: factorial(1)" should "return 1" in {
+      val value:Int = 1
+      val emptyMap:Map[Int,Option[Int]] = Map.empty[Int,Option[Int]]
+      val actual:Any = fm.factorial(value,emptyMap)
+      val expected:Int = 1
 
-    assert(actual == expected)
-  }
+      assert(actual == expected)
+    }
 
-  "AlgoAndDateStructure Memoization: factorial(2)" should "return 1" in {
-    val value:Int = 2
-    val emptyMap:Map[Int,Option[Int]] = Map.empty[Int,Option[Int]]
-    val map:Map[Int,Option[Int]] = fm.appendToMap(emptyMap,2,5)
-    val actual:Any = fm.factorial(value,map)
-    val expected:Int = 5
+    "AlgoAndDateStructure Memoization: factorial(2)" should "return 1" in {
+      val value:Int = 2
+      val emptyMap:Map[Int,Option[Int]] = Map.empty[Int,Option[Int]]
+      val map:Map[Int,Option[Int]] = fm.appendToMap(emptyMap,2,5)
+      val actual:Any = fm.factorial(value,map)
+      val expected:Int = 5
 
-    assert(actual == expected)
-  }
-  */
+      assert(actual == expected)
+    }
+    */
 
 }

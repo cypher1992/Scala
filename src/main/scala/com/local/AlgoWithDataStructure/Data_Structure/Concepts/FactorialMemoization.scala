@@ -18,7 +18,7 @@ case class FactorialMemoization(private var map:Map[Int,Option[Int]]){
 
   def findValue(key:Int):Any = {
     try{
-      map(key).getOrElse(key,None)
+      this.map(key).getOrElse(key,None)
     }catch{
       case e:Exception => None
     }

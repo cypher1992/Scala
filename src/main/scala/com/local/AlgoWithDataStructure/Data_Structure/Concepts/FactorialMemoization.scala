@@ -2,6 +2,7 @@ package com.local.AlgoWithDataStructure.Data_Structure.Concepts
 
 case class FactorialMemoization(private var map:Map[Int,Option[Int]]){
 
+  // manage a single instance of a mutable map
   /*
     Use of cache previous values and to save memory with process time
   */

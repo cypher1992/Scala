@@ -67,17 +67,17 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
     assert(actual == expected)
   }
 
-  /*
+
     "AlgoAndDateStructure Memoization: factorial(0)" should "return 1" in {
       val value:Int = 0
-      val emptyMap:Map[Int,Option[Int]] = Map.empty[Int,Option[Int]]
-      val actual:Any = fm.factorial(value,emptyMap)
+      val actual:Any = fm.factorial(value)
       val expected:Int = 1
 
       assert(actual == expected)
     }
 
-    "AlgoAndDateStructure Memoization: factorial(1)" should "return 1" in {
+  /*
+  "AlgoAndDateStructure Memoization: factorial(1)" should "return 1" in {
       val value:Int = 1
       val emptyMap:Map[Int,Option[Int]] = Map.empty[Int,Option[Int]]
       val actual:Any = fm.factorial(value,emptyMap)

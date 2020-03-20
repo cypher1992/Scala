@@ -64,7 +64,7 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
     assert(actual == expected)
   }
 
-  "AlgoAndDateStructure Memoization: factorial(0)" should "return 1" in {
+  "AlgoAndDataStructure Memoization: factorial(0)" should "return 1" in {
       val value:Int = 0
       val actual:Any = fm.factorial(value)
       val expected:Int = 1
@@ -72,7 +72,7 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
       assert(actual == expected)
   }
 
-  "AlgoAndDateStructure Memoization: factorial(1)" should "return 1" in {
+  "AlgoAndDataStructure Memoization: factorial(1)" should "return 1" in {
       val value:Int = 1
       val actual:Any = fm.factorial(value)
       val expected:Int = 1
@@ -80,13 +80,24 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
       assert(actual == expected)
   }
 
-  "AlgoAndDateStructure Memoization: factorial(2)" should "return 2" in {
+  "AlgoAndDataStructure Memoization: factorial(2)" should "return 2" in {
       val value:Int = 2
       fm.appendToMap(2,2)
       val actual:Any = fm.factorial(value)
       val expected:Int = 2
 
       assert(actual == expected)
+  }
+
+  "AlgoAndDateStructure Memoization: factorial(5)" should "return 120" in {
+
+    val map:Map[Int,Option[Int]] = fm.getMap()
+    val value:Int = 5
+    val actual:Any = fm.factorial(5)
+    val expected:Any = 120
+
+    assert(actual == expected)
+
   }
 
 

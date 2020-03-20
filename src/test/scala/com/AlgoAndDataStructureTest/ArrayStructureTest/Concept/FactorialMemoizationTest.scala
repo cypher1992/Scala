@@ -4,7 +4,6 @@ import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.must.Matchers
 import com.local.AlgoWithDataStructure.Data_Structure.Concepts.FactorialMemoization
 
-
 class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
 
   val emptyMap:Map[Int,Option[Int]] = Map.empty[Int,Option[Int]]
@@ -47,7 +46,6 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
     assert(actual2 === expected)
   }
 
-
   "AlgoAndDataStructure Memoization: findValue(key,)" should "throws NoSuchElementException" in {
     val emptyMap:Map[Int,Option[Int]] = Map.empty[Int,Option[Int]]
     val actual= fm.findValue(4)
@@ -56,7 +54,6 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
     assert(actual == expected)
 
   }
-
 
   "AlgoAndDataStructure Memoization: findValue(5)" should "return 1" in {
     val map:Map[Int,Option[Int]] = Map(1 ->Some(2),2->Some(3),4->Some(5),5->Some(1))
@@ -67,7 +64,6 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
     assert(actual == expected)
   }
 
-
   "AlgoAndDateStructure Memoization: factorial(0)" should "return 1" in {
       val value:Int = 0
       val actual:Any = fm.factorial(value)
@@ -75,7 +71,6 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
 
       assert(actual == expected)
   }
-
 
   "AlgoAndDateStructure Memoization: factorial(1)" should "return 1" in {
       val value:Int = 1
@@ -85,16 +80,14 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
       assert(actual == expected)
   }
 
-  /*
-  "AlgoAndDateStructure Memoization: factorial(2)" should "return 1" in {
+  "AlgoAndDateStructure Memoization: factorial(2)" should "return 2" in {
       val value:Int = 2
-      val emptyMap:Map[Int,Option[Int]] = Map.empty[Int,Option[Int]]
-      val map:Map[Int,Option[Int]] = fm.appendToMap(emptyMap,2,5)
-      val actual:Any = fm.factorial(value,map)
-      val expected:Int = 5
+      fm.appendToMap(2,2)
+      val actual:Any = fm.factorial(value)
+      val expected:Int = 2
 
       assert(actual == expected)
   }
-    */
+
 
 }

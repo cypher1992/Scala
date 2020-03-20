@@ -23,15 +23,18 @@ case class FactorialMemoization(private var map:Map[Int,Option[Int]]){
     }catch{
       case e:Exception => None
     }
-
   }
 
   def factorial(x:Int):Any ={
-    x match {
-      case 0 | 1 => 1
-      case a if(this.findValue(x) != None) => this.findValue(x)
-      case _ => 1000000
+    def factorialAccumulate(value:Int = x,accumulate:Int=1): Any ={
+        value match {
+          case 0 | 1 => this.setMap(Map(x -> Some(accumulate)))
+          case a if(this.findValue(x) != None) => this.findValue(x)
+          case _ => factorialAccumulate(value-1,accumulate*value)
+        }
     }
+   factorialAccumulate()
+   findValue(x)
   }
 
 }

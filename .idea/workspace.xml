@@ -7,6 +7,7 @@
     <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/EagerVLazy.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/FactorialMemoization.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StreamStructure.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/CollectionFunction/MapFuncExperimentation.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/EagarVLazyTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
@@ -44,8 +45,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/FactorialMemoizationTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="630">
-                    <caret line="95" column="10" lean-forward="true" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
+                  <state relative-caret-position="664">
+                    <caret line="95" column="30" lean-forward="true" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
                     <folding>
                       <element signature="e#65#106#0" expanded="true" />
                     </folding>
@@ -66,22 +67,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/EagarVLazyTest.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/FactorialMemoization.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#65#106#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="258">
+              <caret line="28" column="67" lean-forward="true" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/FactorialMemoization.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StreamStructure.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -154,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/EagerVLazy.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/FactorialMemoization.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/FactorialMemoizationTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StreamStructure.scala" />
       </list>
     </option>
   </component>
@@ -166,7 +165,136 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
+              <item name="Concepts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ArrayStructureTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ArrayStructureTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Concept" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="AllAboutScalaExcerciseTDD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -337,9 +465,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FactorialMemoizationTest_AlgoAndDataStructure_Memoization__findValue(key,emptyMap)_should_throws_NoSuchElementException - 2020.03.19 at 21h 12m 16s.xml">
-      <configuration name="FactorialMemoizationTest.AlgoAndDataStructure Memoization: findValue(key,emptyMap) should throws NoSuchElementException" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="FactorialMemoizationTest_AlgoAndDataStructure_Memoization__findValue(5,map)_should_return_1 - 2020.03.19 at 21h 16m 57s.xml">
       <configuration name="FactorialMemoizationTest.AlgoAndDataStructure Memoization: findValue(5,map) should return 1" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -367,12 +492,15 @@
     <history-entry file="FactorialMemoizationTest_AlgoAndDateStructure_Memoization__factorial(5)_should_return_120 - 2020.03.19 at 22h 29m 06s.xml">
       <configuration name="FactorialMemoizationTest.AlgoAndDateStructure Memoization: factorial(5) should return 120" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="FactorialMemoizationTest_AlgoAndDateStructure_Memoization__factorial(5)_should_return_120 - 2020.03.19 at 22h 32m 07s.xml">
+      <configuration name="FactorialMemoizationTest.AlgoAndDateStructure Memoization: factorial(5) should return 120" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21777777" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38777778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -381,7 +509,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49555555" visible="true" weight="0.32524806" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49555555" visible="true" weight="0.32524806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,13 +569,6 @@
     <SUITE FILE_PATH="coverage/Scala$ScalaTests_in__ListTest_.ic" NAME="ScalaTests in 'ListTest' Coverage Results" MODIFIED="1580075758775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/review/CollectionRev/MapReview.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.13.0-sources.jar!/scala/collection/Iterable.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
@@ -747,13 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/VectorStructure.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.13.0-sources.jar!/scala/package.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -778,20 +892,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/FactorialMemoization.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/FactorialMemoizationTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="95" column="10" lean-forward="true" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
+        <state relative-caret-position="664">
+          <caret line="95" column="30" lean-forward="true" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
           <folding>
             <element signature="e#65#106#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/FactorialMemoization.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="28" column="67" lean-forward="true" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/VectorStructure.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StreamStructure.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>

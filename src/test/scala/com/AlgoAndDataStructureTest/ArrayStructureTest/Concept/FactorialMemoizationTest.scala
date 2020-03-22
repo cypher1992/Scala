@@ -97,7 +97,6 @@ class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
     val expected:Any = 120
 
     assert(actual == expected)
-
   }
 
 

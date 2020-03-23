@@ -25,4 +25,24 @@ class StreamTest extends AnyFlatSpec with Matchers {
 
     assert(actual == expected)
   }
+
+  "AlgoAndStructure Stream Structure: appendStream(emptyStream,1)" should "Stream(1)" in {
+
+    val emptyStream:Stream[Int] = Stream.empty[Int]
+    val actual:Stream[Int] = streamS.appendStream(emptyStream,1)
+    val expected:Stream[Int] = Stream(1)
+
+    assert(actual == expected)
+  }
+
+  "AlgoAndStructure Stream Structure: appendStream(stream,5)" should "Stream(1,2,3,4,5)" in {
+
+    val stream:Stream[Int] = Stream(1,2,3,4)
+    val actual:Stream[Int] = streamS.appendStream(stream,5)
+    val expected:Stream[Int] = Stream(1,2,3,4,5)
+
+    assert(actual == expected)
+  }
+
 }
+

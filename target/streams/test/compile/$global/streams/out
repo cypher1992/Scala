@@ -1,4 +1,4 @@
 [debug] Acquiring lock on file C:\Users\Zero\IdeaProjects\Learning\Scala\project\target\.sbt-compilation-infos\scala-test\.sbt-idea-lock ...
-[warn] there were 10 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+[warn] there were 20 deprecation warnings (since 2.13.0); re-run with -deprecation for details
 [warn] one warning found
 [debug] Releasing lock on file C:\Users\Zero\IdeaProjects\Learning\Scala\project\target\.sbt-compilation-infos\scala-test\.sbt-idea-lock.

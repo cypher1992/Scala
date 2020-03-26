@@ -24,4 +24,18 @@ class StreamStructure {
 
   def findLambdaStream[T](value:T,stream:Stream[T]):Boolean = stream.contains(value)
 
+  def updateSteam[T](value:T,replacement:T,stream:Stream[T]):Stream[T] = {
+
+    def updateStreamAppend(v: T = value, r: T = replacement, s: Stream[T] = stream, appendStream: Stream[T] = Stream.empty[T]): Stream[T] = {
+      s match {
+        case a if (s.isEmpty) => appendStream
+        case b if (s.head == v) => appendStream :+ r
+        case _ => updateStreamAppend(v, r, s.tail, appendStream :+ s.head)
+      }
+    }
+    updateStreamAppend()
+  }
+
+
+
 }

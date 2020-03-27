@@ -42,7 +42,8 @@ class StreamStructure {
       case _ => index
     }
   }
-  
+
+  def updateLambdaStream[T](value:T,replacement:T,stream:Stream[T]):Stream[T]= stream.map( (a) => this.replaceValue(a,value,replacement) )
 
 
 }

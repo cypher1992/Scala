@@ -36,6 +36,13 @@ class StreamStructure {
     updateStreamAppend()
   }
 
+  def replaceValue[T](index:T,value:T,replacement:T):T  ={
+    index match{
+      case value => replacement
+      case _ => index
+    }
+  }
+  
 
 
 }

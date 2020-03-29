@@ -83,7 +83,18 @@ class StreamTest extends AnyFlatSpec with Matchers {
     assert(actual == expected)
   }
 
+  "AlgoAndDataStructure Stream Structure: replaceValue(10,10,11)" should "return 11" in {
 
+    val index:Int = 10
+    val targetValue:Int = 10
+    val replacement:Int = 11
+    val actual:Int = streamS.replaceValue(index,targetValue,replacement)
+    val expected:Int = 11
+
+    assert(actual == expected)
+  }
+
+  
 
 }
 

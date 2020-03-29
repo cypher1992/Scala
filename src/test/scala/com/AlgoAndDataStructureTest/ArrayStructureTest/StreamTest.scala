@@ -66,11 +66,24 @@ class StreamTest extends AnyFlatSpec with Matchers {
 
     val emptystream:Stream[Int] = Stream.empty[Int]
     val actual:Stream[Int] = streamS.updateSteam(1,2,emptystream)
-    val exoected:Stream[Int] = Stream.empty[Int]
+    val expected:Stream[Int] = Stream.empty[Int]
 
-    assert(actual == exoected)
+    assert(actual == expected)
 
   }
+
+  "AlgoAndDataStructure Stream Structure: replaceValue(10,4,11)" should "return 10" in {
+
+    val index:Int = 10
+    val targetValue:Int = 4
+    val replacement:Int = 11
+    val actual:Int = streamS.replaceValue(index,targetValue,replacement)
+    val expected:Int = 10
+
+    assert(actual == expected)
+  }
+
+
 
 }
 

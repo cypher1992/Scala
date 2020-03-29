@@ -38,7 +38,7 @@ class StreamStructure {
 
   def replaceValue[T](index:T,value:T,replacement:T):T  ={
     index match{
-      case value => replacement
+      case a if(value == index) => replacement
       case _ => index
     }
   }

@@ -100,7 +100,13 @@ class StreamTest extends AnyFlatSpec with Matchers {
     val expected:Stream[Int] = Stream.empty[Int]
     assert(actual == expected)
   }
-  
+
+  "AlgoAndDataStrucuture Stream Strucutre: updateLambdaStream(10,4,stream)" should "return Stream(2,4,6,8,4)" in {
+    val emptyStream:Stream[Int] = Stream(2,4,6,8,10)
+    val actual:Stream[Int] = streamS.updateLambdaStream(10,4,emptyStream)
+    val expected:Stream[Int] = Stream(2,4,6,8,4)
+    assert(actual == expected)
+  }
 
 }
 

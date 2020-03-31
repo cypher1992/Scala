@@ -61,5 +61,6 @@ class StreamStructure {
       case a if(element != targetValue) => element
     }
   }
-  
+
+  def removeStreamLambda[T](targetvalue:T,stream:Stream[T]):Stream[T] = stream.map((element) => this.removeElement(element,targetvalue))
 }

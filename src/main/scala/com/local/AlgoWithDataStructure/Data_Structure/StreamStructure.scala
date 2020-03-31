@@ -56,5 +56,10 @@ class StreamStructure {
     removeAppend()
   }
 
-
+  def removeElement[T](element:T,targetValue:T):T = {
+    element match {
+      case a if(element != targetValue) => element
+    }
+  }
+  
 }

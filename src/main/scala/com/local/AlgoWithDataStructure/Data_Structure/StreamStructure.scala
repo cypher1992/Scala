@@ -45,5 +45,16 @@ class StreamStructure {
 
   def updateLambdaStream[T](value:T,replacement:T,stream:Stream[T]):Stream[T]= stream.map( (a) => this.replaceValue(a,value,replacement) )
 
+  def removeStream[T](value:T,stream:Stream[T]):Stream[T] = {
+    def removeAppend(v:T=value,stm:Stream[T]=stream,appendStream:Stream[T]=Stream.empty[T]):Stream[T] ={
+      stm match {
+        case a if(stm.empty) => appendStream
+        case a if(v == stm.head) =>  removeAppend(v,stm.tail,appendStream)
+        case _ => removeAppend(v,stm.tail, appendStream :+ stm.head)
+      }
+    }
+    removeAppend()
+  }
+
 
 }

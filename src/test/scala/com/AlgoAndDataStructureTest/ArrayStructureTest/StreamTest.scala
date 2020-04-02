@@ -108,5 +108,15 @@ class StreamTest extends AnyFlatSpec with Matchers {
     assert(actual == expected)
   }
 
+  "AlgoAndDataStructure Stream Structure: removeStream(8,emptyStream)" should "return emptyStream" in{
+    val emptyStream:Stream[Int] = Stream.empty[Int]
+    val actual:Stream[Int] = streamS.removeStream(8,emptyStream)
+    val expected:Stream[Int] = Stream.empty[Int]
+
+    assert(actual == expected)
+  }
+  
+
+
 }
 

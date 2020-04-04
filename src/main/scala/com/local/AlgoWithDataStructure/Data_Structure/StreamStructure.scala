@@ -56,11 +56,12 @@ class StreamStructure {
     removeAppend()
   }
 
-  def removeElement[T](element:T,targetValue:T):T = {
+  def removeElement[T](element:T,targetValue:T):Any = {
     element match {
       case a if(element != targetValue) => element
+      case _ =>
     }
   }
 
-  def removeStreamLambda[T](targetvalue:T,stream:Stream[T]):Stream[T] = stream.map((element) => this.removeElement(element,targetvalue))
+  def removeStreamLambda[T](targetvalue:T,stream:Stream[T]):Stream[Any] = stream.map((element) => this.removeElement(element,targetvalue))
 }

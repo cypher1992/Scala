@@ -144,7 +144,14 @@ class StreamTest extends AnyFlatSpec with Matchers {
     val expected:Stream[Int] = Stream.empty[Int]
     assert(actual == expected)
   }
-  
+
+  "AlgoAndDataStructure Stream: removeStreamLambda(5,stream(1,2,3,4,5))" should "return stream(1,2,3,4)" in {
+    val stream:Stream[Int] = Stream(1,2,3,4,5)
+    val actual:Stream[Int] = streamS.removeStreamLambda(5,stream)
+    val expected:Stream[Int] = Stream(1,2,3,4)
+
+    assert(actual == expected)
+  }
 
 
 

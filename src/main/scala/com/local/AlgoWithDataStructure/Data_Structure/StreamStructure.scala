@@ -65,4 +65,23 @@ class StreamStructure {
   }
 
   def removeStreamLambda[T](targetvalue:T,stream:Stream[T]):Stream[T] = stream.filterNot((x) => x == targetvalue)
+
+  //WIP
+  def swapValues[T](srcValue:T, srcStream:Stream[T],trgtValue:T,trgtStream:Stream[T]):(Stream[T],Stream[T]) ={
+
+    val isValueInSrc:Boolean = srcStream.contains(srcValue)
+    val isValueInTrgt:Boolean = trgtStream.contains(trgtValue)
+
+    def swaparoo():(Stream[T],Stream[T]) ={
+      val newSrc:Stream[T] = this.updateSteam(srcValue,trgtValue,srcStream)
+      val newTrgt:Stream[T] = this.updateSteam(trgtValue, srcValue,trgtStream)
+      (newSrc,newTrgt)
+    }
+
+    (isValueInSrc,isValueInTrgt) match {
+      case (true,true) => swaparoo()
+      case _ => (srcStream,trgtStream)
+    }
+  }
+
 }

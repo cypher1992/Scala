@@ -157,13 +157,23 @@ class StreamTest extends AnyFlatSpec with Matchers {
 
     val emptySrcStream:Stream[Int] = Stream.empty[Int]
     val emptyTrgStream:Stream[Int] = Stream.empty[Int]
-    val actual:(Option[Stream[Int]],Option[Stream[Int]]) = streamS.swapValues(5,emptySrcStream,70,emptySrcStream)
+    val actual:(Option[Stream[Int]],Option[Stream[Int]]) = streamS.swapValues(5,emptySrcStream,70,emptyTrgStream)
     val expected:(Option[Stream[Int]],Option[Stream[Int]]) = (None,None)
 
     assert(actual == expected)
   }
 
-  
+
+  "AlgoAndDataStructure Stream: swapValues(5,emptyStream,70,trgtStream)" should  "none,none" in {
+
+    val emptySrcStream:Stream[Int] = Stream.empty[Int]
+    val trgtStream:Stream[Int] = Stream(50,60,70,80,90)
+    val actual:(Option[Stream[Int]],Option[Stream[Int]]) = streamS.swapValues(5,emptySrcStream,70,trgtStream)
+    val expected:(Option[Stream[Int]],Option[Stream[Int]]) = (None,None)
+
+    assert(actual == expected)
+  }
+
 
 }
 

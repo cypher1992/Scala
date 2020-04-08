@@ -47,5 +47,6 @@ class ListStructure {
     }
   }
 
+  def slidingWindow[T](list:List[T],size:Int,step:Int):Iterator[List[T]] = list.sliding(size,step)
 
 }

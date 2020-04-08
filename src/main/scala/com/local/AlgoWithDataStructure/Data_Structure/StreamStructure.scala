@@ -65,8 +65,7 @@ class StreamStructure {
   }
 
   def removeStreamLambda[T](targetvalue:T,stream:Stream[T]):Stream[T] = stream.filterNot((x) => x == targetvalue)
-
-  //WIP
+  
   def swapValues[T](srcValue:T, srcStream:Stream[T],trgtValue:T,trgtStream:Stream[T]):(Option[Stream[T]],Option[Stream[T]]) ={
 
     val isValueInSrc:Boolean = srcStream.contains(srcValue)

@@ -45,8 +45,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/StreamTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="749">
-                    <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+                  <state relative-caret-position="752">
+                    <caret line="195" column="3" lean-forward="true" selection-start-line="195" selection-start-column="3" selection-end-line="195" selection-end-column="3" />
                     <folding>
                       <element signature="e#57#98#0" expanded="true" />
                     </folding>
@@ -69,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StreamStructure.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+            <state relative-caret-position="278">
+              <caret line="76" column="78" selection-start-line="76" selection-start-column="78" selection-end-line="76" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -152,8 +152,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/EagerVLazy.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/FactorialMemoization.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/FactorialMemoizationTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StreamStructure.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/StreamTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StreamStructure.scala" />
       </list>
     </option>
   </component>
@@ -304,45 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.StreamTest.AlgoAndDataStructure Stream: swapValues(5,srcStream,70,emptyStream) should none,none">
-    <configuration name="StreamTest.AlgoAndDataStructure Stream: removeElement(1,5) should return nothing" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.StreamTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.StreamTest" />
-      <setting name="testName" value="AlgoAndDataStructure Stream: removeElement(1,5) should return nothing" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamTest.AlgoAndDataStructure Stream: removeElement(5,5) should return nothing" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.StreamTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.StreamTest" />
-      <setting name="testName" value="AlgoAndDataStructure Stream: removeElement(5,5) should return nothing" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.StreamTest.AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none">
     <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,emptyStream,70,emptyStream) should none,none" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.StreamTest" />
@@ -400,13 +362,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.StreamTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.StreamTest" />
+      <setting name="testName" value="AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamTest.AlgoAndStructure Stream Structure: appendLambdaStream(emptyStream,1) should Stream(1)&#10;AlgoAndStructure Stream Structure: appendLambdaStream(stream,5) should Stream(1,2,3,4,5)&#10;AlgoAndStructure Stream Structure: appendStream(emptyStream,1) should Stream(1)&#10;AlgoAndStructure Stream Structure: appendStream(stream,5) should Stream(1,2,3,4,5)&#10;AlgoAndDataStructure Stream Structure: findLambdaStream(emptyStream, 10) should return false&#10;AlgoAndDataStructure Stream Structure: findLambdaStream(stream, 10) should return true&#10;AlgoAndDataStructure Stream Structure: updateStream(1,2,emptyStream) should return emptyStream&#10;AlgoAndDataStructure Stream Structure: replaceValue(10,4,11) should return 10&#10;AlgoAndDataStructure Stream Structure: replaceValue(10,10,11) should return 11&#10;AlgoAndDataStrucuture Stream Strucutre: updateLambdaStream(10,4,emptyStream) should return emptyStream&#10;AlgoAndDataStrucuture Stream Strucutre: updateLambdaStream(10,4,stream) should return Stream(2,4,6,8,4)&#10;AlgoAndDataStructure Stream Structure: removeStream(8,emptyStream) should return emptyStream&#10;AlgoAndDataStructure Stream: removeStream(8,Stream(2,4,6,8,10)) should Stream(2,4,6,10)&#10;AlgoAndDataStructure Stream: removeElement(5,5) should return none&#10;AlgoAndDataStructure Stream: removeElement(1,5) should return nothing&#10;AlgoandDataStructure Stream: removeStreamLambda(5,emptyStream) should return emptyStream&#10;AlgoAndDataStructure Stream: removeStreamLambda(5,stream(1,2,3,4,5)) should return stream(1,2,3,4)&#10;AlgoAndDataStructure Stream: swapValues(5,emptyStream,70,emptyStream) should none,none&#10;AlgoAndDataStructure Stream: swapValues(5,emptyStream,70,trgtStream) should none,none&#10;AlgoAndDataStructure Stream: swapValues(5,srcStream,70,emptyStream) should none,none&#10;AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.StreamTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.StreamTest" />
+      <setting name="testName" value="AlgoAndStructure Stream Structure: appendLambdaStream(emptyStream,1) should Stream(1)&#10;AlgoAndStructure Stream Structure: appendLambdaStream(stream,5) should Stream(1,2,3,4,5)&#10;AlgoAndStructure Stream Structure: appendStream(emptyStream,1) should Stream(1)&#10;AlgoAndStructure Stream Structure: appendStream(stream,5) should Stream(1,2,3,4,5)&#10;AlgoAndDataStructure Stream Structure: findLambdaStream(emptyStream, 10) should return false&#10;AlgoAndDataStructure Stream Structure: findLambdaStream(stream, 10) should return true&#10;AlgoAndDataStructure Stream Structure: updateStream(1,2,emptyStream) should return emptyStream&#10;AlgoAndDataStructure Stream Structure: replaceValue(10,4,11) should return 10&#10;AlgoAndDataStructure Stream Structure: replaceValue(10,10,11) should return 11&#10;AlgoAndDataStrucuture Stream Strucutre: updateLambdaStream(10,4,emptyStream) should return emptyStream&#10;AlgoAndDataStrucuture Stream Strucutre: updateLambdaStream(10,4,stream) should return Stream(2,4,6,8,4)&#10;AlgoAndDataStructure Stream Structure: removeStream(8,emptyStream) should return emptyStream&#10;AlgoAndDataStructure Stream: removeStream(8,Stream(2,4,6,8,10)) should Stream(2,4,6,10)&#10;AlgoAndDataStructure Stream: removeElement(5,5) should return none&#10;AlgoAndDataStructure Stream: removeElement(1,5) should return nothing&#10;AlgoandDataStructure Stream: removeStreamLambda(5,emptyStream) should return emptyStream&#10;AlgoAndDataStructure Stream: removeStreamLambda(5,stream(1,2,3,4,5)) should return stream(1,2,3,4)&#10;AlgoAndDataStructure Stream: swapValues(5,emptyStream,70,emptyStream) should none,none&#10;AlgoAndDataStructure Stream: swapValues(5,emptyStream,70,trgtStream) should none,none&#10;AlgoAndDataStructure Stream: swapValues(5,srcStream,70,emptyStream) should none,none&#10;AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.StreamTest.AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none" />
+        <item itemvalue="ScalaTest.StreamTest.AlgoAndStructure Stream Structure: appendLambdaStream(emptyStream,1) should Stream(1)&#10;AlgoAndStructure Stream Structure: appendLambdaStream(stream,5) should Stream(1,2,3,4,5)&#10;AlgoAndStructure Stream Structure: appendStream(emptyStream,1) should Stream(1)&#10;AlgoAndStructure Stream Structure: appendStream(stream,5) should Stream(1,2,3,4,5)&#10;AlgoAndDataStructure Stream Structure: findLambdaStream(emptyStream, 10) should return false&#10;AlgoAndDataStructure Stream Structure: findLambdaStream(stream, 10) should return true&#10;AlgoAndDataStructure Stream Structure: updateStream(1,2,emptyStream) should return emptyStream&#10;AlgoAndDataStructure Stream Structure: replaceValue(10,4,11) should return 10&#10;AlgoAndDataStructure Stream Structure: replaceValue(10,10,11) should return 11&#10;AlgoAndDataStrucuture Stream Strucutre: updateLambdaStream(10,4,emptyStream) should return emptyStream&#10;AlgoAndDataStrucuture Stream Strucutre: updateLambdaStream(10,4,stream) should return Stream(2,4,6,8,4)&#10;AlgoAndDataStructure Stream Structure: removeStream(8,emptyStream) should return emptyStream&#10;AlgoAndDataStructure Stream: removeStream(8,Stream(2,4,6,8,10)) should Stream(2,4,6,10)&#10;AlgoAndDataStructure Stream: removeElement(5,5) should return none&#10;AlgoAndDataStructure Stream: removeElement(1,5) should return nothing&#10;AlgoandDataStructure Stream: removeStreamLambda(5,emptyStream) should return emptyStream&#10;AlgoAndDataStructure Stream: removeStreamLambda(5,stream(1,2,3,4,5)) should return stream(1,2,3,4)&#10;AlgoAndDataStructure Stream: swapValues(5,emptyStream,70,emptyStream) should none,none&#10;AlgoAndDataStructure Stream: swapValues(5,emptyStream,70,trgtStream) should none,none&#10;AlgoAndDataStructure Stream: swapValues(5,srcStream,70,emptyStream) should none,none&#10;AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none" />
         <item itemvalue="ScalaTest.StreamTest.AlgoAndDataStructure Stream: swapValues(5,srcStream,70,emptyStream) should none,none" />
         <item itemvalue="ScalaTest.StreamTest.AlgoAndDataStructure Stream: swapValues(5,emptyStream,70,trgtStream) should none,none" />
         <item itemvalue="ScalaTest.StreamTest.AlgoAndDataStructure Stream: swapValues(5,emptyStream,70,emptyStream) should none,none" />
-        <item itemvalue="ScalaTest.StreamTest.AlgoAndDataStructure Stream: removeElement(5,5) should return nothing" />
-        <item itemvalue="ScalaTest.StreamTest.AlgoAndDataStructure Stream: removeElement(1,5) should return nothing" />
       </list>
     </recent_temporary>
   </component>
@@ -456,35 +456,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StreamTest_AlgoAnddATStructure_Stream__removeStreamLambda(5,emptyStream)_should_return_emptyStream - 2020.04.04 at 21h 59m 58s.xml">
-      <configuration name="StreamTest.AlgoAnddATStructure Stream: removeStreamLambda(5,emptyStream) should return emptyStream" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__swapValues(5,srcStream,70,trgtStream)_should_none,none - 2020.04.07 at 16h 39m 43s.xml">
+      <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__removeStreamLambda(5,stream(1,2,3,4,5))_should_return_stream(1,2,3,4) - 2020.04.04 at 22h 07m 54s.xml">
-      <configuration name="StreamTest.AlgoAndDataStructure Stream: removeStreamLambda(5,stream(1,2,3,4,5)) should return stream(1,2,3,4)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__swapValues(5,srcStream,70,trgtStream)_should_none,none - 2020.04.07 at 16h 41m 28s.xml">
+      <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__removeElement(1,5)_should_return_nothing - 2020.04.04 at 22h 39m 49s.xml">
-      <configuration name="StreamTest.AlgoAndDataStructure Stream: removeElement(1,5) should return nothing" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__swapValues(5,srcStream,70,trgtStream)_should_none,none - 2020.04.07 at 16h 41m 59s.xml">
+      <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__removeElement(5,5)_should_return_nothing - 2020.04.04 at 22h 40m 23s.xml">
-      <configuration name="StreamTest.AlgoAndDataStructure Stream: removeElement(5,5) should return nothing" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__swapValues(5,srcStream,70,trgtStream)_should_none,none - 2020.04.07 at 16h 43m 40s.xml">
+      <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__swapValues(5,emptyStream,70,emptyStream)_should_none,none - 2020.04.07 at 16h 02m 55s.xml">
-      <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,emptyStream,70,emptyStream) should none,none" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__swapValues(5,srcStream,70,trgtStream)_should_none,none - 2020.04.07 at 22h 10m 54s.xml">
+      <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__swapValues(5,emptyStream,70,emptyStream)_should_none,none - 2020.04.07 at 16h 13m 00s.xml">
-      <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,emptyStream,70,emptyStream) should none,none" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__swapValues(5,srcStream,70,trgtStream)_should_none,none - 2020.04.07 at 22h 12m 16s.xml">
+      <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__swapValues(5,emptyStream,70,emptyStream)_should_none,none - 2020.04.07 at 16h 13m 27s.xml">
-      <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,emptyStream,70,emptyStream) should none,none" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__swapValues(5,srcStream,70,trgtStream)_should_none,none - 2020.04.07 at 22h 15m 00s.xml">
+      <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__swapValues(5,emptyStream,70,emptyStream)_should_none,none - 2020.04.07 at 16h 21m 29s.xml">
-      <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,emptyStream,70,emptyStream) should none,none" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__swapValues(5,srcStream,70,trgtStream)_should_none,none - 2020.04.07 at 22h 16m 25s.xml">
+      <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__swapValues(5,emptyStream,70,emptyStream)_should_none,none - 2020.04.07 at 16h 22m 32s.xml">
-      <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,emptyStream,70,emptyStream) should none,none" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__swapValues(5,srcStream,70,trgtStream)_should_none,none - 2020.04.07 at 22h 17m 40s.xml">
+      <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__swapValues(5,emptyStream,70,trgtStream)_should_none,none - 2020.04.07 at 16h 22m 46s.xml">
-      <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,emptyStream,70,trgtStream) should none,none" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="StreamTest_AlgoAndDataStructure_Stream__swapValues(5,srcStream,70,trgtStream)_should_none,none - 2020.04.07 at 22h 18m 18s.xml">
+      <configuration name="StreamTest.AlgoAndDataStructure Stream: swapValues(5,srcStream,70,trgtStream) should none,none" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -900,20 +900,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StreamStructure.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/StreamTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+        <state relative-caret-position="752">
+          <caret line="195" column="3" lean-forward="true" selection-start-line="195" selection-start-column="3" selection-end-line="195" selection-end-column="3" />
           <folding>
             <element signature="e#57#98#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StreamStructure.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="76" column="78" selection-start-line="76" selection-start-column="78" selection-end-line="76" selection-end-column="78" />
         </state>
       </provider>
     </entry>

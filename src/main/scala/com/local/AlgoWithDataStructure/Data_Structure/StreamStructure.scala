@@ -77,7 +77,6 @@ class StreamStructure {
       val newTrgt:Stream[T] = this.updateSteam(trgtValue, srcValue,trgtStream)
       (Some(newSrc),Some(newTrgt))
     }
-
     (isValueInSrc,isValueInTrgt) match {
       case (true,true) => swaparoo()
       case _ => (None,None)

@@ -158,14 +158,20 @@ class ListTest extends AnyFlatSpec  with Matchers {
     assert(actual == expected)
   }
 
-  "AlgoAndDataStructure List: slidingWindow(emptyList,2,1)" should "return EmptyIterator" in {
-
+  "AlgoAndDataStructure List: slidingWindow(emptyList,2,1)" should "return List.empty[List[Int]]" in {
     val emptylist:List[Int] = List.empty[Int]
     val actual:List[List[Int]] = listClass.slidingWindow(emptylist,2,1)
     val expected:List[List[Int]] = List.empty[List[Int]]
 
     assert(expected == actual)
 
+  }
+
+  "AlgoAndDataStructure List: slidingWindow(list,2,1)" should "return List(List(1,2),List(3))" in {
+    val list:List[Int] = List(1,2,3)
+    val actual:List[List[Int]] = listClass.slidingWindow(list,2,1)
+    val expected:List[List[Int]] = List(List(1,2),List(2,3))
+    assert(expected == actual)
   }
 
 

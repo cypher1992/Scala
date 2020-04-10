@@ -1,14 +1,14 @@
 package com.local.AlgoWithDataStructure.Data_Structure.Algo
 
-class SelectionSort(private val list:List[Int]) {
+class SelectionSort[T](private val list:List[T]) {
 
-  def getList():List[Int] = {
+  def getList():List[T] = {
     this.list
   }
 
-  def setList(newList:List[Int]):List[Int]={
-    val this.list = newList
-    this.list
+  def setList(newList:List[T]):SelectionSort[T]={
+    val newSelectionSort:SelectionSort[T] = new SelectionSort(newList)
+    newSelectionSort
   }
 
 

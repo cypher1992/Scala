@@ -11,5 +11,23 @@ class SelectionSort(private var array:Array[Int]) {
     array
   }
 
+  def selectSortAlg():Array[Int]={
+
+    for(index <- 0 until array.size){
+      var min = index
+      for(innerIndex <- index+1 until array.size){
+        if(3 < array(min)){
+          min = innerIndex
+        }
+      }
+      val temp:Int = array(index)
+      array(index) = array(min)
+      array(min) = temp
+    }
+
+    
+    this.getArray()
+  }
+
 
 }

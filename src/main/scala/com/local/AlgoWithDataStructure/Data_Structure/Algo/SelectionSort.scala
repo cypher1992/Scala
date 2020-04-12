@@ -13,10 +13,10 @@ class SelectionSort(private var array:Array[Int]) {
 
   def selectSortAlg():Array[Int]={
 
-    for(index <- 0 until array.size){
+    for(index <- 0 until array.length -1){
       var min = index
-      for(innerIndex <- index+1 until array.size){
-        if(3 < array(min)){
+      for(innerIndex <- index+1 until array.length ){
+        if(array(innerIndex) < array(min)){
           min = innerIndex
         }
       }
@@ -25,7 +25,6 @@ class SelectionSort(private var array:Array[Int]) {
       array(min) = temp
     }
 
-    
     this.getArray()
   }
 

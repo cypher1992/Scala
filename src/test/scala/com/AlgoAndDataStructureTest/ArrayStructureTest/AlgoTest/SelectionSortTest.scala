@@ -27,9 +27,9 @@ class SelectionSortTest extends AnyFlatSpec with Matchers {
   "AlgoAndDataStructure: SelectionSort selectSortAlg()" should "return emptyArray" in {
     val array:Array[Int] = Array(2,4,6,3,9,0,1,8)
     val ssort:SelectionSort = new SelectionSort(array)
-    val actual:Array[Int] = ssort.selectSortAlg()
-    val expected:Array[Int] = Array(0,1,2,3,4,6,8,9)
-    assert(expected === actual)
+    val actual:Option[Array[Int]] = ssort.selectSortAlg()
+    val expected:Option[Array[Int]] = Some(Array(0,1,2,3,4,6,8,9))
+    assert(expected.get === actual.get)
   }
 
 }

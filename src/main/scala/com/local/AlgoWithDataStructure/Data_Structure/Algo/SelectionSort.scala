@@ -11,21 +11,25 @@ class SelectionSort(private var array:Array[Int]) {
     array
   }
 
-  def selectSortAlg():Array[Int]={
-
-    for(index <- 0 until array.length -1){
-      var min = index
-      for(innerIndex <- index+1 until array.length ){
-        if(array(innerIndex) < array(min)){
-          min = innerIndex
+  def selectSortAlg():Option[Array[Int]]={
+    if(!this.getArray().isEmpty) {
+      for (index <- 0 until array.length - 1) {
+        var min = index
+        for (innerIndex <- index + 1 until array.length) {
+          if (array(innerIndex) < array(min)) {
+            min = innerIndex
+          }
         }
+        val temp: Int = array(index)
+        array(index) = array(min)
+        array(min) = temp
       }
-      val temp:Int = array(index)
-      array(index) = array(min)
-      array(min) = temp
-    }
 
-    this.getArray()
+      Some(this.getArray())
+    }
+    else{
+      None
+    }
   }
 
 

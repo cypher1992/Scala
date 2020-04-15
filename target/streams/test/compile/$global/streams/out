@@ -1,2 +1,14 @@
 [debug] Acquiring lock on file C:\Users\Zero\IdeaProjects\Learning\Scala\project\target\.sbt-compilation-infos\scala-test\.sbt-idea-lock ...
+[error] C:\Users\Zero\IdeaProjects\Learning\Scala\src\test\scala\com\AlgoAndDataStructureTest\ArrayStructureTest\AlgoTest\QuickSortTest.scala:22:38: type mismatch;
+[error]  found   : Array[Int]
+[error]  required: List[Int]
+[error]     val qs:QuickSort = new QuickSort(array)
+[error]                                      ^
+[error] C:\Users\Zero\IdeaProjects\Learning\Scala\src\test\scala\com\AlgoAndDataStructureTest\ArrayStructureTest\AlgoTest\QuickSortTest.scala:23:8: value setArray is not a member of com.local.AlgoWithDataStructure.Data_Structure.Algo.QuickSort
+[error]     qs.setArray(newArray)
+[error]        ^
+[error] C:\Users\Zero\IdeaProjects\Learning\Scala\src\test\scala\com\AlgoAndDataStructureTest\ArrayStructureTest\AlgoTest\QuickSortTest.scala:24:32: value getArray is not a member of com.local.AlgoWithDataStructure.Data_Structure.Algo.QuickSort
+[error]     val actual:Array[Int] = qs.getArray()
+[error]                                ^
+[error] three errors found
 [debug] Releasing lock on file C:\Users\Zero\IdeaProjects\Learning\Scala\project\target\.sbt-compilation-infos\scala-test\.sbt-idea-lock.

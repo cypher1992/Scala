@@ -1,12 +1,12 @@
 package com.local.AlgoWithDataStructure.Data_Structure.Algo
 
-class QuickSort(private var array:Array[Int]){
+class QuickSort(private var lst:List[Int]){
 
-  def getArray():Array[Int] = this.array
+  def getList():List[Int] = this.lst
 
-  def setArray(newArray:Array[Int]):Array[Int] = {
-    this.array = newArray
-    this.array
+  def setList(newList:List[Int]):List[Int] = {
+    this.lst = newList
+    this.lst
   }
 
 }

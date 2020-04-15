@@ -57,8 +57,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/QuickSortTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="214">
-                    <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+                  <state relative-caret-position="459">
+                    <caret line="27" selection-start-line="27" selection-end-line="27" />
                     <folding>
                       <element signature="e#66#107#0" expanded="true" />
                     </folding>
@@ -81,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Algo/QuickSort.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -166,8 +166,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/SelectionSort.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Algo/SelectionSort.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/SelectionSortTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Algo/QuickSort.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/QuickSortTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Algo/QuickSort.scala" />
       </list>
     </option>
   </component>
@@ -471,12 +471,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SelectionSortTest_AlgoAndDataStructure__SelectionSort_selectSortAlg()_should_return_emptyArray - 2020.04.11 at 23h 00m 45s.xml">
-      <configuration name="SelectionSortTest.AlgoAndDataStructure: SelectionSort selectSortAlg() should return emptyArray" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SelectionSortTest_AlgoAndDataStructure__SelectionSort_selectSortAlg()_should_return_emptyArray - 2020.04.11 at 23h 01m 00s.xml">
-      <configuration name="SelectionSortTest.AlgoAndDataStructure: SelectionSort selectSortAlg() should return emptyArray" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="SelectionSortTest_AlgoAndDataStructure__SelectionSort_selectSortAlg()_should_return_emptyArray - 2020.04.12 at 21h 06m 06s.xml">
       <configuration name="SelectionSortTest.AlgoAndDataStructure: SelectionSort selectSortAlg() should return emptyArray" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -500,6 +494,12 @@
     </history-entry>
     <history-entry file="QuickSortTest_AlgoAndDataStructure_QuickSort__qs_getArray()_should_return_Array - 2020.04.13 at 21h 45m 06s.xml">
       <configuration name="QuickSortTest.AlgoAndDataStructure QuickSort: qs.getArray() should return Array" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="QuickSortTest_AlgoAndDataStructure_QuickSort__qs_setArray(NewArray_should_return_NewArray - 2020.04.13 at 21h 52m 13s.xml">
+      <configuration name="QuickSortTest.AlgoAndDataStructure QuickSort: qs.setArray(NewArray should return NewArray" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="QuickSortTest_AlgoAndDataStructure_QuickSort__qs_getArray()_should_return_Array_AlgoAndDataStructure_QuickSort__qs_setArray(NewArray_should_return_NewArray - 2020.04.13 at 21h 52m 20s.xml">
+      <configuration name="QuickSortTest.AlgoAndDataStructure QuickSort: qs.getArray() should return Array&#10;AlgoAndDataStructure QuickSort: qs.setArray(NewArray should return NewArray" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -934,20 +934,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Algo/QuickSort.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/QuickSortTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#66#107#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Algo/QuickSort.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>

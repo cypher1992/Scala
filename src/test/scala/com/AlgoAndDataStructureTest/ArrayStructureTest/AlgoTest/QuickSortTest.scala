@@ -25,5 +25,5 @@ class QuickSortTest extends AnyFlatSpec with Matchers {
     val expected: Array[Int] = Array(1,34,663,36,2,324,68,9)
     assert(actual === expected)
   }
-  
+
 }

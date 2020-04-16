@@ -14,6 +14,7 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/SelectionSortTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/EagarVLazyTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,8 +58,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/QuickSortTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="391">
-                    <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+                  <state relative-caret-position="459">
+                    <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
                     <folding>
                       <element signature="e#66#107#0" expanded="true" />
                     </folding>
@@ -81,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Algo/QuickSort.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="272">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -471,9 +472,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SelectionSortTest_AlgoAndDataStructure__SelectionSort_selectSortAlg()_should_return_emptyArray - 2020.04.12 at 21h 06m 06s.xml">
-      <configuration name="SelectionSortTest.AlgoAndDataStructure: SelectionSort selectSortAlg() should return emptyArray" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="SelectionSortTest_AlgoAndDataStructure__SelectionSort_selectSortAlg()_should_return_emptyArray - 2020.04.12 at 21h 07m 01s.xml">
       <configuration name="SelectionSortTest.AlgoAndDataStructure: SelectionSort selectSortAlg() should return emptyArray" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -501,6 +499,9 @@
     <history-entry file="QuickSortTest_AlgoAndDataStructure_QuickSort__qs_getArray()_should_return_Array_AlgoAndDataStructure_QuickSort__qs_setArray(NewArray_should_return_NewArray - 2020.04.13 at 21h 52m 20s.xml">
       <configuration name="QuickSortTest.AlgoAndDataStructure QuickSort: qs.getArray() should return Array&#10;AlgoAndDataStructure QuickSort: qs.setArray(NewArray should return NewArray" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="QuickSortTest_AlgoAndDataStructure_QuickSort__qs_getList()_should_return_List_AlgoAndDataStructure_QuickSort__qs_setList(newList)_should_return_newList - 2020.04.14 at 22h 07m 34s.xml">
+      <configuration name="QuickSortTest.AlgoAndDataStructure QuickSort: qs.getList() should return List&#10;AlgoAndDataStructure QuickSort: qs.setList(newList) should return newList" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
@@ -515,13 +516,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49555555" weight="0.32524806" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49555555" visible="true" weight="0.32524806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3351709" />
-      <window_info active="true" anchor="bottom" id="sbt-shell-toolwindow" order="8" sideWeight="0.85888886" visible="true" weight="0.32855567" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" sideWeight="0.85888886" weight="0.32855567" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3296582" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5044444" side_tool="true" weight="0.32524806" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3296582" />
@@ -936,15 +937,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Algo/QuickSort.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="272">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/QuickSortTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="459">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
           <folding>
             <element signature="e#66#107#0" expanded="true" />
           </folding>

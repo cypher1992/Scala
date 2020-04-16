@@ -25,6 +25,14 @@ class QuickSortTest extends AnyFlatSpec with Matchers {
     val expected: List[Int] = List(1,34,663,36,2,324,68,9)
     assert(actual === expected)
   }
-  
+
+  "AlgoAndDataStrucuture Quicksort: qs.quickSort(emptyList)" should "return emptyList" in {
+    val emptyList:List[Int] = List.empty[Int]
+    val qs:QuickSort = new QuickSort(emptyList)
+    val actual:List[Int] = qs.quickSort(qs.getList())
+    val expected:List[Int] = List.empty[Int]
+    assert(expected == actual)
+  }
+
 
 }

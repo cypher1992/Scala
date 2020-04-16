@@ -16,7 +16,7 @@ class QuickSort(private var lst:List[Int]){
       case _ =>
         val pivot:Int = lst.head
         val (beforeLst,afterLst) = lst.tail.partition(_<pivot)
-        quickSort(beforeLst) :+ pivot :+ quickSort(afterLst)
+        (quickSort(beforeLst) :+ pivot) ++ quickSort(afterLst)
     }
   }
 

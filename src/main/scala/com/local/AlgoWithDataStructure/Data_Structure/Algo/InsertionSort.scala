@@ -9,7 +9,7 @@ class InsertionSort(private var list:List[Int]){
     this.list
   }
 
-  def insertSortList(list:List[Int]):List[Int]={
+  def insertSortList(list:List[Int]=this.getList()):List[Int]={
 
     def insert(index:Int,sorted:List[Int]):List[Int] ={
       sorted match{

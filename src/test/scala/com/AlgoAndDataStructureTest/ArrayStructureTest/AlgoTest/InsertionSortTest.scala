@@ -59,5 +59,12 @@ class InsertionSortTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "AlgoAndDataStructure InsertionSort: is.insertSortList()" should "return List(2,3,3,5)" in{
+    val lst:List[Int] = List(3,3,2,5)
+    val is:InsertionSort = new InsertionSort(lst)
+    val actual:List[Int] = is.insertSortList()
+    val expected: List[Int] = List(2,3,3,5)
+    assert(actual === expected)
+  }
 
 }

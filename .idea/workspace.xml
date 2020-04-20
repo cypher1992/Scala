@@ -13,6 +13,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StreamStructure.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/CollectionFunction/MapFuncExperimentation.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/InsertionSortTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/MergeSortTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/QuickSortTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/SelectionSortTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/EagarVLazyTest.scala" afterDir="false" />
@@ -72,8 +73,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/InsertionSortTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="698">
-                    <caret line="63" column="49" lean-forward="true" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+                  <state relative-caret-position="629">
+                    <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
                     <folding>
                       <element signature="e#66#107#0" expanded="true" />
                     </folding>
@@ -111,11 +112,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Algo/MergeSort.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/MergeSortTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="e#66#107#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99Arithmetic.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/Scala99Problems" />
         <option value="$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/Arithmetic.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Logica1.scala" />
@@ -201,6 +213,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Algo/InsertionSort.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/InsertionSortTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Algo/MergeSort.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/MergeSortTest.scala" />
       </list>
     </option>
   </component>
@@ -352,7 +365,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.InsertionSortTest.AlgoAndDataStructure InsertionSort: is.insertSortList() should return List(2,3,3,5)">
+  <component name="RunManager" selected="ScalaTest.MergeSortTest.AlgoAndDataStructure MergeSort: getList() should return list">
     <configuration name="InsertionSortTest.AlgoAndDataStructure InsertionSort: is.getList() should return List&#10;AlgoAndDataStructure InsertionSort: is.setList(newList) should return newList&#10;AlgoAndDataStructure InsertionSort: is.insertSortList() should return emptyList&#10;AlgoAndDataStructure InsertionSort: is.insertSortList() should return List(1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.AlgoTest.InsertionSortTest" />
@@ -368,25 +381,6 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.AlgoTest.InsertionSortTest" />
       <setting name="testName" value="AlgoAndDataStructure InsertionSort: is.getList() should return List&#10;AlgoAndDataStructure InsertionSort: is.setList(newList) should return newList&#10;AlgoAndDataStructure InsertionSort: is.insertSortList() should return emptyList&#10;AlgoAndDataStructure InsertionSort: is.insertSortList() should return List(1)" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertionSortTest.AlgoAndDataStructure InsertionSort: is.insertSortList() should return List(1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.AlgoTest.InsertionSortTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.AlgoTest.InsertionSortTest" />
-      <setting name="testName" value="AlgoAndDataStructure InsertionSort: is.insertSortList() should return List(1)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -448,13 +442,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeSortTest.AlgoAndDataStructure MergeSort: getList() should return list" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.AlgoTest.MergeSortTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.AlgoTest.MergeSortTest" />
+      <setting name="testName" value="AlgoAndDataStructure MergeSort: getList() should return list" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.MergeSortTest.AlgoAndDataStructure MergeSort: getList() should return list" />
         <item itemvalue="ScalaTest.InsertionSortTest.AlgoAndDataStructure InsertionSort: is.insertSortList() should return List(2,3,3,5)" />
         <item itemvalue="ScalaTest.InsertionSortTest.AlgoAndDataStructure InsertionSort: is.insertSortList() should return List(2,3)" />
         <item itemvalue="ScalaTest.InsertionSortTest.AlgoAndDataStructure InsertionSort: is.insertSortList() should return List(2,5,3,4)" />
         <item itemvalue="ScalaTest.InsertionSortTest.AlgoAndDataStructure InsertionSort: is.getList() should return List&#10;AlgoAndDataStructure InsertionSort: is.setList(newList) should return newList&#10;AlgoAndDataStructure InsertionSort: is.insertSortList() should return emptyList&#10;AlgoAndDataStructure InsertionSort: is.insertSortList() should return List(1)" />
-        <item itemvalue="ScalaTest.InsertionSortTest.AlgoAndDataStructure InsertionSort: is.insertSortList() should return List(1)" />
       </list>
     </recent_temporary>
   </component>
@@ -614,16 +627,6 @@
     <SUITE FILE_PATH="coverage/Scala$ScalaTests_in__ListTest_.ic" NAME="ScalaTests in 'ListTest' Coverage Results" MODIFIED="1580075758775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/Arithmetic.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="e#34#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/NoSuchElementException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -966,16 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/InsertionSortTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="63" column="49" lean-forward="true" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
-          <folding>
-            <element signature="e#66#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Algo/InsertionSort.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -987,6 +980,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/InsertionSortTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+          <folding>
+            <element signature="e#66#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/MergeSortTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#66#107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

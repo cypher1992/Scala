@@ -14,4 +14,15 @@ class MergeSortTest extends AnyFlatSpec with Matchers{
     assert(expected === actual)
   }
 
+  "AlgoAndDataStructure MergeSort: setList()" should "return Unit" in {
+    val emptyList:List[Int] = List.empty[Int]
+    val list:List[Int] = List(1)
+    val ms:MergeSort = new MergeSort(emptyList)
+    ms.setList(list)
+    val expected:List[Int] = List(1)
+    val actual:List[Int] = ms.getList()
+
+    assert(expected === actual)
+  }
+
 }

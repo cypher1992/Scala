@@ -14,7 +14,7 @@ class MergeSort(var list:List[Int]) {
       }
     }
 
-    def mergeSort(list:List[Int]):List[Int] ={
+    def mergeSort(list:List[Int]=this.getList()):List[Int] ={
       list match {
         case Nil => list
         case h::Nil => list

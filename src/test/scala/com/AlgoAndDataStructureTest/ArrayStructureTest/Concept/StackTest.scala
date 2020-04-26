@@ -13,4 +13,12 @@ class StackTest extends AnyFlatSpec with Matchers{
     val isStack:Boolean = stack.isInstanceOf[StackStructure]
     assert(isStack)
   }
-}
+
+  "AlgoAndDataStructure StackStructure: stack.getStackBox" should "returns Array[Int]" in {
+    val stack: StackStructure = new StackStructure(3)
+    val actual:Array[Int] = stack.getStackBox()
+    val expected:Array[Int] = Array.empty[Int]
+    assert(actual === expected)
+  }
+
+  }

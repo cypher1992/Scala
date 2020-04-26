@@ -55,7 +55,7 @@
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/BubbleSortTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="817">
-                    <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+                    <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
                     <folding>
                       <element signature="e#66#107#0" expanded="true" />
                     </folding>
@@ -150,11 +150,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Algo/BubbleSort.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/ArrayStructure.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1088">
+              <caret line="64" column="68" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/StackStructure.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -189,7 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Logica1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/basics/IterationBasic.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/ListTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala" />
@@ -240,6 +257,7 @@
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/MergeSortTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Algo/BubbleSort.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/BubbleSortTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/StackStructure.scala" />
       </list>
     </option>
   </component>
@@ -315,6 +333,17 @@
               <item name="local" type="462c0819:PsiDirectoryNode" />
               <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
               <item name="Algo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
+              <item name="Concepts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
@@ -549,9 +578,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MergeSortTest_AlgoAndDataStructure_MergeSort__mergeSort(emptyList)_should_return_emptyList - 2020.04.20 at 19h 32m 37s.xml">
-      <configuration name="MergeSortTest.AlgoAndDataStructure MergeSort: mergeSort(emptyList) should return emptyList" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="MergeSortTest_AlgoAndDataStructure_MergeSort__mergeSort(list)_should_return_sortedList - 2020.04.21 at 22h 39m 54s.xml">
       <configuration name="MergeSortTest.AlgoAndDataStructure MergeSort: mergeSort(list) should return sortedList" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -579,12 +605,15 @@
     <history-entry file="BubbleSortTest_AlgoAndDataStructure_Bubblesort__bubbleSort(valuesArray)_should_returns_array - 2020.04.24 at 19h 34m 31s.xml">
       <configuration name="BubbleSortTest.AlgoAndDataStructure Bubblesort: bubbleSort(valuesArray) should returns array" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="BubbleSortTest_AlgoAndDataStructure_Bubblesort__bubbleSort(valuesArray)_should_returns_array - 2020.04.24 at 19h 42m 58s.xml">
+      <configuration name="BubbleSortTest.AlgoAndDataStructure Bubblesort: bubbleSort(valuesArray) should returns array" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38333333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -593,7 +622,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49555555" visible="true" weight="0.32524806" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49555555" visible="true" weight="0.32524806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -653,13 +682,6 @@
     <SUITE FILE_PATH="coverage/Scala$ScalaTests_in__ListTest_.ic" NAME="ScalaTests in 'ListTest' Coverage Results" MODIFIED="1580075758775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/review/CollectionFunction/FlatMapReview.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99ListChallenge.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -766,13 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="1674" selection-start-line="1674" selection-end-line="1674" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/ArrayStructure.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="64" column="68" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -1016,18 +1031,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Algo/BubbleSort.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="374">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/BubbleSortTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
-          <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
           <folding>
             <element signature="e#66#107#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/ArrayStructure.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="68" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/StackStructure.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>

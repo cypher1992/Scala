@@ -62,7 +62,7 @@ class BubbleSortTest extends AnyFlatSpec  with Matchers {
   "AlgoAndDataStructure Bubblesort: bubbleSort(valuesArray)" should "returns array" in {
     val array:Array[Int] = Array(5,3,1,2,4)
     val bs:BubbleSort = new BubbleSort(array)
-    val expected:Array[Int] = Array(1,2,3,4,5)
+    val expected:Array[Int] = Array(1,2,3,4,50)
     val actual:Array[Int] = bs.bubbleSort()
     assert(expected === actual)
   }

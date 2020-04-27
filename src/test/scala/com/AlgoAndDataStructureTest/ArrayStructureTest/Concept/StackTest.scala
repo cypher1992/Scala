@@ -3,8 +3,7 @@ package com.AlgoAndDataStructureTest.ArrayStructureTest.Concept
 import com.local.AlgoWithDataStructure.Data_Structure.StackStructure
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.must.Matchers
-
-
+import scala.collection.mutable.ArrayBuffer
 
 class StackTest extends AnyFlatSpec with Matchers{
 
@@ -17,8 +16,17 @@ class StackTest extends AnyFlatSpec with Matchers{
   "AlgoAndDataStructure StackStructure: stack.getStackBox" should "returns Array[Int]" in {
     val stack: StackStructure = new StackStructure(3)
     val actual:Array[Int] = stack.getStackBox()
-    val expected:Array[Int] = Array.empty[Int]
+    val expected:Array[Int] = Array(0)
     assert(actual === expected)
   }
+
+  "AlgoAndDataStructure StackStructure: stack.push(1)" should "returns Array(1)" in {
+    val stack: StackStructure = new StackStructure(3)
+    stack.push(1)
+    val actual:Array[Int] = stack.getStackBox()
+    val expected:Array[Int] = Array(1)
+    assert(actual === expected)
+  }
+
 
   }

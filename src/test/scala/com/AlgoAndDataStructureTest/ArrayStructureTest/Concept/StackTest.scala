@@ -24,9 +24,8 @@ class StackTest extends AnyFlatSpec with Matchers{
     val stack: StackStructure = new StackStructure(3)
     stack.push(1)
     val actual:Array[Int] = stack.getStackBox()
-    val expected:Array[Int] = Array(1)
+    val expected:Array[Int] = Array(1,0,0)
     assert(actual === expected)
   }
-
-
+  
   }

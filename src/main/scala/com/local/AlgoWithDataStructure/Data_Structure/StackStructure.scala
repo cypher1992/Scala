@@ -16,6 +16,7 @@ class StackStructure(maxSize:Int){
 
   def pop():Int={
     val value:Int = this.stackBox(top)
+    this.stackBox(top) = 0
     this.top-=1
     value
   }

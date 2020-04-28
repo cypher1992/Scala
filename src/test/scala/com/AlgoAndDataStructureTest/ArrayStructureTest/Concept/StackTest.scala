@@ -20,7 +20,7 @@ class StackTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
-  "AlgoAndDataStructure StackStructure: stack.push(1)" should "returns Array(1)" in {
+  "AlgoAndDataStructure StackStructure: stack.push(1)" should "returns Array(1,0,0)" in {
     val stack: StackStructure = new StackStructure(3)
     stack.push(1)
     val actual:Array[Int] = stack.getStackBox()
@@ -28,4 +28,13 @@ class StackTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
   
+  "AlgoAndDataStructure StackStructure: stack.push(1)" should "returns Array(1,1,0)" in {
+    val stack: StackStructure = new StackStructure(3)
+    stack.push(1)
+    stack.push(1)
+    val actual:Array[Int] = stack.getStackBox()
+    val expected:Array[Int] = Array(1,1,0)
+    assert(actual === expected)
   }
+
+}

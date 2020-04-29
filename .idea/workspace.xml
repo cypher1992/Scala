@@ -54,8 +54,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/StackTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="545">
-                    <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+                  <state relative-caret-position="324">
+                    <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
                     <folding>
                       <element signature="e#65#133#0" expanded="true" />
                     </folding>
@@ -123,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StackStructure.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="238">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -540,9 +540,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StackTest_AlgoAndDataStructure_StackStructure__stack_push(1)_should_returns_Array(1) - 2020.04.26 at 21h 24m 41s.xml">
-      <configuration name="StackTest.AlgoAndDataStructure StackStructure: stack.push(1) should returns Array(1)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="StackTest_AlgoAndDataStructure_StackStructure__stack_push(1)_should_returns_Array(1,1,0) - 2020.04.26 at 21h 28m 23s.xml">
       <configuration name="StackTest.AlgoAndDataStructure StackStructure: stack.push(1) should returns Array(1,1,0)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -568,6 +565,9 @@
       <configuration name="StackTest.AlgoAndDataStructure StackStructure: stack.pop() should returns Array(1,0,0)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="StackTest_AlgoAndDataStructure_StackStructure__stack_push(1)_should_returns_logError - 2020.04.28 at 22h 36m 02s.xml">
+      <configuration name="StackTest.AlgoAndDataStructure StackStructure: stack.push(1) should returns logError" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="StackTest_AlgoAndDataStructure_StackStructure__stack_push(1)_should_returns_logError - 2020.04.28 at 22h 37m 18s.xml">
       <configuration name="StackTest.AlgoAndDataStructure StackStructure: stack.push(1) should returns logError" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
@@ -1008,20 +1008,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/StackTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StackStructure.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-          <folding>
-            <element signature="e#65#133#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StackStructure.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/StackTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="324">
+          <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+          <folding>
+            <element signature="e#65#133#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

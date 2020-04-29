@@ -10,8 +10,12 @@ class StackStructure(maxSize:Int){
   def getStackBox():Array[Int] = this.stackBox
 
   def push(value:Int):Unit={
-    this.top+=1
-    this.stackBox(top) = value
+    if(this.maxSize > this.top){
+      this.top+=1
+      this.stackBox(top) = value
+    }else{
+      println("Value is greater than maxSize of Stack");
+    }
   }
 
   def pop():Int={

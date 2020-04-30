@@ -71,7 +71,7 @@ class StackTest extends AnyFlatSpec with Matchers{
     stack.push(1)
     stack.pop()
     stack.pop()
-    val expected:Array[Int] = Array(1,0,0)
+    val expected:Array[Int] = Array(0,0,0)
     val actual:Array[Int] = stack.getStackBox()
     assert(actual === expected)
   }

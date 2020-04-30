@@ -19,9 +19,10 @@ class StackStructure(maxSize:Int){
   }
 
   def pop():Int={
-    if(this.top-1 < 0) {
+    if(this.top > -1) {
       val value: Int = this.stackBox(top)
       this.stackBox(top) = 0
+      println(this.stackBox)
       this.top -= 1
       value
     }else{

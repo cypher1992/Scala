@@ -29,4 +29,8 @@ class StackStructure(maxSize:Int){
       0
     }
   }
+
+  def peek():Int={
+    this.stackBox(this.top)
+  }
 }

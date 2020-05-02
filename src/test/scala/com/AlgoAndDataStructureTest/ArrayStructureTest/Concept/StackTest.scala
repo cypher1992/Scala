@@ -84,6 +84,7 @@ class StackTest extends AnyFlatSpec with Matchers{
     val actual:Int = stack.pop()
     assert(actual === expected)
   }
+  
 
   "AlgoAndDataStructure StackStructure: stack.peek()" should "return 1" in {
     val stack: StackStructure = new StackStructure(3)

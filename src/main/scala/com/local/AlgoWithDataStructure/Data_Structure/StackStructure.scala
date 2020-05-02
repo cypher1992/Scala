@@ -31,6 +31,10 @@ class StackStructure(maxSize:Int){
   }
 
   def peek():Int={
-    this.stackBox(this.top)
+    this.top match {
+      case -1 => 0
+      case _ => this.stackBox(this.top)
+    }
+
   }
 }

@@ -54,8 +54,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/StackTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="817">
-                    <caret line="105" column="17" lean-forward="true" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
+                  <state relative-caret-position="-31">
+                    <caret line="90" column="33" lean-forward="true" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
                     <folding>
                       <element signature="e#65#133#0" expanded="true" />
                     </folding>
@@ -123,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StackStructure.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            <state relative-caret-position="530">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -208,8 +208,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Algo/BubbleSort.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/BubbleSortTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/Concepts/StackStructure.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StackStructure.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/StackTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StackStructure.scala" />
       </list>
     </option>
   </component>
@@ -540,9 +540,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StackTest_AlgoAndDataStructure_StackStructure__stack_pop()_should_returns_Array(0,0,0) - 2020.04.29 at 20h 40m 42s.xml">
-      <configuration name="StackTest.AlgoAndDataStructure StackStructure: stack.pop() should returns Array(0,0,0)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="StackTest_AlgoAndDataStructure_StackStructure__stack_pop()_should_returns_Array(0,0,0) - 2020.04.29 at 20h 41m 55s.xml">
       <configuration name="StackTest.AlgoAndDataStructure StackStructure: stack.pop() should returns Array(0,0,0)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -569,6 +566,9 @@
     </history-entry>
     <history-entry file="StackTest_AlgoAndDataStructure_StackStructure__stack_peek()_should_return_0 - 2020.05.01 at 22h 34m 16s.xml">
       <configuration name="StackTest.AlgoAndDataStructure StackStructure: stack.peek() should return 0" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="StackTest_AlgoAndDataStructure_StackStructure__stack_peek()_should_return_5 - 2020.05.01 at 22h 37m 23s.xml">
+      <configuration name="StackTest.AlgoAndDataStructure StackStructure: stack.peek() should return 5" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1008,20 +1008,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StackStructure.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/StackTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="105" column="17" lean-forward="true" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
+        <state relative-caret-position="-31">
+          <caret line="90" column="33" lean-forward="true" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
           <folding>
             <element signature="e#65#133#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StackStructure.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>

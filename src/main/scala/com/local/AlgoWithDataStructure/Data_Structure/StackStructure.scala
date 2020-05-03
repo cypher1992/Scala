@@ -35,6 +35,12 @@ class StackStructure(maxSize:Int){
       case -1 => 0
       case _ => this.stackBox(this.top)
     }
+  }
 
+  def isEmpty():Boolean = {
+    this.top match{
+      case  -1 => true
+      case _ => false
+    }
   }
 }

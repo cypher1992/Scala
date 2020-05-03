@@ -3,6 +3,7 @@ package com.AlgoAndDataStructureTest.ArrayStructureTest.Concept
 import com.local.AlgoWithDataStructure.Data_Structure.StackStructure
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.must.Matchers
+
 import scala.collection.mutable.ArrayBuffer
 
 class StackTest extends AnyFlatSpec with Matchers{
@@ -107,6 +108,13 @@ class StackTest extends AnyFlatSpec with Matchers{
     stack.push(5)
     val expected:Int = 5
     val actual:Int = stack.peek()
+    assert(actual === expected)
+  }
+
+  "AlgoAndDataStructure Stack: Stack.isEmpty()" should "True" in {
+    val stack:StackStructure = new StackStructure(3)
+    val actual:Boolean = stack.isEmpty()
+    val expected:Boolean = true
     assert(actual === expected)
   }
 

@@ -45,9 +45,10 @@ class StackStructure(maxSize:Int){
   }
 
   def isFull():Boolean ={
-    this.top match{
-      case this.maxSize-1 => true
-      case _ => false
+    if(this.top == this.maxSize){
+      return true
+    }else{
+      return false
     }
   }
 }

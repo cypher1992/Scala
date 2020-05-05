@@ -118,6 +118,14 @@ class StackTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "AlgoAndDataStructure Stack: Stack.isEmpty()" should "false" in {
+    val stack:StackStructure = new StackStructure(3)
+    stack.push(1)
+    val actual:Boolean = stack.isEmpty()
+    val expected:Boolean = false
+    assert(actual === expected)
+  }
+
   "AlgoAndDataStructure Stack: Stack.isEmpty()" should "False" in {
     val stack:StackStructure = new StackStructure(3)
     stack.push(1)

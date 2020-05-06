@@ -1,4 +1,4 @@
-package com.local.AlgoWithDataStructure.Data_Structure.Concepts
+package com.local.AlgoWithDataStructure.Concepts
 
 case class FactorialMemoization(private var map:Map[Int,Option[Int]]){
 

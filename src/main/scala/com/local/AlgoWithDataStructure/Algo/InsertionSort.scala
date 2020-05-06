@@ -1,4 +1,4 @@
-package com.local.AlgoWithDataStructure.Data_Structure.Algo
+package com.local.AlgoWithDataStructure.Algo
 
 class InsertionSort(private var list:List[Int]){
 

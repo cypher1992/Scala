@@ -1,4 +1,5 @@
 package com.local.AlgoWithDataStructure.Data_Structure
+
 import scala.collection.mutable.ArrayBuffer
 class ArrayStructure{
   /*

@@ -1,4 +1,4 @@
-package com.local.AlgoWithDataStructure.Data_Structure.Concepts
+package com.local.AlgoWithDataStructure.Concepts
 
 class EagerVLazy {
 

@@ -1,8 +1,8 @@
 package com.AlgoAndDataStructureTest.ArrayStructureTest.Concept
 
+import com.local.AlgoWithDataStructure.Concepts.FactorialMemoization
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.must.Matchers
-import com.local.AlgoWithDataStructure.Data_Structure.Concepts.FactorialMemoization
 
 class FactorialMemoizationTest extends AnyFlatSpec with Matchers {
 

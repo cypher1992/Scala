@@ -1,8 +1,8 @@
 package com.AlgoAndDataStructureTest.ArrayStructureTest.Concept
 
+import com.local.AlgoWithDataStructure.Concepts.EagerVLazy
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.must.Matchers
-import com.local.AlgoWithDataStructure.Data_Structure.Concepts.EagerVLazy
 
 class EagarVLazyTest extends AnyFlatSpec with Matchers {
 

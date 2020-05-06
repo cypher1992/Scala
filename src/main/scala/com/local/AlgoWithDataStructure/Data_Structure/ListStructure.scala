@@ -1,7 +1,5 @@
 package com.local.AlgoWithDataStructure.Data_Structure
 
-
-
 class ListStructure {
 
   def append[T](index:T,list:List[T]):List[T] = list :+ index

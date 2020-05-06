@@ -1,4 +1,4 @@
-package com.local.AlgoWithDataStructure.Data_Structure.Algo
+package com.local.AlgoWithDataStructure.Algo
 
 class BubbleSort (var array:Array[Int]) {
   def getArray(): Array[Int] = this.array

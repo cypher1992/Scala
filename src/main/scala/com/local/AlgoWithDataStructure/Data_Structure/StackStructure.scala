@@ -1,7 +1,5 @@
 package com.local.AlgoWithDataStructure.Data_Structure
 
-import scala.collection.mutable.ArrayBuffer
-
 class StackStructure(maxSize:Int){
 
   private var stackBox:Array[Int] = new Array(maxSize)

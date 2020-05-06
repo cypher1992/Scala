@@ -1,10 +1,11 @@
 package com.AlgoAndDataStructureTest.ArrayStructureTest
 
+import com.local.AlgoWithDataStructure.Data_Structure.ArrayStructure
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.must.Matchers
+
 import scala.collection.mutable.ArrayBuffer
 import org.scalatest.Assertions._
-import com.local.AlgoWithDataStructure.Data_Structure.ArrayStructure
 
 class ArrayTest extends AnyFlatSpec with Matchers {
   val arrayObj:ArrayStructure = new ArrayStructure

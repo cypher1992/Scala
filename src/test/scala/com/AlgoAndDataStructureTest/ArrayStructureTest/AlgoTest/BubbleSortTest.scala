@@ -1,8 +1,8 @@
 package com.AlgoAndDataStructureTest.ArrayStructureTest.AlgoTest
 
+import com.local.AlgoWithDataStructure.Algo.BubbleSort
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.must.Matchers
-import com.local.AlgoWithDataStructure.Data_Structure.Algo.BubbleSort
 
 class BubbleSortTest extends AnyFlatSpec  with Matchers {
 

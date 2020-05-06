@@ -1,8 +1,8 @@
 package com.AlgoAndDataStructureTest.ArrayStructureTest.AlgoTest
 
+import com.local.AlgoWithDataStructure.Algo.InsertionSort
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.must.Matchers
-import com.local.AlgoWithDataStructure.Data_Structure.Algo.InsertionSort
 
 class InsertionSortTest extends AnyFlatSpec with Matchers{
 

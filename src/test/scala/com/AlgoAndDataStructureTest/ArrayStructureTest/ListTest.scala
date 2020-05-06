@@ -1,8 +1,8 @@
 package com.AlgoAndDataStructureTest.ArrayStructureTest
 
+import com.local.AlgoWithDataStructure.Data_Structure.ListStructure
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.must.Matchers
-import com.local.AlgoWithDataStructure.Data_Structure.ListStructure
 
 class ListTest extends AnyFlatSpec  with Matchers {
 

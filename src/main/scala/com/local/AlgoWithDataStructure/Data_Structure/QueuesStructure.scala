@@ -1,6 +1,6 @@
 package com.local.AlgoWithDataStructure.Data_Structure
 
-class QueuesStructure(maxSize:Int) {
+class QueueStructure(maxSize:Int) {
     //FIFO
     private var queueBox:Array[Any] = new Array[Any](maxSize)
 

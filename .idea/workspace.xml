@@ -11,7 +11,8 @@
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Algo/QuickSort.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Concepts/EagerVLazy.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Concepts/FactorialMemoization.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/StreamStructure.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/QueuesStructure.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StreamStructure.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/CollectionFunction/MapFuncExperimentation.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/BubbleSortTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/InsertionSortTest.scala" afterDir="false" />
@@ -20,6 +21,7 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/SelectionSortTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/EagarVLazyTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/QueuesStructure.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/QueuesStructure.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,8 +56,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/StackTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="275">
-                    <caret line="155" column="5" lean-forward="true" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+                  <state relative-caret-position="136">
+                    <caret line="8" column="35" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="35" />
                     <folding>
                       <element signature="e#65#133#0" expanded="true" />
                     </folding>
@@ -84,11 +86,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/QueuesStructure.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/QueueTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="e#57#125#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/scala/com/AllAboutScalaExcerciseTDD/AllAboutScalaExcerciseTDD.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/AllAboutScalaProblems/Basics.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AllAboutScalaExcerciseTDD/AllAboutScalaExerciseTDD.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/projects/financial/AlphaVantageClient.scala" />
@@ -165,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/StackStructure.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StackStructure.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/QueuesStructure.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/QueueTest.scala" />
       </list>
     </option>
   </component>
@@ -285,26 +299,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayStructureTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AlgoTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayStructureTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Concept" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="AllAboutScalaExcerciseTDD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -336,7 +330,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.StackTest.AlgoAndDataStructure StackStructure: create instance of stack should returns stack&#10;AlgoAndDataStructure StackStructure: stack.getStackBox should returns Array[Int]&#10;AlgoAndDataStructure StackStructure: stack.push(1) should returns Array(1,0,0)&#10;AlgoAndDataStructure StackStructure: stack.push(1) should returns Array(1,1,0)&#10;AlgoAndDataStructure StackStructure: stack.push(1) should returns logError&#10;AlgoAndDataStructure StackStructure: stack.pop() should returns 1&#10;AlgoAndDataStructure StackStructure: stack.pop() should returns Array(1,0,0)&#10;AlgoAndDataStructure StackStructure: stack.pop() should returns 0&#10;AlgoAndDataStructure StackStructure: stack.pop() should return 1&#10;AlgoAndDataStructure StackStructure: stack.peek() should return 0&#10;AlgoAndDataStructure StackStructure: stack.peek() should return 1&#10;AlgoAndDataStructure StackStructure: stack.peek() should return 5&#10;AlgoAndDataStructure Stack: Stack.isEmpty() should True&#10;AlgoAndDataStructure Stack: Stack.isEmpty() should false&#10;AlgoAndDataStructure Stack: Stack.isEmpty() should False&#10;AlgoAndDataStructure Stack: Stack.isFull() should false&#10;AlgoAndDataStructure Stack: Stack.isFull() with single push should false&#10;AlgoAndDataStructure Stack: Stack.isFull() should true">
+  <component name="RunManager" selected="ScalaTest.QueueTest.AlgoAndDataStructure Queue: is instance of QueueStructure should return true">
+    <configuration name="QueueTest.AlgoAndDataStructure Queue: is instance of QueueStructure should return true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
+      <setting name="testName" value="AlgoAndDataStructure Queue: is instance of QueueStructure should return true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StackTest.AlgoAndDataStructure StackStructure: create instance of stack should returns stack&#10;AlgoAndDataStructure StackStructure: stack.getStackBox should returns Array[Int]&#10;AlgoAndDataStructure StackStructure: stack.push(1) should returns Array(1,0,0)&#10;AlgoAndDataStructure StackStructure: stack.push(1) should returns Array(1,1,0)&#10;AlgoAndDataStructure StackStructure: stack.push(1) should returns logError&#10;AlgoAndDataStructure StackStructure: stack.pop() should returns 1&#10;AlgoAndDataStructure StackStructure: stack.pop() should returns Array(1,0,0)&#10;AlgoAndDataStructure StackStructure: stack.pop() should returns 0&#10;AlgoAndDataStructure StackStructure: stack.pop() should return 1&#10;AlgoAndDataStructure StackStructure: stack.peek() should return 0&#10;AlgoAndDataStructure StackStructure: stack.peek() should return 1&#10;AlgoAndDataStructure StackStructure: stack.peek() should return 5&#10;AlgoAndDataStructure Stack: Stack.isEmpty() should True&#10;AlgoAndDataStructure Stack: Stack.isEmpty() should false&#10;AlgoAndDataStructure Stack: Stack.isEmpty() should False&#10;AlgoAndDataStructure Stack: Stack.isFull() should false&#10;AlgoAndDataStructure Stack: Stack.isFull() with single push should false&#10;AlgoAndDataStructure Stack: Stack.isFull() should true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.Concept.StackTest" />
@@ -352,25 +365,6 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.Concept.StackTest" />
       <setting name="testName" value="AlgoAndDataStructure StackStructure: create instance of stack should returns stack&#10;AlgoAndDataStructure StackStructure: stack.getStackBox should returns Array[Int]&#10;AlgoAndDataStructure StackStructure: stack.push(1) should returns Array(1,0,0)&#10;AlgoAndDataStructure StackStructure: stack.push(1) should returns Array(1,1,0)&#10;AlgoAndDataStructure StackStructure: stack.push(1) should returns logError&#10;AlgoAndDataStructure StackStructure: stack.pop() should returns 1&#10;AlgoAndDataStructure StackStructure: stack.pop() should returns Array(1,0,0)&#10;AlgoAndDataStructure StackStructure: stack.pop() should returns 0&#10;AlgoAndDataStructure StackStructure: stack.pop() should return 1&#10;AlgoAndDataStructure StackStructure: stack.peek() should return 0&#10;AlgoAndDataStructure StackStructure: stack.peek() should return 1&#10;AlgoAndDataStructure StackStructure: stack.peek() should return 5&#10;AlgoAndDataStructure Stack: Stack.isEmpty() should True&#10;AlgoAndDataStructure Stack: Stack.isEmpty() should false&#10;AlgoAndDataStructure Stack: Stack.isEmpty() should False&#10;AlgoAndDataStructure Stack: Stack.isFull() should false&#10;AlgoAndDataStructure Stack: Stack.isFull() with single push should false&#10;AlgoAndDataStructure Stack: Stack.isFull() should true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackTest.AlgoAndDataStructure Stack: Stack.isFull() should false" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.Concept.StackTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.Concept.StackTest" />
-      <setting name="testName" value="AlgoAndDataStructure Stack: Stack.isFull() should false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -434,11 +428,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: is instance of QueueStructure should return true" />
         <item itemvalue="ScalaTest.StackTest.AlgoAndDataStructure StackStructure: create instance of stack should returns stack&#10;AlgoAndDataStructure StackStructure: stack.getStackBox should returns Array[Int]&#10;AlgoAndDataStructure StackStructure: stack.push(1) should returns Array(1,0,0)&#10;AlgoAndDataStructure StackStructure: stack.push(1) should returns Array(1,1,0)&#10;AlgoAndDataStructure StackStructure: stack.push(1) should returns logError&#10;AlgoAndDataStructure StackStructure: stack.pop() should returns 1&#10;AlgoAndDataStructure StackStructure: stack.pop() should returns Array(1,0,0)&#10;AlgoAndDataStructure StackStructure: stack.pop() should returns 0&#10;AlgoAndDataStructure StackStructure: stack.pop() should return 1&#10;AlgoAndDataStructure StackStructure: stack.peek() should return 0&#10;AlgoAndDataStructure StackStructure: stack.peek() should return 1&#10;AlgoAndDataStructure StackStructure: stack.peek() should return 5&#10;AlgoAndDataStructure Stack: Stack.isEmpty() should True&#10;AlgoAndDataStructure Stack: Stack.isEmpty() should false&#10;AlgoAndDataStructure Stack: Stack.isEmpty() should False&#10;AlgoAndDataStructure Stack: Stack.isFull() should false&#10;AlgoAndDataStructure Stack: Stack.isFull() with single push should false&#10;AlgoAndDataStructure Stack: Stack.isFull() should true" />
         <item itemvalue="ScalaTest.StackTest.AlgoAndDataStructure Stack: Stack.isFull() with single push should false" />
         <item itemvalue="ScalaTest.StackTest.AlgoAndDataStructure Stack: Stack.isFull() with single push should true" />
         <item itemvalue="ScalaTest.StackTest.AlgoAndDataStructure Stack: Stack.isFull() should true" />
-        <item itemvalue="ScalaTest.StackTest.AlgoAndDataStructure Stack: Stack.isFull() should false" />
       </list>
     </recent_temporary>
   </component>
@@ -598,13 +592,6 @@
     <SUITE FILE_PATH="coverage/Scala$ScalaTests_in__ListTest_.ic" NAME="ScalaTests in 'ListTest' Coverage Results" MODIFIED="1580075758775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/projects/financial/AlphaVantageClient.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Bound.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
@@ -955,16 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/StackTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="155" column="5" lean-forward="true" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
-          <folding>
-            <element signature="e#65#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StackStructure.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -974,8 +951,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/QueuesStructure.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/StackTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#65#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/QueueTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#57#125#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

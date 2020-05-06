@@ -1,6 +1,7 @@
 package com.local.AlgoWithDataStructure.Data_Structure
 
 class StackStructure(maxSize:Int){
+  //LIFO
 
   private var stackBox:Array[Int] = new Array(maxSize)
   private var top:Int = -1

@@ -11,4 +11,11 @@ class QueueTest extends AnyFlatSpec with Matchers{
     val isQueue:Boolean = queue.isInstanceOf[QueueStructure]
     assert(isQueue === true)
   }
+
+  "AlgoAndDataStructure Queue: getQueueBox()" should "return queueBox()" in {
+    val queue:QueueStructure = new QueueStructure(3)
+    val actual:Array[Any] = queue.getQueueBox()
+    val expected:Array[Any] = new Array[Any](3)
+    assert(expected === actual)
+  }
 }

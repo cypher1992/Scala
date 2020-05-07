@@ -18,4 +18,14 @@ class QueueTest extends AnyFlatSpec with Matchers{
     val expected:Array[Any] = new Array[Any](3)
     assert(expected === actual)
   }
+
+  "AlgoAndDataStructure Queue: insert()" should "returns queue of 9" in {
+    val queue: QueueStructure = new QueueStructure(3)
+    queue.insert(9)
+    val actual:Array[Any] = queue.getQueueBox()
+    var array:Array[Any] = new Array[Any](3)
+    array(0) = 9
+    val expected:Array[Any] = array
+    assert(expected === actual)
+  }
 }

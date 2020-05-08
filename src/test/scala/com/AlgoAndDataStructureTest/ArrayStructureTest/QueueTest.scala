@@ -43,5 +43,23 @@ class QueueTest extends AnyFlatSpec with Matchers{
     assert(expected === actual)
   }
 
+  "AlgoAndDataStructure Queue: insert() more than maxsize" should "returns queue of [9,8,9]" in {
+    val queue: QueueStructure = new QueueStructure(3)
+    queue.insert(9)
+    queue.insert(8)
+    queue.insert(9)
+    try{
+      queue.insert(10)
+    }catch{
+      case e: ArrayIndexOutOfBoundsException =>
+      val actual:Array[Any] = queue.getQueueBox()
+      var array:Array[Any] = new Array[Any](3)
+      array(0) = 9
+      array(1) = 8
+      array(2) = 9
+      val expected:Array[Any] = array
+      assert(expected === actual)
+    }
+  }
 
 }

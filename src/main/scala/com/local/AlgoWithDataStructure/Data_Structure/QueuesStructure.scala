@@ -10,12 +10,13 @@ class QueueStructure(maxSize:Int) {
     def getQueueBox():Array[Any] = this.queueBox
 
     def insert(data:Any):Unit ={
-        if(rear == maxSize-1){
-            this.rear = -1
-        }
-        this.rear += 1
-        this.queueBox(rear) = data
-        this.numOfItems +=1
+        if(this.rear < this.maxSize){
+          this.rear += 1
+          this.queueBox(rear) = data
+          this.numOfItems +=1
+        }else(
+          println("Out of bounds")
+        )
     }
 
 }

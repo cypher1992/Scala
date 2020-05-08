@@ -9,6 +9,9 @@ class QueueStructure(maxSize:Int) {
 
     def getQueueBox():Array[Any] = this.queueBox
 
+    //insert to the rear
+    // only if number of items is less than maxsize
+
     def insert(data:Any):Unit ={
         if(this.rear < this.maxSize){
           this.rear += 1
@@ -18,5 +21,17 @@ class QueueStructure(maxSize:Int) {
           println("Out of bounds")
         )
     }
+
+  def remove():Any ={
+    if(this.numOfItems>0){
+      val data:Any = this.queueBox(front)
+      this.front+=1
+      this.numOfItems-=1
+      if(this.numOfItems ==0){
+        this.front=0
+      }
+      data
+    }
+  }
 
 }

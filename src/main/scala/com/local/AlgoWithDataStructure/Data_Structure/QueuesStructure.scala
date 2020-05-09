@@ -25,6 +25,7 @@ class QueueStructure(maxSize:Int) {
   def remove():Any ={
     if(this.numOfItems>0){
       val data:Any = this.queueBox(front)
+      this.queueBox(this.front) = null
       this.front+=1
       this.numOfItems-=1
       if(this.numOfItems ==0){

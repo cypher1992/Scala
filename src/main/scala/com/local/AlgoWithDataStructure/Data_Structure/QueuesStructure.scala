@@ -24,8 +24,16 @@ class QueueStructure(maxSize:Int) {
                 """
                   |ArrayIndexOutOfBoundsException
                 """.stripMargin)
-              this.rear = -1
-              this.insert(data)
+              if(this.queueBox(0) == null){
+                this.rear = -1
+                this.insert(data)
+              }
+              else{
+                println(
+                  s"""
+                    |Error need to call remove()
+                  """.stripMargin)
+            }
           }
           this.numOfItems +=1
         }

@@ -61,7 +61,7 @@ class QueueTest extends AnyFlatSpec with Matchers{
       assert(expected === actual)
     }
   }
-
+  
   "AlgoAndDataStructure Queue: remove()" should "returns remove of empty queue" in {
     val queue: QueueStructure = new QueueStructure(3)
     queue.insert(9)

@@ -13,13 +13,22 @@ class QueueStructure(maxSize:Int) {
     // only if number of items is less than maxsize
 
     def insert(data:Any):Unit ={
+
         if(this.rear < this.maxSize){
           this.rear += 1
+          try{
           this.queueBox(rear) = data
+          }catch{
+            case e: ArrayIndexOutOfBoundsException =>
+              println(
+                """
+                  |ArrayIndexOutOfBoundsException
+                """.stripMargin)
+              this.rear = -1
+              this.insert(data)
+          }
           this.numOfItems +=1
-        }else(
-          println("Out of bounds")
-        )
+        }
     }
 
   def remove():Any ={

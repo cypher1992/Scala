@@ -80,7 +80,6 @@ class QueueTest extends AnyFlatSpec with Matchers{
         assert(actual === expected)
   }
 
-  //Need to adjust
   "AlgoAndDataStructure Queue: insert() more than maxsize" should "not alter queue of [9,8,9]" in {
     val queue: QueueStructure = new QueueStructure(3)
     queue.insert(9)
@@ -90,6 +89,23 @@ class QueueTest extends AnyFlatSpec with Matchers{
     val actual:Array[Any] = queue.getQueueBox()
     var array:Array[Any] = new Array[Any](3)
     array(0) = 9
+    array(1) = 8
+    array(2) = 9
+    val expected:Array[Any] = array
+    assert(actual === expected)
+  }
+
+
+  "AlgoAndDataStructure Queue: insert() more than maxsize and null index(0)" should "return queue of [10,8,9]" in {
+    val queue: QueueStructure = new QueueStructure(3)
+    queue.insert(9)
+    queue.insert(8)
+    queue.insert(9)
+    queue.remove()
+    queue.insert(10)
+    val actual:Array[Any] = queue.getQueueBox()
+    var array:Array[Any] = new Array[Any](3)
+    array(0) = 10
     array(1) = 8
     array(2) = 9
     val expected:Array[Any] = array

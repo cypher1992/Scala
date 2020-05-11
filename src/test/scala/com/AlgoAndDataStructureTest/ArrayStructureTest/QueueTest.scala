@@ -112,6 +112,24 @@ class QueueTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "AlgoAndDataStructure Queue: insert() more than maxsize and null index(0)" should "return queue of [10,null,null]" in {
+    val queue: QueueStructure = new QueueStructure(3)
+    queue.insert(9)
+    queue.insert(8)
+    queue.insert(9)
+    for(i <-0 until 5){
+      queue.remove()
+    }
+    queue.insert(10)
+    val actual:Array[Any] = queue.getQueueBox()
+    var array:Array[Any] = new Array[Any](3)
+    array(0) = 10
+    array(1) = null
+    array(2) = null
+    val expected:Array[Any] = array
+    assert(actual === expected)
+  }
+
 
   "AlgoAndDataStructure Queue: remove()" should "returns remove of empty queue" in {
     val queue: QueueStructure = new QueueStructure(3)

@@ -52,4 +52,6 @@ class QueueStructure(maxSize:Int) {
     }
   }
 
+  def peekFront():Any = this.queueBox(this.front)
+
 }

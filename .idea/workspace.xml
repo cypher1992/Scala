@@ -67,8 +67,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/QueueTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="681">
-                    <caret line="120" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+                  <state relative-caret-position="732">
+                    <caret line="156" selection-start-line="156" selection-end-line="156" />
                     <folding>
                       <element signature="e#57#125#0" expanded="true" />
                     </folding>
@@ -100,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/QueuesStructure.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            <state relative-caret-position="428">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -487,9 +487,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__insert()_more_than_maxsize_should_returns_queue_of_[10,null,null] - 2020.05.09 at 19h 28m 21s.xml">
-      <configuration name="QueueTest.AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [10,null,null]" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="QueueTest_AlgoAndDataStructure_Queue__insert()_more_than_maxsize_should_returns_queue_of_[10,8,9] - 2020.05.09 at 19h 35m 23s.xml">
       <configuration name="QueueTest.AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [10,8,9]" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -517,12 +514,15 @@
     <history-entry file="QueueTest_AlgoAndDataStructure_Queue__insert()_more_than_maxsize_and_null_index(0)_should_return_queue_of_[10,null,null] - 2020.05.10 at 21h 50m 25s.xml">
       <configuration name="QueueTest.AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,null,null]" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__insert()_more_than_maxsize_and_null_index(0)_should_return_queue_of_[10,null,null] - 2020.05.10 at 21h 52m 00s.xml">
+      <configuration name="QueueTest.AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,null,null]" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.41666666" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.037777778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -958,20 +958,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/QueuesStructure.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/QueueTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="120" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+        <state relative-caret-position="732">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
           <folding>
             <element signature="e#57#125#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/QueuesStructure.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>

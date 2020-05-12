@@ -155,6 +155,14 @@ class QueueTest extends AnyFlatSpec with Matchers{
     assert(expected === actual)
   }
 
+  "AlgoAndDataStructure Queue: peekFront()" should "returns null" in {
+    val queue: QueueStructure = new QueueStructure(3)
+    val actual:Any = queue.peekFront()
+    var array:Array[Any] = new Array[Any](3)
+    array(0) = null
+    val expected:Any = array(0)
+    assert(expected === actual)
+  }
 
 
 }

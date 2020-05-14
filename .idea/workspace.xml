@@ -67,8 +67,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/QueueTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="834">
-                    <caret line="212" column="16" lean-forward="true" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
+                  <state relative-caret-position="732">
+                    <caret line="239" column="18" lean-forward="true" selection-start-line="239" selection-start-column="18" selection-end-line="239" selection-end-column="18" />
                     <folding>
                       <element signature="e#57#125#0" expanded="true" />
                     </folding>
@@ -329,7 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 7">
+  <component name="RunManager" selected="ScalaTest.QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns null">
     <configuration name="QueueTest.AlgoAndDataStructure Queue: is instance of QueueStructure should return true&#10;AlgoAndDataStructure Queue: getQueueBox() should return queueBox()&#10;AlgoAndDataStructure Queue: insert() should returns queue of 9&#10;AlgoAndDataStructure Queue: insert() should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [10,null,null]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should not alter queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,null,null]&#10;AlgoAndDataStructure Queue: remove() should returns remove of empty queue&#10;AlgoAndDataStructure Queue: remove() should returns remove of queue(9)&#10;AlgoAndDataStructure Queue: peekFront() should returns null&#10;AlgoAndDataStructure Queue: peekFront() should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 2 should returns 9" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
@@ -345,25 +345,6 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
       <setting name="testName" value="AlgoAndDataStructure Queue: is instance of QueueStructure should return true&#10;AlgoAndDataStructure Queue: getQueueBox() should return queueBox()&#10;AlgoAndDataStructure Queue: insert() should returns queue of 9&#10;AlgoAndDataStructure Queue: insert() should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [10,null,null]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should not alter queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,null,null]&#10;AlgoAndDataStructure Queue: remove() should returns remove of empty queue&#10;AlgoAndDataStructure Queue: remove() should returns remove of queue(9)&#10;AlgoAndDataStructure Queue: peekFront() should returns null&#10;AlgoAndDataStructure Queue: peekFront() should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 2 should returns 9" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() with insert(8) should returns 9" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
-      <setting name="testName" value="AlgoAndDataStructure Queue: peekFront() with insert(8) should returns 9" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -425,13 +406,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns null" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
+      <setting name="testName" value="AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns null" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns null" />
         <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 7" />
         <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 8" />
         <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 9" />
         <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: is instance of QueueStructure should return true&#10;AlgoAndDataStructure Queue: getQueueBox() should return queueBox()&#10;AlgoAndDataStructure Queue: insert() should returns queue of 9&#10;AlgoAndDataStructure Queue: insert() should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [10,null,null]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should not alter queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,null,null]&#10;AlgoAndDataStructure Queue: remove() should returns remove of empty queue&#10;AlgoAndDataStructure Queue: remove() should returns remove of queue(9)&#10;AlgoAndDataStructure Queue: peekFront() should returns null&#10;AlgoAndDataStructure Queue: peekFront() should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 2 should returns 9" />
-        <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: peekFront() with insert(8) should returns 9" />
       </list>
     </recent_temporary>
   </component>
@@ -487,18 +487,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__insert()_more_than_maxsize_and_null_index(0)_should_return_queue_of_[10,8,9] - 2020.05.10 at 21h 50m 02s.xml">
-      <configuration name="QueueTest.AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,8,9]" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__insert()_more_than_maxsize_and_null_index(0)_should_return_queue_of_[10,null,null] - 2020.05.10 at 21h 50m 25s.xml">
-      <configuration name="QueueTest.AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,null,null]" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__insert()_more_than_maxsize_and_null_index(0)_should_return_queue_of_[10,null,null] - 2020.05.10 at 21h 52m 00s.xml">
-      <configuration name="QueueTest.AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,null,null]" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_should_returns_null - 2020.05.11 at 22h 22m 47s.xml">
-      <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() should returns null" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_should_returns_9 - 2020.05.11 at 22h 25m 48s.xml">
       <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() should returns 9" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -516,6 +504,18 @@
     </history-entry>
     <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_with_queue_of_3_should_returns_8 - 2020.05.12 at 22h 32m 54s.xml">
       <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 8" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_with_queue_of_3_should_returns_7 - 2020.05.13 at 21h 50m 14s.xml">
+      <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 7" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_with_queue_of_3_should_returns_7 - 2020.05.13 at 21h 52m 29s.xml">
+      <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 7" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_with_queue_of_3_should_returns_null - 2020.05.13 at 21h 52m 48s.xml">
+      <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns null" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_with_queue_of_3_should_returns_null - 2020.05.13 at 21h 55m 05s.xml">
+      <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns null" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -967,8 +967,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/QueueTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="212" column="16" lean-forward="true" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
+        <state relative-caret-position="732">
+          <caret line="239" column="18" lean-forward="true" selection-start-line="239" selection-start-column="18" selection-end-line="239" selection-end-column="18" />
           <folding>
             <element signature="e#57#125#0" expanded="true" />
           </folding>

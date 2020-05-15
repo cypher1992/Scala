@@ -56,4 +56,6 @@ class QueueStructure(maxSize:Int) {
 
   def isEmpty():Boolean = this.numOfItems == 0
 
+  def isFull():Boolean = this.numOfItems == this.maxSize
+
 }

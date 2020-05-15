@@ -54,4 +54,6 @@ class QueueStructure(maxSize:Int) {
 
   def peekFront():Any = this.queueBox(this.front)
 
+  def isEmpty():Boolean = this.numOfItems == 0
+
 }

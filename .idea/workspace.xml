@@ -21,6 +21,7 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/SelectionSortTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/EagarVLazyTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,8 +68,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/QueueTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="851">
-                    <caret line="264" column="19" selection-start-line="264" selection-start-column="19" selection-end-line="264" selection-end-column="19" />
+                  <state relative-caret-position="262">
+                    <caret line="269" column="1" selection-start-line="269" selection-start-column="1" selection-end-line="269" selection-end-column="1" />
                     <folding>
                       <element signature="e#57#125#0" expanded="true" />
                     </folding>
@@ -100,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/QueuesStructure.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="445">
+              <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -487,9 +488,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_should_returns_9 - 2020.05.11 at 22h 25m 48s.xml">
-      <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() should returns 9" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_should_returns_9 - 2020.05.12 at 22h 27m 55s.xml">
       <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() should returns 9" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -516,6 +514,9 @@
     </history-entry>
     <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_with_queue_of_3_should_returns_null - 2020.05.13 at 21h 55m 05s.xml">
       <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns null" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_with_queue_of_3_should_returns_10 - 2020.05.13 at 21h 57m 57s.xml">
+      <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 10" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -960,15 +961,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/QueuesStructure.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="445">
+          <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/QueueTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="264" column="19" selection-start-line="264" selection-start-column="19" selection-end-line="264" selection-end-column="19" />
+        <state relative-caret-position="262">
+          <caret line="269" column="1" selection-start-line="269" selection-start-column="1" selection-end-line="269" selection-end-column="1" />
           <folding>
             <element signature="e#57#125#0" expanded="true" />
           </folding>

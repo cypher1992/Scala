@@ -3,6 +3,7 @@ package com.AlgoAndDataStructureTest.ArrayStructureTest
 import com.local.AlgoWithDataStructure.Data_Structure.QueueStructure
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.must.Matchers
+import sun.font.TrueTypeFont
 
 class QueueTest extends AnyFlatSpec with Matchers{
 
@@ -266,6 +267,5 @@ class QueueTest extends AnyFlatSpec with Matchers{
     assert(expected === actual)
   }
 
-
-
+ 
 }

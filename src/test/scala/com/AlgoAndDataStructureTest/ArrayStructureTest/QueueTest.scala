@@ -267,5 +267,10 @@ class QueueTest extends AnyFlatSpec with Matchers{
     assert(expected === actual)
   }
 
- 
+  "AlgoAndDataStructure Queue: isEmpty() with emptyQueue" should "returns True" in {
+    val queue: QueueStructure = new QueueStructure(3)
+    val actual: Boolean = queue.isEmpty()
+    val expected: Boolean = true
+    assert(expected == actual)
+  }
 }

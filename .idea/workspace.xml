@@ -46,8 +46,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/QueueTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="868">
-                    <caret line="318" column="32" selection-start-line="318" selection-start-column="32" selection-end-line="318" selection-end-column="32" />
+                  <state relative-caret-position="681">
+                    <caret line="328" column="33" selection-start-line="328" selection-start-column="33" selection-end-line="328" selection-end-column="33" />
                     <folding>
                       <element signature="e#57#125#0" expanded="true" />
                     </folding>
@@ -79,7 +79,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/QueuesStructure.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
+            <state relative-caret-position="706">
               <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
             </state>
           </provider>
@@ -308,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.QueueTest.AlgoAndDataStructure Queue: queue.isFull() with queue() with remove should returns true">
+  <component name="RunManager" selected="ScalaTest.QueueTest.AlgoAndDataStructure Queue: removeQueue.isFull() should returns false">
     <configuration name="QueueTest.AlgoAndDataStructure Queue: is instance of QueueStructure should return true&#10;AlgoAndDataStructure Queue: getQueueBox() should return queueBox()&#10;AlgoAndDataStructure Queue: insert() should returns queue of 9&#10;AlgoAndDataStructure Queue: insert() should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [10,null,null]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should not alter queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,null,null]&#10;AlgoAndDataStructure Queue: remove() should returns remove of empty queue&#10;AlgoAndDataStructure Queue: remove() should returns remove of queue(9)&#10;AlgoAndDataStructure Queue: peekFront() should returns null&#10;AlgoAndDataStructure Queue: peekFront() should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 2 should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 8&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 7&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns null&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 10&#10;AlgoAndDataStructure Queue: isEmpty() with emptyQueue should returns True&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1) should returns false&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1) with remove should returns true&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1,1,1) with remove should returns false&#10;AlgoAndDataStructure Queue: isFull() with queue() with remove should returns false" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
@@ -324,44 +324,6 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
       <setting name="testName" value="AlgoAndDataStructure Queue: is instance of QueueStructure should return true&#10;AlgoAndDataStructure Queue: getQueueBox() should return queueBox()&#10;AlgoAndDataStructure Queue: insert() should returns queue of 9&#10;AlgoAndDataStructure Queue: insert() should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [10,null,null]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should not alter queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,null,null]&#10;AlgoAndDataStructure Queue: remove() should returns remove of empty queue&#10;AlgoAndDataStructure Queue: remove() should returns remove of queue(9)&#10;AlgoAndDataStructure Queue: peekFront() should returns null&#10;AlgoAndDataStructure Queue: peekFront() should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 2 should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 8&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 7&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns null&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 10&#10;AlgoAndDataStructure Queue: isEmpty() with emptyQueue should returns True&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1) should returns false&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1) with remove should returns true&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1,1,1) with remove should returns false&#10;AlgoAndDataStructure Queue: isFull() with queue() with remove should returns false" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.AlgoAndDataStructure Queue: isEmpty() with queue(1) with remove should returns true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
-      <setting name="testName" value="AlgoAndDataStructure Queue: isEmpty() with queue(1) with remove should returns true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.AlgoAndDataStructure Queue: isEmpty() with queue(1,1,1) with remove should returns false" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
-      <setting name="testName" value="AlgoAndDataStructure Queue: isEmpty() with queue(1,1,1) with remove should returns false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -404,13 +366,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QueueTest.AlgoAndDataStructure Queue: removeQueue.isFull() should returns false" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
+      <setting name="testName" value="AlgoAndDataStructure Queue: removeQueue.isFull() should returns false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest.AlgoAndDataStructure Queue: removeQueue.isFull() with queue() with remove should returns false" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
+      <setting name="testName" value="AlgoAndDataStructure Queue: removeQueue.isFull() with queue() with remove should returns false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: removeQueue.isFull() should returns false" />
+        <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: removeQueue.isFull() with queue() with remove should returns false" />
         <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: queue.isFull() with queue() with remove should returns true" />
         <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: is instance of QueueStructure should return true&#10;AlgoAndDataStructure Queue: getQueueBox() should return queueBox()&#10;AlgoAndDataStructure Queue: insert() should returns queue of 9&#10;AlgoAndDataStructure Queue: insert() should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [10,null,null]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should not alter queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,null,null]&#10;AlgoAndDataStructure Queue: remove() should returns remove of empty queue&#10;AlgoAndDataStructure Queue: remove() should returns remove of queue(9)&#10;AlgoAndDataStructure Queue: peekFront() should returns null&#10;AlgoAndDataStructure Queue: peekFront() should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 2 should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 8&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 7&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns null&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 10&#10;AlgoAndDataStructure Queue: isEmpty() with emptyQueue should returns True&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1) should returns false&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1) with remove should returns true&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1,1,1) with remove should returns false&#10;AlgoAndDataStructure Queue: isFull() with queue() with remove should returns false" />
         <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: isFull() with queue() with remove should returns false" />
-        <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: isEmpty() with queue(1,1,1) with remove should returns false" />
-        <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: isEmpty() with queue(1) with remove should returns true" />
       </list>
     </recent_temporary>
   </component>
@@ -466,15 +466,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_with_queue_of_3_should_returns_7 - 2020.05.13 at 21h 50m 14s.xml">
-      <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 7" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_with_queue_of_3_should_returns_7 - 2020.05.13 at 21h 52m 29s.xml">
-      <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 7" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_with_queue_of_3_should_returns_null - 2020.05.13 at 21h 52m 48s.xml">
-      <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns null" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_with_queue_of_3_should_returns_null - 2020.05.13 at 21h 55m 05s.xml">
       <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns null" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -496,10 +487,18 @@
     <history-entry file="QueueTest_AlgoAndDataStructure_Queue__isFull()_with_queue()_with_remove_should_returns_false - 2020.05.17 at 21h 41m 31s.xml">
       <configuration name="QueueTest.AlgoAndDataStructure Queue: isFull() with queue() with remove should returns false" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__queue_isFull()_with_queue()_with_remove_should_returns_true - 2020.05.17 at 21h 45m 05s.xml">
+      <configuration name="QueueTest.AlgoAndDataStructure Queue: queue.isFull() with queue() with remove should returns true" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__removeQueue_isFull()_with_queue()_with_remove_should_returns_false - 2020.05.17 at 21h 49m 04s.xml">
+      <configuration name="QueueTest.AlgoAndDataStructure Queue: removeQueue.isFull() with queue() with remove should returns false" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__removeQueue_isFull()_should_returns_false - 2020.05.17 at 21h 49m 52s.xml">
+      <configuration name="QueueTest.AlgoAndDataStructure Queue: removeQueue.isFull() should returns false" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34555554" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -510,7 +509,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49499443" visible="true" weight="0.32524806" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49499443" weight="0.32524806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -939,15 +938,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/QueuesStructure.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
+        <state relative-caret-position="706">
           <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/QueueTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
-          <caret line="318" column="32" selection-start-line="318" selection-start-column="32" selection-end-line="318" selection-end-column="32" />
+        <state relative-caret-position="681">
+          <caret line="328" column="33" selection-start-line="328" selection-start-column="33" selection-end-line="328" selection-end-column="33" />
           <folding>
             <element signature="e#57#125#0" expanded="true" />
           </folding>

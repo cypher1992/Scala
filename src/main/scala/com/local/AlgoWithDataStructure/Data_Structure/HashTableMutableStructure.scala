@@ -3,10 +3,10 @@ import com.local.AlgoWithDataStructure.Data_Structure.traitstructures.HashTable
 
 class HashTableMutableStructure[Key,Value](size:Int) extends HashTable[Key,Value]{
 
-  private val hashArray:Array[List[(Key,Value)]] = Array.fill(size)(List[(Key,Value)]())
+  private val hashArray:Array[List[Tuple2[Key,Value]]] = Array.fill(size)(List[(Key,Value)]())
 
-  def hashCode[Key](mykey:Key):Int = {
-    val tempHashCode:Int = mykey.## % size
+  def hashCode[Key](key:Key):Int = {
+    val tempHashCode:Int = key.## % size
     if(tempHashCode <0){
       tempHashCode + size
     }else{

@@ -14,8 +14,12 @@ class HashTableMutableStructure[Key,Value](size:Int) extends HashTable[Key,Value
     }
   }
 
+  override def insert(key:Key,value:Value):Unit = {
+    val list:List[(Key,Value)] = hashArray(hashCode(key))
+    hashArray(hashCode(key)) = (key,value) +: list.filter(x => x._1 != key)
+  }
+
   /*
-  def insert(key:Key,value:Value):Unit
   def search(key:Key):Option[Value]
   def delete(key:Key):Option[Value]*/
 

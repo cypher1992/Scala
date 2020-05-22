@@ -22,12 +22,14 @@ class HashTableMutableStructure[Key,Value](size:Int) extends HashTable[Key,Value
   override def search(key:Key):Option[Value]={
     val list:List[(Key,Value)] = hashArray(hashCode(key))
     list.find(x => x._1 == key).map(y => y._2)
+  }
 
+  override def delete(key:Key):Option[Value] ={
+    val list:List[(Key,Value)] = hashArray(hashCode(key))
+    hashArray(hashCode(key)) == list.filter(x=> x._1 != key)
+    list.find(x => x._1 == key).map(y => y._2)
   }
 
 
-  /*
-  def search(key:Key):Option[Value]
-  def delete(key:Key):Option[Value]*/
 
 }

@@ -22,7 +22,9 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/QuickSortTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/AlgoTest/SelectionSortTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/EagarVLazyTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/HashTableTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,6 +42,37 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/HashTableTest.scala">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="119">
+                    <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+                    <folding>
+                      <element signature="e#57#98#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/ListTest.scala">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="51">
+                    <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="43" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -50,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/HashTableMutableStructure.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+            <state relative-caret-position="51">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -86,7 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/projects/financial/AlphaVantageClient.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Bound.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99Logica1.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/Logica1.scala" />
@@ -137,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/QueueTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/traitstructures/HashTable.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/HashTableMutableStructure.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/HashTableTest.scala" />
       </list>
     </option>
   </component>
@@ -151,6 +184,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,8 +314,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +333,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.QueueTest.AlgoAndDataStructure Queue: removeQueue.isFull() should returns false">
+  <component name="RunManager" selected="ScalaTest.HashTableTest.HashTableMutableStructure: isInstanceOfHashTable should return true">
+    <configuration name="HashTableTest.HashTableMutableStructure: isInstanceOfHashTable should return true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.HashTableTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.HashTableTest" />
+      <setting name="testName" value="HashTableMutableStructure: isInstanceOfHashTable should return true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QueueTest.AlgoAndDataStructure Queue: is instance of QueueStructure should return true&#10;AlgoAndDataStructure Queue: getQueueBox() should return queueBox()&#10;AlgoAndDataStructure Queue: insert() should returns queue of 9&#10;AlgoAndDataStructure Queue: insert() should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [10,null,null]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should not alter queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,null,null]&#10;AlgoAndDataStructure Queue: remove() should returns remove of empty queue&#10;AlgoAndDataStructure Queue: remove() should returns remove of queue(9)&#10;AlgoAndDataStructure Queue: peekFront() should returns null&#10;AlgoAndDataStructure Queue: peekFront() should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 2 should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 8&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 7&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns null&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 10&#10;AlgoAndDataStructure Queue: isEmpty() with emptyQueue should returns True&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1) should returns false&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1) with remove should returns true&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1,1,1) with remove should returns false&#10;AlgoAndDataStructure Queue: isFull() with queue() with remove should returns false" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
@@ -316,25 +368,6 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
       <setting name="testName" value="AlgoAndDataStructure Queue: is instance of QueueStructure should return true&#10;AlgoAndDataStructure Queue: getQueueBox() should return queueBox()&#10;AlgoAndDataStructure Queue: insert() should returns queue of 9&#10;AlgoAndDataStructure Queue: insert() should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [10,null,null]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should not alter queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,null,null]&#10;AlgoAndDataStructure Queue: remove() should returns remove of empty queue&#10;AlgoAndDataStructure Queue: remove() should returns remove of queue(9)&#10;AlgoAndDataStructure Queue: peekFront() should returns null&#10;AlgoAndDataStructure Queue: peekFront() should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 2 should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 8&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 7&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns null&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 10&#10;AlgoAndDataStructure Queue: isEmpty() with emptyQueue should returns True&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1) should returns false&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1) with remove should returns true&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1,1,1) with remove should returns false&#10;AlgoAndDataStructure Queue: isFull() with queue() with remove should returns false" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.AlgoAndDataStructure Queue: isFull() with queue() with remove should returns false" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.AlgoAndDataStructureTest.ArrayStructureTest.QueueTest" />
-      <setting name="testName" value="AlgoAndDataStructure Queue: isFull() with queue() with remove should returns false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -398,11 +431,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.HashTableTest.HashTableMutableStructure: isInstanceOfHashTable should return true" />
         <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: removeQueue.isFull() should returns false" />
         <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: removeQueue.isFull() with queue() with remove should returns false" />
         <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: queue.isFull() with queue() with remove should returns true" />
         <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: is instance of QueueStructure should return true&#10;AlgoAndDataStructure Queue: getQueueBox() should return queueBox()&#10;AlgoAndDataStructure Queue: insert() should returns queue of 9&#10;AlgoAndDataStructure Queue: insert() should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should returns queue of [10,null,null]&#10;AlgoAndDataStructure Queue: insert() more than maxsize should not alter queue of [9,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,8,9]&#10;AlgoAndDataStructure Queue: insert() more than maxsize and null index(0) should return queue of [10,null,null]&#10;AlgoAndDataStructure Queue: remove() should returns remove of empty queue&#10;AlgoAndDataStructure Queue: remove() should returns remove of queue(9)&#10;AlgoAndDataStructure Queue: peekFront() should returns null&#10;AlgoAndDataStructure Queue: peekFront() should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 2 should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 9&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 8&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 7&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns null&#10;AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 10&#10;AlgoAndDataStructure Queue: isEmpty() with emptyQueue should returns True&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1) should returns false&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1) with remove should returns true&#10;AlgoAndDataStructure Queue: isEmpty() with queue(1,1,1) with remove should returns false&#10;AlgoAndDataStructure Queue: isFull() with queue() with remove should returns false" />
-        <item itemvalue="ScalaTest.QueueTest.AlgoAndDataStructure Queue: isFull() with queue() with remove should returns false" />
       </list>
     </recent_temporary>
   </component>
@@ -458,9 +491,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_with_queue_of_3_should_returns_null - 2020.05.13 at 21h 55m 05s.xml">
-      <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns null" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_with_queue_of_3_should_returns_10 - 2020.05.13 at 21h 57m 57s.xml">
       <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 10" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -488,12 +518,15 @@
     <history-entry file="QueueTest_AlgoAndDataStructure_Queue__removeQueue_isFull()_should_returns_false - 2020.05.17 at 21h 49m 52s.xml">
       <configuration name="QueueTest.AlgoAndDataStructure Queue: removeQueue.isFull() should returns false" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="HashTableTest_HashTableMutableStructure__isInstanceOfHashTable_should_return_true - 2020.05.24 at 16h 42m 46s.xml">
+      <configuration name="HashTableTest.HashTableMutableStructure: isInstanceOfHashTable should return true" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38666666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -502,7 +535,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49499443" weight="0.32524806" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49499443" visible="true" weight="0.32524806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -562,7 +595,6 @@
     <SUITE FILE_PATH="coverage/Scala$ScalaTests_in__ListTest_.ic" NAME="ScalaTests in 'ListTest' Coverage Results" MODIFIED="1580075758775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Tree/End.scala" />
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/Logica1.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -853,16 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/ListTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="90" column="58" lean-forward="true" selection-start-line="90" selection-start-column="58" selection-end-line="90" selection-end-column="58" />
-          <folding>
-            <element signature="e#57#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/ArrayStructure.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -932,17 +954,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/HashTableMutableStructure.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/traitstructures/HashTable.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/ListTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/HashTableMutableStructure.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/HashTableTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <element signature="e#57#98#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

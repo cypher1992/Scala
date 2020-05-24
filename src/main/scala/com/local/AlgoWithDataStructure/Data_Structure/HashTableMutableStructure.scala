@@ -5,6 +5,8 @@ class HashTableMutableStructure[Key,Value](size:Int) extends HashTable[Key,Value
 
   private val hashArray:Array[List[Tuple2[Key,Value]]] = Array.fill(size)(List[(Key,Value)]())
 
+  def getHashArray():Array[List[Tuple2[Key,Value]]] = this.hashArray
+
   def hashCode[Key](key:Key):Int = {
     val tempHashCode:Int = key.## % size
     if(tempHashCode <0){

@@ -24,7 +24,6 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/EagarVLazyTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/HashTableTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,10 +49,10 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/HashTableTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="119">
-                    <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+                  <state relative-caret-position="340">
+                    <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
                     <folding>
-                      <element signature="e#57#98#0" expanded="true" />
+                      <element signature="e#57#136#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -491,9 +490,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueueTest_AlgoAndDataStructure_Queue__peekFront()_with_queue_of_3_should_returns_10 - 2020.05.13 at 21h 57m 57s.xml">
-      <configuration name="QueueTest.AlgoAndDataStructure Queue: peekFront() with queue of 3 should returns 10" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="QueueTest_AlgoAndDataStructure_Queue__isEmpty()_with_queue(1)_should_returns_false - 2020.05.14 at 21h 02m 28s.xml">
       <configuration name="QueueTest.AlgoAndDataStructure Queue: isEmpty() with queue(1) should returns false" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -519,6 +515,9 @@
       <configuration name="QueueTest.AlgoAndDataStructure Queue: removeQueue.isFull() should returns false" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="HashTableTest_HashTableMutableStructure__isInstanceOfHashTable_should_return_true - 2020.05.24 at 16h 42m 46s.xml">
+      <configuration name="HashTableTest.HashTableMutableStructure: isInstanceOfHashTable should return true" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="HashTableTest_HashTableMutableStructure__isInstanceOfHashTable_should_return_true - 2020.05.24 at 16h 49m 58s.xml">
       <configuration name="HashTableTest.HashTableMutableStructure: isInstanceOfHashTable should return true" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
@@ -977,10 +976,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/HashTableTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#57#98#0" expanded="true" />
+            <element signature="e#57#136#0" expanded="true" />
           </folding>
         </state>
       </provider>

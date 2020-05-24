@@ -42,6 +42,14 @@ class HashTableTest extends AnyFlatSpec with Matchers{
     assert(actual ===  expected)
   }
 
+  "HashTableMutableStructure: hashCode(1000000)" should "return Int as 1" in {
+    val htms:HashTableMutableStructure[Int,String] = new HashTableMutableStructure[Int,String](20)
+    val key:Int = 10000001
+    val actual:Int = htms.hashCode(key)
+    val expected:Int =1
+    assert(actual ===  expected)
+  }
+
 
 
 }

@@ -23,15 +23,23 @@ class HashTableTest extends AnyFlatSpec with Matchers{
     val htms:HashTableMutableStructure[Int,String] = new HashTableMutableStructure[Int,String](20)
     val actual:Array[List[Tuple2[Int,String]]] = htms.getHashArray()
     val expected:Array[List[Tuple2[Int,String]]] = Array.fill(20)(List[(Int,String)]())
-    assert(expected === actual)
+    assert( actual ===  expected)
   }
 
-  "HashTableMutableStructure: hashCode()" should "return Int as 14" in {
+  "HashTableMutableStructure: hashCode(1425634)" should "return Int as 14" in {
     val htms:HashTableMutableStructure[Int,String] = new HashTableMutableStructure[Int,String](20)
     val key:Int = 1425634
     val actual:Int = htms.hashCode(key)
     val expected:Int =14
-    assert(expected == actual)
+    assert(actual ===  expected)
+  }
+
+  "HashTableMutableStructure: hashCode(100)" should "return Int as 1" in {
+    val htms:HashTableMutableStructure[Int,String] = new HashTableMutableStructure[Int,String](20)
+    val key:Int = 100
+    val actual:Int = htms.hashCode(key)
+    val expected:Int =0
+    assert(actual ===  expected)
   }
 
 

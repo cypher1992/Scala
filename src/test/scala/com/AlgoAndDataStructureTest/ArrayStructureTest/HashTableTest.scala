@@ -19,4 +19,11 @@ class HashTableTest extends AnyFlatSpec with Matchers{
     assert(isHashTableMutableStructure == true)
   }
 
+  "HashTableMutableStructure: getHashArray()" should "return emptyHashArray as Array[List[Tuple2[Int,String]]]" in {
+    val htms:HashTableMutableStructure[Int,String] = new HashTableMutableStructure[Int,String](20)
+    val actual:Array[List[Tuple2[Int,String]]] = htms.getHashArray()
+    val expected:Array[List[Tuple2[Int,String]]] = Array.fill(20)(List[(Int,String)]())
+    assert(expected === actual)
+  }
+
 }

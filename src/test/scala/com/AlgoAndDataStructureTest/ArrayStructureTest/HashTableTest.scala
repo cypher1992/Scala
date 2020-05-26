@@ -67,4 +67,13 @@ class HashTableTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "HashTableMutableStructure: insert(1000001,Robert Di Niro) two times" should "return hashtable" in {
+    val htms: HashTableMutableStructure[Int, String] = new HashTableMutableStructure[Int, String](20)
+    htms.insert(1000001,"John Wayne")
+    htms.insert(1000002,"Robert Di Niro")
+    val actual:Array[List[Tuple2[Int,String]]] = htms.getHashArray()
+    val expected:Array[List[Tuple2[Int,String]]] = Array(List(), List((1000001,"John Wayne")), List((1000002,"Robert Di Niro")), List(), List(), List(), List(), List(), List(), List(), List(), List(), List(), List(), List(), List(), List(), List(), List(), List())
+    assert(actual === expected)
+  }
+
 }

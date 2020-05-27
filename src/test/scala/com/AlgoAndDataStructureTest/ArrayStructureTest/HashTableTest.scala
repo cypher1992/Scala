@@ -93,4 +93,12 @@ class HashTableTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "HashTableMutableStructure: search(1000002)" should "return JohnWayne" in {
+    val htms: HashTableMutableStructure[Int, String] = new HashTableMutableStructure[Int, String](20)
+    htms.insert(1000001,"John Wayne")
+    val actual:Option[String] = htms.search(1000002)
+    val expected:Option[String] = None
+    assert(actual === expected)
+  }
+
 }

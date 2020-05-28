@@ -101,17 +101,5 @@ class HashTableTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
-  "HashTableMutableStructure: delete(1000001)" should "return JohnWayne" in {
-    val htms: HashTableMutableStructure[Int, String] = new HashTableMutableStructure[Int, String](20)
-    htms.insert(1000001,"John Wayne")
-    val actual:Option[String] = htms.delete(1000001)
-    val expected:Option[String] = Some("John Wayne")
-    val ht:Array[List[Tuple2[Int,String]]] = htms.getHashArray()
-    println(
-      s"""
-        |${ht.mkString(",")}
-      """.stripMargin)
-    assert(actual === expected)
-  }
 
 }

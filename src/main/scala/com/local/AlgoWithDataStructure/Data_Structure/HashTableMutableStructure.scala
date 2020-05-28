@@ -29,8 +29,7 @@ class HashTableMutableStructure[Key,Value](size:Int) extends HashTable[Key,Value
   override def delete(key:Key):Unit ={
     val list:List[(Key,Value)] = hashArray(hashCode(key))
     hashArray(hashCode(key)) == list.filter(x=> x._1 != key)
-    //list.find(x => x._1 == key).map(y => y._2)
-    list.dropWhile(x => x._1 == key)
+    hashArray(hashCode(key)) = list.dropWhile(x => x._1 == key)
   }
 
 

@@ -13,6 +13,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Algo/QuickSort.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Concepts/EagerVLazy.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Concepts/FactorialMemoization.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/BinaryTreeMod/Leaf.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/HashTableMutableStructure.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/QueuesStructure.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StreamStructure.scala" afterDir="false" />
@@ -27,8 +28,6 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/EagarVLazyTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/HashTableTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/HashTableMutableStructure.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/HashTableMutableStructure.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,11 +83,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/traitstructures/BinaryTree.scala">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/BinaryTreeMod/Leaf.scala">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -123,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Scala99Logica1.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/Logica1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Tree/End.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/Tree/Node.scala" />
@@ -173,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/traitstructures/HashTable.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/HashTableTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/HashTableMutableStructure.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/BinaryTreeMod/Leaf.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/traitstructures/BinaryTree.scala" />
       </list>
     </option>
@@ -251,6 +259,18 @@
               <item name="local" type="462c0819:PsiDirectoryNode" />
               <item name="AlgoWithDataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="AlgoWithDataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTreeMod" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
@@ -599,13 +619,6 @@
     <SUITE FILE_PATH="coverage/Scala$ScalaTests_in__ListTest_.ic" NAME="ScalaTests in 'ListTest' Coverage Results" MODIFIED="1580075758775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/Projects/Resource/src/TreePKG/Tree.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/Scala99Test/ListTest/TreeTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -987,8 +1000,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/traitstructures/BinaryTree.scala">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/BinaryTreeMod/Leaf.scala">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>

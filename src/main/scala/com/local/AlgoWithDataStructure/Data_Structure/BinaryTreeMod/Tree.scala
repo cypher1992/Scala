@@ -6,5 +6,15 @@ import com.local.AlgoWithDataStructure.Data_Structure.BinaryTreeMod.Leaf
 
 class Tree {
 
+  def init_Tree[A](list:List[A]): BinaryTree[A] ={
+    list match{
+      case Nil => Leaf
+      case x :: xs =>{
+        val halfLength = xs.length/2
+        Branch(x,init_Tree(xs.take(halfLength)),init_Tree(xs.drop(halfLength)))
+      }
+    }
+  }
+
 
 }

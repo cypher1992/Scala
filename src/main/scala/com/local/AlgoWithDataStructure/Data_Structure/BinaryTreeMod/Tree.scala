@@ -21,7 +21,7 @@ class Tree {
     case Branch(_,leftBranch,rightBranch) => 1+size(leftBranch) + size(rightBranch)
   }
 
-  def depth[T](binTree:BinaryTree[T]):Int = bintree match{
+  def depth[T](binTree:BinaryTree[T]):Int = binTree match{
     case Leaf => 0
     case Branch(_,leftBranch,rightBranch) => 1+(depth(leftBranch) max depth(rightBranch))
   }

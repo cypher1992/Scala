@@ -17,7 +17,7 @@ class Tree {
   }
 
   def size[T](binTree:BinaryTree[T]):Int = binTree match {
-    case leaf => 0
+    case Leaf => 0
     case Branch(_,leftBranch,rightBranch) => 1+size(leftBranch) + size(rightBranch)
   }
 

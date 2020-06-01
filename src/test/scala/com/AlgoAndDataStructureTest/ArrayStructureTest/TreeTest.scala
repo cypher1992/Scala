@@ -21,4 +21,13 @@ class TreeTest extends AnyFlatSpec with Matchers{
     assert(isInstanceOfTree === true)
   }
 
+  "Tree: test instanceOf EmptyBinaryTree" should "return True" in {
+    val tree:Tree = new Tree()
+    val emptyList:List[Int] = List.empty[Int]
+    val bt:BinaryTree[Int] = tree.init_Tree(emptyList)
+    println(bt)
+    val isInstanceOfTree:Boolean = bt.isInstanceOf[BinaryTree[Int]]
+    assert(isInstanceOfTree === true)
+  }
+
 }

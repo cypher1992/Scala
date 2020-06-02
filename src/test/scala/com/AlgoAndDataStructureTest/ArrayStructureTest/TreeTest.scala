@@ -47,5 +47,13 @@ class TreeTest extends AnyFlatSpec with Matchers{
     assert(expected === actual)
   }
 
-
+  "Tree: test size(list(1))" should "return 1" in {
+    val tree:Tree = new Tree()
+    val list:List[Int] = List(1)
+    val bt:BinaryTree[Int] = tree.init_Tree(list)
+    val actual:Int = tree.size(bt)
+    val expected:Int = 1
+    assert(expected === actual)
+  }
+  
 }

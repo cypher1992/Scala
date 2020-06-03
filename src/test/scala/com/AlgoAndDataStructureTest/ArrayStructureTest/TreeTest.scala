@@ -64,13 +64,22 @@ class TreeTest extends AnyFlatSpec with Matchers{
     val expected:Int = 0
     assert(expected === actual)
   }
-  
+
   "Tree: test depth(list())" should "return 0" in {
     val tree:Tree = new Tree()
     val list:List[Int] = List.empty[Int]
     val bt:BinaryTree[Int] = tree.init_Tree(list)
     val actual:Int = tree.depth(bt)
     val expected:Int = 0
+    assert(expected === actual)
+  }
+
+  "Tree: test depth(list(1))" should "return 1" in {
+    val tree:Tree = new Tree()
+    val list:List[Int] = List(1)
+    val bt:BinaryTree[Int] = tree.init_Tree(list)
+    val actual:Int = tree.depth(bt)
+    val expected:Int = 1
     assert(expected === actual)
   }
 

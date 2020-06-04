@@ -91,5 +91,5 @@ class TreeTest extends AnyFlatSpec with Matchers{
     val expected:Int = 3
     assert(expected === actual)
   }
-  
+
 }

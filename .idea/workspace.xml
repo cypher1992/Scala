@@ -17,6 +17,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/BinaryTreeMod/Branch.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/BinaryTreeMod/Leaf.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/BinaryTreeMod/Tree.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/GraphStructure.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/HashTableMutableStructure.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/QueuesStructure.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/StreamStructure.scala" afterDir="false" />
@@ -33,6 +34,15 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/TreeTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/TreeTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/TreeTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/loadedTestFrameworks/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/loadedTestFrameworks/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,14 +79,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/TreeTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
+            <state relative-caret-position="348">
+              <caret line="70" column="49" lean-forward="true" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
               <folding>
                 <element signature="e#57#129#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/GraphStructure.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -167,8 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,30 +253,6 @@
               <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="local" type="462c0819:PsiDirectoryNode" />
-              <item name="AlgoWithDataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryTreeMod" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="local" type="462c0819:PsiDirectoryNode" />
-              <item name="AlgoWithDataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
-              <item name="traitstructures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -309,6 +302,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -521,7 +516,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18923241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -530,7 +525,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49499443" visible="true" weight="0.32394367" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49499443" weight="0.32394367" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -590,13 +585,6 @@
     <SUITE FILE_PATH="coverage/Scala$ScalaTests_in__ListTest_.ic" NAME="ScalaTests in 'ListTest' Coverage Results" MODIFIED="1580075758775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.13/srcs/scalatest_2.13-3.1.0-sources.jar!/org/scalatest/tools/Runner.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="797" selection-start-line="797" selection-end-line="797" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.13/srcs/scalatest_2.13-3.1.0-sources.jar!/org/scalatest/flatspec/AnyFlatSpecLike.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -969,11 +957,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/TreeTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
+        <state relative-caret-position="348">
+          <caret line="70" column="49" lean-forward="true" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
           <folding>
             <element signature="e#57#129#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/GraphStructure.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>

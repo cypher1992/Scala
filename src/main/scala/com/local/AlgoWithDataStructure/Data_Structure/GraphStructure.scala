@@ -1,5 +1,5 @@
 package com.local.AlgoWithDataStructure.Data_Structure
 
-class GraphStructure {
+class GraphStructure[T](list:List[Tuple2[T,T]]){
 
 }

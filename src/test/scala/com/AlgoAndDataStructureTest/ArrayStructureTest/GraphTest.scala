@@ -13,4 +13,12 @@ class GraphTest extends AnyFlatSpec with Matchers{
     assert(isInstanceOfGraph)
   }
 
+  "Graph: test getList()" should "Return emptyList" in {
+    val list:List[Tuple2[String,String]] = List.empty[Tuple2[String,String]]
+    val graph:GraphStructure[String] = new GraphStructure[String](list)
+    val actual:List[Tuple2[String,String]] = graph.getList()
+    val expected: List[Tuple2[String,String]] = List.empty[Tuple2[String,String]]
+    assert(expected === actual)
+  }
+
 }

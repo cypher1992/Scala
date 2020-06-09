@@ -53,4 +53,13 @@ class GraphTest extends AnyFlatSpec with Matchers{
     assert(expected === actual)
   }
 
+  "Graph: test calcSuccessorSet(New York) with additional values" should "Return Orlando AND Newark" in {
+    val list:List[Tuple2[String,String]] = List(Tuple2("New York","Orlando"),Tuple2("Orlando","Pocanos"),Tuple2("New York","Newark"))
+    val graph:GraphStructure[String] = new GraphStructure[String](list)
+    val actual:List[String] = graph.calcSuccessorSet("New York")
+    val expected:List[String] = List("Orlando","Newark")
+    assert(expected === actual)
+  }
+
+
 }

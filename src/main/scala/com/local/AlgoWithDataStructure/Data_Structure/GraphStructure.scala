@@ -12,4 +12,15 @@ class GraphStructure[T](list:List[Tuple2[T,T]]){
     }
   }
 
+  def traverseDepthFirst(start:T,graph:List[Tuple2[T,T]]):List[T] ={
+
+    def depthFirst(vertices:List[T], visited:List[T]):List[T] = vertices match  {
+      case Nil => visited
+      case x :: xs => depthFirst(xs,
+        if(visited.contains(x)) visited
+        else depthFirst(calcSuccessorSet(x,graph),x ::visited))
+    }
+    depthFirst(List(start),List.empty[T]).reverse
+  }
+
 }

@@ -23,6 +23,4 @@ class GraphStructure[T](list:List[Tuple2[T,T]]){
     depthFirst(List(start),List.empty[T]).reverse
   }
 
-
-
 }

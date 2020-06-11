@@ -92,4 +92,12 @@ class GraphTest extends AnyFlatSpec with Matchers{
     val expected:List[String] = List("Orlando")
     assert(expected === actual)
   }
+
+  "Graph: test traverseDepthFirst(Orlando,List(Tuple2(New York,Orlando), Tuple2(Newark,San Francisco)])" should "Return List(Orlando)" in {
+    val list:List[Tuple2[String,String]] = List(Tuple2("New York","Orlando"), Tuple2("Newark","San Francisco"))
+    val graph:GraphStructure[String] = new GraphStructure[String](list)
+    val actual:List[String] = graph.traverseDepthFirst("Orlando",list)
+    val expected:List[String] = List("Orlando")
+    assert(expected === actual)
+  }
 }

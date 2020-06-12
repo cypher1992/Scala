@@ -23,4 +23,13 @@ class GraphStructure[T](list:List[Tuple2[T,T]]){
     depthFirst(List(start),List.empty[T]).reverse
   }
 
+  def traverseBreadthFirst(start:T,graph:List[Tuple2[T,T]]):List[T] ={
+    def breadthFirst(vertice:List[T],visited:List[T]):List[T]= vertice match {
+      case Nil => visited
+      case x :: xs  if visited.contains(x) => breadthFirst(xs,visited)
+      case x :: xs => breadthFirst(xs ++ calcSuccessorSet(x,graph), x :: visited)
+    }
+    breadthFirst(List(start),List.empty[T]).reverse
+  }
+
 }

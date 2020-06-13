@@ -2,6 +2,10 @@ package com.ArtOfScala.Basics
 
 class Types {
 
+  // everything points to any as in object in java
+  def initAny(any:Any):Any= any
+
+  //Below here are part of AnyVal
   def initAnyVal(anyval:AnyVal):AnyVal = anyval
   def initDouble(double:Double):Double = double
   def initFloat(float:Float):Float = float
@@ -13,9 +17,9 @@ class Types {
   def initBool(bool:Boolean):Boolean = bool
   def initChar(char:Char):Char = char
 
+  // below here are part of AnyRef
   def initAnyRef(anyref:AnyRef):AnyRef = anyref
   def initString(string:String):String = string
-
 
 
 

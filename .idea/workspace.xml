@@ -35,7 +35,6 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/HashTableTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/TreeTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Types.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            <state relative-caret-position="170">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -187,15 +186,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
@@ -894,8 +884,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Types.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="170">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>

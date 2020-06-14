@@ -54,4 +54,54 @@ class TypesTest extends AnyFlatSpec with Matchers {
     assert(expected == actual)
   }
 
+  "ArtOfScala Basics Types: initBool(true)" should "return Boolean" in {
+    val types:Types = new Types()
+    val actual:Boolean = types.initBool(true)
+    val expected:Boolean = true
+    types.print(actual)
+    assert(expected == actual)
+  }
+
+  "ArtOfScala Basics Types: initChar(c)" should "return char" in {
+    val types:Types = new Types()
+    val actual:Char = types.initChar('c')
+    val expected:Char = 'c'
+    types.print(actual)
+    assert(expected == actual)
+  }
+
+  "ArtOfScala Basics Types: initAnyVal(anyval)" should "return AnyVal" in {
+    val types:Types = new Types()
+    val actual:AnyVal = types.initAnyVal(102000000)
+    val expected:AnyVal = 102000000
+    types.print(actual)
+    assert(expected == actual)
+  }
+
+  "ArtOfScala Basics Types: initString(string)" should "return String" in {
+    val types:Types = new Types()
+    val actual:String = types.initString("String")
+    val expected:String = "String"
+    types.print(actual)
+    assert(expected == actual)
+  }
+
+  "ArtOfScala Basics Types: initAnyRef(anyref)" should "return anyref" in {
+    // class if consider as AnyRef
+    val types:Types = new Types()
+    val actual:AnyRef = types.initAnyRef(types)
+    val expected:AnyRef = types
+    types.print(actual)
+    assert(expected == actual)
+  }
+
+  "ArtOfScala Basics Types: initAny(anyref)" should "return any" in {
+    // any is object in scala
+    val types:Types = new Types()
+    val actual:Any = types.initAnyRef(types)
+    val expected:Any = types
+    types.print(actual)
+    assert(expected == actual)
+  }
+
 }

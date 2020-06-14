@@ -1,6 +1,6 @@
 package com.ArtOfScala.Basics
 
-class Types {
+class Types{
 
   // everything points to any as in object in java
   def initAny(any:Any):Any= any
@@ -21,6 +21,12 @@ class Types {
   def initAnyRef(anyref:AnyRef):AnyRef = anyref
   def initString(string:String):String = string
 
-
+  def print[T](typeVal:T):Unit =
+    {
+    println(
+      s"""
+        |${typeVal}
+      """.stripMargin)
+    }
 
 }

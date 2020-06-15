@@ -10,6 +10,16 @@ class Conditonal[T]{
     }
   }
 
-  
+  def ifElseIfElseEqualsCondtion(value:T,testValue:T,testValue2:T):Boolean ={
+    if(value == testValue){
+      true
+    }
+    else if(value == testValue2){
+      true
+    }
+    else{
+      false
+    }
+  }
 
 }

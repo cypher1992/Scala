@@ -1,6 +1,2 @@
 [debug] Acquiring lock on file C:\Users\Zero\IdeaProjects\Learning\Scala\project\target\.sbt-compilation-infos\scala-test\.sbt-idea-lock ...
-[error] C:\Users\Zero\IdeaProjects\Learning\Scala\src\test\scala\com\ArtOfScalaTDD\Basics\ConditionalTest\ConditonalTest.scala:14:3: ')' expected but '}' found.
-[error]   }
-[error]   ^
-[error] one error found
 [debug] Releasing lock on file C:\Users\Zero\IdeaProjects\Learning\Scala\project\target\.sbt-compilation-infos\scala-test\.sbt-idea-lock.

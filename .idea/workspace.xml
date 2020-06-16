@@ -308,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false">
+  <component name="RunManager" selected="ScalaTest.ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3) should return true">
     <configuration name="ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.ConditionalTest.ConditonalTest" />
@@ -328,6 +328,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3) should return true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.ConditionalTest.ConditonalTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.ConditionalTest.ConditonalTest" />
+      <setting name="testName" value="ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3) should return true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TypesTest.ArtOfScala Basics Types: initAnyRef(anyref) should return anyref" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.TypesTest" />
@@ -343,25 +362,6 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.TypesTest" />
       <setting name="testName" value="ArtOfScala Basics Types: initAnyRef(anyref) should return anyref" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TypesTest.ArtOfScala Basics Types: initAnyVal(anyval) should return AnyVal" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.TypesTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.TypesTest" />
-      <setting name="testName" value="ArtOfScala Basics Types: initAnyVal(anyval) should return AnyVal" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -406,11 +406,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3) should return true" />
         <item itemvalue="ScalaTest.ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false" />
         <item itemvalue="ScalaTest.TypesTest.ArtOfScala Basics Types: initAny(anyref) should return any" />
         <item itemvalue="ScalaTest.TypesTest.ArtOfScala Basics Types: initAnyRef(anyref) should return anyref" />
         <item itemvalue="ScalaTest.TypesTest.ArtOfScala Basics Types: initString(string) should return String" />
-        <item itemvalue="ScalaTest.TypesTest.ArtOfScala Basics Types: initAnyVal(anyval) should return AnyVal" />
       </list>
     </recent_temporary>
   </component>

@@ -10,5 +10,14 @@ class Function{
   // HOF - high order function
   // can pass a function as a parameter same as mathematics
   def double(double:Double,double2:Double):Double = this.add(double,double2) * 2
-  
+
+  // functions main func is to break the problem into smaller pieces
+  // add money to deposit
+  // find balance
+  val balance:Double = 0.00
+
+  def getBalance():Double = this.balance
+  def depositIntoAccount(deposit:Double):Double =this.getBalance() + deposit
+
+
 }

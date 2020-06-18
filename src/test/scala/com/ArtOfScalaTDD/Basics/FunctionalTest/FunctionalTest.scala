@@ -13,4 +13,11 @@ class FunctionalTest extends AnyFlatSpec with Matchers {
     assert(actual == expected)
   }
 
+  "ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0))" should "return 28" in {
+    val function:Function = new Function()
+    val actual:Double = function.double(function.add(3.0,4.0),function.add(3.0,4.0))
+    val expected:Double = 28
+    assert(actual == expected)
+  }
+
 }

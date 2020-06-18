@@ -317,7 +317,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7">
+  <component name="RunManager" selected="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28">
     <configuration name="ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.ConditionalTest.ConditonalTest" />
@@ -394,9 +394,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypesTest.ArtOfScala Basics Types: initAny(anyref) should return any" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="FunctionalTest.ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.TypesTest" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -407,19 +407,19 @@
       <setting name="jrePath" value="" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.TypesTest" />
-      <setting name="testName" value="ArtOfScala Basics Types: initAny(anyref) should return any" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
+      <setting name="testName" value="ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28" />
         <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7" />
         <item itemvalue="ScalaTest.ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3) should return true&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4, Int 5) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3, Int 5) should return true&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4, Int 3) should return true" />
         <item itemvalue="ScalaTest.ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3) should return true" />
         <item itemvalue="ScalaTest.ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false" />
-        <item itemvalue="ScalaTest.TypesTest.ArtOfScala Basics Types: initAny(anyref) should return any" />
       </list>
     </recent_temporary>
   </component>

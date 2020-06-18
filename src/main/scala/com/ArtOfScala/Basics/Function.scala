@@ -14,10 +14,10 @@ class Function{
   // functions main func is to break the problem into smaller pieces
   // add money to deposit
   // find balance
-  val balance:Double = 0.00
 
+  case class Account(balance:Double){
   def getBalance():Double = this.balance
   def depositIntoAccount(deposit:Double):Double =this.getBalance() + deposit
-
+  }
 
 }

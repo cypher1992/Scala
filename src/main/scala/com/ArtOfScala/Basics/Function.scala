@@ -16,8 +16,9 @@ class Function{
   // find balance
 
   case class Account(balance:Double){
-  def getBalance():Double = this.balance
-  def depositIntoAccount(deposit:Double):Double =this.getBalance() + deposit
+    def getBalance():Double = this.balance
+    def depositIntoAccount(deposit:Double):Double =this.getBalance() + deposit
   }
 
+  def initAccount(balance:Double):Account = new Account(balance)
 }

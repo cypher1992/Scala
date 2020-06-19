@@ -4,6 +4,7 @@ import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.must.Matchers
 import com.ArtOfScala.Basics.Function
 
+
 class FunctionalTest extends AnyFlatSpec with Matchers {
 
   "ArtOfScala Basics Functional: add(Double 3.0, Double 4.0)" should "return 7" in {
@@ -19,5 +20,5 @@ class FunctionalTest extends AnyFlatSpec with Matchers {
     val expected:Double = 28
     assert(actual == expected)
   }
-
+  
 }

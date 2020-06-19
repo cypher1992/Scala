@@ -37,7 +37,6 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/TreeTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,8 +62,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/FunctionalTest/FunctionalTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="374">
-                    <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+                  <state relative-caret-position="391">
+                    <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
                     <folding>
                       <element signature="e#49#90#0" expanded="true" />
                     </folding>
@@ -87,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Function.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+            <state relative-caret-position="340">
+              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -296,26 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28">
-    <configuration name="ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.ConditionalTest.ConditonalTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.ConditionalTest.ConditonalTest" />
-      <setting name="testName" value="ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: getBalance() should return 100.00">
     <configuration name="ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3) should return true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.ConditionalTest.ConditonalTest" />
@@ -392,13 +372,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FunctionalTest.ArtOfScala Basics Functional: getBalance() should return 100.00" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
+      <setting name="testName" value="ArtOfScala Basics Functional: getBalance() should return 100.00" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: getBalance() should return 100.00" />
         <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28" />
         <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7" />
         <item itemvalue="ScalaTest.ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3) should return true&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4, Int 5) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3, Int 5) should return true&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4, Int 3) should return true" />
         <item itemvalue="ScalaTest.ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3) should return true" />
-        <item itemvalue="ScalaTest.ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false" />
       </list>
     </recent_temporary>
   </component>
@@ -940,20 +939,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Function.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/FunctionalTest/FunctionalTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        <state relative-caret-position="391">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding>
             <element signature="e#49#90#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Function.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
         </state>
       </provider>
     </entry>

@@ -28,4 +28,13 @@ class FunctionalTest extends AnyFlatSpec with Matchers {
     val expected:Double = 100.00
     assert(actual == expected)
   }
+
+  "ArtOfScala Basics Functional: depositIntoAccount(50.00)" should "return 150.00" in {
+    val function:Function = new Function()
+    val account = function.initAccount(100.00)
+    account.depositIntoAccount(50.00)
+    val actual:Double = account.getBalance()
+    val expected:Double = 150.00
+    assert(actual == expected)
+  }
 }

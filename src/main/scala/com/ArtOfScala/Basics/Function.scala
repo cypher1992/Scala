@@ -15,9 +15,12 @@ class Function{
   // add money to deposit
   // find balance
 
-  case class Account(balance:Double){
+  case class Account(var balance:Double){
     def getBalance():Double = this.balance
-    def depositIntoAccount(deposit:Double):Double =this.getBalance() + deposit
+    def setBalance(newBalance:Double) = {
+      this.balance = newBalance
+    }
+    def depositIntoAccount(deposit:Double):Unit =this.setBalance(this.getBalance() + deposit)
   }
 
   def initAccount(balance:Double):Account = new Account(balance)

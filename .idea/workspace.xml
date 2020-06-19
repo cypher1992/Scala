@@ -62,8 +62,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/FunctionalTest/FunctionalTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="391">
-                    <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+                  <state relative-caret-position="510">
+                    <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
                     <folding>
                       <element signature="e#49#90#0" expanded="true" />
                     </folding>
@@ -86,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Function.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            <state relative-caret-position="391">
+              <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -163,8 +163,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/TypesTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Conditonal.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Function.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/FunctionalTest/FunctionalTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Function.scala" />
       </list>
     </option>
   </component>
@@ -295,45 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: getBalance() should return 100.00">
-    <configuration name="ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3) should return true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.ConditionalTest.ConditonalTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.ConditionalTest.ConditonalTest" />
-      <setting name="testName" value="ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3) should return true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3) should return true&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4, Int 5) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3, Int 5) should return true&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4, Int 3) should return true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.ConditionalTest.ConditonalTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.ConditionalTest.ConditonalTest" />
-      <setting name="testName" value="ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3) should return true&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4, Int 5) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3, Int 5) should return true&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4, Int 3) should return true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7&#10;ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28&#10;ArtOfScala Basics Functional: getBalance() should return 100.00&#10;ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00">
     <configuration name="FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
@@ -349,6 +311,44 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
       <setting name="testName" value="ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7&#10;ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28&#10;ArtOfScala Basics Functional: getBalance() should return 100.00&#10;ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
+      <setting name="testName" value="ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7&#10;ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28&#10;ArtOfScala Basics Functional: getBalance() should return 100.00&#10;ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionalTest.ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
+      <setting name="testName" value="ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -393,11 +393,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7&#10;ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28&#10;ArtOfScala Basics Functional: getBalance() should return 100.00&#10;ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" />
+        <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" />
         <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: getBalance() should return 100.00" />
         <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28" />
         <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7" />
-        <item itemvalue="ScalaTest.ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3) should return true&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4, Int 5) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3, Int 5) should return true&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4, Int 3) should return true" />
-        <item itemvalue="ScalaTest.ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3) should return true" />
       </list>
     </recent_temporary>
   </component>
@@ -453,18 +453,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TypesTest_ArtOfScala_Basics_Types__initByte(byte)_should_return_byte - 2020.06.13 at 22h 43m 05s.xml">
-      <configuration name="TypesTest.ArtOfScala Basics Types: initByte(byte) should return byte" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TypesTest_ArtOfScala_Basics_Types__initBool(true)_should_return_Boolean - 2020.06.13 at 22h 45m 18s.xml">
-      <configuration name="TypesTest.ArtOfScala Basics Types: initBool(true) should return Boolean" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TypesTest_ArtOfScala_Basics_Types__initChar(c)_should_return_char - 2020.06.13 at 22h 46m 51s.xml">
-      <configuration name="TypesTest.ArtOfScala Basics Types: initChar(c) should return char" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TypesTest_ArtOfScala_Basics_Types__initAnyVal(anyval)_should_return_AnyVal - 2020.06.13 at 22h 48m 03s.xml">
-      <configuration name="TypesTest.ArtOfScala Basics Types: initAnyVal(anyval) should return AnyVal" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TypesTest_ArtOfScala_Basics_Types__initString(string)_should_return_String - 2020.06.13 at 22h 49m 39s.xml">
       <configuration name="TypesTest.ArtOfScala Basics Types: initString(string) should return String" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -483,13 +471,25 @@
     <history-entry file="FunctionalTest_ArtOfScala_Basics_Functional__double(function_add(3_0,4_0),_function_add(3_0,4_0))_should_return_28 - 2020.06.17 at 21h 08m 56s.xml">
       <configuration name="FunctionalTest.ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="FunctionalTest_ArtOfScala_Basics_Functional__getBalance()_should_return_100_00 - 2020.06.18 at 22h 04m 37s.xml">
+      <configuration name="FunctionalTest.ArtOfScala Basics Functional: getBalance() should return 100.00" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="FunctionalTest_ArtOfScala_Basics_Functional__depositIntoAccount(50_00)_should_return_150_00 - 2020.06.18 at 22h 08m 12s.xml">
+      <configuration name="FunctionalTest.ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="FunctionalTest_ArtOfScala_Basics_Functional__depositIntoAccount(50_00)_should_return_150_00 - 2020.06.18 at 22h 08m 59s.xml">
+      <configuration name="FunctionalTest.ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="FunctionalTest_ArtOfScala_Basics_Functional__depositIntoAccount(50_00)_should_return_150_00 - 2020.06.18 at 22h 12m 56s.xml">
+      <configuration name="FunctionalTest.ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.491731" visible="true" weight="0.40111113" />
-      <window_info id="Structure" order="1" sideWeight="0.508269" side_tool="true" visible="true" weight="0.40111113" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8794788" visible="true" weight="0.40111113" />
+      <window_info id="Structure" order="1" sideWeight="0.12052117" side_tool="true" visible="true" weight="0.40111113" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -497,7 +497,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49499443" weight="0.323043" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49499443" visible="true" weight="0.323043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -939,20 +939,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/FunctionalTest/FunctionalTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Function.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding>
-            <element signature="e#49#90#0" expanded="true" />
-          </folding>
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Function.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/FunctionalTest/FunctionalTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#49#90#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

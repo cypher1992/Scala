@@ -9,6 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Conditonal.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Types.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Algo/BubbleSort.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Algo/InsertionSort.scala" afterDir="false" />
@@ -37,6 +38,11 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/TreeTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/com/ArtOfScalaTDD/Basics/FunctionalTest/FunctionalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/com/ArtOfScalaTDD/Basics/FunctionalTest/FunctionalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,12 +64,12 @@
     <window id="1">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/FunctionalTest/FunctionalTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="510">
-                    <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+                  <state relative-caret-position="255">
+                    <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
                     <folding>
                       <element signature="e#49#90#0" expanded="true" />
                     </folding>
@@ -83,11 +89,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Function.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -114,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Data_Structure/MapFuncExperimentation.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/CollectionFunction/MapFuncExperimentation.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/AllAboutScalaExcerciseTDD/FuturesTesting.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/local/FutureThreads/MockDAO.scala" />
@@ -163,8 +177,9 @@
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/TypesTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Conditonal.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/FunctionalTest/FunctionalTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Function.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/FunctionalTest/FunctionalTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala" />
       </list>
     </option>
   </component>
@@ -178,8 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,6 +289,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,26 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7&#10;ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28&#10;ArtOfScala Basics Functional: getBalance() should return 100.00&#10;ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00">
-    <configuration name="FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
-      <setting name="testName" value="ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: setBalance(50.00) should return 50.00">
     <configuration name="FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7&#10;ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28&#10;ArtOfScala Basics Functional: getBalance() should return 100.00&#10;ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
@@ -391,13 +387,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FunctionalTest.ArtOfScala Basics Functional: setBalance(50.00) should return 50.00" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
+      <setting name="testName" value="ArtOfScala Basics Functional: setBalance(50.00) should return 50.00" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: setBalance(50.00) should return 50.00" />
         <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7&#10;ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28&#10;ArtOfScala Basics Functional: getBalance() should return 100.00&#10;ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" />
         <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" />
         <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: getBalance() should return 100.00" />
         <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28" />
-        <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7" />
       </list>
     </recent_temporary>
   </component>
@@ -453,9 +468,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TypesTest_ArtOfScala_Basics_Types__initString(string)_should_return_String - 2020.06.13 at 22h 49m 39s.xml">
-      <configuration name="TypesTest.ArtOfScala Basics Types: initString(string) should return String" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TypesTest_ArtOfScala_Basics_Types__initAnyRef(anyref)_should_return_anyref - 2020.06.13 at 22h 51m 08s.xml">
       <configuration name="TypesTest.ArtOfScala Basics Types: initAnyRef(anyref) should return anyref" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -483,13 +495,16 @@
     <history-entry file="FunctionalTest_ArtOfScala_Basics_Functional__depositIntoAccount(50_00)_should_return_150_00 - 2020.06.18 at 22h 12m 56s.xml">
       <configuration name="FunctionalTest.ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="FunctionalTest_ArtOfScala_Basics_Functional__setBalance(50_00)_should_return_50_00 - 2020.06.18 at 22h 14m 51s.xml">
+      <configuration name="FunctionalTest.ArtOfScala Basics Functional: setBalance(50.00) should return 50.00" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8794788" visible="true" weight="0.40111113" />
-      <window_info id="Structure" order="1" sideWeight="0.12052117" side_tool="true" visible="true" weight="0.40111113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.91620725" visible="true" weight="0.41" />
+      <window_info id="Structure" order="1" sideWeight="0.08379272" side_tool="true" visible="true" weight="0.41" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -497,7 +512,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49499443" visible="true" weight="0.323043" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49499443" weight="0.323043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -557,16 +572,6 @@
     <SUITE FILE_PATH="coverage/Scala$ScalaTests_in__ListTest_.ic" NAME="ScalaTests in 'ListTest' Coverage Results" MODIFIED="1580075758775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AllAboutScalaExcerciseTDD/FuturesTesting.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-          <folding>
-            <element signature="e#38#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Concepts/EagerVLazy.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -942,17 +947,24 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Function.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/FunctionalTest/FunctionalTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#49#90#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
         </state>
       </provider>
     </entry>

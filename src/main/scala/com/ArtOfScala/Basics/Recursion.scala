@@ -8,8 +8,9 @@ class Recursion {
 
     def recurMulti(number:Int = num, store:Int = 1):Int = {
       number match {
-        case 0 | 1  => store
-        case  _ => recurMulti(number-1,store*number)
+        case 0 => 0
+        case 1 => store
+        case _ => recurMulti(number-1,store*number)
       }
     }
     recurMulti()

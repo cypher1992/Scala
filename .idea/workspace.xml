@@ -63,8 +63,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/FunctionalTest/FunctionalTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="255">
-                    <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+                  <state relative-caret-position="187">
+                    <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
                     <folding>
                       <element signature="e#49#90#0" expanded="true" />
                     </folding>
@@ -307,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.RecursiveTest.ArtofScala Recusion: MultiplyItSelf(1) should return 1">
+  <component name="RunManager" selected="ScalaTest.RecursiveTest.ArtofScala Recusion: MultiplyItSelf(2) should return 2">
     <configuration name="FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7&#10;ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28&#10;ArtOfScala Basics Functional: getBalance() should return 100.00&#10;ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
@@ -323,25 +323,6 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
       <setting name="testName" value="ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7&#10;ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28&#10;ArtOfScala Basics Functional: getBalance() should return 100.00&#10;ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionalTest.ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.FunctionalTest.FunctionalTest" />
-      <setting name="testName" value="ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -403,13 +384,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecursiveTest.ArtofScala Recusion: MultiplyItSelf(2) should return 2" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.RecursiveTest.RecursiveTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.RecursiveTest.RecursiveTest" />
+      <setting name="testName" value="ArtofScala Recusion: MultiplyItSelf(2) should return 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.RecursiveTest.ArtofScala Recusion: MultiplyItSelf(2) should return 2" />
         <item itemvalue="ScalaTest.RecursiveTest.ArtofScala Recusion: MultiplyItSelf(1) should return 1" />
         <item itemvalue="ScalaTest.RecursiveTest.ArtofScala Recusion: MultiplyItSelf(0) should return 0" />
         <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: setBalance(50.00) should return 50.00" />
         <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7&#10;ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28&#10;ArtOfScala Basics Functional: getBalance() should return 100.00&#10;ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" />
-        <item itemvalue="ScalaTest.FunctionalTest.ArtOfScala Basics Functional: depositIntoAccount(50.00) should return 150.00" />
       </list>
     </recent_temporary>
   </component>
@@ -465,9 +465,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConditonalTest_ArtOfScala_Basics_Conditional__ifElseEqualsCondtion(Int_3,_Int_4)_should_return_false_ArtOfScala_Basics_Conditional__ifElseEqualsCondtion(Int_3,_Int_3)_should_return_true - 2020.06.15 at 22h 10m 20s.xml">
-      <configuration name="ConditonalTest.ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 4) should return false&#10;ArtOfScala Basics Conditional: ifElseEqualsCondtion(Int 3, Int 3) should return true" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="FunctionalTest_ArtOfScala_Basics_Functional__add(Double_3_0,_Double_4_0)_should_return_7 - 2020.06.17 at 21h 08m 11s.xml">
       <configuration name="FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -495,13 +492,15 @@
     <history-entry file="RecursiveTest_ArtofScala_Recusion__MultiplyItSelf(1)_should_return_1 - 2020.06.20 at 22h 01m 15s.xml">
       <configuration name="RecursiveTest.ArtofScala Recusion: MultiplyItSelf(1) should return 1" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="RecursiveTest_ArtofScala_Recusion__MultiplyItSelf(1)_should_return_1 - 2020.06.20 at 22h 01m 31s.xml">
+      <configuration name="RecursiveTest.ArtofScala Recusion: MultiplyItSelf(1) should return 1" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8794788" visible="true" weight="0.41" />
-      <window_info id="Structure" order="1" sideWeight="0.12052117" side_tool="true" visible="true" weight="0.41" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.91620725" visible="true" weight="0.41" />
+      <window_info id="Structure" order="1" sideWeight="0.08379272" side_tool="true" visible="true" weight="0.41" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -509,7 +508,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49499443" visible="true" weight="0.323043" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49499443" weight="0.323043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -931,16 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/FunctionalTest/FunctionalTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#49#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/TypesTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -952,6 +941,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/FunctionalTest/FunctionalTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="e#49#90#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

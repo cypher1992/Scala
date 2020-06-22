@@ -38,12 +38,15 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/TreeTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8436e1e125512a8f8db5$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8436e1e125512a8f8db5.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8436e1e125512a8f8db5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/com/ArtOfScalaTDD/Basics/RecursiveTest/RecursiveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/com/ArtOfScalaTDD/Basics/RecursiveTest/RecursiveTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes.bak/sbt2993689434670859648.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -94,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="515">
+              <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -171,8 +174,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Function.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/FunctionalTest/FunctionalTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/RecursiveTest/RecursiveTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala" />
       </list>
     </option>
   </component>
@@ -451,12 +454,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FunctionalTest_ArtOfScala_Basics_Functional__add(Double_3_0,_Double_4_0)_should_return_7 - 2020.06.17 at 21h 08m 11s.xml">
-      <configuration name="FunctionalTest.ArtOfScala Basics Functional: add(Double 3.0, Double 4.0) should return 7" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="FunctionalTest_ArtOfScala_Basics_Functional__double(function_add(3_0,4_0),_function_add(3_0,4_0))_should_return_28 - 2020.06.17 at 21h 08m 56s.xml">
-      <configuration name="FunctionalTest.ArtOfScala Basics Functional: double(function.add(3.0,4.0), function.add(3.0,4.0)) should return 28" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="FunctionalTest_ArtOfScala_Basics_Functional__getBalance()_should_return_100_00 - 2020.06.18 at 22h 04m 37s.xml">
       <configuration name="FunctionalTest.ArtOfScala Basics Functional: getBalance() should return 100.00" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -480,6 +477,12 @@
     </history-entry>
     <history-entry file="RecursiveTest_ArtofScala_Recusion__MultiplyItSelf(1)_should_return_1 - 2020.06.20 at 22h 01m 31s.xml">
       <configuration name="RecursiveTest.ArtofScala Recusion: MultiplyItSelf(1) should return 1" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="RecursiveTest_ArtofScala_Recusion__MultiplyItSelf(2)_should_return_2 - 2020.06.21 at 22h 32m 06s.xml">
+      <configuration name="RecursiveTest.ArtofScala Recusion: MultiplyItSelf(2) should return 2" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="RecursiveTest_ArtofScala_Recusion__MultiplyItSelf(5)_should_return_120 - 2020.06.21 at 22h 34m 03s.xml">
+      <configuration name="RecursiveTest.ArtofScala Recusion: MultiplyItSelf(5) should return 120" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -934,13 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/RecursiveTest/RecursiveTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -948,6 +944,13 @@
           <folding>
             <element signature="e#48#89#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
         </state>
       </provider>
     </entry>

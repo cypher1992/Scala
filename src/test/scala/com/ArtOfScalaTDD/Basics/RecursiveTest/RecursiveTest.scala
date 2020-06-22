@@ -28,5 +28,12 @@ class RecursiveTest extends AnyFlatSpec with Matchers {
     assert(actual == expected)
   }
 
+  "ArtofScala Recusion: MultiplyItSelf(5)" should "return 120" in {
+    val recur:Recursion = new Recursion()
+    val actual:Int = recur.multiplyItSelf(5)
+    val expected:Int = 120
+    assert(actual == expected)
+  }
+
 
 }

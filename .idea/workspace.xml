@@ -38,7 +38,6 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/TreeTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,8 +63,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/RecursiveTest/RecursiveTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="612">
-                    <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+                  <state relative-caret-position="799">
+                    <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
                     <folding>
                       <element signature="e#48#89#0" expanded="true" />
                     </folding>
@@ -297,26 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.RecursiveTest.ArtofScala Recusion: multiplyItSelfCon(0) should return 0">
-    <configuration name="RecursiveTest.ArtofScala Recusion: MultiplyItSelf(0) should return 0" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.RecursiveTest.RecursiveTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.RecursiveTest.RecursiveTest" />
-      <setting name="testName" value="ArtofScala Recusion: MultiplyItSelf(0) should return 0" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.RecursiveTest.ArtofScala Recusion: multiplyItSelfCon(1) should return 1">
     <configuration name="RecursiveTest.ArtofScala Recusion: MultiplyItSelf(1) should return 1" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.RecursiveTest.RecursiveTest" />
@@ -393,13 +373,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecursiveTest.ArtofScala Recusion: multiplyItSelfCon(1) should return 1" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.RecursiveTest.RecursiveTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.RecursiveTest.RecursiveTest" />
+      <setting name="testName" value="ArtofScala Recusion: multiplyItSelfCon(1) should return 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.RecursiveTest.ArtofScala Recusion: multiplyItSelfCon(1) should return 1" />
         <item itemvalue="ScalaTest.RecursiveTest.ArtofScala Recusion: multiplyItSelfCon(0) should return 0" />
         <item itemvalue="ScalaTest.RecursiveTest.ArtofScala Recusion: MultiplyItSelf(5) should return 120" />
         <item itemvalue="ScalaTest.RecursiveTest.ArtofScala Recusion: MultiplyItSelf(2) should return 2" />
         <item itemvalue="ScalaTest.RecursiveTest.ArtofScala Recusion: MultiplyItSelf(1) should return 1" />
-        <item itemvalue="ScalaTest.RecursiveTest.ArtofScala Recusion: MultiplyItSelf(0) should return 0" />
       </list>
     </recent_temporary>
   </component>
@@ -947,8 +946,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/RecursiveTest/RecursiveTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+        <state relative-caret-position="799">
+          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
           <folding>
             <element signature="e#48#89#0" expanded="true" />
           </folding>

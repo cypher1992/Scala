@@ -64,8 +64,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="442">
-                    <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+                  <state relative-caret-position="391">
+                    <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -97,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="187">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -454,9 +454,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RecursiveTest_ArtofScala_Recusion__multiplyItSelfCon(2)_should_return_1 - 2020.06.22 at 22h 58m 20s.xml">
-      <configuration name="RecursiveTest.ArtofScala Recusion: multiplyItSelfCon(2) should return 1" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="RecursiveTest_ArtofScala_Recusion__multiplyItSelfCon(5)_should_return_120 - 2020.06.23 at 21h 45m 27s.xml">
       <configuration name="RecursiveTest.ArtofScala Recusion: multiplyItSelfCon(5) should return 120" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -482,6 +479,9 @@
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: setArr(newArry) should return Array(3)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__setArr(newArry)_should_return_Array(3) - 2020.06.24 at 22h 44m 57s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: setArr(newArry) should return Array(3)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__setArr(newArry)_should_return_Array(3) - 2020.06.24 at 22h 45m 10s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: setArr(newArry) should return Array(3)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
@@ -939,8 +939,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="391">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>
@@ -949,8 +949,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>

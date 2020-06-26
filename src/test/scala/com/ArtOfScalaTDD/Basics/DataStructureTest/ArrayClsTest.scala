@@ -29,4 +29,15 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     val actual: Array[Int] = arrCls.getArr()
     assert(expected === actual)
   }
+
+  "ArtOfScala ArrayCls: addIndex(2,0)" should "return Array(3,0,0)" in {
+    val array: Array[Int] = new Array[Int](3)
+    val arrCls: ArrayCLS[Int] = new ArrayCLS(array)
+    arrCls.addIndex(2,0)
+    val actual:Array[Int] = arrCls.getArr()
+    val expected:Array[Int] = Array(2,0,0)
+    assert(expected === actual)
+  }
+
+
 }

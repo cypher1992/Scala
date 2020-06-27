@@ -64,8 +64,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="834">
-                    <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+                  <state relative-caret-position="749">
+                    <caret line="68" column="63" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="63" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -296,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: addIndex(2,2) should return Array(0,0,0)">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: addIndex(2,1) should return Array(0,2,0)">
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: addIndex(2,-1) should return Array(0,0,0)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -331,6 +331,25 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="testName" value="ArtOfScala ArrayCls: addIndex(2,0) should return Array(3,0,0)" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: addIndex(2,1) should return Array(0,2,0)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="testName" value="ArtOfScala ArrayCls: addIndex(2,1) should return Array(0,2,0)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -373,32 +392,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: setArr(newArry) should return Array(3)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: setArr(newArry) should return Array(3)" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: addIndex(2,1) should return Array(0,2,0)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: addIndex(2,2) should return Array(0,0,0)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: addIndex(2,3) should return Array(0,0,0)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: addIndex(2,-1) should return Array(0,0,0)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: addIndex(2,0) should return Array(3,0,0)" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: setArr(newArry) should return Array(3)" />
       </list>
     </recent_temporary>
   </component>
@@ -454,9 +454,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__getArr()_should_return_EmptyArray[Int] - 2020.06.24 at 22h 38m 41s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: getArr() should return EmptyArray[Int]" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__setArr(newArry)_should_return_Array(3) - 2020.06.24 at 22h 41m 40s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: setArr(newArry) should return Array(3)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -483,6 +480,9 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__addIndex(2,3)_should_return_Array(0,0,0) - 2020.06.26 at 23h 00m 14s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: addIndex(2,3) should return Array(0,0,0)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__addIndex(2,2)_should_return_Array(0,0,0) - 2020.06.26 at 23h 04m 08s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: addIndex(2,2) should return Array(0,0,0)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -946,8 +946,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+        <state relative-caret-position="749">
+          <caret line="68" column="63" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="63" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

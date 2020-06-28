@@ -11,4 +11,6 @@ class ArrayCLS[T](var arr:Array[T]){
       }
     }
 
+    def size():Int = this.getArr().size
+
 }

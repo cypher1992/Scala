@@ -39,6 +39,7 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,8 +65,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="783">
-                    <caret line="96" column="34" lean-forward="true" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
+                  <state relative-caret-position="766">
+                    <caret line="90" column="3" selection-start-line="90" selection-start-column="3" selection-end-line="90" selection-end-column="3" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -454,9 +455,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__setArr(newArry)_should_return_Array(3) - 2020.06.25 at 21h 51m 52s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: setArr(newArry) should return Array(3)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__addIndex(2,0)_should_return_Array(3,0,0) - 2020.06.25 at 21h 52m 37s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: addIndex(2,0) should return Array(3,0,0)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -483,6 +481,9 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyArray_head()_should_return_0 - 2020.06.28 at 21h 08m 04s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.head() should return 0" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyArray_head()_should_return_1 - 2020.06.28 at 21h 11m 44s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.head() should return 1" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -946,8 +947,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="96" column="34" lean-forward="true" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
+        <state relative-caret-position="766">
+          <caret line="90" column="3" selection-start-line="90" selection-start-column="3" selection-end-line="90" selection-end-column="3" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

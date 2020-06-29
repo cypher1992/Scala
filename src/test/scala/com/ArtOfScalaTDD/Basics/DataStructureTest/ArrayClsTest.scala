@@ -89,4 +89,12 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     val expected:Int = 0
     assert(expected === actual)
   }
+
+  "ArtOfScala ArrayCls: emptyArray.head()" should "return 1" in {
+    val array: Array[Int] = Array.empty[Int]
+    val arrCls: ArrayCLS[Int] = new ArrayCLS(array)
+    assertThrows[java.util.NoSuchElementException] {
+      val actual: Int = arrCls.head()
+    }
+  }
 }

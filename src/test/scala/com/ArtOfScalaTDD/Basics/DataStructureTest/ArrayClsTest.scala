@@ -105,5 +105,13 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     val expected:Array[Int] = Array(0,0)
     assert(expected === actual)
   }
-  
+
+  "ArtOfScala ArrayCls: emptyArray.tail()" should "throws java.lang.UnsupportedOperationException" in {
+    val array: Array[Int] = Array.empty[Int]
+    val arrCls: ArrayCLS[Int] = new ArrayCLS(array)
+    assertThrows[java.lang.UnsupportedOperationException] {
+      arrCls.tail()
+    }
+  }
+
 }

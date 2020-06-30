@@ -39,6 +39,12 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,7 +71,7 @@
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="766">
-                    <caret line="109" column="69" selection-start-line="109" selection-start-column="69" selection-end-line="109" selection-end-column="69" />
+                    <caret line="107" column="2" selection-start-line="107" selection-start-column="2" selection-end-line="107" selection-end-column="2" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -296,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.tail() should return Array.empty[Int]">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.tail() should throws java.lang.UnsupportedOperationException">
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.tail() should return Array(0,0)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -335,7 +341,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.head() should return 0" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.tail() should throws java.lang.UnsupportedOperationException" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="vmparams" value="" />
@@ -349,7 +355,7 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: emptyArray.head() should return 0" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.tail() should throws java.lang.UnsupportedOperationException" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -394,11 +400,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.tail() should throws java.lang.UnsupportedOperationException" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.tail() should return Array.empty[Int]" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.tail() should return Array(0,0)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.head() should return 1" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: instanceOfArrayCls should Return true&#10;ArtOfScala ArrayCls: getArr() should return EmptyArray[Int]&#10;ArtOfScala ArrayCls: setArr(newArry) should return Array(3)&#10;ArtOfScala ArrayCls: addIndex(2,0) should return Array(3,0,0)&#10;ArtOfScala ArrayCls: addIndex(2,-1) should return Array(0,0,0)&#10;ArtOfScala ArrayCls: addIndex(2,3) should return Array(0,0,0)&#10;ArtOfScala ArrayCls: addIndex(2,2) should return Array(0,0,2)&#10;ArtOfScala ArrayCls: size() should return 3&#10;ArtOfScala ArrayCls: size() should return 0&#10;ArtOfScala ArrayCls: emptyArray.head() should return 0&#10;ArtOfScala ArrayCls: emptyArray.head() should return 1" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.head() should return 0" />
       </list>
     </recent_temporary>
   </component>
@@ -454,12 +460,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__addIndex(2,0)_should_return_Array(3,0,0) - 2020.06.25 at 21h 53m 03s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: addIndex(2,0) should return Array(3,0,0)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__addIndex(2,-1)_should_return_Array(0,0,0) - 2020.06.25 at 21h 54m 34s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: addIndex(2,-1) should return Array(0,0,0)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__addIndex(2,3)_should_return_Array(0,0,0) - 2020.06.26 at 23h 00m 14s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: addIndex(2,3) should return Array(0,0,0)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -483,6 +483,12 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_tail()_should_return_Array(0,0) - 2020.06.29 at 20h 33m 48s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.tail() should return Array(0,0)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_tail()_should_return_Array_empty[Int] - 2020.06.29 at 20h 34m 59s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.tail() should return Array.empty[Int]" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_tail()_should_throws_java_lang_UnsupportedOperationException - 2020.06.29 at 20h 37m 42s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.tail() should throws java.lang.UnsupportedOperationException" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -947,7 +953,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="766">
-          <caret line="109" column="69" selection-start-line="109" selection-start-column="69" selection-end-line="109" selection-end-column="69" />
+          <caret line="107" column="2" selection-start-line="107" selection-start-column="2" selection-end-line="107" selection-end-column="2" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

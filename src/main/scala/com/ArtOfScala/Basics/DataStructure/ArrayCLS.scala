@@ -17,5 +17,5 @@ class ArrayCLS[T](var arr:Array[T]){
 
     def tail():Array[T]= this.getArr().tail
 
-    def isEmpty():Array[T] = this.isEmpty()
+    def isEmpty():Boolean = this.getArr().isEmpty
 }

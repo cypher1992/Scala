@@ -16,4 +16,6 @@ class ArrayCLS[T](var arr:Array[T]){
     def head():T = this.getArr().head
 
     def tail():Array[T]= this.getArr().tail
+
+    def isEmpty():Array[T] = this.isEmpty()
 }

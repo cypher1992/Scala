@@ -138,4 +138,12 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(expected === actual)
   }
 
+  "ArtOfScala ArrayCls: emptyArray.lastX()" should "throws java.util.NoSuchElementException" in {
+    val emptyArray: Array[Int] = Array.empty[Int]
+    val arrCls: ArrayCLS[Int] = new ArrayCLS(emptyArray)
+    assertThrows[java.util.NoSuchElementException] {
+      val actual: Int = arrCls.lastX()
+    }
+  }
+
 }

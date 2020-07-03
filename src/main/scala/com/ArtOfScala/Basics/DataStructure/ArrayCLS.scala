@@ -18,4 +18,6 @@ class ArrayCLS[T](var arr:Array[T]){
     def tail():Array[T]= this.getArr().tail
 
     def isEmpty():Boolean = this.getArr().isEmpty
+
+    def lastX():T = this.getArr().last
 }

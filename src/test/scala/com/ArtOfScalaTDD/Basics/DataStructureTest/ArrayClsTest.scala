@@ -130,4 +130,12 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(expected === actual)
   }
 
+  "ArtOfScala ArrayCls: array.lastX()" should "return 0" in {
+    val array: Array[Int] = new Array[Int](3)
+    val arrCls: ArrayCLS[Int] = new ArrayCLS(array)
+    val actual:Int = arrCls.lastX()
+    val expected:Int = 0
+    assert(expected === actual)
+  }
+
 }

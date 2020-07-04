@@ -20,4 +20,6 @@ class ArrayCLS[T](var arr:Array[T]){
     def isEmpty():Boolean = this.getArr().isEmpty
 
     def lastX():T = this.getArr().last
+
+    def sliceX(start:Int,end:Int):Array[T] = this.getArr().slice(start,end)
 }

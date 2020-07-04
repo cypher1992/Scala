@@ -146,11 +146,20 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     }
   }
 
-  "ArtOfScala ArrayCls: array.sliceX()" should "return Array(0,0)" in {
+  "ArtOfScala ArrayCls: array.sliceX(0,2)" should "return Array(0,0)" in {
     val array: Array[Int] = new Array[Int](3)
     val arrCls: ArrayCLS[Int] = new ArrayCLS(array)
     val actual:Array[Int] = arrCls.sliceX(0,2)
     val expected:Array[Int] = Array(0,0)
     assert(actual === expected)
   }
+
+  "ArtOfScala ArrayCls: emptyArray.sliceX(0,1)" should "returns EmptyArray" in {
+    val emptyArray: Array[Int] = Array.empty[Int]
+    val arrCls: ArrayCLS[Int] = new ArrayCLS(emptyArray)
+    val actual:Array[Int] = arrCls.sliceX(0,1)
+    val expected:Array[Int] = Array.empty[Int]
+    assert(actual === expected)
+  }
+
 }

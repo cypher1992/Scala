@@ -189,4 +189,12 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(isTrue)
   }
 
+  "ArtOfScala ArrayCls: emptyarray.splitAtX(5)" should "return ()" in {
+    val array: Array[Int] = Array.empty[Int]
+    val arrCls: ArrayCLS[Int] = new ArrayCLS(array)
+    val actual:Array[Int]= arrCls.splitAtX(5)._1
+    val expected:Array[Int] = (Array.empty[Int],Array.empty[Int])._1
+    assert(actual === expected)
+  }
+
 }

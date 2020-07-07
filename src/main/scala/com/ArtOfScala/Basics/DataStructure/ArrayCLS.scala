@@ -24,4 +24,6 @@ class ArrayCLS[T](var arr:Array[T]){
     def sliceX(start:Int,end:Int):Array[T] = this.getArr().slice(start,end)
 
     def takeX(num:Int):Array[T] = this.getArr().take(num)
+
+    def splitAtX(position:Int):Tuple2[Array[T],Array[T]] = this.getArr().splitAt(position)
 }

@@ -39,8 +39,6 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,11 +72,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            <state relative-caret-position="391">
+              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="190" column="2" selection-start-line="190" selection-start-column="2" selection-end-line="190" selection-end-column="2" />
+              <folding>
+                <element signature="e#52#93#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,8 +164,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/RecursiveTest/RecursiveTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/Arrays.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" />
       </list>
     </option>
   </component>
@@ -251,6 +261,16 @@
             </path>
             <path>
               <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="DataStructureTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -276,8 +296,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.takeX(3) should return Array(1,2,3)">
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.sliceX() should return Array(0,0)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyarray.splitAtX(5) should return ()">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.splitAtX(5) should return (Array(0,1,2,3,4),Array(5,6,7,8,9))" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="vmparams" value="" />
@@ -291,7 +311,7 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: array.sliceX() should return Array(0,0)" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.splitAtX(5) should return (Array(0,1,2,3,4),Array(5,6,7,8,9))" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -353,7 +373,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.sliceX(0,1) should throws java.util.NoSuchElementException" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.splitAtX(5) should return ()" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="vmparams" value="" />
@@ -367,18 +387,18 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: emptyArray.sliceX(0,1) should throws java.util.NoSuchElementException" />
+      <setting name="testName" value="ArtOfScala ArrayCls: emptyarray.splitAtX(5) should return ()" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyarray.splitAtX(5) should return ()" />
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.splitAtX(5) should return (Array(0,1,2,3,4),Array(5,6,7,8,9))" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.takeX(3) should return Array(1,2,3)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.takeX(3) should return Array.empty[Int]" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.sliceX(0,1) should returns EmptyArray" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.sliceX(0,1) should throws java.util.NoSuchElementException" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.sliceX() should return Array(0,0)" />
       </list>
     </recent_temporary>
   </component>
@@ -434,43 +454,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_lastX()_should_return_0 - 2020.07.03 at 20h 47m 17s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.lastX() should return 0" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_sliceX()_should_return_Array(0,0) - 2020.07.03 at 20h 47m 48s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.sliceX() should return Array(0,0)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_sliceX()_should_return_Array(0,0) - 2020.07.03 at 20h 48m 34s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.sliceX() should return Array(0,0)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_sliceX()_should_return_Array(0,0) - 2020.07.03 at 20h 49m 09s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.sliceX() should return Array(0,0)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyArray_sliceX(0,1)_should_throws_java_util_NoSuchElementException - 2020.07.03 at 20h 52m 37s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.sliceX(0,1) should throws java.util.NoSuchElementException" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyArray_sliceX(0,1)_should_throws_java_util_NoSuchElementException - 2020.07.03 at 20h 53m 52s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.sliceX(0,1) should throws java.util.NoSuchElementException" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyArray_sliceX(0,1)_should_returns_EmptyArray - 2020.07.03 at 20h 54m 37s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.sliceX(0,1) should returns EmptyArray" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_takeX(3)_should_return_Array(1,2,3) - 2020.07.05 at 17h 24m 21s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.takeX(3) should return Array(1,2,3)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_takeX(3)_should_return_Array_empty[Int] - 2020.07.05 at 17h 26m 46s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.takeX(3) should return Array.empty[Int]" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_takeX(3)_should_return_Array(1,2,3) - 2020.07.05 at 17h 27m 48s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.takeX(3) should return Array(1,2,3)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_splitAtX(5)_should_return_(Array(0,1,2,3,4),Array(5,6,7,8,9)) - 2020.07.06 at 20h 20m 17s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.splitAtX(5) should return (Array(0,1,2,3,4),Array(5,6,7,8,9))" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyarray_splitAtX(5)_should_return_() - 2020.07.06 at 20h 22m 26s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.splitAtX(5) should return ()" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_splitAtX(5)_should_return_(Array(0,1,2,3,4),Array(5,6,7,8,9)) - 2020.07.06 at 20h 22m 47s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.splitAtX(5) should return (Array(0,1,2,3,4),Array(5,6,7,8,9))" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_splitAtX(5)_should_return_(Array(0,1,2,3,4),Array(5,6,7,8,9)) - 2020.07.06 at 20h 25m 11s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.splitAtX(5) should return (Array(0,1,2,3,4),Array(5,6,7,8,9))" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_splitAtX(5)_should_return_(Array(0,1,2,3,4),Array(5,6,7,8,9)) - 2020.07.06 at 20h 26m 50s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.splitAtX(5) should return (Array(0,1,2,3,4),Array(5,6,7,8,9))" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyarray_splitAtX(5)_should_return_() - 2020.07.06 at 20h 27m 08s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.splitAtX(5) should return ()" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyarray_splitAtX(5)_should_return_() - 2020.07.06 at 20h 29m 43s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.splitAtX(5) should return ()" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyarray_splitAtX(5)_should_return_() - 2020.07.06 at 20h 31m 59s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.splitAtX(5) should return ()" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyarray_splitAtX(5)_should_return_() - 2020.07.06 at 20h 33m 02s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.splitAtX(5) should return ()" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.9117971" visible="true" weight="0.18111111" />
-      <window_info id="Structure" order="1" sideWeight="0.088202864" side_tool="true" visible="true" weight="0.18111111" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8794788" visible="true" weight="0.40222222" />
+      <window_info id="Structure" order="1" sideWeight="0.12052117" side_tool="true" visible="true" weight="0.40222222" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -478,7 +498,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49499443" weight="0.323043" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49499443" visible="true" weight="0.323043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -910,16 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="167" column="41" selection-start-line="167" selection-start-column="41" selection-end-line="167" selection-end-column="41" />
-          <folding>
-            <element signature="e#52#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -929,8 +939,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        <state relative-caret-position="391">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="190" column="2" selection-start-line="190" selection-start-column="2" selection-end-line="190" selection-end-column="2" />
+          <folding>
+            <element signature="e#52#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

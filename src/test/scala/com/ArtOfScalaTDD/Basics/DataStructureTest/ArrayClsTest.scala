@@ -177,4 +177,16 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     val expected:Array[Int] = Array.empty[Int]
     assert(actual === expected)
   }
+
+  "ArtOfScala ArrayCls: array.splitAtX(5)" should "return (Array(0,1,2,3,4),Array(5,6,7,8,9))" in {
+    val array: Array[Int] = Array(0,1,2,3,4,5,6,7,8,9)
+    val arrCls: ArrayCLS[Int] = new ArrayCLS(array)
+    val actual:Array[Int] = arrCls.splitAtX(5)._1
+    val expected:Array[Int] = Tuple2(Array(0,1,2,3,4),Array(5,6,7,8,9))._1
+    val actual2:Array[Int] = arrCls.splitAtX(5)._2
+    val expected2:Array[Int] = Tuple2(Array(0,1,2,3,4),Array(5,6,7,8,9))._2
+    val isTrue:Boolean = actual === expected && actual2 === expected2
+    assert(isTrue)
+  }
+
 }

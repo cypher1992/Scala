@@ -196,5 +196,22 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     val expected:Array[Int] = (Array.empty[Int],Array.empty[Int])._1
     assert(actual === expected)
   }
-  
+
+  "ArtOfScala ArrayCls: array.initX()" should "return (Array(0,1,2,3,4,5,6,7))" in {
+    val array: Array[Int] = Array(0,1,2,3,4,5,6,7,8,9)
+    val arr:ArrayCLS[Int] = new ArrayCLS(array)
+    arr.setArr(arr.initX)
+    val actual:Array[Int] = arr.initX
+    val expected:Array[Int] = Array(0,1,2,3,4,5,6,7)
+    assert(actual === expected)
+  }
+
+  "ArtOfScala ArrayCls: array.initX()" should "Throws [UnsupportedOperationException]" in {
+    val array: Array[Int] = Array()
+    val arr:ArrayCLS[Int] = new ArrayCLS(array)
+    assertThrows[UnsupportedOperationException]{
+      arr.initX
+    }
+  }
+
 }

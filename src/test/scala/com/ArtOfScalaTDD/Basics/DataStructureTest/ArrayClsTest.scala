@@ -196,5 +196,5 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     val expected:Array[Int] = (Array.empty[Int],Array.empty[Int])._1
     assert(actual === expected)
   }
-
+  
 }

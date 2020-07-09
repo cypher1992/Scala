@@ -214,4 +214,12 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     }
   }
 
+  "ArtOfScala ArrayCls: array.dropX(2)" should "return (Array(2,3,4,5,6,7,8,9))" in {
+    val array: Array[Int] = Array(0,1,2,3,4,5,6,7,8,9)
+    val arr:ArrayCLS[Int] = new ArrayCLS(array)
+    val actual:Array[Int] = arr.dropX(2)
+    val expected:Array[Int] = Array(2,3,4,5,6,7,8,9)
+    assert(actual === expected)
+  }
+
 }

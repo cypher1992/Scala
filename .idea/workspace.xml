@@ -39,6 +39,7 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,28 +56,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="834">
-                    <caret line="228" column="46" selection-start-line="228" selection-start-column="46" selection-end-line="228" selection-end-column="46" />
-                    <folding>
-                      <element signature="e#52#93#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -97,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="493">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -174,8 +153,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/RecursiveTest/RecursiveTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/Arrays.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala" />
       </list>
     </option>
   </component>
@@ -189,7 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,7 +265,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -464,9 +443,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_dropX(2)_should_return_(Array(2,3,4,5,6,7,8,9)) - 2020.07.08 at 20h 47m 38s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.dropX(2) should return (Array(2,3,4,5,6,7,8,9))" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_dropX(2)_should_return_(Array(2,3,4,5,6,7,8,9)) - 2020.07.08 at 20h 47m 56s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.dropX(2) should return (Array(2,3,4,5,6,7,8,9))" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -494,13 +470,16 @@
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_dropX(2)_should_Throws_[UnsupportedOperationException] - 2020.07.08 at 20h 56m 02s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.dropX(2) should Throws [UnsupportedOperationException]" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_dropX(2)_should_expected_Array[Int]_ - 2020.07.08 at 20h 56m 47s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.dropX(2) should expected Array[Int]." configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8794788" visible="true" weight="0.24444444" />
-      <window_info id="Structure" order="1" sideWeight="0.12052117" side_tool="true" visible="true" weight="0.24444444" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.9084895" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.091510475" side_tool="true" visible="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -508,7 +487,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49499443" visible="true" weight="0.323043" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49499443" weight="0.323043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -940,6 +919,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="223" />
+          <folding>
+            <element signature="e#52#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -949,18 +938,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="228" column="46" selection-start-line="228" selection-start-column="46" selection-end-line="228" selection-end-column="46" />
-          <folding>
-            <element signature="e#52#93#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="493">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
         </state>
       </provider>
     </entry>

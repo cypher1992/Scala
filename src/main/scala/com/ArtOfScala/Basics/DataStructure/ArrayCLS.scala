@@ -25,6 +25,8 @@ class ArrayCLS[T](var arr:Array[T]){
 
     def takeX(num:Int):Array[T] = this.getArr().take(num)
 
+    def takeRightX(num:Int):Array[T] = this.getArr().takeRight(num)
+
     def splitAtX(position:Int):Tuple2[Array[T],Array[T]] = this.getArr().splitAt(position)
 
     def initX:Array[T] = this.getArr().init

@@ -33,5 +33,7 @@ class ArrayCLS[T](var arr:Array[T]){
 
     def dropX(numberofPostions:Int):Array[T] = this.getArr().drop(numberofPostions)
 
-    def containsX(index:T):Boolean = this.getArr().contains(index);
+    def containsX(index:T):Boolean = this.getArr().contains(index)
+
+    def endWithX(partOfArray:Array[T]):Boolean = this.getArr().endsWith(partOfArray)
 }

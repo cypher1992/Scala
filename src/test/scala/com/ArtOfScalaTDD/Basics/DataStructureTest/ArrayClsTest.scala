@@ -139,6 +139,17 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     val expected:Boolean = false
     assert(actual === expected)
   }
+
+  "ArtOfScala ArrayCls: emptyArray.endWithX(Array(2,1))" should "return false)" in {
+    val array: Array[Int] = Array.empty[Int]
+    val testArray:Array[Int] = Array(2,1)
+    val arrCls: ArrayCLS[Int] = new ArrayCLS(array)
+    val actual:Boolean = arrCls.endWithX(testArray)
+    val expected:Boolean = false
+    assert(actual === expected)
+  }
+
+
   "ArtOfScala ArrayCls: array.containsX(0)" should "return true" in {
     val array: Array[Int] = new Array[Int](3)
     val arrCls: ArrayCLS[Int] = new ArrayCLS(array)

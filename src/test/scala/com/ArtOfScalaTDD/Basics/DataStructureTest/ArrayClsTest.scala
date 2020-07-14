@@ -122,12 +122,19 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(expected === actual)
   }
 
-  "ArtOfScala ArrayCls: array.endWithX(Array(7,8,9))" should "return True)" in {
+  "ArtOfScala ArrayCls: array.nonEmptyX()" should "return true)" in {
     val array: Array[Int] = Array(1,2,3,4,5,6,7,8,9)
-    val testArray:Array[Int] = Array(7,8,9)
     val arrCls: ArrayCLS[Int] = new ArrayCLS(array)
-    val actual:Boolean = arrCls.endWithX(testArray)
+    val actual:Boolean = arrCls.nonEmptyX()
     val expected:Boolean = true
+    assert(actual === expected)
+  }
+
+  "ArtOfScala ArrayCls: emptyArray.nonEmptyX()" should "return false)" in {
+    val array: Array[Int] = Array.empty[Int]
+    val arrCls: ArrayCLS[Int] = new ArrayCLS(array)
+    val actual:Boolean = arrCls.nonEmptyX()
+    val expected:Boolean = false
     assert(actual === expected)
   }
 

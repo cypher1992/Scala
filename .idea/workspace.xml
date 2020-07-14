@@ -39,7 +39,6 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,8 +64,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="680">
-                    <caret line="153" column="21" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
+                  <state relative-caret-position="408">
+                    <caret line="134" column="32" selection-start-line="134" selection-start-column="32" selection-end-line="134" selection-end-column="32" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -167,8 +166,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/RecursiveTest/RecursiveTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/Arrays.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" />
       </list>
     </option>
   </component>
@@ -299,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.endWithX(Array(2,1)) should return true)">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.nonEmptyX() should return true)">
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.endWithX(Array(7,8,9)) should return True)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -334,6 +333,25 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="testName" value="ArtOfScala ArrayCls: array.endWithX(Array(9,8,7)) should return false)" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.nonEmptyX() should return true)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.nonEmptyX() should return true)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -376,32 +394,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: instanceOfArrayCls should Return true&#10;ArtOfScala ArrayCls: getArr() should return EmptyArray[Int]&#10;ArtOfScala ArrayCls: setArr(newArry) should return Array(3)&#10;ArtOfScala ArrayCls: addIndex(2,0) should return Array(3,0,0)&#10;ArtOfScala ArrayCls: addIndex(2,-1) should return Array(0,0,0)&#10;ArtOfScala ArrayCls: addIndex(2,3) should return Array(0,0,0)&#10;ArtOfScala ArrayCls: addIndex(2,2) should return Array(0,0,2)&#10;ArtOfScala ArrayCls: size() should return 3&#10;ArtOfScala ArrayCls: size() should return 0&#10;ArtOfScala ArrayCls: array.head() should return 0&#10;ArtOfScala ArrayCls: emptyArray.head() should throws java.util.NoSuchElementException&#10;ArtOfScala ArrayCls: array.tail() should return Array(0,0)&#10;ArtOfScala ArrayCls: emptyArray.tail() should throws java.lang.UnsupportedOperationException&#10;ArtOfScala ArrayCls: array.isEmpty() should return False&#10;ArtOfScala ArrayCls: array.containsX(0) should return true&#10;ArtOfScala ArrayCls: array.containsX(1) should return false&#10;ArtOfScala ArrayCls: emptyarray.containsX(0) should return false&#10;ArtOfScala ArrayCls: emptyArray.isEmpty() should return false&#10;ArtOfScala ArrayCls: array.lastX() should return 0&#10;ArtOfScala ArrayCls: emptyArray.lastX() should throws java.util.NoSuchElementException&#10;ArtOfScala ArrayCls: array.sliceX(0,2) should return Array(0,0)&#10;ArtOfScala ArrayCls: emptyArray.sliceX(0,1) should returns EmptyArray&#10;ArtOfScala ArrayCls: array.takeX(3) should return Array(1,2,3)&#10;ArtOfScala ArrayCls: array.takeX(3) should return Array.empty[Int]&#10;ArtOfScala ArrayCls: array.takeRightX(3) should return Array(7,8,9)&#10;ArtOfScala ArrayCls: array.takeRightX(3) should return Array.empty[Int]&#10;ArtOfScala ArrayCls: array.splitAtX(5) should return (Array(0,1,2,3,4),Array(5,6,7,8,9))&#10;ArtOfScala ArrayCls: emptyarray.splitAtX(5) should return ()&#10;ArtOfScala ArrayCls: array.initX() should return (Array(0,1,2,3,4,5,6,7))&#10;ArtOfScala ArrayCls: array.initX() should Throws [UnsupportedOperationException]&#10;ArtOfScala ArrayCls: array.dropX(2) should return (Array(2,3,4,5,6,7,8,9))&#10;ArtOfScala ArrayCls: array.dropX(2) should expected Array.empty[Int]." type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: instanceOfArrayCls should Return true&#10;ArtOfScala ArrayCls: getArr() should return EmptyArray[Int]&#10;ArtOfScala ArrayCls: setArr(newArry) should return Array(3)&#10;ArtOfScala ArrayCls: addIndex(2,0) should return Array(3,0,0)&#10;ArtOfScala ArrayCls: addIndex(2,-1) should return Array(0,0,0)&#10;ArtOfScala ArrayCls: addIndex(2,3) should return Array(0,0,0)&#10;ArtOfScala ArrayCls: addIndex(2,2) should return Array(0,0,2)&#10;ArtOfScala ArrayCls: size() should return 3&#10;ArtOfScala ArrayCls: size() should return 0&#10;ArtOfScala ArrayCls: array.head() should return 0&#10;ArtOfScala ArrayCls: emptyArray.head() should throws java.util.NoSuchElementException&#10;ArtOfScala ArrayCls: array.tail() should return Array(0,0)&#10;ArtOfScala ArrayCls: emptyArray.tail() should throws java.lang.UnsupportedOperationException&#10;ArtOfScala ArrayCls: array.isEmpty() should return False&#10;ArtOfScala ArrayCls: array.containsX(0) should return true&#10;ArtOfScala ArrayCls: array.containsX(1) should return false&#10;ArtOfScala ArrayCls: emptyarray.containsX(0) should return false&#10;ArtOfScala ArrayCls: emptyArray.isEmpty() should return false&#10;ArtOfScala ArrayCls: array.lastX() should return 0&#10;ArtOfScala ArrayCls: emptyArray.lastX() should throws java.util.NoSuchElementException&#10;ArtOfScala ArrayCls: array.sliceX(0,2) should return Array(0,0)&#10;ArtOfScala ArrayCls: emptyArray.sliceX(0,1) should returns EmptyArray&#10;ArtOfScala ArrayCls: array.takeX(3) should return Array(1,2,3)&#10;ArtOfScala ArrayCls: array.takeX(3) should return Array.empty[Int]&#10;ArtOfScala ArrayCls: array.takeRightX(3) should return Array(7,8,9)&#10;ArtOfScala ArrayCls: array.takeRightX(3) should return Array.empty[Int]&#10;ArtOfScala ArrayCls: array.splitAtX(5) should return (Array(0,1,2,3,4),Array(5,6,7,8,9))&#10;ArtOfScala ArrayCls: emptyarray.splitAtX(5) should return ()&#10;ArtOfScala ArrayCls: array.initX() should return (Array(0,1,2,3,4,5,6,7))&#10;ArtOfScala ArrayCls: array.initX() should Throws [UnsupportedOperationException]&#10;ArtOfScala ArrayCls: array.dropX(2) should return (Array(2,3,4,5,6,7,8,9))&#10;ArtOfScala ArrayCls: array.dropX(2) should expected Array.empty[Int]." />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.nonEmptyX() should return true)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.endWithX(Array(2,1)) should return true)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.endWithX(Array(2,1)) should return false)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.endWithX(Array(9,8,7)) should return false)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.endWithX(Array(7,8,9)) should return True)" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: instanceOfArrayCls should Return true&#10;ArtOfScala ArrayCls: getArr() should return EmptyArray[Int]&#10;ArtOfScala ArrayCls: setArr(newArry) should return Array(3)&#10;ArtOfScala ArrayCls: addIndex(2,0) should return Array(3,0,0)&#10;ArtOfScala ArrayCls: addIndex(2,-1) should return Array(0,0,0)&#10;ArtOfScala ArrayCls: addIndex(2,3) should return Array(0,0,0)&#10;ArtOfScala ArrayCls: addIndex(2,2) should return Array(0,0,2)&#10;ArtOfScala ArrayCls: size() should return 3&#10;ArtOfScala ArrayCls: size() should return 0&#10;ArtOfScala ArrayCls: array.head() should return 0&#10;ArtOfScala ArrayCls: emptyArray.head() should throws java.util.NoSuchElementException&#10;ArtOfScala ArrayCls: array.tail() should return Array(0,0)&#10;ArtOfScala ArrayCls: emptyArray.tail() should throws java.lang.UnsupportedOperationException&#10;ArtOfScala ArrayCls: array.isEmpty() should return False&#10;ArtOfScala ArrayCls: array.containsX(0) should return true&#10;ArtOfScala ArrayCls: array.containsX(1) should return false&#10;ArtOfScala ArrayCls: emptyarray.containsX(0) should return false&#10;ArtOfScala ArrayCls: emptyArray.isEmpty() should return false&#10;ArtOfScala ArrayCls: array.lastX() should return 0&#10;ArtOfScala ArrayCls: emptyArray.lastX() should throws java.util.NoSuchElementException&#10;ArtOfScala ArrayCls: array.sliceX(0,2) should return Array(0,0)&#10;ArtOfScala ArrayCls: emptyArray.sliceX(0,1) should returns EmptyArray&#10;ArtOfScala ArrayCls: array.takeX(3) should return Array(1,2,3)&#10;ArtOfScala ArrayCls: array.takeX(3) should return Array.empty[Int]&#10;ArtOfScala ArrayCls: array.takeRightX(3) should return Array(7,8,9)&#10;ArtOfScala ArrayCls: array.takeRightX(3) should return Array.empty[Int]&#10;ArtOfScala ArrayCls: array.splitAtX(5) should return (Array(0,1,2,3,4),Array(5,6,7,8,9))&#10;ArtOfScala ArrayCls: emptyarray.splitAtX(5) should return ()&#10;ArtOfScala ArrayCls: array.initX() should return (Array(0,1,2,3,4,5,6,7))&#10;ArtOfScala ArrayCls: array.initX() should Throws [UnsupportedOperationException]&#10;ArtOfScala ArrayCls: array.dropX(2) should return (Array(2,3,4,5,6,7,8,9))&#10;ArtOfScala ArrayCls: array.dropX(2) should expected Array.empty[Int]." />
       </list>
     </recent_temporary>
   </component>
@@ -492,8 +491,8 @@
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.876516" visible="true" weight="0.2611111" />
-      <window_info id="Structure" order="1" sideWeight="0.123484015" side_tool="true" visible="true" weight="0.2611111" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.87603307" visible="true" weight="0.2611111" />
+      <window_info id="Structure" order="1" sideWeight="0.12396694" side_tool="true" visible="true" weight="0.2611111" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -507,7 +506,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3351709" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" sideWeight="0.85888886" weight="0.33296582" />
+      <window_info active="true" anchor="bottom" id="sbt-shell-toolwindow" order="8" sideWeight="0.85888886" visible="true" weight="0.33296582" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3296582" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50500554" side_tool="true" weight="0.32524806" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3296582" />
@@ -940,20 +939,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="153" column="21" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
-          <folding>
-            <element signature="e#52#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="134" column="32" selection-start-line="134" selection-start-column="32" selection-end-line="134" selection-end-column="32" />
+          <folding>
+            <element signature="e#52#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

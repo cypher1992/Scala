@@ -39,7 +39,6 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,8 +64,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="290">
-                    <caret line="140" column="38" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="38" />
+                  <state relative-caret-position="409">
+                    <caret line="147" column="3" selection-start-line="147" selection-start-column="3" selection-end-line="147" selection-end-column="3" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -89,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="450">
+              <caret line="41" column="19" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -167,12 +166,12 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/RecursiveTest/RecursiveTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/Arrays.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -299,26 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.nonEmptyX() should return true)">
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.endWithX(Array(7,8,9)) should return True)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: array.endWithX(Array(7,8,9)) should return True)" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.startsWithX(Array(1,2,3)) should return True)">
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.endWithX(Array(9,8,7)) should return false)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -353,6 +333,25 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="testName" value="ArtOfScala ArrayCls: array.nonEmptyX() should return true)" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.startsWithX(Array(1,2,3)) should return True)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.startsWithX(Array(1,2,3)) should return True)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -397,11 +396,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.startsWithX(Array(1,2,3)) should return True)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.nonEmptyX() should return true)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.endWithX(Array(2,1)) should return true)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.endWithX(Array(2,1)) should return false)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.endWithX(Array(9,8,7)) should return false)" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.endWithX(Array(7,8,9)) should return True)" />
       </list>
     </recent_temporary>
   </component>
@@ -457,9 +456,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_dropX(2)_should_expected_Array[Int]_ - 2020.07.08 at 20h 56m 47s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.dropX(2) should expected Array[Int]." configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_takeRightX(3)_should_return_Array(7,8,9) - 2020.07.09 at 22h 18m 12s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.takeRightX(3) should return Array(7,8,9)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -487,9 +483,12 @@
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_nonEmptyX()_should_return_true) - 2020.07.13 at 21h 08m 43s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.nonEmptyX() should return true)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_startsWithX(Array(1,2,3))_should_return_True) - 2020.07.14 at 21h 09m 28s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.startsWithX(Array(1,2,3)) should return True)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="0" y="0" width="960" height="1040" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.87459284" visible="true" weight="0.2611111" />
@@ -940,20 +939,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="140" column="38" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="38" />
-          <folding>
-            <element signature="e#52#93#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="409">
+          <caret line="147" column="3" selection-start-line="147" selection-start-column="3" selection-end-line="147" selection-end-column="3" />
+          <folding>
+            <element signature="e#52#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

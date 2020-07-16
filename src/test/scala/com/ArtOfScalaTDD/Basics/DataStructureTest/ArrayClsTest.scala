@@ -147,7 +147,7 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
-  "ArtOfScala ArrayCls: array.startsWithX(Array(9,8,7))" should "return false)" in {
+  "ArtOfScala ArrayCls: array.startsWithX(Array(9,8,7))" should "return false" in {
     val array: Array[Int] = Array(1,2,3,4,5,6,7,8,9)
     val testArray:Array[Int] = Array(9,8,7)
     val arrCls: ArrayCLS[Int] = new ArrayCLS(array)
@@ -156,12 +156,21 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
-  "ArtOfScala ArrayCls: emptyArray.startsWithX(Array(9,8,7))" should "return false)" in {
+  "ArtOfScala ArrayCls: emptyArray.startsWithX(Array(9,8,7))" should "return false" in {
     val array: Array[Int] = Array.empty[Int]
     val testArray:Array[Int] = Array(9,8,7)
     val arrCls: ArrayCLS[Int] = new ArrayCLS(array)
     val actual:Boolean = arrCls.startsWithX(testArray)
     val expected:Boolean = false
+    assert(actual === expected)
+  }
+
+  "ArtOfScala ArrayCls: emptyArray.startsWithX(Array.empty[Int])" should "return true" in {
+    val array: Array[Int] = Array.empty[Int]
+    val testArray:Array[Int] = Array.empty[Int]
+    val arrCls: ArrayCLS[Int] = new ArrayCLS(array)
+    val actual:Boolean = arrCls.startsWithX(testArray)
+    val expected:Boolean = true
     assert(actual === expected)
   }
 

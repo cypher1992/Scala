@@ -40,4 +40,6 @@ class ArrayCLS[T](var arr:Array[T]){
     def endWithX(partOfArray:Array[T]):Boolean = this.getArr().endsWith(partOfArray)
 
     def startsWithX(partOfArray:Array[T]):Boolean = this.getArr().startsWith(partOfArray)
+
+    def indexOfX(elem:T):Int = this.getArr().indexOf(elem)
 }

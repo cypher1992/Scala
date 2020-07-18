@@ -44,4 +44,5 @@ class ArrayCLS[T](var arr:Array[T]){
     def indexOfX(elem:T):Int = this.getArr().indexOf(elem)
 
     def lastIndexOfX(elem:T):Int = this.getArr().lastIndexOf(elem)
+
 }

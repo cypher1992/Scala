@@ -399,4 +399,14 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "ArtOfScala ArrayCls: array.diffX(anotherArray)" should "expected Array(4)" in {
+    val array: Array[Int] = Array(1,2,4)
+    val anotherArray:Array[Int] = Array(1,2,3)
+    val arr:ArrayCLS[Int] = new ArrayCLS(array)
+    val actual:Array[Int] = arr.diffX(anotherArray)
+    val expected:Array[Int] = Array(4)
+    assert(actual === expected)
+  }
+
+
 }

@@ -198,6 +198,22 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "ArtOfScala ArrayCls: array.lastIndexOfX(3)" should "return 2" in {
+    val array: Array[Int] = Array(1,2,3,4,5,6,2,7,8,9)
+    val arrCls: ArrayCLS[Int] = new ArrayCLS(array)
+    val actual:Int = arrCls.lastIndexOfX(2)
+    val expected:Int = 6
+    assert(actual === expected)
+  }
+
+  "ArtOfScala ArrayCls: array.lastIndexOfX(10)" should "return -1)" in {
+    val array: Array[Int] = Array(1,2,3,4,5,6,7,8,9)
+    val arrCls: ArrayCLS[Int] = new ArrayCLS(array)
+    val actual:Int = arrCls.lastIndexOfX(10)
+    val expected:Int = -1
+    assert(actual === expected)
+  }
+
   "ArtOfScala ArrayCls: array.endWithX(Array(9,8,7))" should "return false)" in {
     val array: Array[Int] = Array(1,2,3,4,5,6,7,8,9)
     val testArray:Array[Int] = Array(9,8,7)

@@ -436,12 +436,12 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
-  "ArtOfScala ArrayCls: emptyArray.mkStringX(emptyArray)" should "String" in {
+  "ArtOfScala ArrayCls: emptyArray.mkStringX()" should "empty String" in {
     val array: Array[Int] =  Array.empty[Int]
-    val anotherArray:Array[Int] = Array.empty[Int]
     val arr:ArrayCLS[Int] = new ArrayCLS(array)
-    val actual:Array[Int] = arr.diffX(anotherArray)
-    val expected:Array[Int] = Array.empty[Int]
+    val actual:String = arr.mkStringX()
+    val expected:String = array.mkString
+    System.out.println(expected)
     assert(actual === expected)
   }
 

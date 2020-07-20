@@ -67,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="481">
-              <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+              <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -75,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="434" column="46" lean-forward="true" selection-start-line="434" selection-start-column="46" selection-end-line="434" selection-end-column="46" />
+            <state relative-caret-position="413">
+              <caret line="439" column="13" selection-start-line="439" selection-start-column="8" selection-end-line="439" selection-end-column="13" />
               <folding>
                 <element signature="e#52#93#0" expanded="true" />
               </folding>
@@ -933,8 +933,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="434" column="46" lean-forward="true" selection-start-line="434" selection-start-column="46" selection-end-line="434" selection-end-column="46" />
+        <state relative-caret-position="413">
+          <caret line="439" column="13" selection-start-line="439" selection-start-column="8" selection-end-line="439" selection-end-column="13" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>
@@ -944,7 +944,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
-          <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
         </state>
       </provider>
     </entry>

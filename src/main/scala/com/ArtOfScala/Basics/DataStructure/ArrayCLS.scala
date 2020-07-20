@@ -46,4 +46,6 @@ class ArrayCLS[T](var arr:Array[T]){
     def lastIndexOfX(elem:T):Int = this.getArr().lastIndexOf(elem)
 
     def diffX(arry:Array[T]):Array[T] = this.getArr().diff(arry)
+
+    def mkStringX(arry:Array[T]):String = this.getArr().mkString
 }

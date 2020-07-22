@@ -48,4 +48,6 @@ class ArrayCLS[T](var arr:Array[T]){
     def diffX(arry:Array[T]):Array[T] = this.getArr().diff(arry)
 
     def mkStringX():String = this.getArr().mkString
+
+    def reverseX():Array[T] = this.getArr().reverse
 }

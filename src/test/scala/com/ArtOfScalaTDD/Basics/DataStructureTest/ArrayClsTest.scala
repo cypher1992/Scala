@@ -441,7 +441,6 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     val arr:ArrayCLS[Int] = new ArrayCLS(array)
     val actual:String = arr.mkStringX()
     val expected:String = array.mkString
-    System.out.println(expected)
     assert(actual === expected)
   }
 
@@ -450,7 +449,14 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     val arr:ArrayCLS[Int] = new ArrayCLS(array)
     val actual:String = arr.mkStringX()
     val expected:String = array.mkString
-    System.out.println(expected)
+    assert(actual === expected)
+  }
+
+  "ArtOfScala ArrayCls: array.reverseX()" should "Array(8,6,4,2)" in {
+    val array: Array[Int] =  Array(2,4,6,8)
+    val arr:ArrayCLS[Int] = new ArrayCLS(array)
+    val actual:Array[Int]= arr.reverseX()
+    val expected:Array[Int] = Array(8,6,4,2)
     assert(actual === expected)
   }
 }

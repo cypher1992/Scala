@@ -76,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="447">
-              <caret line="464" column="43" selection-start-line="464" selection-start-column="43" selection-end-line="464" selection-end-column="43" />
+              <caret line="480" column="45" lean-forward="true" selection-start-line="480" selection-start-column="45" selection-end-line="480" selection-end-column="45" />
               <folding>
                 <element signature="e#52#93#0" expanded="true" />
               </folding>
@@ -290,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.reverseX() should Array(8,8,4,4)">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.reverseX() should Array.empty[Int]">
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.mkStringX() should empty String" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -348,7 +348,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.mkStringX() should String" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.reverseX() should Array.empty[Int]" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="vmparams" value="" />
@@ -362,7 +362,7 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: emptyArray.mkStringX() should String" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.reverseX() should Array.empty[Int]" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -388,11 +388,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.reverseX() should Array.empty[Int]" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.reverseX() should Array(8,8,4,4)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.reverseX() should Array(8,6,4,2)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.mkStringX() should empty String" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.mkStringX() should empty String" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.mkStringX() should String" />
       </list>
     </recent_temporary>
   </component>
@@ -448,9 +448,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_diffX(2)_should_expected_Array(3) - 2020.07.18 at 19h 52m 21s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.diffX(2) should expected Array(3)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_diffX(anotherArray)_should_expected_Array(4) - 2020.07.18 at 19h 52m 36s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.diffX(anotherArray) should expected Array(4)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -477,6 +474,9 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_reverseX()_should_Array(8,6,4,2) - 2020.07.21 at 20h 07m 08s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.reverseX() should Array(8,6,4,2)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_reverseX()_should_Array(8,8,4,4) - 2020.07.22 at 20h 28m 11s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.reverseX() should Array(8,8,4,4)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -941,7 +941,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
-          <caret line="464" column="43" selection-start-line="464" selection-start-column="43" selection-end-line="464" selection-end-column="43" />
+          <caret line="480" column="45" lean-forward="true" selection-start-line="480" selection-start-column="45" selection-end-line="480" selection-end-column="45" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

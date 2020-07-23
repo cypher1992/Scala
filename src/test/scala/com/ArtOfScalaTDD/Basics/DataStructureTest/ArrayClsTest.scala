@@ -469,4 +469,12 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "ArtOfScala ArrayCls: array.reverseX()" should "Array(2,2,2,2)" in {
+    val array: Array[Int] =  Array(2,2,2,2)
+    val arr:ArrayCLS[Int] = new ArrayCLS(array)
+    val actual:Array[Int]= arr.reverseX()
+    val expected:Array[Int] = Array(2,2,2,2)
+    assert(actual === expected)
+  }
+
 }

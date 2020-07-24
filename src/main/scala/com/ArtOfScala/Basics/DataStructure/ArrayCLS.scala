@@ -51,5 +51,5 @@ class ArrayCLS[T](var arr:Array[T]){
 
     def reverseX():Array[T] = this.getArr().reverse
 
-    def toListX():List[T] = this.getArr().toList()
+    def toListX():List[T] = this.getArr().toList
 }

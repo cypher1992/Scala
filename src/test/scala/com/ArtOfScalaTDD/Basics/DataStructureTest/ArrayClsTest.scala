@@ -528,5 +528,14 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "ArtOfScala ArrayCls: arrayEmpty.zipX(array)" should "arrayEmpty" in {
+    val array: Array[Int] =  Array.empty[Int]
+    val arrayEmpty: Array[Int] = Array.empty[Int]
+    val arr:ArrayCLS[Int] = new ArrayCLS(array)
+    val actual:Array[Tuple2[Int,Int]] = arr.zipX(arrayEmpty)
+    val expected:Array[Tuple2[Int,Int]] = Array()
+    assert(actual === expected)
+  }
+
 
 }

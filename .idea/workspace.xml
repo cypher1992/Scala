@@ -39,16 +39,6 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a3ff30101910474047fe$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a3ff30101910474047fe.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a3ff30101910474047fe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/ArtOfScala/Basics/DataStructure/ArrayCLS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/ArtOfScala/Basics/DataStructure/ArrayCLS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="517" column="49" selection-start-line="517" selection-start-column="49" selection-end-line="517" selection-end-column="49" />
+            <state relative-caret-position="362">
+              <caret line="526" column="36" lean-forward="true" selection-start-line="526" selection-start-column="36" selection-end-line="526" selection-end-column="36" />
               <folding>
                 <element signature="e#52#93#0" expanded="true" />
               </folding>
@@ -300,8 +290,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.zipX(arrayEmpty) should Array((1,5),(2,4),(3,3))">
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.reverseX() should List(2,4,6,8)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: arrayEmpty.zipX(array) should Array()">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: arrayEmpty.zipX(array) should Array()" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="vmparams" value="" />
@@ -315,7 +305,7 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: array.reverseX() should List(2,4,6,8)" />
+      <setting name="testName" value="ArtOfScala ArrayCls: arrayEmpty.zipX(array) should Array()" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -398,11 +388,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: arrayEmpty.zipX(array) should Array()" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.zipX(arrayEmpty) should Array((1,5),(2,4),(3,3))" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.zipX(array) should Array((1,5),(2,4),(3,3))" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.toListX() should List.empty[Int]" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.reverseX() should List.empty[Int]" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.reverseX() should List(2,4,6,8)" />
       </list>
     </recent_temporary>
   </component>
@@ -458,12 +448,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyArray_mkStringX()_should_String - 2020.07.20 at 19h 51m 37s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.mkStringX() should String" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyArray_mkStringX()_should_empty_String - 2020.07.21 at 19h 54m 35s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.mkStringX() should empty String" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_mkStringX()_should_empty_String - 2020.07.21 at 19h 55m 19s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.mkStringX() should empty String" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -487,6 +471,12 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_zipX(arrayEmpty)_should_Array((1,5),(2,4),(3,3)) - 2020.07.25 at 20h 12m 42s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.zipX(arrayEmpty) should Array((1,5),(2,4),(3,3))" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_zipX(arrayEmpty)_should_Array((1,5),(2,4),(3,3)) - 2020.07.25 at 20h 13m 31s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.zipX(arrayEmpty) should Array((1,5),(2,4),(3,3))" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__arrayEmpty_zipX(array)_should_Array() - 2020.07.25 at 20h 15m 28s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: arrayEmpty.zipX(array) should Array()" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -950,8 +940,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="517" column="49" selection-start-line="517" selection-start-column="49" selection-end-line="517" selection-end-column="49" />
+        <state relative-caret-position="362">
+          <caret line="526" column="36" lean-forward="true" selection-start-line="526" selection-start-column="36" selection-end-line="526" selection-end-column="36" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

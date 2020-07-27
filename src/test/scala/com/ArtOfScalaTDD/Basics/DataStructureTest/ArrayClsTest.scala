@@ -538,4 +538,12 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
   }
 
 
+  "ArtOfScala ArrayCls: array.zipWithIndeX()" should "Array(('A',0),('B',1),('C',2))" in {
+    val array: Array[Char] =  Array('A','B','C')
+    val arr:ArrayCLS[Char] = new ArrayCLS(array)
+    val actual:Array[Tuple2[Char,Int]] = arr.zipWithIndeX()
+    val expected:Array[Tuple2[Char,Int]] = Array(('A',0),('B',1),('C',2))
+    assert(actual === expected)
+  }
+
 }

@@ -54,4 +54,6 @@ class ArrayCLS[T](var arr:Array[T]){
     def toListX():List[T] = this.getArr().toList
 
     def zipX(array:Array[T]):Array[Tuple2[T,T]] = this.getArr().zip(array)
+
+    def zipWithIndeX():Array[Tuple2[T,Int]] = this.getArr().zipWithIndex
 }

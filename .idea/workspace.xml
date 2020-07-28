@@ -75,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="544" column="72" selection-start-line="544" selection-start-column="72" selection-end-line="544" selection-end-column="72" />
+            <state relative-caret-position="498">
+              <caret line="560" column="72" selection-start-line="560" selection-start-column="43" selection-end-line="560" selection-end-column="72" />
               <folding>
                 <element signature="e#52#93#0" expanded="true" />
               </folding>
@@ -290,26 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.zipWithIndeX() should Array(('A',0))">
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: arrayEmpty.zipX(array) should Array()" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: arrayEmpty.zipX(array) should Array()" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.zipWithIndeX() should Array.empty[Tuple2[Char,Int]]">
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: arrayEmpty.zipX(array) should arrayEmpty" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -386,13 +367,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.zipWithIndeX() should Array.empty[Tuple2[Char,Int]]" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.zipWithIndeX() should Array.empty[Tuple2[Char,Int]]" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.zipWithIndeX() should Array.empty[Tuple2[Char,Int]]" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.zipWithIndeX() should Array(('A',0))" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.zipWithIndeX() should Array(('A',0)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.zipWithIndeX() should Array(('A',0),('B',1),('C',2))" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: arrayEmpty.zipX(array) should arrayEmpty" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: arrayEmpty.zipX(array) should Array()" />
       </list>
     </recent_temporary>
   </component>
@@ -448,12 +448,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_reverseX()_should_Array(8,6,4,2) - 2020.07.21 at 20h 07m 08s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.reverseX() should Array(8,6,4,2)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_reverseX()_should_Array(8,8,4,4) - 2020.07.22 at 20h 28m 11s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.reverseX() should Array(8,8,4,4)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_reverseX()_should_Array_empty[Int] - 2020.07.22 at 20h 40m 19s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.reverseX() should Array.empty[Int]" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -477,6 +471,12 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__arrayEmpty_zipX(array)_should_arrayEmpty - 2020.07.25 at 20h 23m 56s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: arrayEmpty.zipX(array) should arrayEmpty" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_zipWithIndeX()_should_Array(('A',0),('B',1),('C',2)) - 2020.07.26 at 20h 34m 57s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.zipWithIndeX() should Array(('A',0),('B',1),('C',2))" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_zipWithIndeX()_should_Array(('A',0)) - 2020.07.26 at 20h 37m 18s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.zipWithIndeX() should Array(('A',0))" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -940,8 +940,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="544" column="72" selection-start-line="544" selection-start-column="72" selection-end-line="544" selection-end-column="72" />
+        <state relative-caret-position="498">
+          <caret line="560" column="72" selection-start-line="560" selection-start-column="43" selection-end-line="560" selection-end-column="72" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

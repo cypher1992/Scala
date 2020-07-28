@@ -1,8 +1,2 @@
 [debug] Acquiring lock on file C:\Users\Zero\IdeaProjects\Learning\Scala\project\target\.sbt-compilation-infos\scala-compile\.sbt-idea-lock ...
-[error] C:\Users\Zero\IdeaProjects\Learning\Scala\src\main\scala\com\ArtOfScala\Basics\DataStructure\ArrayCLS.scala:60:56: type mismatch;
-[error]  found   : Boolean
-[error]  required: T => Boolean
-[error]     def countX(func:Boolean):Int = this.getArr().count(func)
-[error]                                                        ^
-[error] one error found
 [debug] Releasing lock on file C:\Users\Zero\IdeaProjects\Learning\Scala\project\target\.sbt-compilation-infos\scala-compile\.sbt-idea-lock.

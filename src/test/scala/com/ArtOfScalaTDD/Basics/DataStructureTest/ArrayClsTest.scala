@@ -570,4 +570,12 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "ArtOfScala ArrayCls: array.countX()" should "2" in {
+    val array: Array[Char] =  Array('A','B','C','A')
+    val arr:ArrayCLS[Char] = new ArrayCLS(array)
+    var actual:Int = arr.countX('A')
+    val expected:Int = 2
+    assert(actual === expected)
+  }
+
 }

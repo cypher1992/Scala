@@ -593,12 +593,20 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     val expected:Int = 0
     assert(actual === expected)
   }
-  
+
   "ArtOfScala ArrayCls: array.dropWhileX()" should "Array('B','C')" in {
     val array: Array[Char] =  Array('A','B','C')
     val arr:ArrayCLS[Char] = new ArrayCLS(array)
     var actual:Array[Char] = arr.dropWhileX('A')
     val expected:Array[Char] = Array('B','C')
+    assert(actual === expected)
+  }
+
+  "ArtOfScala ArrayCls: array.dropWhileX()" should "Array('B','C','A')" in {
+    val array: Array[Char] =  Array('A','B','C','A')
+    val arr:ArrayCLS[Char] = new ArrayCLS(array)
+    var actual:Array[Char] = arr.dropWhileX('A')
+    val expected:Array[Char] = Array('B','C','A')
     assert(actual === expected)
   }
 }

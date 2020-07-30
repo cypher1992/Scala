@@ -58,4 +58,6 @@ class ArrayCLS[T](var arr:Array[T]){
     def zipWithIndeX():Array[Tuple2[T,Int]] = this.getArr().zipWithIndex
 
     def countX(value:T):Int = this.getArr().count(_ == value)
+
+    def dropWhileX(value:T):Array[T] = this.getArr().dropWhile(_  == value)
 }

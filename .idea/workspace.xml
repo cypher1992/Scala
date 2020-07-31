@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="61" column="74" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
+            <state relative-caret-position="345">
+              <caret line="57" column="20" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -75,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="616" column="37" selection-start-line="616" selection-start-column="37" selection-end-line="616" selection-end-column="37" />
+            <state relative-caret-position="399">
+              <caret line="618" column="3" selection-start-line="618" selection-start-column="3" selection-end-line="618" selection-end-column="3" />
               <folding>
                 <element signature="e#52#93#0" expanded="true" />
               </folding>
@@ -290,8 +290,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.dropWhileX('a') should Array('B','C','a')">
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.countX() should 0" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.existX('C') should true">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.countX() should 2" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="vmparams" value="" />
@@ -305,12 +305,12 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: array.countX() should 0" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.countX() should 2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.countX() should 3" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.dropWhileX('a') should Array('B','C')" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="vmparams" value="" />
@@ -324,26 +324,7 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: array.countX() should 3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.dropWhileX() should Array('B','C')" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: array.dropWhileX() should Array('B','C')" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.dropWhileX('a') should Array('B','C')" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -367,7 +348,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: multiInstanceArray.dropWhileX() should Array('B','C')" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.existX('C') should true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="vmparams" value="" />
@@ -381,18 +362,37 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: multiInstanceArray.dropWhileX() should Array('B','C')" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.existX('C') should true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls:iterate array.dropWhileX('A') should Array('B','C')" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="testName" value="ArtOfScala ArrayCls:iterate array.dropWhileX('A') should Array('B','C')" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.existX('C') should true" />
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.countX() should 2" />
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls:iterate array.dropWhileX('A') should Array('B','C')" />
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.dropWhileX('a') should Array('B','C')" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.dropWhileX('a') should Array('B','C','a')" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: multiInstanceArray.dropWhileX() should Array('B','C')" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.dropWhileX() should Array('B','C')" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.countX() should 0" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.countX() should 3" />
       </list>
     </recent_temporary>
   </component>
@@ -448,24 +448,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_countX()_should_3 - 2020.07.28 at 20h 40m 49s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.countX() should 3" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_countX()_should_0 - 2020.07.28 at 20h 41m 46s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.countX() should 0" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_dropWhileX()_should_Array('B','C') - 2020.07.29 at 20h 32m 19s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.dropWhileX() should Array('B','C')" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__multiInstanceArray_dropWhileX()_should_Array('B','C') - 2020.07.29 at 20h 33m 52s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: multiInstanceArray.dropWhileX() should Array('B','C')" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__multiInstanceArray_dropWhileX()_should_Array('B','C') - 2020.07.29 at 20h 34m 34s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: multiInstanceArray.dropWhileX() should Array('B','C')" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_dropWhileX('a')_should_Array('B','C','a') - 2020.07.30 at 20h 45m 44s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.dropWhileX('a') should Array('B','C','a')" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_dropWhileX('a')_should_Array('B','C','a') - 2020.07.30 at 20h 46m 28s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.dropWhileX('a') should Array('B','C','a')" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -477,6 +459,24 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_dropWhileX('a')_should_Array('B','C','a') - 2020.07.30 at 20h 52m 30s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.dropWhileX('a') should Array('B','C','a')" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_dropWhileX('a')_should_Array('B','C') - 2020.07.30 at 20h 58m 49s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.dropWhileX('a') should Array('B','C')" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls_iterate_array_dropWhileX('A')_should_Array('B','C') - 2020.07.30 at 20h 59m 27s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls:iterate array.dropWhileX('A') should Array('B','C')" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls_iterate_array_dropWhileX('A')_should_Array('B','C') - 2020.07.30 at 21h 00m 13s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls:iterate array.dropWhileX('A') should Array('B','C')" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls_iterate_array_dropWhileX('A')_should_Array('B','C') - 2020.07.30 at 21h 00m 32s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls:iterate array.dropWhileX('A') should Array('B','C')" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_countX()_should_2 - 2020.07.30 at 21h 05m 25s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.countX() should 2" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_existX('C')_should_true - 2020.07.30 at 21h 06m 27s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.existX('C') should true" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -552,16 +552,6 @@
     <SUITE FILE_PATH="coverage/Scala$ScalaTests_in__ListTest_.ic" NAME="ScalaTests in 'ListTest' Coverage Results" MODIFIED="1580075758775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/Concept/EagarVLazyTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#65#106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/local/AlgoWithDataStructure/Concepts/FactorialMemoization.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -931,17 +921,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.13.0-sources.jar!/scala/Array.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="644" column="12" selection-start-line="644" selection-start-column="12" selection-end-line="644" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="61" column="74" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
+        <state relative-caret-position="345">
+          <caret line="57" column="20" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="616" column="37" selection-start-line="616" selection-start-column="37" selection-end-line="616" selection-end-column="37" />
+        <state relative-caret-position="399">
+          <caret line="618" column="3" selection-start-line="618" selection-start-column="3" selection-end-line="618" selection-end-column="3" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

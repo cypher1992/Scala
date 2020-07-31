@@ -59,5 +59,9 @@ class ArrayCLS[T](var arr:Array[T]){
 
     def countX(value:T):Int = this.getArr().count(_ == value)
 
+    // only dropWhile at the beginning of the array
     def dropWhileX(value:T):Array[T] = this.getArr().dropWhile(_  == value)
+
+    def existX(value:T):Boolean = this.getArr().exists(_ == value)
+
 }

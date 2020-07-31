@@ -565,7 +565,7 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
   "ArtOfScala ArrayCls: array.countX()" should "1" in {
     val array: Array[Char] =  Array('A','B','C')
     val arr:ArrayCLS[Char] = new ArrayCLS(array)
-    var actual:Int = arr.countX('A')
+    val actual:Int = arr.countX('A')
     val expected:Int = 1
     assert(actual === expected)
   }
@@ -573,7 +573,7 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
   "ArtOfScala ArrayCls: array.countX()" should "2" in {
     val array: Array[Char] =  Array('A','B','C','A')
     val arr:ArrayCLS[Char] = new ArrayCLS(array)
-    var actual:Int = arr.countX('A')
+    val actual:Int = arr.countX('A')
     val expected:Int = 2
     assert(actual === expected)
   }
@@ -581,7 +581,7 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
   "ArtOfScala ArrayCls: array.countX()" should "3" in {
     val array: Array[Char] =  Array('A','B','a','C','A','A')
     val arr:ArrayCLS[Char] = new ArrayCLS(array)
-    var actual:Int = arr.countX('A')
+    val actual:Int = arr.countX('A')
     val expected:Int = 3
     assert(actual === expected)
   }
@@ -589,7 +589,7 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
   "ArtOfScala ArrayCls: array.countX()" should "0" in {
     val array: Array[Char] =  Array('a','B','a','C','a','a')
     val arr:ArrayCLS[Char] = new ArrayCLS(array)
-    var actual:Int = arr.countX('A')
+    val actual:Int = arr.countX('A')
     val expected:Int = 0
     assert(actual === expected)
   }
@@ -597,7 +597,7 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
   "ArtOfScala ArrayCls: array.dropWhileX()" should "Array('B','C')" in {
     val array: Array[Char] =  Array('A','B','C')
     val arr:ArrayCLS[Char] = new ArrayCLS(array)
-    var actual:Array[Char] = arr.dropWhileX('A')
+    val actual:Array[Char] = arr.dropWhileX('A')
     val expected:Array[Char] = Array('B','C')
     assert(actual === expected)
   }
@@ -605,8 +605,17 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
   "ArtOfScala ArrayCls: array.dropWhileX()" should "Array('B','C','A')" in {
     val array: Array[Char] =  Array('A','B','C','A')
     val arr:ArrayCLS[Char] = new ArrayCLS(array)
-    var actual:Array[Char] = arr.dropWhileX('A')
+    val actual:Array[Char] = arr.dropWhileX('A')
     val expected:Array[Char] = Array('B','C','A')
     assert(actual === expected)
   }
+
+  "ArtOfScala ArrayCls: array.dropWhileX('a')" should "Array('B','C')" in {
+    val array: Array[Char] =  Array('a','B','C')
+    val arr:ArrayCLS[Char] = new ArrayCLS(array)
+    val actual:Array[Char] = arr.dropWhileX('a')
+    val expected:Array[Char] = Array('B','C')
+    assert(actual === expected)
+  }
+
 }

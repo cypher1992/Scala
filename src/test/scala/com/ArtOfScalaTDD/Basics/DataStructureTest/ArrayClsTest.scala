@@ -501,12 +501,12 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
-  "ArtOfScala ArrayCls: array.zipX(array)" should "Array((1,5),(2,4),(3,3))" in {
+  "ArtOfScala ArrayCls: array.zipX(array)" should "Array((1,5),(2,4),(3,3),(4,2),(5,1)" in {
     val array: Array[Int] =  Array(1,2,3,4,5)
     val arrayReverse: Array[Int] =  Array(1,2,3,4,5).reverse
     val arr:ArrayCLS[Int] = new ArrayCLS(array)
     val actual:Array[Tuple2[Int,Int]] = arr.zipX(arrayReverse)
-    val expected:Array[Tuple2[Int,Int]] = Array((1,5),(2,4),(3,3))
+    val expected:Array[Tuple2[Int,Int]] = Array((1,5),(2,4),(3,3),(4,2),(5,1))
     assert(actual === expected)
   }
 

@@ -634,4 +634,11 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "ArtOfScala ArrayCls: emptyArray.existX('C')" should "false" in {
+    val array: Array[Char] =  Array.empty[Char]
+    val arr:ArrayCLS[Char] = new ArrayCLS(array)
+    val actual:Boolean = arr.existX('C')
+    val expected:Boolean = false
+    assert(actual === expected)
+  }
 }

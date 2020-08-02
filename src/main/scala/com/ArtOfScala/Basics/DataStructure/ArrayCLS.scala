@@ -64,4 +64,6 @@ class ArrayCLS[T](var arr:Array[T]){
 
     def existX(value:T):Boolean = this.getArr().exists(_ == value)
 
+    def filterX(value:T):Array[T] = this.getArr().filter(_ == value)
+
 }

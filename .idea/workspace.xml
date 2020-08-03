@@ -56,28 +56,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="800">
-                    <caret line="654" column="40" selection-start-line="654" selection-start-column="40" selection-end-line="654" selection-end-column="40" />
-                    <folding>
-                      <element signature="e#52#93#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -88,8 +66,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="447">
+              <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="666" column="3" lean-forward="true" selection-start-line="666" selection-start-column="3" selection-end-line="666" selection-end-column="3" />
+              <folding>
+                <element signature="e#52#93#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,8 +158,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/RecursiveTest/RecursiveTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/Arrays.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala" />
       </list>
     </option>
   </component>
@@ -458,9 +448,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls_iterate_array_dropWhileX('A')_should_Array('B','C') - 2020.07.30 at 21h 00m 32s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls:iterate array.dropWhileX('A') should Array('B','C')" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_countX()_should_2 - 2020.07.30 at 21h 05m 25s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.countX() should 2" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -487,6 +474,9 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_filterX('c')_should_Array('A','C','B') - 2020.08.01 at 22h 32m 13s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.filterX('c') should Array('A','C','B')" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyArray_filterX('c')_should_Array() - 2020.08.02 at 20h 47m 42s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.filterX('c') should Array()" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -940,8 +930,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="654" column="40" selection-start-line="654" selection-start-column="40" selection-end-line="654" selection-end-column="40" />
+        <state relative-caret-position="430">
+          <caret line="666" column="3" lean-forward="true" selection-start-line="666" selection-start-column="3" selection-end-line="666" selection-end-column="3" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>
@@ -950,8 +940,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="447">
+          <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
         </state>
       </provider>
     </entry>

@@ -65,7 +65,7 @@
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="766">
-                    <caret line="675" column="2" selection-start-line="675" selection-start-column="2" selection-end-line="675" selection-end-column="2" />
+                    <caret line="676" selection-start-line="676" selection-end-line="676" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -948,7 +948,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="766">
-          <caret line="675" column="2" selection-start-line="675" selection-start-column="2" selection-end-line="675" selection-end-column="2" />
+          <caret line="676" selection-start-line="676" selection-end-line="676" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

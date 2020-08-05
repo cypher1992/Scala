@@ -39,6 +39,12 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes.bak/sbt7867222063077066053.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,8 +70,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="851">
-                    <caret line="689" column="31" lean-forward="true" selection-start-line="689" selection-start-column="31" selection-end-line="689" selection-end-column="31" />
+                  <state relative-caret-position="766">
+                    <caret line="693" column="4" selection-start-line="693" selection-start-column="4" selection-end-line="693" selection-end-column="4" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -300,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.forAllX('c') should true">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.forAllX('c') should false">
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.filterNot('C') should Array('A','B')" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -358,6 +364,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.forAllX('c') should false" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.forAllX('c') should false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.forAllX('c') should true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -377,32 +402,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.filterX('c') should Array()" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: emptyArray.filterX('c') should Array()" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.forAllX('c') should false" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.forAllX('c') should true" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.filterNot('c') should Array('A','C','B')" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.filterNot('C') should Array('A','B')" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.filterNot('c') should Array('A','B')" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.filterX('c') should Array()" />
       </list>
     </recent_temporary>
   </component>
@@ -458,9 +464,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_filterX('C')_should_Array('A','B') - 2020.08.01 at 22h 30m 32s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.filterX('C') should Array('A','B')" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_filterX('c')_should_Array('A','C','B') - 2020.08.01 at 22h 32m 13s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.filterX('c') should Array('A','C','B')" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -487,6 +490,9 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_filterNot('c')_should_Array('A','C','B') - 2020.08.03 at 21h 25m 44s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.filterNot('c') should Array('A','C','B')" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_forAllX('c')_should_true - 2020.08.04 at 22h 14m 51s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.forAllX('c') should true" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -947,8 +953,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="689" column="31" lean-forward="true" selection-start-line="689" selection-start-column="31" selection-end-line="689" selection-end-column="31" />
+        <state relative-caret-position="766">
+          <caret line="693" column="4" selection-start-line="693" selection-start-column="4" selection-end-line="693" selection-end-column="4" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

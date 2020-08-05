@@ -67,4 +67,6 @@ class ArrayCLS[T](var arr:Array[T]){
     def filterX(value:T):Array[T] = this.getArr().filter(_ != value)
 
     def filterNotX(value:T):Array[T] = this.getArr().filterNot(_ == value)
+
+    def forAllX(value:T):Boolean= this.getArr().forall(_ == value)
 }

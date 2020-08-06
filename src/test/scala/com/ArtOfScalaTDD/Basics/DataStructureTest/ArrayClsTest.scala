@@ -705,4 +705,15 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     val expected:Boolean = false
     assert(actual === expected)
   }
+
+  "ArtOfScala ArrayCls: emptyArray.forAllX('c')" should "true" in {
+    // this is broken
+    // where all instance of an empty array is true
+    val array: Array[Char] =  Array.empty[Char]
+    val arr:ArrayCLS[Char] = new ArrayCLS(array)
+    val actual:Boolean = arr.forAllX('c')
+    val expected:Boolean = true
+    assert(actual === expected)
+  }
+
 }

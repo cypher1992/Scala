@@ -682,6 +682,14 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "ArtOfScala ArrayCls: emptyArray.filterNot('c')" should "Array.empty[Char]" in {
+    val array: Array[Char] =  Array.empty[Char]
+    val arr:ArrayCLS[Char] = new ArrayCLS(array)
+    val actual:Array[Char] = arr.filterNotX('c')
+    val expected:Array[Char] = Array.empty[Char]
+    assert(actual === expected)
+  }
+
   "ArtOfScala ArrayCls: array.forAllX('c')" should "true" in {
     val array: Array[Char] =  Array('c','c','c')
     val arr:ArrayCLS[Char] = new ArrayCLS(array)

@@ -71,4 +71,6 @@ class ArrayCLS[T](var arr:Array[T]){
     def forAllX(value:T):Boolean= this.getArr().forall(_ == value)
 
     def indexWhereX(value:T):Int = this.getArr().indexWhere(_ == value)
+
+    def lastIndexWhereX(value:T):Int = this.getArr().lastIndexWhere(_ == value)
 }

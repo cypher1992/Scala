@@ -748,4 +748,12 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "ArtOfScala ArrayCls: array.lastIndexWhereX('C)" should "2" in {
+    val array: Array[Char] =  Array('C','A','C')
+    val arr:ArrayCLS[Char] = new ArrayCLS(array)
+    val actual:Int = arr.lastIndexWhereX('C')
+    val expected:Int = 2
+    assert(actual === expected)
+  }
+
 }

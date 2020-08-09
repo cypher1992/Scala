@@ -73,4 +73,6 @@ class ArrayCLS[T](var arr:Array[T]){
     def indexWhereX(value:T):Int = this.getArr().indexWhere(_ == value)
 
     def lastIndexWhereX(value:T):Int = this.getArr().lastIndexWhere(_ == value)
+
+    def mapX[B](f:(T)=>B):Traversable[B]
 }

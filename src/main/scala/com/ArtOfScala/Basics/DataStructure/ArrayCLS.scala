@@ -1,5 +1,7 @@
 package com.ArtOfScala.Basics.DataStructure
 
+import scala.reflect.ClassTag
+
 class ArrayCLS[T](var arr:Array[T]){
 
     def getArr():Array[T] = this.arr
@@ -74,5 +76,5 @@ class ArrayCLS[T](var arr:Array[T]){
 
     def lastIndexWhereX(value:T):Int = this.getArr().lastIndexWhere(_ == value)
 
-    def mapX[B](f:(T)=>B):Traversable[B]
+    def mapX[B](f: T => B)(implicit ct: ClassTag[B]): Array[B] = this.getArr().map(f(_))
 }

@@ -773,12 +773,20 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
   }
 
   "ArtOfScala ArrayCls: array.map(2x)" should "Array(2)" in {
-    val array: Array[Int] =  Array(1)
-    val arr:ArrayCLS[Int] = new ArrayCLS(array)
-    def twoTimes(int:Int):Int = int*2
-    val actual:Array[Int] = arr.mapX(twoTimes)
-    val expected:Array[Int] = Array(2)
+    val array: Array[Int] = Array(1)
+    val arr: ArrayCLS[Int] = new ArrayCLS(array)
+    def twoTimes(int: Int): Int = int * 2
+    val actual: Array[Int] = arr.mapX(twoTimes)
+    val expected: Array[Int] = Array(2)
     assert(actual === expected)
   }
 
+  "ArtOfScala ArrayCls: array.map(2x)" should "Array(2,4)" in {
+    val array: Array[Int] = Array(1, 2)
+    val arr: ArrayCLS[Int] = new ArrayCLS(array)
+    def twoTimes(int: Int): Int = int * 2
+    val actual: Array[Int] = arr.mapX(twoTimes)
+    val expected: Array[Int] = Array(2, 4)
+    assert(actual === expected)
+  }
 }

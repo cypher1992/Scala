@@ -39,6 +39,7 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,8 +65,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="749">
-                    <caret line="793" column="3" selection-start-line="793" selection-start-column="3" selection-end-line="793" selection-end-column="3" />
+                  <state relative-caret-position="800">
+                    <caret line="795" column="41" lean-forward="true" selection-start-line="795" selection-start-column="41" selection-end-line="795" selection-end-column="41" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -88,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="246">
+              <caret line="68" column="68" lean-forward="true" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -309,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.map(2x) should Array(2,4)">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.map(2x) should emptyArray">
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.lastIndexWhereX('A) should 1" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -344,25 +345,6 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="testName" value="ArtOfScala ArrayCls: array.lastIndexWhereX('B) should -1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.lastIndexWhereX('C) should 2" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: array.lastIndexWhereX('C) should 2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -405,13 +387,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.map(2x) should emptyArray" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="testName" value="ArtOfScala ArrayCls: emptyArray.map(2x) should emptyArray" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.map(2x) should emptyArray" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.map(2x) should Array(2,4)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.map(2x) should Array(2)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.lastIndexWhereX('B) should -1" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.lastIndexWhereX('A) should 1" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.lastIndexWhereX('C) should 2" />
       </list>
     </recent_temporary>
   </component>
@@ -467,12 +468,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyArray_forAllX('c')_should_true - 2020.08.05 at 22h 41m 04s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.forAllX('c') should true" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyArray_indexWhereX('c')_should_-1 - 2020.08.06 at 20h 56m 34s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.indexWhereX('c') should -1" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_indexWhereX('C)_should_0 - 2020.08.06 at 21h 01m 13s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.indexWhereX('C) should 0" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -497,13 +492,19 @@
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_map(2x)_should_Array(2) - 2020.08.09 at 21h 24m 01s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.map(2x) should Array(2)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_map(2x)_should_Array(2) - 2020.08.09 at 21h 39m 30s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.map(2x) should Array(2)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_map(2x)_should_Array(2,4) - 2020.08.09 at 21h 39m 47s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.map(2x) should Array(2,4)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8661157" visible="true" weight="0.29777777" />
-      <window_info id="Structure" order="1" sideWeight="0.1338843" side_tool="true" visible="true" weight="0.29777777" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.86644953" visible="true" weight="0.29777777" />
+      <window_info id="Structure" order="1" sideWeight="0.1335505" side_tool="true" visible="true" weight="0.29777777" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -511,13 +512,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49499443" weight="0.323043" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49499443" visible="true" weight="0.323043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3351709" />
-      <window_info active="true" anchor="bottom" id="sbt-shell-toolwindow" order="8" sideWeight="0.85888886" visible="true" weight="0.33296582" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" sideWeight="0.85888886" weight="0.33296582" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3296582" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50500554" side_tool="true" weight="0.32524806" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3296582" />
@@ -949,15 +950,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="246">
+          <caret line="68" column="68" lean-forward="true" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="793" column="3" selection-start-line="793" selection-start-column="3" selection-end-line="793" selection-end-column="3" />
+        <state relative-caret-position="800">
+          <caret line="795" column="41" lean-forward="true" selection-start-line="795" selection-start-column="41" selection-end-line="795" selection-end-column="41" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

@@ -1,2 +1,14 @@
 [debug] Acquiring lock on file C:\Users\Zero\IdeaProjects\Learning\Scala\project\target\.sbt-compilation-infos\scala-test\.sbt-idea-lock ...
+[error] C:\Users\Zero\IdeaProjects\Learning\Scala\src\test\scala\com\ArtOfScalaTDD\Basics\DataStructureTest\ArrayClsTest.scala:805:59: missing parameter type for expanded function ((<x$1: error>) => if (int.$less(10))
+[error]   int
+[error] else
+[error]   x$1)
+[error]     def lessThan10(int: Int): Int = if(int < 10) int else _
+[error]                                                           ^
+[error] C:\Users\Zero\IdeaProjects\Learning\Scala\src\test\scala\com\ArtOfScalaTDD\Basics\DataStructureTest\ArrayClsTest.scala:814:41: type mismatch;
+[error]  found   : Boolean
+[error]  required: Int
+[error]     val actual: Array[Int] = arr.mapX(_ < 10)
+[error]                                         ^
+[error] two errors found
 [debug] Releasing lock on file C:\Users\Zero\IdeaProjects\Learning\Scala\project\target\.sbt-compilation-infos\scala-test\.sbt-idea-lock.

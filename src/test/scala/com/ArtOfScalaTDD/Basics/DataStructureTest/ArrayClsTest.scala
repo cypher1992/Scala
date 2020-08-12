@@ -812,7 +812,7 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     //work in progresz
     val array: Array[Int] = Array(20,12,333,7,11,3,99,1)
     val arr: ArrayCLS[Int] = new ArrayCLS(array)
-    def lessThan10(int: Int): Int = if(int < 10) int else _
+    def lessThan10(int: Int): Int = if(int < 10) int else nothing
     val actual: Array[Int] = arr.mapX(lessThan10)
     val expected: Array[Int] = Array.empty[Int]
     assert(actual === expected)

@@ -808,4 +808,15 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "ArtOfScala ArrayCls: array.map(lessthan10)" should "Array(5)" in {
+    val array: Array[Int] = Array(5,10)
+    val arr: ArrayCLS[Int] = new ArrayCLS(array)
+    def lessThan10(int: Int): Int = int match {
+      case a if(a<10) => a
+    }
+    val actual: Array[Int] = arr.mapX(lessThan10)
+    val expected: Array[Int] = Array(5)
+    assert(actual === expected)
+  }
+
 }

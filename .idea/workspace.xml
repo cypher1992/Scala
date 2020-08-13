@@ -64,8 +64,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="647">
-                    <caret line="816" column="26" lean-forward="true" selection-start-line="816" selection-start-column="26" selection-end-line="816" selection-end-column="26" />
+                  <state relative-caret-position="732">
+                    <caret line="800" column="2" selection-start-line="800" selection-start-column="2" selection-end-line="800" selection-end-column="2" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -88,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="331">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
@@ -467,9 +467,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_map(2x)_should_Array(2) - 2020.08.09 at 21h 39m 30s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.map(2x) should Array(2)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_map(2x)_should_Array(2,4) - 2020.08.09 at 21h 39m 47s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.map(2x) should Array(2,4)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -497,9 +494,13 @@
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_map(lessthan10)_should_array(5) - 2020.08.12 at 21h 19m 39s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.map(lessthan10) should array(5)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_map(lessthan10)_should_array(5) - 2020.08.12 at 21h 28m 15s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.map(lessthan10) should array(5)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.86644953" visible="true" weight="0.29777777" />
       <window_info id="Structure" order="1" sideWeight="0.1335505" side_tool="true" visible="true" weight="0.29777777" />
@@ -948,15 +949,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="331">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="816" column="26" lean-forward="true" selection-start-line="816" selection-start-column="26" selection-end-line="816" selection-end-column="26" />
+        <state relative-caret-position="732">
+          <caret line="800" column="2" selection-start-line="800" selection-start-column="2" selection-end-line="800" selection-end-column="2" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

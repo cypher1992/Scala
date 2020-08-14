@@ -799,6 +799,14 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "ArtOfScala ArrayCls: emptyArray.partionX(lessThan10)" should "Array.empty[Int]" in {
+    val array: Array[Int] = Array.empty[Int]
+    val arr: ArrayCLS[Int] = new ArrayCLS(array)
+    def lessThan10(int: Int):Boolean = if(int< 10) true else false
+    val actual: Array[Int] = arr.partionX(lessThan10)._1
+    val expected: Array[Int] = Array.empty[Int]
+    assert(actual === expected)
+  }
 
 
 }

@@ -77,4 +77,7 @@ class ArrayCLS[T](var arr:Array[T]){
     def lastIndexWhereX(value:T):Int = this.getArr().lastIndexWhere(_ == value)
 
     def mapX[B](f: T => B)(implicit ct: ClassTag[B]): Array[B] = this.getArr().map(f(_))
+
+    def partionX(f: T => Boolean): Tuple2[Array[T], Array[T]]= this.getArr().partition(f(_))
+
 }

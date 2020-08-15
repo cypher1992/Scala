@@ -825,4 +825,13 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     val expected: Array[Int] = Array(1)
     assert(actual === expected)
   }
+
+  "ArtOfScala ArrayCls: array.partionX(lessThan10)" should "Second Tuple return Array(1)" in {
+    val array: Array[Int] = Array(1,10)
+    val arr: ArrayCLS[Int] = new ArrayCLS(array)
+    def lessThan10(int: Int):Boolean = if(int< 10) true else false
+    val actual: Array[Int] = arr.partionX(lessThan10)._2
+    val expected: Array[Int] = Array(10)
+    assert(actual === expected)
+  }
 }

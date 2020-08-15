@@ -64,8 +64,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="783">
-                    <caret line="812" column="48" lean-forward="true" selection-start-line="812" selection-start-column="48" selection-end-line="812" selection-end-column="48" />
+                  <state relative-caret-position="596">
+                    <caret line="813" column="66" lean-forward="true" selection-start-line="813" selection-start-column="66" selection-end-line="813" selection-end-column="66" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -309,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.partionX(lessThan10) should Array(1)">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.partionX(lessThan10) should Second Tuple return Array.empty[Int]">
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.map(lessthan10) should array(5)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -367,7 +367,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.map(lessthan10) should emptyArray" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.partionX(lessThan10) should Second Tuple return Array.empty[Int]" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="vmparams" value="" />
@@ -381,7 +381,7 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: emptyArray.map(lessthan10) should emptyArray" />
+      <setting name="testName" value="ArtOfScala ArrayCls: emptyArray.partionX(lessThan10) should Second Tuple return Array.empty[Int]" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -407,11 +407,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.partionX(lessThan10) should Second Tuple return Array.empty[Int]" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.partionX(lessThan10) should Array(1)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.partionX(lessThan10) should Tuple2(Array.empty[Int],Array.empty[Int])" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.map(lessthan10) should array(5)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.map(lessthan10) should array" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyArray.map(lessthan10) should emptyArray" />
       </list>
     </recent_temporary>
   </component>
@@ -467,12 +467,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyArray_map(lessthan10)_should_emptyArray - 2020.08.11 at 23h 12m 44s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.map(lessthan10) should emptyArray" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_map(lessthan10)_should_Array(5) - 2020.08.12 at 20h 58m 47s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.map(lessthan10) should Array(5)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyArray_map(lessthan10)_should_emptyArray - 2020.08.12 at 21h 13m 31s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.map(lessthan10) should emptyArray" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -496,6 +490,12 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyArray_partionX(lessThan10)_should_Tuple2(Array_empty[Int],Array_empty[Int]) - 2020.08.13 at 21h 36m 48s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.partionX(lessThan10) should Tuple2(Array.empty[Int],Array.empty[Int])" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_partionX(lessThan10)_should_Array(1) - 2020.08.13 at 21h 41m 34s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.partionX(lessThan10) should Array(1)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyArray_partionX(lessThan10)_should_Second_Tuple_return_Array_empty[Int] - 2020.08.14 at 23h 21m 34s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.partionX(lessThan10) should Second Tuple return Array.empty[Int]" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -956,8 +956,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="812" column="48" lean-forward="true" selection-start-line="812" selection-start-column="48" selection-end-line="812" selection-end-column="48" />
+        <state relative-caret-position="596">
+          <caret line="813" column="66" lean-forward="true" selection-start-line="813" selection-start-column="66" selection-end-line="813" selection-end-column="66" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

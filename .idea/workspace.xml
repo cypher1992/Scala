@@ -65,8 +65,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="698">
-                    <caret line="850" column="51" selection-start-line="850" selection-start-column="30" selection-end-line="850" selection-end-column="51" />
+                  <state relative-caret-position="783">
+                    <caret line="857" column="49" lean-forward="true" selection-start-line="857" selection-start-column="49" selection-end-line="857" selection-end-column="49" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -89,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="433">
+              <caret line="82" column="74" selection-start-line="82" selection-start-column="74" selection-end-line="82" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -178,8 +178,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/RecursiveTest/RecursiveTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/Arrays.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala" />
       </list>
     </option>
   </component>
@@ -468,9 +468,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_map(lessthan10)_should_array(5) - 2020.08.12 at 21h 28m 15s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.map(lessthan10) should array(5)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyArray_partionX(lessThan10)_should_Tuple2(Array_empty[Int],Array_empty[Int]) - 2020.08.13 at 21h 34m 25s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyArray.partionX(lessThan10) should Tuple2(Array.empty[Int],Array.empty[Int])" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -497,6 +494,9 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_partionX(isCharA)_should_Second_Tuple_return_Array('A') - 2020.08.15 at 21h 06m 07s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.partionX(isCharA) should Second Tuple return Array('A')" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_partionX(isCharA)_should_Second_Tuple_return_Array('C','B') - 2020.08.15 at 21h 22m 48s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.partionX(isCharA) should Second Tuple return Array('C','B')" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -950,8 +950,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="850" column="51" selection-start-line="850" selection-start-column="30" selection-end-line="850" selection-end-column="51" />
+        <state relative-caret-position="783">
+          <caret line="857" column="49" lean-forward="true" selection-start-line="857" selection-start-column="49" selection-end-line="857" selection-end-column="49" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>
@@ -960,8 +960,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="433">
+          <caret line="82" column="74" selection-start-line="82" selection-start-column="74" selection-end-line="82" selection-end-column="74" />
         </state>
       </provider>
     </entry>

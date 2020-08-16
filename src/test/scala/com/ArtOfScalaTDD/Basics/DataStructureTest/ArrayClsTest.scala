@@ -844,7 +844,7 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
-  "ArtOfScala ArrayCls: array.partionX(isCharA)" should "Second Tuple return Array('A')" in {
+  "ArtOfScala ArrayCls: array.partionX(isCharA)" should "First Tuple return Array('A')" in {
     val array: Array[Char] = Array('C','B','A')
     val arr: ArrayCLS[Char] = new ArrayCLS(array)
     def isCharA(char: Char):Boolean = if(char === 'A') true else false
@@ -853,4 +853,12 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "ArtOfScala ArrayCls: array.partionX(isCharA)" should "Second Tuple return Array('C','B')" in {
+    val array: Array[Char] = Array('C','B','A')
+    val arr: ArrayCLS[Char] = new ArrayCLS(array)
+    def isCharA(char: Char):Boolean = if(char === 'A') true else false
+    val actual: Array[Char] = arr.partionX(isCharA)._2
+    val expected: Array[Int] = Array('C','B')
+    assert(actual === expected)
+  }
 }

@@ -862,7 +862,7 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
-  "ArtOfScala ArrayCls: array.takeWhileX(isCharA)" should "Second Tuple return Array.empty[Char]" in {
+  "ArtOfScala ArrayCls: array.takeWhileX(isCharA)" should "return Array.empty[Char]" in {
     val array: Array[Char] = Array.empty[Char]
     val arr: ArrayCLS[Char] = new ArrayCLS(array)
     def isCharA(char: Char):Boolean = if(char === 'A') true else false
@@ -870,4 +870,5 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     val expected: Array[Char] = Array.empty[Char]
     assert(actual === expected)
   }
+  
 }

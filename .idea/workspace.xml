@@ -40,6 +40,7 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,8 +66,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="817">
-                    <caret line="877" column="57" selection-start-line="877" selection-start-column="57" selection-end-line="877" selection-end-column="57" />
+                  <state relative-caret-position="800">
+                    <caret line="874" column="40" lean-forward="true" selection-start-line="874" selection-start-column="40" selection-end-line="874" selection-end-column="40" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -957,8 +958,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="877" column="57" selection-start-line="877" selection-start-column="57" selection-end-line="877" selection-end-column="57" />
+        <state relative-caret-position="800">
+          <caret line="874" column="40" lean-forward="true" selection-start-line="874" selection-start-column="40" selection-end-line="874" selection-end-column="40" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

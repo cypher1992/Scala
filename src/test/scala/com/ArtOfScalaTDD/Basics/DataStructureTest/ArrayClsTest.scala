@@ -862,13 +862,21 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
-  "ArtOfScala ArrayCls: array.takeWhileX(isCharA)" should "return Array.empty[Char]" in {
-    val array: Array[Char] = Array.empty[Char]
-    val arr: ArrayCLS[Char] = new ArrayCLS(array)
-    def isCharA(char: Char):Boolean = if(char === 'A') true else false
-    val actual: Array[Char] = arr.takeWhileX(isCharA)
-    val expected: Array[Char] = Array.empty[Char]
+  "ArtOfScala ArrayCls: array.takeWhileX(isLessThan)" should "return Array.empty[Int]" in {
+    val array: Array[Int] = Array.empty[Int]
+    val arr: ArrayCLS[Int] = new ArrayCLS(array)
+    def isLessThan(num: Int,targetNum:Int):Boolean = if(num < targetNum) true else false
+    val actual: Array[Int] = arr.takeWhileX(isLessThan(_,3))
+    val expected: Array[Int] = Array.empty[Int]
     assert(actual === expected)
   }
-  
+
+  "ArtOfScala ArrayCls: array.takeWhileX(isLessThan)" should "return Array(1,2)" in {
+    val array: Array[Int] = Array(1,2,3)
+    val arr: ArrayCLS[Int] = new ArrayCLS(array)
+    def isLessThan(num: Int,targetNum:Int):Boolean = if(num < targetNum) true else false
+    val actual: Array[Int] = arr.takeWhileX(isLessThan(_,3))
+    val expected: Array[Int] = Array(1,2)
+    assert(actual === expected)
+  }
 }

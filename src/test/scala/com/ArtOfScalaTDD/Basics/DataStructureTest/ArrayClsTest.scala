@@ -880,13 +880,21 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
-
   "ArtOfScala ArrayCls: array.filterX(filterChar)" should "return Array.empty[Char]" in {
     val array: Array[Char] = Array.empty[Char]
     val arr: ArrayCLS[Char] = new ArrayCLS(array)
     def filterChar(char:Char,targetChar:Char):Boolean = if(char == targetChar) true else false
     val actual: Array[Char] = arr.filterX(filterChar(_,'A'))
     val expected: Array[Char] = Array.empty[Char]
+    assert(actual === expected)
+  }
+
+  "ArtOfScala ArrayCls: array.filterX(filterChar)" should "return Array('A')" in {
+    val array: Array[Char] = Array('B','A','C')
+    val arr: ArrayCLS[Char] = new ArrayCLS(array)
+    def filterChar(char:Char,targetChar:Char):Boolean = if(char == targetChar) true else false
+    val actual: Array[Char] = arr.filterX(filterChar(_,'A'))
+    val expected: Array[Char] = Array('A')
     assert(actual === expected)
   }
 

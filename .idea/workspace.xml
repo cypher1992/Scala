@@ -65,8 +65,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="766">
-                    <caret line="882" selection-start-line="882" selection-end-line="882" />
+                  <state relative-caret-position="647">
+                    <caret line="884" column="4" selection-start-line="884" selection-start-column="4" selection-end-line="884" selection-end-column="4" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -178,8 +178,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/Recursion.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/RecursiveTest/RecursiveTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/Arrays.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" />
       </list>
     </option>
   </component>
@@ -310,8 +310,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.takeWhileX(isCharA) should return Array('A')">
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.partionX(isCharA) should Second Tuple return Array('A')" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.filterX(filterChar) should return Array.empty[Char]">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.filterX(filterChar) should return Array.empty[Char]" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="vmparams" value="" />
@@ -325,12 +325,12 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: array.partionX(isCharA) should Second Tuple return Array('A')" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.filterX(filterChar) should return Array.empty[Char]" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.partionX(isCharA) should Second Tuple return Array('C','B')" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.filterX(filterChar) should return Array.empty[Int]" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="vmparams" value="" />
@@ -344,7 +344,7 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: array.partionX(isCharA) should Second Tuple return Array('C','B')" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.filterX(filterChar) should return Array.empty[Int]" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -408,11 +408,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.filterX(filterChar) should return Array.empty[Char]" />
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.filterX(filterChar) should return Array.empty[Int]" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.takeWhileX(isCharA) should return Array('A')" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.takeWhileX(isCharA) should Second Tuple return Array.empty[Char]" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.takeWhileX(isCharA) should Second Tuple return Array('C','B')" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.partionX(isCharA) should Second Tuple return Array('C','B')" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.partionX(isCharA) should Second Tuple return Array('A')" />
       </list>
     </recent_temporary>
   </component>
@@ -468,9 +468,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_partionX(lessThan10)_should_Second_Tuple_return_Array(10) - 2020.08.15 at 21h 04m 29s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.partionX(lessThan10) should Second Tuple return Array(10)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_partionX(isCharA)_should_Second_Tuple_return_Array('A') - 2020.08.15 at 21h 06m 07s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.partionX(isCharA) should Second Tuple return Array('A')" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -497,6 +494,9 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_takeWhileX(isCharA)_should_return_Array('A') - 2020.08.16 at 21h 18m 23s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.takeWhileX(isCharA) should return Array('A')" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_filterX(filterChar)_should_return_Array_empty[Int] - 2020.08.17 at 23h 12m 04s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.filterX(filterChar) should return Array.empty[Int]" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -948,20 +948,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="882" selection-start-line="882" selection-end-line="882" />
-          <folding>
-            <element signature="e#52#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
           <caret line="84" column="66" selection-start-line="84" selection-start-column="66" selection-end-line="84" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="884" column="4" selection-start-line="884" selection-start-column="4" selection-end-line="884" selection-end-column="4" />
+          <folding>
+            <element signature="e#52#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

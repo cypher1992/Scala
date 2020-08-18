@@ -81,4 +81,6 @@ class ArrayCLS[T](var arr:Array[T]){
     def partionX(f: T => Boolean): Tuple2[Array[T], Array[T]]= this.getArr().partition(f(_))
 
     def takeWhileX(f:T => Boolean):Array[T] = this.getArr().takeWhile(f)
+
+    def filterX(f:T => Boolean):Array[T] = this.getArr().filter(f)
 }

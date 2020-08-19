@@ -65,8 +65,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="783">
-                    <caret line="902" column="48" lean-forward="true" selection-start-line="902" selection-start-column="48" selection-end-line="902" selection-end-column="48" />
+                  <state relative-caret-position="800">
+                    <caret line="912" column="42" selection-start-line="912" selection-start-column="42" selection-end-line="912" selection-end-column="42" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -310,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.filterX(lessThan2) should return Array(1,2)">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.filterX(lessThan2) should return Array(1,2,3)">
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.filterX(filterChar) should return Array('A')" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -368,25 +368,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.filterX(filterChar) should return Array.empty[Int]" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: array.filterX(filterChar) should return Array.empty[Int]" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.filterX(lessThan2) should return Array(1,2)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -406,13 +387,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.filterX(lessThan2) should return Array(1,2,3)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.filterX(lessThan2) should return Array(1,2,3)" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.filterX(lessThan2) should return Array(1,2,3)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.filterX(lessThan2) should return Array(1,2)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.filterX(filterChar) should return Array('A')" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.filterX(filterChar) should return Array('B','C')" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.filterX(filterChar) should return Array.empty[Char]" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.filterX(filterChar) should return Array.empty[Int]" />
       </list>
     </recent_temporary>
   </component>
@@ -468,9 +468,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_takeWhileX(isCharA)_should_Second_Tuple_return_Array_empty[Char] - 2020.08.16 at 21h 08m 59s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.takeWhileX(isCharA) should Second Tuple return Array.empty[Char]" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_takeWhileX(isCharA)_should_return_Array('A') - 2020.08.16 at 21h 11m 30s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.takeWhileX(isCharA) should return Array('A')" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -497,6 +494,9 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_filterX(filterChar)_should_return_Array('A') - 2020.08.17 at 23h 21m 43s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.filterX(filterChar) should return Array('A')" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_filterX(lessThan2)_should_return_Array(1,2) - 2020.08.18 at 21h 16m 12s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.filterX(lessThan2) should return Array(1,2)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -957,8 +957,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="902" column="48" lean-forward="true" selection-start-line="902" selection-start-column="48" selection-end-line="902" selection-end-column="48" />
+        <state relative-caret-position="800">
+          <caret line="912" column="42" selection-start-line="912" selection-start-column="42" selection-end-line="912" selection-end-column="42" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

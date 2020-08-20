@@ -83,4 +83,6 @@ class ArrayCLS[T](var arr:Array[T]){
     def takeWhileX(f:T => Boolean):Array[T] = this.getArr().takeWhile(f)
 
     def filterX(f:T => Boolean):Array[T] = this.getArr().filter(f)
+
+    def notFilterX(f:T => Boolean):Array[T] = this.getArr().filterNot(f)
 }

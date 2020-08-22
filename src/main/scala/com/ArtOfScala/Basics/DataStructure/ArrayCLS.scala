@@ -85,4 +85,6 @@ class ArrayCLS[T](var arr:Array[T]){
     def filterX(f:T => Boolean):Array[T] = this.getArr().filter(f)
 
     def notFilterX(f:T => Boolean):Array[T] = this.getArr().filterNot(f)
+
+    def foldLeft[B](z: B)(op: (B, T) => B): B = this.getArr().foldLeft(z)(op)
 }

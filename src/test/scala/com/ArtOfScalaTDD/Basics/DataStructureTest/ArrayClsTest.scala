@@ -961,4 +961,12 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "ArtOfScala ArrayCls: array.foldLeftX(0)(_+_)" should "return 1" in {
+    val array: Array[Int] = Array(1)
+    val arr: ArrayCLS[Int] = new ArrayCLS(array)
+    def lessThan3OrEqual(num:Int,targetNum:Int):Boolean = if(num <= targetNum) true else false
+    val actual: Int = arr.foldLeftX(0)(_+_)
+    val expected: Int = 1
+    assert(actual === expected)
+  }
 }

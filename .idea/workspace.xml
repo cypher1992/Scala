@@ -65,8 +65,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="783">
-                    <caret line="956" column="48" lean-forward="true" selection-start-line="956" selection-start-column="48" selection-end-line="956" selection-end-column="48" />
+                  <state relative-caret-position="834">
+                    <caret line="968" column="25" selection-start-line="968" selection-start-column="25" selection-end-line="968" selection-end-column="25" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -310,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+_) should return 0">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+_) should return 1">
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+_) should return 0" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -326,6 +326,25 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="testName" value="ArtOfScala ArrayCls: array.foldLeftX(0)(_+_) should return 0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+_) should return 1" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.foldLeftX(0)(_+_) should return 1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -387,32 +406,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.notFilterX(lessThan3OrEqual) should return Array.empty" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: array.notFilterX(lessThan3OrEqual) should return Array.empty" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+_) should return 1" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+_) should return 0" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.notFilterX(!lessThan3OrEqual) should return Array(1,2,3)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.notFilterX(lessThan3OrEqual) should return Array(4)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.notFilterX(lessThan2) should return Array(3)" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.notFilterX(lessThan3OrEqual) should return Array.empty" />
       </list>
     </recent_temporary>
   </component>
@@ -468,9 +468,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_filterX(filterChar)_should_return_Array('A') - 2020.08.17 at 23h 21m 43s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.filterX(filterChar) should return Array('A')" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_filterX(lessThan2)_should_return_Array(1,2) - 2020.08.18 at 21h 16m 12s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.filterX(lessThan2) should return Array(1,2)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -497,6 +494,9 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_notFilterX(!lessThan3OrEqual)_should_return_Array(1,2,3) - 2020.08.20 at 21h 06m 02s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.notFilterX(!lessThan3OrEqual) should return Array(1,2,3)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_foldLeftX(0)(_+_)_should_return_0 - 2020.08.21 at 21h 55m 03s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+_) should return 0" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -957,8 +957,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="956" column="48" lean-forward="true" selection-start-line="956" selection-start-column="48" selection-end-line="956" selection-end-column="48" />
+        <state relative-caret-position="834">
+          <caret line="968" column="25" selection-start-line="968" selection-start-column="25" selection-end-line="968" selection-end-column="25" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

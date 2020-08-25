@@ -40,7 +40,6 @@
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/AlgoAndDataStructureTest/ArrayStructureTest/VectorTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/ConditionalTest/ConditonalTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,8 +65,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="817">
-                    <caret line="1021" column="33" selection-start-line="1021" selection-start-column="33" selection-end-line="1021" selection-end-column="33" />
+                  <state relative-caret-position="732">
+                    <caret line="1022" column="34" selection-start-line="1022" selection-start-column="34" selection-end-line="1022" selection-end-column="34" />
                     <folding>
                       <element signature="e#52#93#0" expanded="true" />
                     </folding>
@@ -311,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(emptyString)(_+_) should return total string 'Hello'">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(emptyString)(_+_) should return total string 'Hello '">
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+) should return total string size 6" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -331,25 +330,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+_) should return 6" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: array.foldLeftX(0)(_+_) should return 6" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+_.size) should return total string size 0" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -365,6 +345,25 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="testName" value="ArtOfScala ArrayCls: array.foldLeftX(0)(_+_.size) should return total string size 0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(emptyString)(_+_) should return total string 'Hello '" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.foldLeftX(emptyString)(_+_) should return total string 'Hello '" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -409,11 +408,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(emptyString)(_+_) should return total string 'Hello '" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(emptyString)(_+_) should return total string 'Hello'" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(emptyString)(_+_) should return total string ''" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+) should return total string size 6" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+_.size) should return total string size 0" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+_) should return 6" />
       </list>
     </recent_temporary>
   </component>
@@ -469,15 +468,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_foldLeftX(0)(_+_)_should_return_3 - 2020.08.22 at 20h 27m 41s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+_) should return 3" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_foldLeftX(0)(_+_)_should_return_6 - 2020.08.22 at 20h 30m 34s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+_) should return 6" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_foldLeftX(0)(_+)_should_return_total_string_size_6 - 2020.08.23 at 22h 21m 36s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+) should return total string size 6" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_foldLeftX(0)(_+)_should_return_total_string_size_6 - 2020.08.23 at 22h 22m 40s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(0)(_+) should return total string size 6" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -498,6 +488,15 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_foldLeftX(emptyString)(_+_)_should_return_total_string_'' - 2020.08.24 at 21h 07m 58s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(emptyString)(_+_) should return total string ''" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_foldLeftX(emptyString)(_+_)_should_return_total_string_'Hello' - 2020.08.24 at 21h 24m 52s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(emptyString)(_+_) should return total string 'Hello'" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_foldLeftX(emptyString)(_+_)_should_return_total_string_'Hello' - 2020.08.24 at 21h 25m 29s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(emptyString)(_+_) should return total string 'Hello'" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_foldLeftX(emptyString)(_+_)_should_return_total_string_'Hello_' - 2020.08.24 at 21h 30m 18s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.foldLeftX(emptyString)(_+_) should return total string 'Hello '" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -958,8 +957,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="1021" column="33" selection-start-line="1021" selection-start-column="33" selection-end-line="1021" selection-end-column="33" />
+        <state relative-caret-position="732">
+          <caret line="1022" column="34" selection-start-line="1022" selection-start-column="34" selection-end-line="1022" selection-end-column="34" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

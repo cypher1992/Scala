@@ -1031,4 +1031,12 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     val expected: String = "Hello World "
     assert(actual === expected)
   }
+
+  "ArtOfScala ArrayCls: array.foldLeftX(emptyString)(_+_)" should "return total string 'Hello World to Robert '" in {
+    val array: Array[String] = Array("Hello", "World", "to", "Robert")
+    val arr: ArrayCLS[String] = new ArrayCLS(array)
+    val actual: String = arr.foldLeftX("")(_ + _ + " ")
+    val expected: String = "Hello World to Robert "
+    assert(actual === expected)
+  }
 }

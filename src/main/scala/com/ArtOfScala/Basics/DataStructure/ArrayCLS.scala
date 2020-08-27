@@ -89,4 +89,6 @@ class ArrayCLS[T](var arr:Array[T]){
     def foldLeftX[B](z: B)(op: (B, T) => B): B = this.getArr().foldLeft(z)(op)
 
     def combinationX(sizeOfCombo:Int):Iterator[Array[T]] = this.getArr().combinations(sizeOfCombo)
+
+
 }

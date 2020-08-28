@@ -1052,13 +1052,15 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     val array: Array[Int] = Array(1,0)
     val arr: ArrayCLS[Int] = new ArrayCLS(array)
     val iteratorArray: Iterator[Array[Int]] = arr.combinationX(1)
-    def appendToList(array:Iterator[Array[Int]]=iteratorArray, list:List[Int]=List.empty[Int]):List[Int] ={
+    def appendToList(array:Iterator[Array[Int]]=iteratorArray, list:List[String]=List.empty[String]):List[String] ={
+      println(list)
       array.size match {
         case 0 => list
-        case _ => list :+ array.next().mkString
+        case _ => appendToList(array.drop(1),list :+ array.next().mkString)
       }
     }
-    
+    val actual:List[String] = appendToList()
+    println(actual)
     val expected: Iterator[Array[Int]] = Iterator.empty[Array[Int]]
     assert(actual === expected)
   }

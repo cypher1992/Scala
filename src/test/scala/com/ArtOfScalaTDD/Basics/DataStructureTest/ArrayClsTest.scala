@@ -1056,12 +1056,4 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
-  "ArtOfScala ArrayCls: array.combinationX(1)" should "return Iterator[Array(0)]" in {
-    val array: Array[Int] = Array(0)
-    val arr: ArrayCLS[Int] = new ArrayCLS(array)
-    val actual: String = arr.combinationX(0).toString()
-    val expected: String = Iterator(Array(0)).toString()
-    assert(actual === expected)
-  }
-
 }

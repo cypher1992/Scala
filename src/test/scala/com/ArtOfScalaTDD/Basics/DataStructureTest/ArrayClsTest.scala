@@ -1049,10 +1049,17 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
   }
 
   "ArtOfScala ArrayCls: array.combinationX(1)" should "return empty combination" in {
-    val array: Array[Int] = Array.empty[Int]
+    val array: Array[Int] = Array(1,0)
     val arr: ArrayCLS[Int] = new ArrayCLS(array)
-    val actual: String = arr.combinationX(1).toString()
-    val expected: String = Iterator.empty[Array[Int]].toString()
+    val iteratorArray: Iterator[Array[Int]] = arr.combinationX(1)
+    def appendToList(array:Iterator[Array[Int]]=iteratorArray, list:List[Int]=List.empty[Int]):List[Int] ={
+      array.size match {
+        case 0 => list
+        case _ => list :+ array.next().mkString
+      }
+    }
+    
+    val expected: Iterator[Array[Int]] = Iterator.empty[Array[Int]]
     assert(actual === expected)
   }
 

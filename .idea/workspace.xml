@@ -86,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="1103" column="74" lean-forward="true" selection-start-line="1103" selection-start-column="74" selection-end-line="1103" selection-end-column="74" />
+            <state relative-caret-position="430">
+              <caret line="1121" column="29" lean-forward="true" selection-start-line="1121" selection-start-column="29" selection-end-line="1121" selection-end-column="29" />
               <folding>
                 <element signature="e#52#93#0" expanded="true" />
               </folding>
@@ -310,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(2) should return combination(10,12,02)">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(3) should return combination(10,12,02)">
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(1) should return combination" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -387,7 +387,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(2) should return empty combination" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(3) should return combination(10,12,02)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="vmparams" value="" />
@@ -401,18 +401,18 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: emptyarray.combinationX(2) should return empty combination" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.combinationX(3) should return combination(10,12,02)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(3) should return combination(10,12,02)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(2) should return combination(10,12,02)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(2) should return empty combination" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(1) should return combination" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(1) should return empty combination" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(2) should return empty combination" />
       </list>
     </recent_temporary>
   </component>
@@ -468,9 +468,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyarray_combinationX(1)_should_return_empty_combination - 2020.08.28 at 22h 59m 20s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(1) should return empty combination" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyarray_combinationX(1)_should_return_empty_combination - 2020.08.28 at 22h 59m 37s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(1) should return empty combination" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -497,6 +494,9 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(2)_should_return_empty_combination - 2020.08.29 at 22h 42m 24s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(2) should return empty combination" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(2)_should_return_combination(10,12,02) - 2020.08.29 at 22h 43m 18s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(2) should return combination(10,12,02)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -957,8 +957,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="1103" column="74" lean-forward="true" selection-start-line="1103" selection-start-column="74" selection-end-line="1103" selection-end-column="74" />
+        <state relative-caret-position="430">
+          <caret line="1121" column="29" lean-forward="true" selection-start-line="1121" selection-start-column="29" selection-end-line="1121" selection-end-column="29" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

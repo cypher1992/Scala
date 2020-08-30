@@ -1088,7 +1088,7 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
   }
 
 
-  "ArtOfScala ArrayCls: array.combinationX(1)" should "return empty combination" in {
+  "ArtOfScala ArrayCls: array.combinationX(1)" should "return combination" in {
     val array: Array[Int] = Array(1,0)
     val arr: ArrayCLS[Int] = new ArrayCLS(array)
     val iteratorArray: Iterator[Array[Int]] = arr.combinationX(1)
@@ -1098,6 +1098,19 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     }
     println(actual)
     val expected: List[String] = List("1","0")
+    assert(actual === expected)
+  }
+
+  "ArtOfScala ArrayCls: array.combinationX(2)" should "return combination(10,12,02)" in {
+    val array: Array[Int] = Array(1,0,2)
+    val arr: ArrayCLS[Int] = new ArrayCLS(array)
+    val iteratorArray: Iterator[Array[Int]] = arr.combinationX(2)
+    var actual:List[String] = List.empty[String]
+    for( i <- iteratorArray){
+      actual = actual.appended(i.mkString)
+    }
+    println(actual)
+    val expected: List[String] = List("10","12","02")
     assert(actual === expected)
   }
 

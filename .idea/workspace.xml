@@ -86,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="1080" column="48" lean-forward="true" selection-start-line="1080" selection-start-column="48" selection-end-line="1080" selection-end-column="48" />
+            <state relative-caret-position="311">
+              <caret line="1103" column="74" lean-forward="true" selection-start-line="1103" selection-start-column="74" selection-end-line="1103" selection-end-column="74" />
               <folding>
                 <element signature="e#52#93#0" expanded="true" />
               </folding>
@@ -310,7 +310,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(2) should return empty combination">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(2) should return combination(10,12,02)">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(1) should return combination" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.combinationX(1) should return combination" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(1) should return empty combination" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -330,7 +349,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(1,1) should return Iterator[Array(0),Array(1)]" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(2) should return combination(10,12,02)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="vmparams" value="" />
@@ -344,12 +363,12 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: array.combinationX(1,1) should return Iterator[Array(0),Array(1)]" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.combinationX(2) should return combination(10,12,02)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(0) should return empty combination" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(2) should return empty combination" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="vmparams" value="" />
@@ -363,26 +382,7 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: emptyarray.combinationX(0) should return empty combination" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(1) should return empty combination" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: emptyarray.combinationX(1) should return empty combination" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.combinationX(2) should return empty combination" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -408,11 +408,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(2) should return empty combination" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(1) should return empty combination" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(0) should return empty combination" />
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(2) should return combination(10,12,02)" />
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(2) should return empty combination" />
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(1) should return combination" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(1) should return empty combination" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(1,1) should return Iterator[Array(0),Array(1)]" />
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(2) should return empty combination" />
       </list>
     </recent_temporary>
   </component>
@@ -468,35 +468,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(1)_should_return_empty_combination - 2020.08.28 at 22h 49m 07s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(1) should return empty combination" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(1)_should_return_empty_combination - 2020.08.28 at 22h 49m 48s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(1) should return empty combination" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(1)_should_return_empty_combination - 2020.08.28 at 22h 50m 20s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(1) should return empty combination" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(1)_should_return_empty_combination - 2020.08.28 at 22h 51m 54s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(1) should return empty combination" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(1)_should_return_empty_combination - 2020.08.28 at 22h 55m 57s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(1) should return empty combination" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyarray_combinationX(0)_should_return_empty_combination - 2020.08.28 at 22h 56m 14s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(0) should return empty combination" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyarray_combinationX(0)_should_return_empty_combination - 2020.08.28 at 22h 56m 39s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(0) should return empty combination" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyarray_combinationX(0)_should_return_empty_combination - 2020.08.28 at 22h 59m 08s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(0) should return empty combination" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyarray_combinationX(1)_should_return_empty_combination - 2020.08.28 at 22h 59m 20s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(1) should return empty combination" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyarray_combinationX(1)_should_return_empty_combination - 2020.08.28 at 22h 59m 37s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(1) should return empty combination" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__emptyarray_combinationX(2)_should_return_empty_combination - 2020.08.29 at 22h 32m 01s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: emptyarray.combinationX(2) should return empty combination" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(1)_should_return_empty_combination - 2020.08.29 at 22h 36m 24s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(1) should return empty combination" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(2)_should_return_empty_combination - 2020.08.29 at 22h 36m 45s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(2) should return empty combination" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(2)_should_return_empty_combination - 2020.08.29 at 22h 37m 40s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(2) should return empty combination" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(2)_should_return_empty_combination - 2020.08.29 at 22h 38m 50s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(2) should return empty combination" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(1)_should_return_combination - 2020.08.29 at 22h 41m 11s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(1) should return combination" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(2)_should_return_empty_combination - 2020.08.29 at 22h 42m 02s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(2) should return empty combination" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(2)_should_return_empty_combination - 2020.08.29 at 22h 42m 24s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(2) should return empty combination" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -957,8 +957,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="1080" column="48" lean-forward="true" selection-start-line="1080" selection-start-column="48" selection-end-line="1080" selection-end-column="48" />
+        <state relative-caret-position="311">
+          <caret line="1103" column="74" lean-forward="true" selection-start-line="1103" selection-start-column="74" selection-end-line="1103" selection-end-column="74" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

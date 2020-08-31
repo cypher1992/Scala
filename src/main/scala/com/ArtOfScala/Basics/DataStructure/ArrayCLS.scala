@@ -90,5 +90,7 @@ class ArrayCLS[T](var arr:Array[T]){
 
     def combinationX(sizeOfCombo:Int):Iterator[Array[T]] = this.getArr().combinations(sizeOfCombo)
 
+    def permutationX():Iterator[Array[T]] = this.getArr().permutations
+
 
 }

@@ -65,8 +65,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="800">
-                    <caret line="92" column="70" selection-start-line="92" selection-start-column="58" selection-end-line="92" selection-end-column="70" />
+                  <state relative-caret-position="426">
+                    <caret line="70" column="41" lean-forward="true" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
                   </state>
                 </provider>
               </entry>
@@ -86,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="1177" column="46" selection-start-line="1177" selection-start-column="46" selection-end-line="1177" selection-end-column="46" />
+            <state relative-caret-position="379">
+              <caret line="1189" column="19" lean-forward="true" selection-start-line="1189" selection-start-column="19" selection-end-line="1189" selection-end-column="19" />
               <folding>
                 <element signature="e#52#93#0" expanded="true" />
               </folding>
@@ -301,8 +301,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,1(1,0)">
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(3) should return combination(10,12,02)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,0,1)(0,1,0)(1,0,0)">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,0,1)(0,1,0)(1,0,0)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="vmparams" value="" />
@@ -316,12 +316,12 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: array.combinationX(3) should return combination(10,12,02)" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.permutationX() should return permutation (0,0,1)(0,1,0)(1,0,0)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return empty permutation" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,0,1,)(1,0)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
       <setting name="vmparams" value="" />
@@ -335,7 +335,7 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: array.permutationX() should return empty permutation" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.permutationX() should return permutation (0,0,1,)(1,0)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -399,11 +399,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,0,1)(0,1,0)(1,0,0)" />
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,0,1,)(1,0)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,1(1,0)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (1,2)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (1)" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return empty permutation" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(3) should return combination(10,12,02)" />
       </list>
     </recent_temporary>
   </component>
@@ -459,18 +459,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(2)_should_return_combination(10,12,02) - 2020.08.29 at 22h 43m 18s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(2) should return combination(10,12,02)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(3)_should_return_combination(10,12,02) - 2020.08.29 at 22h 45m 37s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(3) should return combination(10,12,02)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(3)_should_return_combination(10,12,02) - 2020.08.29 at 22h 46m 12s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(3) should return combination(10,12,02)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_combinationX(3)_should_return_combination(10,12,02) - 2020.08.29 at 22h 46m 22s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.combinationX(3) should return combination(10,12,02)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_permutationX()_should_return_empty_permutation - 2020.08.30 at 22h 36m 33s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return empty permutation" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -488,6 +476,18 @@
     </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_permutationX()_should_return_permutation_(1,2) - 2020.08.31 at 20h 18m 20s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (1,2)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_permutationX()_should_return_permutation_(0,1(1,0) - 2020.08.31 at 20h 20m 05s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,1(1,0)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_permutationX()_should_return_permutation_(0,1(1,0) - 2020.08.31 at 20h 30m 03s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,1(1,0)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_permutationX()_should_return_permutation_(0,0,1,)(1,0) - 2020.08.31 at 20h 31m 06s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,0,1,)(1,0)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_permutationX()_should_return_permutation_(0,0,1)(0,1,0)(1,0,0) - 2020.08.31 at 20h 32m 03s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,0,1)(0,1,0)(1,0,0)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -941,15 +941,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ArtOfScala/Basics/DataStructure/ArrayCLS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="92" column="70" selection-start-line="92" selection-start-column="58" selection-end-line="92" selection-end-column="70" />
+        <state relative-caret-position="426">
+          <caret line="70" column="41" lean-forward="true" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="1177" column="46" selection-start-line="1177" selection-start-column="46" selection-end-line="1177" selection-end-column="46" />
+        <state relative-caret-position="379">
+          <caret line="1189" column="19" lean-forward="true" selection-start-line="1189" selection-start-column="19" selection-end-line="1189" selection-end-column="19" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

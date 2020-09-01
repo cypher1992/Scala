@@ -1,2 +1,2 @@
-[debug] Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@2d94875b))
-[debug] Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@736e2745))
+[debug] Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@572f006a))
+[debug] Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@1d48a277))

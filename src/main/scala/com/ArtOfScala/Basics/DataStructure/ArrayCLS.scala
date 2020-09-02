@@ -92,5 +92,7 @@ class ArrayCLS[T](var arr:Array[T]){
 
     def permutationX():Iterator[Array[T]] = this.getArr().permutations
 
+    def groupedX(size:Int):Iterator[Array[T]]= this.getArr().grouped(size)
+
 
 }

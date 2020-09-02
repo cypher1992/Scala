@@ -1192,4 +1192,17 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
+  "ArtOfScala ArrayCls: array.permutationX()" should "return permutation (0,0,0)" in {
+    val array: Array[Int] = Array(0,0,0)
+    val arr: ArrayCLS[Int] = new ArrayCLS(array)
+    val iteratorArray: Iterator[Array[Int]] = arr.permutationX()
+    var actual:List[String] = List.empty[String]
+    for( i <- iteratorArray){
+      actual = actual.appended(i.mkString)
+    }
+    println(actual)
+    val expected: List[String] = List("000")
+    assert(actual === expected)
+  }
+
 }

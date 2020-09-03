@@ -86,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="1228" column="19" lean-forward="true" selection-start-line="1228" selection-start-column="19" selection-end-line="1228" selection-end-column="19" />
+            <state relative-caret-position="391">
+              <caret line="1253" column="5" lean-forward="true" selection-start-line="1253" selection-start-column="5" selection-end-line="1253" selection-end-column="5" />
               <folding>
                 <element signature="e#52#93#0" expanded="true" />
               </folding>
@@ -301,7 +301,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(1) should return empty groups ()">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(0) should return empty groups ()">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(0) should return empty groups ()" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Scala" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
+      <setting name="testName" value="ArtOfScala ArrayCls: array.groupedX(0) should return empty groups ()" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(0) should return permutation ()" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -359,25 +378,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,0,0)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Scala" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <setting name="testName" value="ArtOfScala ArrayCls: array.permutationX() should return permutation (0,0,0)" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,1,0)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Scala" />
       <setting name="path" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
@@ -399,11 +399,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(0) should return empty groups ()" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(1) should return empty groups ()" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(0) should return permutation ()" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (012, 021, 102, 120, 201, 210)" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,1,0)" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,0,0)" />
       </list>
     </recent_temporary>
   </component>
@@ -459,21 +459,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_permutationX()_should_return_permutation_(1,2) - 2020.08.31 at 20h 17m 52s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (1,2)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_permutationX()_should_return_permutation_(1,2) - 2020.08.31 at 20h 18m 20s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (1,2)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_permutationX()_should_return_permutation_(0,1(1,0) - 2020.08.31 at 20h 20m 05s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,1(1,0)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_permutationX()_should_return_permutation_(0,1(1,0) - 2020.08.31 at 20h 30m 03s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,1(1,0)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_permutationX()_should_return_permutation_(0,0,1,)(1,0) - 2020.08.31 at 20h 31m 06s.xml">
-      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,0,1,)(1,0)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_permutationX()_should_return_permutation_(0,0,1)(0,1,0)(1,0,0) - 2020.08.31 at 20h 32m 03s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (0,0,1)(0,1,0)(1,0,0)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -489,13 +474,28 @@
     <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_permutationX()_should_return_permutation_(012,_021,_102,_120,_201,_210) - 2020.09.01 at 21h 19m 25s.xml">
       <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.permutationX() should return permutation (012, 021, 102, 120, 201, 210)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_groupedX(0)_should_return_permutation_() - 2020.09.02 at 21h 56m 04s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(0) should return permutation ()" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_groupedX(1)_should_return_empty_groups_() - 2020.09.02 at 21h 56m 51s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(1) should return empty groups ()" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_groupedX(0)_should_return_empty_groups_() - 2020.09.02 at 22h 03m 58s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(0) should return empty groups ()" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_groupedX(0)_should_return_empty_groups_() - 2020.09.02 at 22h 04m 25s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(0) should return empty groups ()" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArrayClsTest_ArtOfScala_ArrayCls__array_groupedX(0)_should_return_empty_groups_() - 2020.09.02 at 22h 04m 39s.xml">
+      <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(0) should return empty groups ()" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85997796" visible="true" weight="0.06333333" />
-      <window_info id="Structure" order="1" sideWeight="0.14002205" side_tool="true" visible="true" weight="0.06333333" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85993487" visible="true" weight="0.06333333" />
+      <window_info id="Structure" order="1" sideWeight="0.14006515" side_tool="true" visible="true" weight="0.06333333" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -948,8 +948,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/ArtOfScalaTDD/Basics/DataStructureTest/ArrayClsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="1228" column="19" lean-forward="true" selection-start-line="1228" selection-start-column="19" selection-end-line="1228" selection-end-column="19" />
+        <state relative-caret-position="391">
+          <caret line="1253" column="5" lean-forward="true" selection-start-line="1253" selection-start-column="5" selection-end-line="1253" selection-end-column="5" />
           <folding>
             <element signature="e#52#93#0" expanded="true" />
           </folding>

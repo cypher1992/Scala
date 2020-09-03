@@ -1218,7 +1218,7 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
-  "ArtOfScala ArrayCls: array.groupedX(0)" should "return empty groups ()" in {
+  "ArtOfScala ArrayCls: emptyArray.groupedX(0)" should "return empty groups ()" in {
     val array: Array[Int] = Array.empty[Int]
     val arr: ArrayCLS[Int] = new ArrayCLS(array)
     val iteratorArray: Iterator[Array[Int]] = arr.groupedX(0)
@@ -1231,7 +1231,7 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     assert(actual === expected)
   }
 
-  "ArtOfScala ArrayCls: array.groupedX(1)" should "return empty groups ()" in {
+  "ArtOfScala ArrayCls: emptyArray.groupedX(1)" should "return empty groups ()" in {
     val array: Array[Int] = Array.empty[Int]
     val arr: ArrayCLS[Int] = new ArrayCLS(array)
     val iteratorArray: Iterator[Array[Int]] = arr.groupedX(1)
@@ -1241,6 +1241,19 @@ class ArrayClsTest extends AnyFlatSpec with Matchers{
     }
     println(actual)
     val expected: List[String] = List.empty[String]
+    assert(actual === expected)
+  }
+
+  "ArtOfScala ArrayCls: array.groupedX(0)" should "return empty groups ()" in {
+    val array: Array[Int] = Array(1)
+    val arr: ArrayCLS[Int] = new ArrayCLS(array)
+    val iteratorArray: Iterator[Array[Int]] = arr.groupedX(1)
+    var actual:List[String] = List.empty[String]
+    for( i <- iteratorArray){
+      actual = actual.appended(i.mkString)
+    }
+    println(actual)
+    val expected: List[String] = List("1")
     assert(actual === expected)
   }
 }

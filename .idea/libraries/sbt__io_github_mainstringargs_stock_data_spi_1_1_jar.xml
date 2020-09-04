@@ -2,10 +2,14 @@
   <library name="sbt: io.github.mainstringargs:stock-data-spi:1.1:jar">
     <CLASSES>
       <root url="jar://$USER_HOME$/.ivy2/cache/io.github.mainstringargs/stock-data-spi/jars/stock-data-spi-1.1.jar!/" />
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/io/github/mainstringargs/stock-data-spi/1.1/stock-data-spi-1.1.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/io/github/mainstringargs/stock-data-spi/1.1/stock-data-spi-1.1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.ivy2/cache/io.github.mainstringargs/stock-data-spi/srcs/stock-data-spi-1.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/io/github/mainstringargs/stock-data-spi/1.1/stock-data-spi-1.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

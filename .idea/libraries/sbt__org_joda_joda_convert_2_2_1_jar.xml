@@ -2,10 +2,14 @@
   <library name="sbt: org.joda:joda-convert:2.2.1:jar">
     <CLASSES>
       <root url="jar://$USER_HOME$/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-2.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.1/joda-convert-2.2.1.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.1/joda-convert-2.2.1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-2.2.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.1/joda-convert-2.2.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

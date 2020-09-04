@@ -23,43 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_1_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_1_7_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_core_1_1_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_core_1_1_7_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_findbugs_jsr305_3_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_findbugs_jsr305_3_0_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_8_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_8_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_scala_logging_scala_logging_2_13_3_9_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_scala_logging_scala_logging_2_13_3_9_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_github_mainstringargs_alpha_vantage_scraper_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_github_mainstringargs_alpha_vantage_scraper_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_github_mainstringargs_stock_data_spi_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_github_mainstringargs_stock_data_spi_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__joda_time_joda_time_2_10_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__joda_time_joda_time_2_10_4_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__log4j_log4j_1_2_17_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__log4j_log4j_1_2_17_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_joda_joda_convert_2_2_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_joda_joda_convert_2_2_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_13_1_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_13_1_2_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_13_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_13_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_13_3_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_13_3_1_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_13_3_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_13_3_1_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_1_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_26_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_26_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_log4j12_1_7_25_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_log4j12_1_7_25_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Scala-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Scala-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Scala.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$068483e22450f5d85a7d$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$068483e22450f5d85a7d.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$068483e22450f5d85a7d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2517479401389d2bf200$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2517479401389d2bf200.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2517479401389d2bf200.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a30398440c1466a92e65$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a30398440c1466a92e65.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a30398440c1466a92e65.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ccb17c18a699352e67c3$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ccb17c18a699352e67c3.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ccb17c18a699352e67c3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f8ea37bb50bff643397a$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f8ea37bb50bff643397a.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f8ea37bb50bff643397a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compile/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,19 +84,18 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="build.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: instanceOfArrayCls should Return true">
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(1) should return empty groups ()" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+  <component name="RunManager" selected="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(0) should return empty groups ()">
+    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(0) should return empty groups ()" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Scala" />
       <option name="allowRunningInParallel" value="false" />
       <option name="selectedOptions">
         <set />
       </option>
       <option name="testKind" value="Test name" />
-      <option name="jrePath" value="" />
       <option name="testClassPath" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <option name="testName" value="ArtOfScala ArrayCls: array.groupedX(1) should return empty groups ()" />
+      <option name="testName" value="ArtOfScala ArrayCls: array.groupedX(0) should return empty groups ()" />
       <option name="workingDirectory" value="C:\Users\zero\Project\Scala Project\Scala" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,6 +161,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(0) should return empty groups ()" />
         <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: instanceOfArrayCls should Return true" />
       </list>
     </recent_temporary>
@@ -237,10 +205,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="431" y="430" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599177126239" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1599176342495">
+    <state width="1341" height="266" key="GridCell.Tab.0.bottom" timestamp="1599179429881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599176342495" />
+    <state width="1341" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599179429881" />
+    <state width="1341" height="266" key="GridCell.Tab.0.center" timestamp="1599179429881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1341" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599179429881" />
+    <state width="1341" height="266" key="GridCell.Tab.0.left" timestamp="1599179429881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1341" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599179429881" />
+    <state width="1341" height="266" key="GridCell.Tab.0.right" timestamp="1599179429881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1341" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599179429881" />
+    <state x="59" y="312" key="SettingsEditor" timestamp="1599180087980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="59" y="312" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599180087980" />
     <state x="642" y="167" width="1200" height="800" key="dock-window-1" timestamp="1599174342947">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

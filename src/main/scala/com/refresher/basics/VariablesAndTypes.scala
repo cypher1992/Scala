@@ -10,6 +10,17 @@ class VariablesAndTypes {
    */
 
   val meetValTheVariable:Int = 5
+  // you can not reassign variable that are defined using val
+
+
+  def getMeetValTheVariable():Int = this.meetValTheVariable
+  /*
+   def setMeetValTheVariable(newVariable:Int):Unit = this.meetValTheVariable = newVariable
+   - will get can a syntax error if you uncomment line 17, if you want to reassign MeetValTheVariable
+   - To get around this you can assign the variable to Var.
+  */
+  var meetSisterVarTheVariable:Int = 10
+
 
 
 

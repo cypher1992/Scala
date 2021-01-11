@@ -52,4 +52,13 @@ class VariablesAndTypes {
   val CHAR:Char = 'A';
   val STRING:String = "Hello Scala";
 
+  def getBYTE():Byte = this.BYTE;
+  def getSHORT():Short = this.SHORT;
+  def getINT():Int = this.INT;
+  def getLong():Long = this.Long;
+  def getFLOAT():Float = this.FLOAT;
+  def getDOUBLE():Double = this.DOUBLE;
+  def getBOOL():Boolean = this.BOOL;
+  def getCHAR():Char = this.CHAR;
+  def getSTRING():String = this.STRING;
 }

@@ -187,42 +187,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1599177132956">
+    <state x="195" y="146" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610335740862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1599177132956" />
-    <state x="815" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599177416508">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="815" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599177416508" />
-    <state x="431" y="430" key="FileChooserDialogImpl" timestamp="1599177126239">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="431" y="430" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599177126239" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1599183161972">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599183161972" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1599183161972">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599183161972" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1599183161972">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599183161972" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1599183161972">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599183161972" />
-    <state x="59" y="312" key="SettingsEditor" timestamp="1599180087980">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="59" y="312" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599180087980" />
-    <state x="642" y="167" width="1200" height="800" key="dock-window-1" timestamp="1599174342947">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="642" y="167" width="1200" height="800" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1599174342947" />
+    <state x="195" y="146" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610335740862" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Scala$ScalaTests_in__ListTest_.ic" NAME="ScalaTests in 'ListTest' Coverage Results" MODIFIED="1580075758775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

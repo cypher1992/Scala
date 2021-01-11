@@ -55,7 +55,7 @@ class VariablesAndTypes {
   def getBYTE():Byte = this.BYTE;
   def getSHORT():Short = this.SHORT;
   def getINT():Int = this.INT;
-  def getLong():Long = this.Long;
+  def getLong():Long = this.LONG;
   def getFLOAT():Float = this.FLOAT;
   def getDOUBLE():Double = this.DOUBLE;
   def getBOOL():Boolean = this.BOOL;

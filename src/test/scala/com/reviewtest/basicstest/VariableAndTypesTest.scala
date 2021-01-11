@@ -28,5 +28,11 @@ class VariableAndTypesTest extends AnyFlatSpec with Matchers {
     val expected:Double = 7
     assert(actual == expected)
   }
+
   */
+  "Refresher: vat is Instance of VariablesAndTypes" should "return true" in {
+    val vat:VariablesAndTypes = new VariablesAndTypes()
+    assert(vat.isInstanceOf[VariablesAndTypes])
+  }
+
 }

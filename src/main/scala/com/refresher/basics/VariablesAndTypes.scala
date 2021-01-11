@@ -21,7 +21,35 @@ class VariablesAndTypes {
   */
   var meetSisterVarTheVariable:Int = 10
 
+  //Creating a setter that sets meetSisterVarTheVariable, therefore altering the state of the variable
+  def setMeetSisterVarTheVariable(newVarVariable:Int):Unit = this.meetSisterVarTheVariable = newVarVariable
 
+   /*
+   These types in Scala; Also know as Wrappers.
+    - Integer(
+      - Byte -  1 byte - Stores whole numbers from -128 to 127
+      - Short - 2 bytes - Stores whole numbers from -32,768 to 32,767
+      - Int - 4 bytes - Stores whole numbers from -2,147,483,648 to 2,147,483,647
+      - Long - 8 bytes - Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+    - Floating Points(Rational or Decimal Numbers)
+      - Float = 4 bytes - Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+	 	  - Double = 8 bytes - Stores fractional numbers. Sufficient for storing 15 decimal digits
+	  - Boolean(True or False):
+	  	- Boolean = 1 bit - Stores true or false values
+	  - Char(Single Character of the alphabet)
+	 	  - Char = 2 bytes - 	Stores a single character/letter or ASCII values
+	  - String(Series of concatenated characters) *** Not a Primitive but a Object:
+		  - String data type is used to store a sequence of characters (text). String values must be surrounded by double quotes
+   */
 
+  val BYTE:Byte = 126;
+  val SHORT:Short = 32700;
+  val INT:Int = 1;
+  val LONG:Long = 1231143124;
+  val FLOAT:Float = 12.01f;
+  val DOUBLE:Double = 12.001d;
+  val BOOL:Boolean = true;
+  val CHAR:Char = 'A';
+  val STRING:String = "Hello Scala";
 
 }

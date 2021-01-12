@@ -53,5 +53,22 @@ class VariableAndTypesTest extends AnyFlatSpec with Matchers {
     assert(actual.isInstanceOf[Int])
   }
 
+  "Refresher: actual is Instance of Long" should "return true" in {
+    val vat:VariablesAndTypes = new VariablesAndTypes()
+    val actual:Long = vat.getLong()
+    assert(actual.isInstanceOf[Long])
+  }
+
+  "Refresher: actual is Instance of Float" should "return true" in {
+    val vat:VariablesAndTypes = new VariablesAndTypes()
+    val actual:Float = vat.getFLOAT()
+    assert(actual.isInstanceOf[Float])
+  }
+
+  "Refresher: actual is Instance of Double" should "return true" in {
+    val vat:VariablesAndTypes = new VariablesAndTypes()
+    val actual:Double = vat.getDOUBLE()
+    assert(actual.isInstanceOf[Double])
+  }
 
 }

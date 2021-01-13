@@ -82,35 +82,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="ScalaTest.VariableAndTypesTest.Refresher: vat is Instance of VariablesAndTypes should return true&#10;Refresher: actual is Instance of Byte should return true&#10;Refresher: actual is Instance of Short should return true&#10;Refresher: actual is Instance of Int should return true">
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(0) should return empty groups ()" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="Scala" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="selectedOptions">
-        <set />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <option name="testName" value="ArtOfScala ArrayCls: array.groupedX(0) should return empty groups ()" />
-      <option name="workingDirectory" value="C:\Users\zero\Project\Scala Project\Scala" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(2) should return empty groups ()" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="Scala" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="selectedOptions">
-        <set />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="com.ArtOfScalaTDD.Basics.DataStructureTest.ArrayClsTest" />
-      <option name="testName" value="ArtOfScala ArrayCls: array.groupedX(2) should return empty groups ()" />
-      <option name="workingDirectory" value="C:\Users\zero\Project\Scala Project\Scala" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.VariableAndTypesTest.Refresher: vat is Instance of VariablesAndTypes should return true&#10;Refresher: actual is Instance of Byte should return true&#10;Refresher: actual is Instance of Short should return true&#10;Refresher: actual is Instance of Int should return true&#10;Refresher: actual is Instance of Long should return true&#10;Refresher: actual is Instance of Float should return true&#10;Refresher: actual is Instance of Double should return true&#10;Refresher: actual is Instance of Bool should return true&#10;Refresher: actual is Instance of Char should return true&#10;Refresher: actual is Instance of String should return true">
     <configuration name="VariableAndTypesTest.Refresher: actual is Instance of Byte should return true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Scala" />
       <option name="allowRunningInParallel" value="false" />
@@ -153,13 +125,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VariableAndTypesTest.Refresher: vat is Instance of VariablesAndTypes should return true&#10;Refresher: actual is Instance of Byte should return true&#10;Refresher: actual is Instance of Short should return true&#10;Refresher: actual is Instance of Int should return true&#10;Refresher: actual is Instance of Long should return true&#10;Refresher: actual is Instance of Float should return true&#10;Refresher: actual is Instance of Double should return true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Scala" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="com.reviewtest.basicstest.VariableAndTypesTest" />
+      <option name="testName" value="Refresher: vat is Instance of VariablesAndTypes should return true&#10;Refresher: actual is Instance of Byte should return true&#10;Refresher: actual is Instance of Short should return true&#10;Refresher: actual is Instance of Int should return true&#10;Refresher: actual is Instance of Long should return true&#10;Refresher: actual is Instance of Float should return true&#10;Refresher: actual is Instance of Double should return true" />
+      <option name="workingDirectory" value="C:\Users\zero\Project\Scala Project\Scala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VariableAndTypesTest.Refresher: vat is Instance of VariablesAndTypes should return true&#10;Refresher: actual is Instance of Byte should return true&#10;Refresher: actual is Instance of Short should return true&#10;Refresher: actual is Instance of Int should return true&#10;Refresher: actual is Instance of Long should return true&#10;Refresher: actual is Instance of Float should return true&#10;Refresher: actual is Instance of Double should return true&#10;Refresher: actual is Instance of Bool should return true&#10;Refresher: actual is Instance of Char should return true&#10;Refresher: actual is Instance of String should return true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Scala" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="com.reviewtest.basicstest.VariableAndTypesTest" />
+      <option name="testName" value="Refresher: vat is Instance of VariablesAndTypes should return true&#10;Refresher: actual is Instance of Byte should return true&#10;Refresher: actual is Instance of Short should return true&#10;Refresher: actual is Instance of Int should return true&#10;Refresher: actual is Instance of Long should return true&#10;Refresher: actual is Instance of Float should return true&#10;Refresher: actual is Instance of Double should return true&#10;Refresher: actual is Instance of Bool should return true&#10;Refresher: actual is Instance of Char should return true&#10;Refresher: actual is Instance of String should return true" />
+      <option name="workingDirectory" value="C:\Users\zero\Project\Scala Project\Scala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.VariableAndTypesTest.Refresher: vat is Instance of VariablesAndTypes should return true&#10;Refresher: actual is Instance of Byte should return true&#10;Refresher: actual is Instance of Short should return true&#10;Refresher: actual is Instance of Int should return true&#10;Refresher: actual is Instance of Long should return true&#10;Refresher: actual is Instance of Float should return true&#10;Refresher: actual is Instance of Double should return true&#10;Refresher: actual is Instance of Bool should return true&#10;Refresher: actual is Instance of Char should return true&#10;Refresher: actual is Instance of String should return true" />
+        <item itemvalue="ScalaTest.VariableAndTypesTest.Refresher: vat is Instance of VariablesAndTypes should return true&#10;Refresher: actual is Instance of Byte should return true&#10;Refresher: actual is Instance of Short should return true&#10;Refresher: actual is Instance of Int should return true&#10;Refresher: actual is Instance of Long should return true&#10;Refresher: actual is Instance of Float should return true&#10;Refresher: actual is Instance of Double should return true" />
         <item itemvalue="ScalaTest.VariableAndTypesTest.Refresher: vat is Instance of VariablesAndTypes should return true&#10;Refresher: actual is Instance of Byte should return true&#10;Refresher: actual is Instance of Short should return true&#10;Refresher: actual is Instance of Int should return true" />
         <item itemvalue="ScalaTest.VariableAndTypesTest.Refresher: actual is Instance of Byte should return true" />
         <item itemvalue="ScalaTest.VariableAndTypesTest.Refresher: vat is Instance of VariablesAndTypes should return true" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(2) should return empty groups ()" />
-        <item itemvalue="ScalaTest.ArrayClsTest.ArtOfScala ArrayCls: array.groupedX(0) should return empty groups ()" />
       </list>
     </recent_temporary>
   </component>
@@ -190,22 +190,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="914" height="265" key="GridCell.Tab.0.bottom" timestamp="1610415007611">
+    <state width="914" height="265" key="GridCell.Tab.0.bottom" timestamp="1610415579610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610415007611" />
-    <state width="914" height="265" key="GridCell.Tab.0.center" timestamp="1610415007611">
+    <state width="914" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610415579610" />
+    <state width="914" height="265" key="GridCell.Tab.0.center" timestamp="1610415579610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610415007611" />
-    <state width="914" height="265" key="GridCell.Tab.0.left" timestamp="1610415007611">
+    <state width="914" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610415579610" />
+    <state width="914" height="265" key="GridCell.Tab.0.left" timestamp="1610415579610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610415007611" />
-    <state width="914" height="265" key="GridCell.Tab.0.right" timestamp="1610415007611">
+    <state width="914" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610415579610" />
+    <state width="914" height="265" key="GridCell.Tab.0.right" timestamp="1610415579610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610415007611" />
+    <state width="914" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610415579610" />
     <state x="195" y="146" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610335740862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -8,16 +8,24 @@ class ConditionStructures(private val number:Int){
 
   def getNumber():Int = this.number
 
-  def ifNegative():Boolean = {
-    if(this.getNumber()<0) {
+  def ifElseNegative():Boolean = {
+    if(this.getNumber()<0)
       true
-    } else {
+    else
       false
-    }
+  }
+
+  def ifElseifElseNeutral(): Boolean ={
+    if(this.getNumber() == 0)
+      true
+    else if(this.getNumber() > 0 )
+      false
+    else
+      false
   }
 
   // this is using match
-  def ifPositive():Boolean  =
+  def matchPositive():Boolean  =
   {
     val temp:Int = this.getNumber()
     temp match {

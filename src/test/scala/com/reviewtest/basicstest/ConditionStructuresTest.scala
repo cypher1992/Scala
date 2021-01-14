@@ -24,4 +24,17 @@ class ConditionStructuresTest extends AnyFlatSpec with Matchers {
     assert(actual == expected )
   }
 
+  "Refresher: actual ifElseifElseNeutral ConditionStructures" should "return true" in {
+    val cs:ConditionStructures = new ConditionStructures(0)
+    val actual:Boolean = cs.ifElseifElseNeutral()
+    val expected:Boolean = true
+    assert(actual == expected )
+  }
+
+  "Refresher: actual matchPositive ConditionStructures" should "return true" in {
+    val cs:ConditionStructures = new ConditionStructures(1)
+    val actual:Boolean = cs.matchPositive()
+    val expected:Boolean = true
+    assert(actual == expected )
+  }
 }

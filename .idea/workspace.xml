@@ -22,7 +22,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="" />
+    <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/refresher/basics/ConditionStructures.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/com/reviewtest/basicstest/ConditionStructuresTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$220dfad20738b00697d4$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$65b0ce14be88922c7806$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$220dfad20738b00697d4.cache" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$65b0ce14be88922c7806.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$220dfad20738b00697d4.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$65b0ce14be88922c7806.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/_global/_global/definedTestNames/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/_global/_global/definedTestNames/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncSetup/_global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncSetup/_global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/_global/streams/out" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,30 +99,30 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="ScalaTest.VariableAndTypesTest.Refresher: vat is Instance of VariablesAndTypes should return true&#10;Refresher: actual is Instance of Byte should return true&#10;Refresher: actual is Instance of Short should return true&#10;Refresher: actual is Instance of Int should return true&#10;Refresher: actual is Instance of Long should return true&#10;Refresher: actual is Instance of Float should return true&#10;Refresher: actual is Instance of Double should return true&#10;Refresher: actual is Instance of Bool should return true&#10;Refresher: actual is Instance of Char should return true&#10;Refresher: actual is Instance of String should return true">
-    <configuration name="VariableAndTypesTest.Refresher: actual is Instance of Byte should return true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+  <component name="RunManager" selected="ScalaTest.ConditionStructuresTest.Refresher: actual ifElseNegative ConditionStructures should return false">
+    <configuration name="ConditionStructuresTest.Refresher: actual ifElseNegative ConditionStructures should return false" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Scala" />
       <option name="allowRunningInParallel" value="false" />
       <option name="selectedOptions">
         <set />
       </option>
       <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="com.reviewtest.basicstest.VariableAndTypesTest" />
-      <option name="testName" value="Refresher: actual is Instance of Byte should return true" />
+      <option name="testClassPath" value="com.reviewtest.basicstest.ConditionStructuresTest" />
+      <option name="testName" value="Refresher: actual ifElseNegative ConditionStructures should return false" />
       <option name="workingDirectory" value="C:\Users\zero\Project\Scala Project\Scala" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariableAndTypesTest.Refresher: vat is Instance of VariablesAndTypes should return true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="ConditionStructuresTest.Refresher: actual isNegative ConditionStructures should return true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Scala" />
       <option name="allowRunningInParallel" value="false" />
       <option name="selectedOptions">
         <set />
       </option>
       <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="com.reviewtest.basicstest.VariableAndTypesTest" />
-      <option name="testName" value="Refresher: vat is Instance of VariablesAndTypes should return true" />
+      <option name="testClassPath" value="com.reviewtest.basicstest.ConditionStructuresTest" />
+      <option name="testName" value="Refresher: actual isNegative ConditionStructures should return true" />
       <option name="workingDirectory" value="C:\Users\zero\Project\Scala Project\Scala" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ConditionStructuresTest.Refresher: actual ifElseNegative ConditionStructures should return false" />
+        <item itemvalue="ScalaTest.ConditionStructuresTest.Refresher: actual isNegative ConditionStructures should return true" />
         <item itemvalue="ScalaTest.VariableAndTypesTest.Refresher: vat is Instance of VariablesAndTypes should return true&#10;Refresher: actual is Instance of Byte should return true&#10;Refresher: actual is Instance of Short should return true&#10;Refresher: actual is Instance of Int should return true&#10;Refresher: actual is Instance of Long should return true&#10;Refresher: actual is Instance of Float should return true&#10;Refresher: actual is Instance of Double should return true&#10;Refresher: actual is Instance of Bool should return true&#10;Refresher: actual is Instance of Char should return true&#10;Refresher: actual is Instance of String should return true" />
         <item itemvalue="ScalaTest.VariableAndTypesTest.Refresher: vat is Instance of VariablesAndTypes should return true&#10;Refresher: actual is Instance of Byte should return true&#10;Refresher: actual is Instance of Short should return true&#10;Refresher: actual is Instance of Int should return true&#10;Refresher: actual is Instance of Long should return true&#10;Refresher: actual is Instance of Float should return true&#10;Refresher: actual is Instance of Double should return true" />
         <item itemvalue="ScalaTest.VariableAndTypesTest.Refresher: vat is Instance of VariablesAndTypes should return true&#10;Refresher: actual is Instance of Byte should return true&#10;Refresher: actual is Instance of Short should return true&#10;Refresher: actual is Instance of Int should return true" />
-        <item itemvalue="ScalaTest.VariableAndTypesTest.Refresher: actual is Instance of Byte should return true" />
-        <item itemvalue="ScalaTest.VariableAndTypesTest.Refresher: vat is Instance of VariablesAndTypes should return true" />
       </list>
     </recent_temporary>
   </component>
@@ -188,22 +207,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="914" height="265" key="GridCell.Tab.0.bottom" timestamp="1610415579610">
+    <state width="914" height="265" key="GridCell.Tab.0.bottom" timestamp="1610587065104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610415579610" />
-    <state width="914" height="265" key="GridCell.Tab.0.center" timestamp="1610415579610">
+    <state width="914" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610587065104" />
+    <state width="914" height="265" key="GridCell.Tab.0.center" timestamp="1610587065104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610415579610" />
-    <state width="914" height="265" key="GridCell.Tab.0.left" timestamp="1610415579610">
+    <state width="914" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610587065104" />
+    <state width="914" height="265" key="GridCell.Tab.0.left" timestamp="1610587065104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610415579610" />
-    <state width="914" height="265" key="GridCell.Tab.0.right" timestamp="1610415579610">
+    <state width="914" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610587065104" />
+    <state width="914" height="265" key="GridCell.Tab.0.right" timestamp="1610587065104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610415579610" />
+    <state width="914" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610587065104" />
     <state x="195" y="146" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610335740862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

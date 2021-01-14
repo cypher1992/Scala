@@ -8,6 +8,13 @@ class ConditionStructures(private val number:Int){
 
   def getNumber():Int = this.number
 
+  def ifNegative():Boolean = {
+    if(this.getNumber()<0)
+      return true
+    false
+  }
+
+
   def ifElseNegative():Boolean = {
     if(this.getNumber()<0)
       true

@@ -36,9 +36,7 @@ class IterationStructures(private val start:Int,private val end:Int) {
 
   def doWhileLoop():Int ={
     do{
-      println(counter)
-      counter+=1
-      this.setCounter(counter)
+      this.setCounter(counter+1)
     }while(counter<end)
     this.getCounter()
   }

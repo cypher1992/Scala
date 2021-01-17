@@ -37,4 +37,26 @@ class StockABSTest extends AnyFlatSpec with Matchers{
     assert(actual == expected)
   }
 
+  "Refresher: stock.Info() equals Expected" should "return Exchange NYSE AND Ticker APPL" in {
+    val appl:Stock = new Stock("APPL","NYSE")
+    val actual:String = appl.info()
+    val expected:String = """
+                            |Exchange: NYSE
+                            |Ticker: APPL
+                            |""".stripMargin
+    assert(actual == expected)
+  }
+
+  "Refresher: stock.Info(TECH) equals Expected" should "return Exchange NYSE AND Ticker APPL Industry Tech" in {
+    val appl:Stock = new Stock("APPL","NYSE")
+    val industry = "Tech"
+    val actual:String = appl.info(industry)
+    val expected:String = """
+                            |Exchange: NYSE
+                            |Ticker: APPL
+                            |Industry: Tech
+                            |""".stripMargin
+    assert(actual == expected)
+  }
+
 }

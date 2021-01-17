@@ -11,13 +11,13 @@ class StockABSTest extends AnyFlatSpec with Matchers{
   }
 
   "Refresher: appl is Instance of SecurityAbstraction" should "return true" in {
-    //upcast when inheritence of stock takes a form of Security
+    //upcast when inheritance of stock takes a form of Security
     val appl:SecurityAbstraction = new Stock("APPL","NYSE")
     assert(appl.isInstanceOf[SecurityAbstraction])
   }
 
   "Refresher: stock.Info equals Expected" should "return Exchange NYSE AND Ticker APPL" in {
-    //upcast when inheritence of stock takes a form of Security
+    //upcast when inheritance of stock takes a form of Security
     // when in upcast, you can only use function of the super class
     // cant access inStockClass function
     val appl:SecurityAbstraction = new Stock("APPL","NYSE")

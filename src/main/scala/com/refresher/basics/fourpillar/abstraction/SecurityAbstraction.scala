@@ -8,7 +8,6 @@ abstract class SecurityAbstraction (private val ticker:String, private val excha
     - default - attributes and methods are only accessible within same package
     - protected - attribute and method are only accessible within same package and via inheritance
     - public - attributes and methods are visible across package and classes
-
    */
 
   def getTicker:String = this.ticker

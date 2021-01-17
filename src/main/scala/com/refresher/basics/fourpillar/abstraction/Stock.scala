@@ -4,4 +4,5 @@ class Stock(private val ticker:String,private val exchange:String)extends Securi
 
   def inStockCLS():String = "STOCKCLS"
 
+
 }

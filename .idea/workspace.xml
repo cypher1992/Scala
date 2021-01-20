@@ -82,21 +82,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="ScalaTest.StockABSTest.Refresher: stock.Info() equals Expected should return Exchange NYSE AND Ticker APPL">
-    <configuration name="StockABSTest.Refresher: appl is Instance of SecurityAbstraction should return true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="Scala" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="selectedOptions">
-        <set />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="com.refactortest.basicstest.fourpillar.abstractiontest.StockABSTest" />
-      <option name="testName" value="Refresher: appl is Instance of SecurityAbstraction should return true" />
-      <option name="workingDirectory" value="C:\Users\zero\Project\Scala Project\Scala" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.StockABSTest.Refresher: appl is Instance of Stock should return true&#10;Refresher: appl is Instance of SecurityAbstraction should return true&#10;Refresher: stock.Info equals Expected should return Exchange NYSE AND Ticker APPL&#10;Refresher: stock.Info equals Expected should return STOCKCLS&#10;Refresher: stock.Info() equals Expected should return Exchange NYSE AND Ticker APPL&#10;Refresher: stock.Info(TECH) equals Expected should return Exchange NYSE AND Ticker APPL Industry Tech">
     <configuration name="StockABSTest.Refresher: appl is Instance of Stock should return true&#10;Refresher: appl is Instance of SecurityAbstraction should return true&#10;Refresher: stock.Info equals Expected should return Exchange NYSE AND Ticker APPL&#10;Refresher: stock.Info equals Expected should return STOCKCLS" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Scala" />
       <option name="allowRunningInParallel" value="false" />
@@ -106,6 +92,20 @@
       <option name="testKind" value="Test name" />
       <option name="testClassPath" value="com.refactortest.basicstest.fourpillar.abstractiontest.StockABSTest" />
       <option name="testName" value="Refresher: appl is Instance of Stock should return true&#10;Refresher: appl is Instance of SecurityAbstraction should return true&#10;Refresher: stock.Info equals Expected should return Exchange NYSE AND Ticker APPL&#10;Refresher: stock.Info equals Expected should return STOCKCLS" />
+      <option name="workingDirectory" value="C:\Users\zero\Project\Scala Project\Scala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockABSTest.Refresher: appl is Instance of Stock should return true&#10;Refresher: appl is Instance of SecurityAbstraction should return true&#10;Refresher: stock.Info equals Expected should return Exchange NYSE AND Ticker APPL&#10;Refresher: stock.Info equals Expected should return STOCKCLS&#10;Refresher: stock.Info() equals Expected should return Exchange NYSE AND Ticker APPL&#10;Refresher: stock.Info(TECH) equals Expected should return Exchange NYSE AND Ticker APPL Industry Tech" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Scala" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="com.refactortest.basicstest.fourpillar.abstractiontest.StockABSTest" />
+      <option name="testName" value="Refresher: appl is Instance of Stock should return true&#10;Refresher: appl is Instance of SecurityAbstraction should return true&#10;Refresher: stock.Info equals Expected should return Exchange NYSE AND Ticker APPL&#10;Refresher: stock.Info equals Expected should return STOCKCLS&#10;Refresher: stock.Info() equals Expected should return Exchange NYSE AND Ticker APPL&#10;Refresher: stock.Info(TECH) equals Expected should return Exchange NYSE AND Ticker APPL Industry Tech" />
       <option name="workingDirectory" value="C:\Users\zero\Project\Scala Project\Scala" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.StockABSTest.Refresher: appl is Instance of Stock should return true&#10;Refresher: appl is Instance of SecurityAbstraction should return true&#10;Refresher: stock.Info equals Expected should return Exchange NYSE AND Ticker APPL&#10;Refresher: stock.Info equals Expected should return STOCKCLS&#10;Refresher: stock.Info() equals Expected should return Exchange NYSE AND Ticker APPL&#10;Refresher: stock.Info(TECH) equals Expected should return Exchange NYSE AND Ticker APPL Industry Tech" />
         <item itemvalue="ScalaTest.StockABSTest.Refresher: stock.Info() equals Expected should return Exchange NYSE AND Ticker APPL" />
         <item itemvalue="ScalaTest.StockABSTest.Refresher: stock.Info equals Expected should return Exchange NYSE AND Ticker APPL Industry Tech" />
         <item itemvalue="ScalaTest.StockABSTest.Refresher: appl is Instance of Stock should return true&#10;Refresher: appl is Instance of SecurityAbstraction should return true&#10;Refresher: stock.Info equals Expected should return Exchange NYSE AND Ticker APPL&#10;Refresher: stock.Info equals Expected should return STOCKCLS" />
         <item itemvalue="ScalaTest.StockABSTest.Refresher: stock.Info equals Expected should return Exchange NYSE AND Ticker APPL" />
-        <item itemvalue="ScalaTest.StockABSTest.Refresher: appl is Instance of SecurityAbstraction should return true" />
       </list>
     </recent_temporary>
   </component>
@@ -198,22 +198,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="534" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610765570571" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1610856412038">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1610856443193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610856412038" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1610856412037">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610856443193" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1610856443192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610856412037" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1610856412037">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610856443192" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1610856443192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610856412037" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1610856412037">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610856443192" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1610856443193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610856412037" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610856443193" />
     <state x="195" y="146" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610335740862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

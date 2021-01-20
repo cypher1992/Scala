@@ -9,5 +9,6 @@ class ListCLS(list:List[Int]){
   def get(index:Int):Int = this.list(index)
   def append(value:Int,list:List[Int]):List[Int] = list :+ value
   def prepend(value:Int,list:List[Int]):List[Int] = value +: list
+  def appendList(newList:List[Int],list:List[Int]):List[Int] = list :+ newList
 
 }

@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +80,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="ScalaTest.ListCLSTest.append(2) to list should return List(1,2)">
+  <component name="RunManager" selected="ScalaTest.ListCLSTest.append(3) to list should return List(1,2,3)">
     <configuration name="ListCLSTest.append(1) to list should return List(1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Scala" />
       <option name="allowRunningInParallel" value="false" />
@@ -106,6 +104,20 @@
       <option name="testKind" value="Test name" />
       <option name="testClassPath" value="com.refactortest.basicstest.collectiontest.immutablecls.ListCLSTest" />
       <option name="testName" value="append(2) to list should return List(1,2)" />
+      <option name="workingDirectory" value="C:\Users\zero\Project\Scala Project\Scala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListCLSTest.append(3) to list should return List(1,2,3)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Scala" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="com.refactortest.basicstest.collectiontest.immutablecls.ListCLSTest" />
+      <option name="testName" value="append(3) to list should return List(1,2,3)" />
       <option name="workingDirectory" value="C:\Users\zero\Project\Scala Project\Scala" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,27 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockABSTest.Refresher: stock.Info() equals Expected should return Exchange NYSE AND Ticker APPL" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="Scala" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="selectedOptions">
-        <set />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="com.refactortest.basicstest.fourpillar.abstractiontest.StockABSTest" />
-      <option name="testName" value="Refresher: stock.Info() equals Expected should return Exchange NYSE AND Ticker APPL" />
-      <option name="workingDirectory" value="C:\Users\zero\Project\Scala Project\Scala" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ListCLSTest.append(3) to list should return List(1,2,3)" />
         <item itemvalue="ScalaTest.ListCLSTest.append(2) to list should return List(1,2)" />
         <item itemvalue="ScalaTest.ListCLSTest.append(1) to list should return List(1)" />
         <item itemvalue="ScalaTest.ListCLSTest.listCLS isinstanceof should ListCls returns true" />
         <item itemvalue="ScalaTest.StockABSTest.Refresher: appl is Instance of Stock should return true&#10;Refresher: appl is Instance of SecurityAbstraction should return true&#10;Refresher: stock.Info equals Expected should return Exchange NYSE AND Ticker APPL&#10;Refresher: stock.Info equals Expected should return STOCKCLS&#10;Refresher: stock.Info() equals Expected should return Exchange NYSE AND Ticker APPL&#10;Refresher: stock.Info(TECH) equals Expected should return Exchange NYSE AND Ticker APPL Industry Tech" />
-        <item itemvalue="ScalaTest.StockABSTest.Refresher: stock.Info() equals Expected should return Exchange NYSE AND Ticker APPL" />
       </list>
     </recent_temporary>
   </component>
@@ -198,22 +196,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="534" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610765570571" />
-    <state width="930" height="266" key="GridCell.Tab.0.bottom" timestamp="1611200131002">
+    <state width="930" height="266" key="GridCell.Tab.0.bottom" timestamp="1611200203983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611200131002" />
-    <state width="930" height="266" key="GridCell.Tab.0.center" timestamp="1611200131001">
+    <state width="930" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611200203983" />
+    <state width="930" height="266" key="GridCell.Tab.0.center" timestamp="1611200203983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611200131001" />
-    <state width="930" height="266" key="GridCell.Tab.0.left" timestamp="1611200131001">
+    <state width="930" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611200203983" />
+    <state width="930" height="266" key="GridCell.Tab.0.left" timestamp="1611200203982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611200131001" />
-    <state width="930" height="266" key="GridCell.Tab.0.right" timestamp="1611200131002">
+    <state width="930" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611200203982" />
+    <state width="930" height="266" key="GridCell.Tab.0.right" timestamp="1611200203983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611200131002" />
+    <state width="930" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611200203983" />
     <state x="195" y="146" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610335740862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

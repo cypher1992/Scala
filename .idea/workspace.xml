@@ -82,21 +82,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="ScalaTest.ListCLSTest.prepend(3) to list should return List(2,1)">
-    <configuration name="ListCLSTest.append(2) to list should return List(1,2)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="Scala" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="selectedOptions">
-        <set />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="com.refactortest.basicstest.collectiontest.immutablecls.ListCLSTest" />
-      <option name="testName" value="append(2) to list should return List(1,2)" />
-      <option name="workingDirectory" value="C:\Users\zero\Project\Scala Project\Scala" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.ListCLSTest.listCLS.appendList(List(1))) should return List((1),List.empty[Int])">
     <configuration name="ListCLSTest.append(2) to list should return List(2,1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Scala" />
       <option name="allowRunningInParallel" value="false" />
@@ -111,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListCLSTest.append(3) to list should return List(1,2,3)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="ListCLSTest.listCLS.appendList(List(1))) should return List((1),List.empty[Int])" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Scala" />
       <option name="allowRunningInParallel" value="false" />
       <option name="selectedOptions">
@@ -119,7 +105,21 @@
       </option>
       <option name="testKind" value="Test name" />
       <option name="testClassPath" value="com.refactortest.basicstest.collectiontest.immutablecls.ListCLSTest" />
-      <option name="testName" value="append(3) to list should return List(1,2,3)" />
+      <option name="testName" value="listCLS.appendList(List(1))) should return List((1),List.empty[Int])" />
+      <option name="workingDirectory" value="C:\Users\zero\Project\Scala Project\Scala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListCLSTest.listCLS.appendList(List.empty[Int]) should return List.empty[Int]" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Scala" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="com.refactortest.basicstest.collectiontest.immutablecls.ListCLSTest" />
+      <option name="testName" value="listCLS.appendList(List.empty[Int]) should return List.empty[Int]" />
       <option name="workingDirectory" value="C:\Users\zero\Project\Scala Project\Scala" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ListCLSTest.listCLS.appendList(List(1))) should return List((1),List.empty[Int])" />
+        <item itemvalue="ScalaTest.ListCLSTest.listCLS.appendList(List.empty[Int]) should return List.empty[Int]" />
         <item itemvalue="ScalaTest.ListCLSTest.prepend(3) to list should return List(2,1)" />
         <item itemvalue="ScalaTest.ListCLSTest.append(2) to list should return List(2,1)" />
         <item itemvalue="ScalaTest.ListCLSTest.prepend(1) to list should return List(1)" />
-        <item itemvalue="ScalaTest.ListCLSTest.append(3) to list should return List(1,2,3)" />
-        <item itemvalue="ScalaTest.ListCLSTest.append(2) to list should return List(1,2)" />
       </list>
     </recent_temporary>
   </component>
@@ -198,22 +198,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="534" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610765570571" />
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1611373242706">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1611374674477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611373242706" />
-    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1611373242705">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611374674477" />
+    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1611374674477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611373242705" />
-    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1611373242704">
+    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611374674477" />
+    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1611374674476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611373242704" />
-    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1611373242705">
+    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611374674476" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1611374674477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611373242705" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611374674477" />
     <state x="195" y="146" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610335740862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

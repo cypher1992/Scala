@@ -13,6 +13,7 @@ class ListCLS(private val list:List[Int]= List.empty[Int]){
 
   def headElement(list:List[Int]):Int = list.head
   def tailList(list:List[Int]):List[Int] = list.tail
+  def createEmptyList():List[Int] = Nil
 
 
 }

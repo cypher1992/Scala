@@ -12,7 +12,7 @@ class ListCLS(private val list:List[Int]= List.empty[Int]){
   def appendList(newList:List[Int],list:List[Int]=list):List[Any] = list :: newList
 
   def headElement(list:List[Int]):Int = list.head
-
+  def tailList(list:List[Int]):List[Int] = list.tail
 
 
 }

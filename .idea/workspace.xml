@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="" />
+    <list default="true" id="954a6d28-3e73-4efa-93e9-4a14bab4e00a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,30 +190,31 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="534" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610765570571" />
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1611541418853">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1611611627402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611541418853" />
-    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1611541418853">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611611627402" />
+    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1611611627399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611541418853" />
-    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1611541418853">
+    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611611627398" />
+    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1611611627396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611541418853" />
-    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1611541418853">
+    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611611627396" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1611611627399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611541418853" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611611627399" />
     <state x="195" y="146" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610335740862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="195" y="146" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610335740862" />
-    <state x="1096" y="244" key="run.anything.popup" timestamp="1610765314915">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1096" y="253" key="run.anything.popup" timestamp="1611629000669">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1096" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610765314915" />
+    <state x="1096" y="253" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1611629000669" />
     <state x="150" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1611374985711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

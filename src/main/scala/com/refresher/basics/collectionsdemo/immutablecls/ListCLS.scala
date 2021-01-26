@@ -11,4 +11,8 @@ class ListCLS(private val list:List[Int]= List.empty[Int]){
   def prepend(value:Int,list:List[Int]=list):List[Int] = value +: list
   def appendList(newList:List[Int],list:List[Int]=list):List[Any] = list :: newList
 
+  def headElement(list:List[Int]):Int = list.head
+
+
+
 }
